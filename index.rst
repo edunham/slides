@@ -24,6 +24,8 @@ We'll talk about:
     * How channels work across servers
 * Using multiple networks
     * Switching context in irssi
+
+
 * Identity management
     * Cloaks
     * Multiple nicks from one account
@@ -33,7 +35,12 @@ We'll talk about:
     * Freenode's Chanserv
     * Private channels
     * Invite-only channels
+
+
 * Bots
     * Using others' bots
+        * Hamper
+        * Manatee
+        * Bucket
+        * GitHub
     * Writing your own
-
