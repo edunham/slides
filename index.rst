@@ -1,7 +1,8 @@
 
 Intermediate IRC
 ================
-by edunham, 10/22/2013
+by edunham
+10/22/2013
 
 
 You already know:
@@ -11,6 +12,7 @@ You already know:
 * Connect to a network
 * Join a channel
 * Take actions
+    * /me does things
 * Have private message conversations
 * Leave a channel or network
 
@@ -53,6 +55,11 @@ The IRC Protocol:
 =================
 
 * RFC 1459 & 2812
+* Vocabulary
+    * Network
+    * Server
+    * Client
+    * Channel
 
 Network Topology:
 =================
@@ -108,6 +115,18 @@ Identity Management on Freenode:
 
 Channel Management:
 ===================
+
+* Joining creates a channel
+* /msg chanserv help 
+
+* /topic & /topicappend
+
+Flags: 
+======
+
+* /msg chanserv help flags
+* All but +b are nice
+* +* for co-owners
 
 Bots:
 =====
