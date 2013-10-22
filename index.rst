@@ -359,6 +359,8 @@ GitHub
 GitHub can join your channel and notify you that something happened. 
 
 Settings -> service hooks -> IRC
+
+* Remember to check 'active'!
  
 Markov Chains
 =============
