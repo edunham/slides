@@ -64,6 +64,10 @@ Network Topology
 
 to·pol·o·gy
 
+.. figure:: /_static/irc/topo_map.jpg
+    :scale: 50%
+    :align: center
+
 təˈpäləjē/
 
 2. the way in which constituent parts are interrelated or arranged.
@@ -282,6 +286,7 @@ Hamper
 https://github.com/mythmon/hamper
 
 from friendly.py::
+
  import random
  import re
  from datetime import datetime
@@ -312,8 +317,6 @@ Manatee
 =======
 
 https://github.com/marineam/hackabot
-
-Mostly an OSL thing; not recommended for personal projects
 
 ::
  
@@ -360,7 +363,18 @@ GitHub can join your channel and notify you that something happened.
 
 Settings -> service hooks -> IRC
 
-* Remember to check 'active'!
+Remember to check 'active'!
+
+::
+
+ [13:58]       --> | GitHub66 [~GitHub66@192.30.252.51] has joined #edunham
+ [13:58] GitHub66- | (#edunham) [slides] edunham pushed 1 new commit to master: 
+           https://github.com/edunham/slides/commit/332a5e983267f503faa054abe7798f1a557b5254
+ [13:58] GitHub66- | (#edunham) slides/master 332a5e9 edunham: remember to activate the github bot
+ [13:58]       <-- | GitHub66 [~GitHub66@192.30.252.51] has left #edunham
+
+
+
  
 Markov Chains
 =============
