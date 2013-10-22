@@ -30,11 +30,10 @@ We'll talk about:
 We'll talk about:
 =================
 
-* Identity management
+* Identity management (Freenode's NickServ)
     * Cloaks
     * Multiple nicks from one account
     * Getting your name back (ghost)
-    * Freenode's NickServ
 * Channel administration
     * Freenode's Chanserv
     * Private channels
@@ -68,25 +67,18 @@ to·pol·o·gy
 
 təˈpäləjē/
 
-1. Mathematics: the study of geometric properties and spatial relations
-unaffected by the continuous change of shape or size of figures. a family of
-open subsets of an abstract space such that the union and the intersection of
-any two of them are members of the family, and that includes the space itself
-and the empty set.
-
-plural noun: topologies
-
 2. the way in which constituent parts are interrelated or arranged.
 "the topology of a computer network"
 
 Network Topology:
 =================
 
-.. figure:: /_static/irc/well_connected_topo.gif
+.. figure:: /_static/irc/example_network.gif
 
 Netsplits:
 ==========
 
+.. figure:: /_static/irc/example_netsplit.gif
 
 Irssi: Multiple networks:
 =========================
