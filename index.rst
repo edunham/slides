@@ -296,8 +296,7 @@ from friendly.py::
      priority = 2
  
      def setup(self, factory):
-         self.greetings = ['hi', 'hello', 'hey', 'sup', 'yo', 'hola', 'ping',
- 'pong']
+         self.greetings = ['hi', 'hello', 'hey', 'sup', 'yo', 'hola', 'ping', 'pong']
  
      def message(self, bot, comm):
          if not comm['directed']:
@@ -307,6 +306,7 @@ from friendly.py::
              bot.reply(comm, '{0} {1[user]}'
                  .format(random.choice(self.greetings), comm))
              return True
+
 
 Manatee
 =======
@@ -352,6 +352,9 @@ Mostly an OSL thing; not recommended for personal projects
 
 GitHub
 ======
+
+.. figure:: /_static/irc/github.jpg
+   :align: center
 
 GitHub can join your channel and notify you that something happened. 
 
