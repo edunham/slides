@@ -1,4 +1,4 @@
-
+================
 Intermediate IRC
 ================
 by edunham
@@ -74,11 +74,15 @@ Network Topology:
 =================
 
 .. figure:: /_static/irc/example_network.gif
+    :class: fill
+    :scale: 75%
 
 Netsplits:
 ==========
 
 .. figure:: /_static/irc/example_netsplit.gif
+    :class: fill
+    :scale: 75%
 
 Irssi: Multiple networks:
 =========================
