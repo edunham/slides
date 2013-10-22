@@ -92,13 +92,19 @@ Irssi: Multiple networks:
 =========================
 
 /connect irc.freenode.net
+
 /connect cat.pdx.edu
+
 alt+1 # go to status buffer
+
 ctrl+x # switch contexts
+
 /msg -freenode <person> <message>
+
 /join -pdx <channel>
 
 Q. Different nicks in different channels?
+
 A. Multiple connections to same network.
 
 Identity Management on Freenode:
@@ -118,7 +124,6 @@ Channel Management:
 
 * Joining creates a channel
 * /msg chanserv help 
-
 * /topic & /topicappend
 
 Flags: 
@@ -127,6 +132,28 @@ Flags:
 * /msg chanserv help flags
 * All but +b are nice
 * +* for co-owners
+
+Etiquette:
+==========
+
+* Don't ask to ask
+    * Lure help out of hiding with details of your problem
+* Follow channel rules
+    * /topic
+* Use pastebins for code
+* Some strangers don't like PMs
+
+Mistakes:
+=========
+
+* Sending PM to channel
+    * Compose in server buffer (typically #1)
+* Misspelling a nick
+    * Use tab-complete
+* Wrong window
+    * Be attentive, or patient if you have lag
+* Accidental kick/ban
+    * Use +*
 
 Bots:
 =====
