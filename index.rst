@@ -46,7 +46,6 @@ We'll talk about
     * Using others' bots
         * Hamper
         * Manatee
-        * Bucket
         * GitHub
     * Writing your own
 
@@ -234,6 +233,8 @@ Mistakes
     * Be attentive, or patient if you have lag
 * Accidental kick/ban
     * Use +*
+* Regrettable remarks
+    * Public channels are often logged publicly
 
 Bots
 ====
@@ -274,4 +275,89 @@ From http://oreilly.com/pub/h/1968::
  
          if(line[0]=="PING"):
              s.send("PONG %s\r\n" % line[1])
+
+Hamper
+======
+
+https://github.com/mythmon/hamper
+
+from friendly.py::
+ import random
+ import re
+ from datetime import datetime
+ 
+ from hamper.interfaces import ChatPlugin
+ 
+ 
+ class Friendly(ChatPlugin):
+     """Be polite. When people say hello, response."""
+ 
+     name = 'friendly'
+     priority = 2
+ 
+     def setup(self, factory):
+         self.greetings = ['hi', 'hello', 'hey', 'sup', 'yo', 'hola', 'ping',
+ 'pong']
+ 
+     def message(self, bot, comm):
+         if not comm['directed']:
+             return
+ 
+         if comm['message'].strip() in self.greetings:
+             bot.reply(comm, '{0} {1[user]}'
+                 .format(random.choice(self.greetings), comm))
+             return True
+
+Manatee
+=======
+
+https://github.com/marineam/hackabot
+
+Mostly an OSL thing; not recommended for personal projects
+
+::
+ 
+ #!/usr/bin/perl -w
+ 
+ ##HACKABOT_HELP##
+ # Get the url of a wikipedia article
+ # !wikipedia some article
+ ##HACKABOT_HELP##
+ 
+ use strict;
+ use URI::Escape;
+ use Hackabot::Client;
+ 
+ my $hbc = Hackabot::Client->new;
+ my $search = $hbc->readline;
+ my $asker = $hbc->sent_by;
+ 
+ if ($search) {
+     $search = uri_escape($search);
+     my $google = `lynx --head --dump
+ "http://en.wikipedia.org/wiki/Special:Search?search=$search\&go=Go"`;
+     my $url;
+     foreach(split(/\n/,$google)) {
+         if (/^Location:\s*(.+)/) {
+             $url = $1;
+         }
+     }
+     if (defined $url) {
+         print "send $asker: Wikipedia says $url\n";
+     }
+     else {
+         print "send $asker: Wikipedia didn't say much :-/\n";
+     }
+ }
+
+GitHub
+======
+
+GitHub can join your channel and notify you that something happened. 
+
+Settings -> service hooks -> IRC
+ 
+Markov Chains
+=============
+
  
