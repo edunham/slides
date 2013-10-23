@@ -2,8 +2,8 @@
 Intermediate IRC
 ================
 by edunham
-10/22/2013
 
+10/22/2013
 
 You already know
 ================
@@ -20,39 +20,16 @@ We'll talk about
 ================
 
 * The IRC protocol
-    * RFC 1459 & 2812
 * Network Topology
-    * What's a netsplit? 
-    * How channels work across servers
 * Using multiple networks
-    * Switching context in irssi
-
-We'll talk about
-================
-
-* Identity management (Freenode's NickServ)
-    * Cloaks
-    * Multiple nicks from one account
-    * Getting your name back (ghost)
-* Channel administration
-    * Freenode's Chanserv
-    * Private channels
-    * Invite-only channels
-
-We'll talk about
-================
-
 * Bots
-    * Using others' bots
-        * Hamper
-        * Manatee
-        * GitHub
-    * Writing your own
+* Identity management (Freenode's NickServ)
+* Channel administration
 
 The IRC Protocol
 ================
 
-* RFC 1459 & 2812
+* RFC 1459 in 1993 & 2812 in 2000
 * Vocabulary
     * Network
     * Server
@@ -64,11 +41,11 @@ Network Topology
 
 to·pol·o·gy
 
+təˈpäləjē/
+
 .. figure:: /_static/irc/topo_map.jpg
     :scale: 50%
     :align: center
-
-təˈpäləjē/
 
 2. the way in which constituent parts are interrelated or arranged.
 "the topology of a computer network"
@@ -112,8 +89,161 @@ Q. Different nicks in different channels?
 
 A. Multiple connections to same network.
 
+Bots...
+=======
+
+* "Services"
+* Client automated to perform some behaviors
+* Any level of complexity you want
+
+...can be this easy
+===================
+
+From http://oreilly.com/pub/h/1968::
+
+ import sys
+ import socket
+ import string
+ 
+ HOST="irc.freenode.net"
+ PORT=6667
+ NICK="MauBot"
+ IDENT="maubot"
+ REALNAME="MauritsBot"
+ readbuffer=""
+ 
+ s=socket.socket( )
+ s.connect((HOST, PORT))
+ s.send("NICK %s\r\n" % NICK)
+ s.send("USER %s %s bla :%s\r\n" % (IDENT, HOST, REALNAME))
+ 
+ while 1:
+     readbuffer=readbuffer+s.recv(1024)
+     temp=string.split(readbuffer, "\n")
+     readbuffer=temp.pop( )
+ 
+     for line in temp:
+         line=string.rstrip(line)
+         line=string.split(line)
+ 
+         if(line[0]=="PING"):
+             s.send("PONG %s\r\n" % line[1])
+
+Hamper
+======
+
+https://github.com/mythmon/hamper
+
+from friendly.py::
+
+ import random
+ import re
+ from datetime import datetime
+ 
+ from hamper.interfaces import ChatPlugin
+ 
+ 
+ class Friendly(ChatPlugin):
+     """Be polite. When people say hello, response."""
+ 
+     name = 'friendly'
+     priority = 2
+ 
+     def setup(self, factory):
+         self.greetings = ['hi', 'hello', 'hey', 'sup', 'yo', 'hola', 'ping', 'pong']
+ 
+     def message(self, bot, comm):
+         if not comm['directed']:
+             return
+ 
+         if comm['message'].strip() in self.greetings:
+             bot.reply(comm, '{0} {1[user]}'
+                 .format(random.choice(self.greetings), comm))
+             return True
+
+Manatee
+=======
+
+https://github.com/marineam/hackabot
+
+::
+ 
+ #!/usr/bin/perl -w
+ 
+ ##HACKABOT_HELP##
+ # Get the url of a wikipedia article
+ # !wikipedia some article
+ ##HACKABOT_HELP##
+ 
+ use strict;
+ use URI::Escape;
+ use Hackabot::Client;
+ 
+ my $hbc = Hackabot::Client->new;
+ my $search = $hbc->readline;
+ my $asker = $hbc->sent_by;
+ 
+ if ($search) {
+     $search = uri_escape($search);
+     my $google = `lynx --head --dump
+ "http://en.wikipedia.org/wiki/Special:Search?search=$search\&go=Go"`;
+     my $url;
+     foreach(split(/\n/,$google)) {
+         if (/^Location:\s*(.+)/) {
+             $url = $1;
+         }
+     }
+     if (defined $url) {
+         print "send $asker: Wikipedia says $url\n";
+     }
+     else {
+         print "send $asker: Wikipedia didn't say much :-/\n";
+     }
+ }
+
+GitHub
+======
+
+.. figure:: /_static/irc/github.jpg
+   :align: center
+
+GitHub can join your channel and notify you that something happened. 
+
+Settings -> service hooks -> IRC
+
+Remember to check 'active'!
+
+::
+
+ [13:58]       --> | GitHub66 [~GitHub66@192.30.252.51] has joined #edunham
+ [13:58] GitHub66- | (#edunham) [slides] edunham pushed 1 new commit to master: 
+           https://github.com/edunham/slides/commit/332a5e983267f503faa054abe7798f1a557b5254
+ [13:58] GitHub66- | (#edunham) slides/master 332a5e9 edunham: remember to activate the github bot
+ [13:58]       <-- | GitHub66 [~GitHub66@192.30.252.51] has left #edunham
+
+Write your own!
+===============
+
+* Common first project for a new language
+* Practice with databases, sockets/networking, UI, machine learning
+* any API -> bot functionality
+* Machine learning is easier than it looks
+    * Markov chains
+    * NLTK
+
+Other Useful Bots
+=================
+
+* Bouncers
+    * Remember, a bot is just an automated client
+
+* NickServ
+
+* ChanServ
+
 Identity Management on Freenode
 ===============================
+
 ::
 
  12:39 -NickServ- ***** NickServ Help *****
@@ -146,6 +276,33 @@ Identity Management on Freenode
 
 * Prevents you from appearing in global WHO/WHOIS by normal users, and
   hides which channels you are on. 
+
+Etiquette
+=========
+
+* Don't ask to ask
+    * Lure help out of hiding with details of your problem
+* Follow channel rules
+    * /topic
+* Use pastebins for code
+* Some strangers don't like PMs
+* Choose your nick carefully
+
+Mistakes
+========
+
+* Sending PM to channel
+    * Compose in server buffer (typically #1)
+* Misspelling a nick
+    * Use tab-complete
+* Wrong window
+    * Be attentive, or patient if you have lag
+* Accidental kick/ban
+    * Use +*
+* Regrettable remarks
+    * Public channels are often logged publiclyi
+* Asking for too much information crashes client
+    * Don't `/list` on freenode
 
 Channel Management
 ==================
@@ -220,174 +377,44 @@ Flags
  12:46 -ChanServ-     /msg ChanServ FLAGS #foo !baz +*
  12:46 -ChanServ- ***** End of Help *****
  
-
-Etiquette
-=========
-
-* Don't ask to ask
-    * Lure help out of hiding with details of your problem
-* Follow channel rules
-    * /topic
-* Use pastebins for code
-* Some strangers don't like PMs
-* Choose your nick carefully
-
-Mistakes
-========
-
-* Sending PM to channel
-    * Compose in server buffer (typically #1)
-* Misspelling a nick
-    * Use tab-complete
-* Wrong window
-    * Be attentive, or patient if you have lag
-* Accidental kick/ban
-    * Use +*
-* Regrettable remarks
-    * Public channels are often logged publicly
-
-Bots
-====
-
-* "Services"
-* Client automated to perform some behaviors
-* Any level of complexity you want
-
-Bots
-====
-
-From http://oreilly.com/pub/h/1968::
-
- import sys
- import socket
- import string
- 
- HOST="irc.freenode.net"
- PORT=6667
- NICK="MauBot"
- IDENT="maubot"
- REALNAME="MauritsBot"
- readbuffer=""
- 
- s=socket.socket( )
- s.connect((HOST, PORT))
- s.send("NICK %s\r\n" % NICK)
- s.send("USER %s %s bla :%s\r\n" % (IDENT, HOST, REALNAME))
- 
- while 1:
-     readbuffer=readbuffer+s.recv(1024)
-     temp=string.split(readbuffer, "\n")
-     readbuffer=temp.pop( )
- 
-     for line in temp:
-         line=string.rstrip(line)
-         line=string.split(line)
- 
-         if(line[0]=="PING"):
-             s.send("PONG %s\r\n" % line[1])
-
-Hamper
-======
-
-https://github.com/mythmon/hamper
-
-from friendly.py::
-
- import random
- import re
- from datetime import datetime
- 
- from hamper.interfaces import ChatPlugin
- 
- 
- class Friendly(ChatPlugin):
-     """Be polite. When people say hello, response."""
- 
-     name = 'friendly'
-     priority = 2
- 
-     def setup(self, factory):
-         self.greetings = ['hi', 'hello', 'hey', 'sup', 'yo', 'hola', 'ping', 'pong']
- 
-     def message(self, bot, comm):
-         if not comm['directed']:
-             return
- 
-         if comm['message'].strip() in self.greetings:
-             bot.reply(comm, '{0} {1[user]}'
-                 .format(random.choice(self.greetings), comm))
-             return True
-
-
-Manatee
-=======
-
-https://github.com/marineam/hackabot
+Private Channels
+================
 
 ::
  
- #!/usr/bin/perl -w
- 
- ##HACKABOT_HELP##
- # Get the url of a wikipedia article
- # !wikipedia some article
- ##HACKABOT_HELP##
- 
- use strict;
- use URI::Escape;
- use Hackabot::Client;
- 
- my $hbc = Hackabot::Client->new;
- my $search = $hbc->readline;
- my $asker = $hbc->sent_by;
- 
- if ($search) {
-     $search = uri_escape($search);
-     my $google = `lynx --head --dump
- "http://en.wikipedia.org/wiki/Special:Search?search=$search\&go=Go"`;
-     my $url;
-     foreach(split(/\n/,$google)) {
-         if (/^Location:\s*(.+)/) {
-             $url = $1;
-         }
-     }
-     if (defined $url) {
-         print "send $asker: Wikipedia says $url\n";
-     }
-     else {
-         print "send $asker: Wikipedia didn't say much :-/\n";
-     }
- }
+ [11:06] - ChanServ-  ***** ChanServ Help *****
+ [11:06] - ChanServ-  Help for SET:
+ [11:06] - ChanServ-   
+ [11:06] - ChanServ-  SET allows you to set various control flags
+ [11:06] - ChanServ-  for channels that change the way certain
+ [11:06] - ChanServ-  operations are performed on them.
+ [11:06] - ChanServ-   
+ [11:06] - ChanServ-  The following subcommands are available:
+ [11:06] - ChanServ-  EMAIL     Sets the channel e-mail address.
+ [11:06] - ChanServ-  ENTRYMSG  Sets the channel's entry message.
+ [11:06] - ChanServ-  FOUNDER   Transfers foundership of a channel.
+ [11:06] - ChanServ-  GUARD     Sets whether or not services will inhabit the channel.
+ [11:06] - ChanServ-  KEEPTOPIC    Enables topic retention.
+ [11:06] - ChanServ-  MLOCK     Sets channel mode lock.
+ [11:06] - ChanServ-  NOSYNC    Disables automatic channel ACL syncing.
+ [11:06] - ChanServ-  PRIVATE   Hides information about a channel.
+ [11:06] - ChanServ-  PROPERTY  Manipulates channel metadata.
+ [11:06] - ChanServ-  RESTRICTED   Restricts access to the channel to users on the access list. 
+     (Other users are kickbanned.)
+ [11:06] - ChanServ-  SECURE    Prevents unauthorized users from gaining operator status.
+ [11:06] - ChanServ-  TOPICLOCK    Restricts who can change the topic.
+ [11:06] - ChanServ-  URL    Sets the channel URL.
+ [11:06] - ChanServ-  VERBOSE   Notifies channel about access list modifications.
+ [11:06] - ChanServ-   
+ [11:06] - ChanServ-  For more specific help use /msg ChanServ HELP SET command.
+ [11:06] - ChanServ-  ***** End of Help *****
 
-GitHub
-======
-
-.. figure:: /_static/irc/github.jpg
-   :align: center
-
-GitHub can join your channel and notify you that something happened. 
-
-Settings -> service hooks -> IRC
-
-Remember to check 'active'!
-
-::
-
- [13:58]       --> | GitHub66 [~GitHub66@192.30.252.51] has joined #edunham
- [13:58] GitHub66- | (#edunham) [slides] edunham pushed 1 new commit to master: 
-           https://github.com/edunham/slides/commit/332a5e983267f503faa054abe7798f1a557b5254
- [13:58] GitHub66- | (#edunham) slides/master 332a5e9 edunham: remember to activate the github bot
- [13:58]       <-- | GitHub66 [~GitHub66@192.30.252.51] has left #edunham
+/msg chanserv list #channel
 
 
+What next?
+==========
 
- 
-Write your own!
-===============
-
-* Common first project for a new language
-* Practice with databases, sockets/networking, UI, machine learning
-* any API -> bot functionality
-* Machine learning is easier than it looks
-    * Markov chains
-    * NLTK
+* Go forth and participate!
+* Set up a toy IRC server
+* Write a bot 
