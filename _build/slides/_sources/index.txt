@@ -87,6 +87,12 @@ Netsplits
     :class: fill
     :scale: 75%
 
+Multiple Networks
+=================
+
+.. figure:: /_static/irc/multiple_networks.gif
+    :scale: 70%
+
 Irssi: Multiple networks
 ========================
 
@@ -110,28 +116,28 @@ Identity Management on Freenode
 ===============================
 ::
 
- 12:39 -NickServ(NickServ@services.)- ***** NickServ Help *****
- 12:39 -NickServ(NickServ@services.)- NickServ allows users to 'register' a nickname, and stop
- 12:39 -NickServ(NickServ@services.)- others from using that nick. NickServ allows the owner of a
- 12:39 -NickServ(NickServ@services.)- nickname to disconnect a user from the network that is using
- 12:39 -NickServ(NickServ@services.)- their nickname.
- 12:39 -NickServ(NickServ@services.)-  
- 12:39 -NickServ(NickServ@services.)- For more information on a command, type:
- 12:39 -NickServ(NickServ@services.)- /msg NickServ help <command>
- 12:39 -NickServ(NickServ@services.)- For a verbose listing of all commands, type:
- 12:39 -NickServ(NickServ@services.)- /msg NickServ help commands
- 12:39 -NickServ(NickServ@services.)-  
- 12:39 -NickServ(NickServ@services.)- The following commands are available:
- 12:39 -NickServ(NickServ@services.)- GHOST           Reclaims use of a nickname.
- 12:39 -NickServ(NickServ@services.)- IDENTIFY        Identifies to services for a nickname.
- 12:39 -NickServ(NickServ@services.)- INFO            Displays information on registrations.
- 12:39 -NickServ(NickServ@services.)- LISTCHANS       Lists channels that you have access to.
- 12:39 -NickServ(NickServ@services.)- REGISTER        Registers a nickname.
- 12:39 -NickServ(NickServ@services.)- RELEASE         Releases a services enforcer.
- 12:39 -NickServ(NickServ@services.)-  
- 12:39 -NickServ(NickServ@services.)- Other commands: ACC, ACCESS, CERT, DROP, HELP, LOGOUT, 
- 12:39 -NickServ(NickServ@services.)-                 REGAIN, SETPASS, STATUS, TAXONOMY, VERIFY
- 12:39 -NickServ(NickServ@services.)- ***** End of Help *****
+ 12:39 -NickServ- ***** NickServ Help *****
+ 12:39 -NickServ- NickServ allows users to 'register' a nickname, and stop
+ 12:39 -NickServ- others from using that nick. NickServ allows the owner of a
+ 12:39 -NickServ- nickname to disconnect a user from the network that is using
+ 12:39 -NickServ- their nickname.
+ 12:39 -NickServ-  
+ 12:39 -NickServ- For more information on a command, type:
+ 12:39 -NickServ- /msg NickServ help <command>
+ 12:39 -NickServ- For a verbose listing of all commands, type:
+ 12:39 -NickServ- /msg NickServ help commands
+ 12:39 -NickServ-  
+ 12:39 -NickServ- The following commands are available:
+ 12:39 -NickServ- GHOST           Reclaims use of a nickname.
+ 12:39 -NickServ- IDENTIFY        Identifies to services for a nickname.
+ 12:39 -NickServ- INFO            Displays information on registrations.
+ 12:39 -NickServ- LISTCHANS       Lists channels that you have access to.
+ 12:39 -NickServ- REGISTER        Registers a nickname.
+ 12:39 -NickServ- RELEASE         Releases a services enforcer.
+ 12:39 -NickServ-  
+ 12:39 -NickServ- Other commands: ACC, ACCESS, CERT, DROP, HELP, LOGOUT, 
+ 12:39 -NickServ-                 REGAIN, SETPASS, STATUS, TAXONOMY, VERIFY
+ 12:39 -NickServ- ***** End of Help *****
  
 
 /whois <person>
@@ -139,41 +145,41 @@ Identity Management on Freenode
 /mode <yourusername> +i 
 
 * Prevents you from appearing in global WHO/WHOIS by normal users, and
-  hides which channels you are on. Enabled by default.
+  hides which channels you are on. 
 
 Channel Management
 ==================
 ::
  
- 12:44 -ChanServ(ChanServ@services.)- ***** ChanServ Help *****
- 12:44 -ChanServ(ChanServ@services.)- ChanServ gives normal users the ability to maintain control
- 12:44 -ChanServ(ChanServ@services.)- of a channel, without the need of a bot. Channel takeovers are
- 12:44 -ChanServ(ChanServ@services.)- virtually impossible when a channel is registered with ChanServ.
- 12:44 -ChanServ(ChanServ@services.)- Registration is a quick and painless process. Once registered,
- 12:44 -ChanServ(ChanServ@services.)- the founder can maintain complete and total control over the channel.
- 12:44 -ChanServ(ChanServ@services.)- Please note that channels will expire if there are no eligible channel successors.
- 12:44 -ChanServ(ChanServ@services.)- Successors are primarily those who have the +R flag
- 12:44 -ChanServ(ChanServ@services.)- set on their account in the channel, although other
- 12:44 -ChanServ(ChanServ@services.)- people may be chosen depending on their access
- 12:44 -ChanServ(ChanServ@services.)- level and activity.
- 12:44 -ChanServ(ChanServ@services.)-  
- 12:44 -ChanServ(ChanServ@services.)- For more information on a command, type:
- 12:44 -ChanServ(ChanServ@services.)- /msg ChanServ help <command>
- 12:44 -ChanServ(ChanServ@services.)- For a verbose listing of all commands, type:
- 12:44 -ChanServ(ChanServ@services.)- /msg ChanServ help commands
- 12:44 -ChanServ(ChanServ@services.)-  
- 12:44 -ChanServ(ChanServ@services.)- The following commands are available:
- 12:44 -ChanServ(ChanServ@services.)- FLAGS           Manipulates specific permissions on a channel.
- 12:44 -ChanServ(ChanServ@services.)- INVITE          Invites you to a channel.
- 12:44 -ChanServ(ChanServ@services.)- OP              Gives channel ops to a user.
- 12:44 -ChanServ(ChanServ@services.)- RECOVER         Regain control of your channel.
- 12:44 -ChanServ(ChanServ@services.)- SET             Sets various control flags.
- 12:44 -ChanServ(ChanServ@services.)-  
- 12:44 -ChanServ(ChanServ@services.)- Other commands: ACCESS, AKICK, CLEAR, COUNT, DEOP, DEVOICE, 
- 12:44 -ChanServ(ChanServ@services.)-                 DROP, GETKEY, HELP, INFO, STATUS, SYNC, 
- 12:44 -ChanServ(ChanServ@services.)-                 TAXONOMY, TEMPLATE, TOPIC, TOPICAPPEND, 
- 12:44 -ChanServ(ChanServ@services.)-                 TOPICPREPEND, VOICE, WHY
- 12:44 -ChanServ(ChanServ@services.)- ***** End of Help *****
+ 12:44 -ChanServ- ***** ChanServ Help *****
+ 12:44 -ChanServ- ChanServ gives normal users the ability to maintain control
+ 12:44 -ChanServ- of a channel, without the need of a bot. Channel takeovers are
+ 12:44 -ChanServ- virtually impossible when a channel is registered with ChanServ.
+ 12:44 -ChanServ- Registration is a quick and painless process. Once registered,
+ 12:44 -ChanServ- the founder can maintain complete and total control over the channel.
+ 12:44 -ChanServ- Please note that channels will expire if there are no eligible channel successors.
+ 12:44 -ChanServ- Successors are primarily those who have the +R flag
+ 12:44 -ChanServ- set on their account in the channel, although other
+ 12:44 -ChanServ- people may be chosen depending on their access
+ 12:44 -ChanServ- level and activity.
+ 12:44 -ChanServ-  
+ 12:44 -ChanServ- For more information on a command, type:
+ 12:44 -ChanServ- /msg ChanServ help <command>
+ 12:44 -ChanServ- For a verbose listing of all commands, type:
+ 12:44 -ChanServ- /msg ChanServ help commands
+ 12:44 -ChanServ-  
+ 12:44 -ChanServ- The following commands are available:
+ 12:44 -ChanServ- FLAGS           Manipulates specific permissions on a channel.
+ 12:44 -ChanServ- INVITE          Invites you to a channel.
+ 12:44 -ChanServ- OP              Gives channel ops to a user.
+ 12:44 -ChanServ- RECOVER         Regain control of your channel.
+ 12:44 -ChanServ- SET             Sets various control flags.
+ 12:44 -ChanServ-  
+ 12:44 -ChanServ- Other commands: ACCESS, AKICK, CLEAR, COUNT, DEOP, DEVOICE, 
+ 12:44 -ChanServ-                 DROP, GETKEY, HELP, INFO, STATUS, SYNC, 
+ 12:44 -ChanServ-                 TAXONOMY, TEMPLATE, TOPIC, TOPICAPPEND, 
+ 12:44 -ChanServ-                 TOPICPREPEND, VOICE, WHY
+ 12:44 -ChanServ- ***** End of Help *****
  
 * Joining creates a channel
 * /topic & /topicappend
@@ -182,37 +188,37 @@ Flags
 =====
 ::
  
- 12:46 -ChanServ(ChanServ@services.)- Syntax: FLAGS <#channel> [nickname|hostmask|group template]
- 12:46 -ChanServ(ChanServ@services.)- Syntax: FLAGS <#channel> [nickname|hostmask|group flag_changes]
- 12:46 -ChanServ(ChanServ@services.)-  
- 12:46 -ChanServ(ChanServ@services.)- Permissions:
- 12:46 -ChanServ(ChanServ@services.)-     +v - Enables use of the voice/devoice commands.
- 12:46 -ChanServ(ChanServ@services.)-     +V - Enables automatic voice.
- 12:46 -ChanServ(ChanServ@services.)-     +o - Enables use of the op/deop commands.
- 12:46 -ChanServ(ChanServ@services.)-     +O - Enables automatic op.
- 12:46 -ChanServ(ChanServ@services.)-     +s - Enables use of the set command.
- 12:46 -ChanServ(ChanServ@services.)-     +i - Enables use of the invite and getkey commands.
- 12:46 -ChanServ(ChanServ@services.)-     +r - Enables use of the unban command.
- 12:46 -ChanServ(ChanServ@services.)-     +R - Enables use of the recover and clear commands.
- 12:46 -ChanServ(ChanServ@services.)-     +f - Enables modification of channel access lists.
- 12:46 -ChanServ(ChanServ@services.)-     +t - Enables use of the topic and topicappend commands.
- 12:46 -ChanServ(ChanServ@services.)-     +A - Enables viewing of channel access lists.
- 12:46 -ChanServ(ChanServ@services.)-     +S - Marks the user as a successor.
- 12:46 -ChanServ(ChanServ@services.)-     +F - Grants full founder access.
- 12:46 -ChanServ(ChanServ@services.)-     +b - Enables automatic kickban.
- 12:46 -ChanServ(ChanServ@services.)-  
- 12:46 -ChanServ(ChanServ@services.)- The special permission +* adds all permissions except +b, +S, and +F.
- 12:46 -ChanServ(ChanServ@services.)- The special permission -* removes all permissions including +b and +F.
- 12:46 -ChanServ(ChanServ@services.)-  
- 12:46 -ChanServ(ChanServ@services.)- Examples:
- 12:46 -ChanServ(ChanServ@services.)-     /msg ChanServ FLAGS #foo
- 12:46 -ChanServ(ChanServ@services.)-     /msg ChanServ FLAGS #foo foo!*@bar.com VOP
- 12:46 -ChanServ(ChanServ@services.)-     /msg ChanServ FLAGS #foo foo!*@bar.com -V+oO
- 12:46 -ChanServ(ChanServ@services.)-     /msg ChanServ FLAGS #foo foo!*@bar.com -*
- 12:46 -ChanServ(ChanServ@services.)-     /msg ChanServ FLAGS #foo foo +oOtsi
- 12:46 -ChanServ(ChanServ@services.)-     /msg ChanServ FLAGS #foo TroubleUser!*@*.troubleisp.net +b
- 12:46 -ChanServ(ChanServ@services.)-     /msg ChanServ FLAGS #foo !baz +*
- 12:46 -ChanServ(ChanServ@services.)- ***** End of Help *****
+ 12:46 -ChanServ- Syntax: FLAGS <#channel> [nickname|hostmask|group template]
+ 12:46 -ChanServ- Syntax: FLAGS <#channel> [nickname|hostmask|group flag_changes]
+ 12:46 -ChanServ-  
+ 12:46 -ChanServ- Permissions:
+ 12:46 -ChanServ-     +v - Enables use of the voice/devoice commands.
+ 12:46 -ChanServ-     +V - Enables automatic voice.
+ 12:46 -ChanServ-     +o - Enables use of the op/deop commands.
+ 12:46 -ChanServ-     +O - Enables automatic op.
+ 12:46 -ChanServ-     +s - Enables use of the set command.
+ 12:46 -ChanServ-     +i - Enables use of the invite and getkey commands.
+ 12:46 -ChanServ-     +r - Enables use of the unban command.
+ 12:46 -ChanServ-     +R - Enables use of the recover and clear commands.
+ 12:46 -ChanServ-     +f - Enables modification of channel access lists.
+ 12:46 -ChanServ-     +t - Enables use of the topic and topicappend commands.
+ 12:46 -ChanServ-     +A - Enables viewing of channel access lists.
+ 12:46 -ChanServ-     +S - Marks the user as a successor.
+ 12:46 -ChanServ-     +F - Grants full founder access.
+ 12:46 -ChanServ-     +b - Enables automatic kickban.
+ 12:46 -ChanServ-  
+ 12:46 -ChanServ- The special permission +* adds all permissions except +b, +S, and +F.
+ 12:46 -ChanServ- The special permission -* removes all permissions including +b and +F.
+ 12:46 -ChanServ-  
+ 12:46 -ChanServ- Examples:
+ 12:46 -ChanServ-     /msg ChanServ FLAGS #foo
+ 12:46 -ChanServ-     /msg ChanServ FLAGS #foo foo!*@bar.com VOP
+ 12:46 -ChanServ-     /msg ChanServ FLAGS #foo foo!*@bar.com -V+oO
+ 12:46 -ChanServ-     /msg ChanServ FLAGS #foo foo!*@bar.com -*
+ 12:46 -ChanServ-     /msg ChanServ FLAGS #foo foo +oOtsi
+ 12:46 -ChanServ-     /msg ChanServ FLAGS #foo TroubleUser!*@*.troubleisp.net +b
+ 12:46 -ChanServ-     /msg ChanServ FLAGS #foo !baz +*
+ 12:46 -ChanServ- ***** End of Help *****
  
 
 Etiquette
@@ -376,7 +382,12 @@ Remember to check 'active'!
 
 
  
-Markov Chains
-=============
+Write your own!
+===============
 
- 
+* Common first project for a new language
+* Practice with databases, sockets/networking, UI, machine learning
+* any API -> bot functionality
+* Machine learning is easier than it looks
+    * Markov chains
+    * NLTK
