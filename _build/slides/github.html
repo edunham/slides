@@ -30,6 +30,163 @@
 <p>edunham 10/29/2013</p>
 
 </article>
+<article class="slide level-2" id="what-we-ll-cover">
+<h2>What We'll Cover</h2>
+<ul class="simple">
+<li>What's Git</li>
+<li>What's GitHub</li>
+<li>Setting up an account</li>
+<li>Adding a project</li>
+<li>Contributing to someone else's project</li>
+<li>Help, everything's broken!</li>
+<li>More resources</li>
+</ul>
+
+</article>
+<article class="slide level-2" id="version-control-is-hard">
+<h2>Version Control is Hard</h2>
+<div class="figure">
+<img alt="_images/xkcd_1053.png" src="_images/xkcd_1053.png" />
+</div>
+<p>Image from <a class="reference external" href="http://xkcd.com/1053/">XKCD</a></p>
+
+</article>
+<article class="slide level-2" id="why-bother">
+<h2>Why Bother?</h2>
+<div class="figure">
+<img alt="_images/phd_final.gif" src="_images/phd_final.gif" />
+</div>
+<p>Image from
+<a class="reference external" href="http://www.phdcomics.com/comics/archive.php?comicid=1531">PhD Comics</a></p>
+
+</article>
+<article class="slide level-2" id="better-options-version-control">
+<h2>Better Options: Version Control</h2>
+<ul>
+<li><p class="first">Commit = Snapshot of part of your project's state</p>
+</li>
+<li><p class="first">Centralized (SVN, CVS) vs. Decentralized (Git, hg)</p>
+</li>
+<li><dl class="first docutils">
+<dt>We'll look at Git today</dt>
+<dd><ul class="first last simple">
+<li>Easier to learn other VCS from Git</li>
+<li>Widely used in the open source world</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+
+</article>
+<article class="slide level-2" id="git">
+<h2>Git</h2>
+<div class="figure">
+<img alt="_images/Linus_Torvalds.jpeg" src="_images/Linus_Torvalds.jpeg" />
+</div>
+<p>git, noun. Brit.informal.
+1. an unpleasant or contemptible person.</p>
+
+</article>
+<article class="slide level-2" id="using-git-locally">
+<h2>Using Git Locally</h2>
+<div class="highlight-bash"><div class="highlight"><pre>
+</pre></div>
+</div>
+<p>$ git init</p>
+<p>$ git add &lt;filename&gt;</p>
+<p>$ git commit -m &quot;I did a thing!&quot;</p>
+<p># Undo things?
+# <a href="#id1"><span class="problematic" id="id2">`http://git-scm.com/book/en/Git-Basics-Undoing-Things`_</span></a></p>
+<p># Did I remember to commit that?
+$ git status</p>
+<p># What commits have I made lately?
+$ git log</p>
+
+</article>
+<article class="slide level-2" id="what-not-to-do">
+<h2>What Not To Do</h2>
+<ul>
+<li><p class="first">Don't delete the .git files</p>
+</li>
+<li><dl class="first docutils">
+<dt>Stop keeping version number information in your filenames</dt>
+<dd><ul class="first last simple">
+<li>This info goes in your commit messages</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Avoid redundant copies of the same work in one revision</p>
+</li>
+<li><dl class="first docutils">
+<dt>Don't make &quot;oops, undoing that&quot; commits.</dt>
+<dd><ul class="first last simple">
+<li>Use git commit --amend</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Don't wait too long between commits</dt>
+<dd><ul class="first last simple">
+<li>You can squash them all together later</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Don't commit secrets...</p>
+</li>
+</ul>
+<div class="figure">
+<img alt="_images/dont_do_this.jpg" src="_images/dont_do_this.jpg" />
+</div>
+<p><a class="reference external" href="http://arstechnica.com/security/2013/01/psa-dont-upload-your-important-passwords-to-github/">http://arstechnica.com/security/2013/01/psa-dont-upload-your-important-passwords-to-github/</a></p>
+
+</article>
+<article class="slide level-2" id="daily-workflow">
+<h2>Daily workflow</h2>
+<p>Pull -&gt; Work -&gt; Add changes -&gt; Commit -&gt; Push</p>
+<p>Larger projects have more complex workflows</p>
+<div class="figure">
+<img alt="_images/gitflow.png" src="_images/gitflow.png" />
+</div>
+
+</article>
+<article class="slide level-2" id="github">
+<h2>GitHub!</h2>
+<div class="figure">
+<img alt="_images/octocat.jpg" src="_images/octocat.jpg" />
+</div>
+
+</article>
+<article class="slide level-2" id="let-s-walk-through">
+<h2>Let's Walk Through</h2>
+<ul>
+<li><dl class="first docutils">
+<dt>Creating an account</dt>
+<dd><ul class="first last simple">
+<li>Gravatar</li>
+<li>How to read a profile</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Creating SSH keys</p>
+</li>
+<li><p class="first">Uploading your SSH key</p>
+</li>
+<li><p class="first">Creating a new repository</p>
+</li>
+<li><p class="first">Fork somebody else's repo</p>
+</li>
+<li><p class="first">Edit files online</p>
+</li>
+<li><p class="first">Submit a pull request</p>
+</li>
+</ul>
+
+</article>
 
 
 </section>
