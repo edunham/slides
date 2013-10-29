@@ -20,6 +20,8 @@ Version Control is Hard
 =======================
 
 .. figure:: /_static/github/xkcd_1053.png
+   :scale: 150%
+   :align: center
 
 Image from `XKCD <http://xkcd.com/1053/>`_
 
@@ -27,6 +29,8 @@ Why Bother?
 ===========
 
 .. figure:: /_static/github/phd_final.gif
+    :scale: 75%
+    :align: right
 
 Image from
 `PhD Comics <http://www.phdcomics.com/comics/archive.php?comicid=1531>`_
@@ -44,35 +48,33 @@ Git
 ===
 
 .. figure:: /_static/github/Linus_Torvalds.jpeg
-
+    :align: left
 git, noun. Brit.informal. 
 1. an unpleasant or contemptible person.
 
 Using Git Locally
 =================
+    
+``$ git init``
 
-.. code-block:: bash
-$ git init
+``$ git add <filename>``
 
-$ git add <filename>
+``$ git commit -m "I did a thing!"``
 
-$ git commit -m "I did a thing!"
+* Undo things?
+  the `git book <http://git-scm.com/book/en/Git-Basics-Undoing-Things>`_ explains
+  well
 
-# Undo things?
-# `http://git-scm.com/book/en/Git-Basics-Undoing-Things`_
+* Did I remember to commit that?
+``$ git status``
 
-# Did I remember to commit that?
-$ git status
-
-# What commits have I made lately?
-$ git log
+* What commits have I made lately?
+``$ git log``
 
 What Not To Do
 ==============
 
 * Don't delete the .git files
-* Stop keeping version number information in your filenames
-    * This info goes in your commit messages
 * Avoid redundant copies of the same work in one revision
 * Don't make "oops, undoing that" commits.
     * Use git commit --amend
@@ -81,17 +83,21 @@ What Not To Do
 * Don't commit secrets...
 
 .. figure:: /_static/github/dont_do_this.jpg
+    :scale: 50%
+    :align: right
 
 http://arstechnica.com/security/2013/01/psa-dont-upload-your-important-passwords-to-github/
 
 Daily workflow
 ==============
 
+.. figure:: /_static/github/gitflow.png
+    :scale: 75%
+    :align: right
+
 Pull -> Work -> Add changes -> Commit -> Push
 
 Larger projects have more complex workflows
-
-.. figure:: /_static/github/gitflow.png
 
 GitHub!
 =======
