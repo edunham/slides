@@ -300,7 +300,7 @@ Mistakes
 * Accidental kick/ban
     * Use +*
 * Regrettable remarks
-    * Public channels are often logged publiclyi
+    * Public channels are often logged publicly
 * Asking for too much information crashes client
     * Don't `/list` on freenode
 
