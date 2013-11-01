@@ -295,6 +295,20 @@ file is displayed</p>
 left of where it says which branch you&#8217;re on</p>
 </div>
 </div>
+<div class="section" id="help-everythings-s-broken">
+<h2>Help, Everythings&#8217;s Broken!<a class="headerlink" href="#help-everythings-s-broken" title="Permalink to this headline">¶</a></h2>
+<p>Solution: <tt class="docutils literal"><span class="pre">ssh-add</span> <span class="pre">~/.ssh/id-rsa</span></tt> or whatever key you have added on github</p>
+<div class="highlight-bash"><div class="highlight"><pre>To git@github.com:edunham/slides.git
+ ! <span class="o">[</span>rejected<span class="o">]</span>        master -&gt; master <span class="o">(</span>non-fast-forward<span class="o">)</span>
+error: failed to push some refs to <span class="s1">&#39;git@github.com:edunham/slides.git&#39;</span>
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes <span class="o">(</span>e.g. <span class="s1">&#39;git pull&#39;</span><span class="o">)</span>
+hint: before pushing again.
+hint: See the <span class="s1">&#39;Note about fast-forwards&#39;</span> in <span class="s1">&#39;git push --help&#39;</span> <span class="k">for </span>details.
+</pre></div>
+</div>
+<p>Solution: To avoid a messy merge commit, <tt class="docutils literal"><span class="pre">git</span> <span class="pre">pull</span> <span class="pre">--rebase</span></tt>.</p>
+</div>
 </div>
 
 
@@ -316,6 +330,7 @@ left of where it says which branch you&#8217;re on</p>
 <li><a class="reference internal" href="#daily-workflow">Daily workflow</a></li>
 <li><a class="reference internal" href="#github">GitHub!</a></li>
 <li><a class="reference internal" href="#let-s-walk-through">Let&#8217;s Walk Through</a></li>
+<li><a class="reference internal" href="#help-everythings-s-broken">Help, Everythings&#8217;s Broken!</a></li>
 </ul>
 </li>
 </ul>

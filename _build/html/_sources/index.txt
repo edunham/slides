@@ -188,3 +188,25 @@ Let's Walk Through
 
 .. note:: on main repo, it's that green button with the arrows just to the
     left of where it says which branch you're on
+
+Help, Everythings's Broken!
+===========================
+
+.. code-block:: bash
+    Permission denied (publickey).
+    fatal: The remote end hung up unexpectedly
+
+Solution: ``ssh-add ~/.ssh/id-rsa`` or whatever key you have added on github
+
+.. code-block:: bash
+
+    To git@github.com:edunham/slides.git
+     ! [rejected]        master -> master (non-fast-forward)
+    error: failed to push some refs to 'git@github.com:edunham/slides.git'
+    hint: Updates were rejected because the tip of your current branch is behind
+    hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+    hint: before pushing again.
+    hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Solution: To avoid a messy merge commit, ``git pull --rebase``. 
+
