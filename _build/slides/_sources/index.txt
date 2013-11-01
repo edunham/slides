@@ -57,9 +57,18 @@ Using Git Locally
     
 ``$ git init``
 
+.. note:: This initializes a git repo. Use `man git-init` for more info.
+
 ``$ git add <filename>``
 
+.. note:: This puts <filename> into the staging area. It isn't committed yet.
+    Use ``git diff`` to see what changes aren't yet in staging.
+
 ``$ git commit -m "I did a thing!"``
+
+.. note:: This actually makes the commit. Use ``git status`` to see what's in
+    staging but not yet committed. Use ``git show`` or ``git log`` to see
+    recent commits.
 
 * Undo things?
   the `git book <http://git-scm.com/book/en/Git-Basics-Undoing-Things>`_ explains
@@ -75,12 +84,25 @@ What Not To Do
 ==============
 
 * Don't delete the .git files
+.. note:: If you kill them, git loses its memory :(
 * Avoid redundant copies of the same work in one revision
 * Don't make "oops, undoing that" commits.
     * Use git commit --amend
+.. note:: Amending is fine as long as you haven't pushed yet. It's generally a
+    bad idea to amend or rebase work that you've already shared with others,
+    unless you really know what you're doing.
+
 * Don't wait too long between commits
     * You can squash them all together later
+.. note:: Commit every time you think you might want to return to the current 
+    state. You can revert back to any previous commit, but there is no way to
+    magically add a commit in where you forgot to make one.
+
 * Don't commit secrets...
+
+.. note:: Yes, there are ways to sort of take them down off of GitHub, but
+    somebody might have cloned your repo while it had the secrets in. Once
+    someone has a piece of information, you can't just take it away.
 
 .. figure:: /_static/github/dont_do_this.jpg
     :scale: 50%
@@ -99,10 +121,25 @@ Pull -> Work -> Add changes -> Commit -> Push
 
 Larger projects have more complex workflows
 
+.. note:: The picture is of the Git Flow branching model, and you'll probably
+    see it every single time anyone explains Git branching and merging to you.
+
 GitHub!
 =======
 
 .. figure:: /_static/github/octocat.jpg
+
+.. note:: GitHub serves a threefold purpose: 
+
+    * Makes it easier to manage permissions & share code with others
+    * Backs up all your work in case bad things happen to your laptop
+    * Social/gamification/resume building
+
+    It also has `amazing documentation <https://help.github.com/>`_ which you
+    should all go read right now and consult whenever you're the least bit
+    confused. It's like the Ubuntu forums in that it's explained in a way the
+    newbies can understand, but unlike them in that it's all written by people
+    who know what they're doing.
 
 Let's Walk Through
 ==================
@@ -110,9 +147,44 @@ Let's Walk Through
 * Creating an account
     * Gravatar
     * How to read a profile
+
+.. note:: you just go to github.com and click the account creation links. To
+    make a custom icon, go to gravatar.com and set up an account using the
+    same email address as you used for github. The picture you upload on
+    Gravatar will then show up for your github account.
+
+    The most important thing about reading profiles is that not all of a
+    person's repos will display on the front page of their profile -- to see
+    them, got to the 'repositories' tab instead of 'contributions'. 
+
 * Creating SSH keys
+
+.. note:: ``ssh-keygen -t rsa``
+    accept most defaults; give it a passphrase; write yourself a hint for the
+    passphrase somewhere. For instance if the passphrase is the funny way that
+    your friend misheard a song lyric, you might write down the initials of
+    the venue where you went to go see that band with that person. Basically
+    you want to pick a hint that's meaningful to you but likely to be
+    meaningless to anyone else.
+
 * Uploading your SSH key
+
+.. note:: account settings (icon in upper right) -> ssh keys (in menu on left)
+
 * Creating a new repository
+
+.. note:: icon in upper right
+
 * Fork somebody else's repo
+
+.. note:: button in upper right on repo main page
+
 * Edit files online
+
+.. note:: navigate to file, edit button is in the upper right of where the
+    file is displayed
+
 * Submit a pull request
+
+.. note:: on main repo, it's that green button with the arrows just to the
+    left of where it says which branch you're on
