@@ -193,6 +193,7 @@ Help, Everythings's Broken!
 ===========================
 
 .. code-block:: bash
+
     Permission denied (publickey).
     fatal: The remote end hung up unexpectedly
 
