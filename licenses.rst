@@ -27,5 +27,32 @@ FSF vs. OSI
 Copyright vs. License
 =====================
 
+
+Copyleft
+--------
+
+"Copyleft" refers to licenses that allow derivative works but require them to
+use the same license as the original work.
+
+.. note:: http://opensource.org/faq#copyleft
+
 Popular Modern Licenses
 =======================
+
+.. note:: http://opensource.org/proliferation-report
+
+Apache
+------
+
+BSD
+---
+
+2 vs. 3 clause
+
+GPL
+---
+
+AGPL > GPL > LGPL
+
+MIT
+---
