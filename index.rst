@@ -1,3 +1,4 @@
 .. toctree::
     irc
     github
+    licenses
