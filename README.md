@@ -12,4 +12,10 @@ Covers network topology and the basics of screen + irssi
 ---------
 
 Approximately my Intro to Git slides from G-docs, plus a list of topics to
-demonstrate on GitHub.  
+demonstrate on GitHub. 
+
+[Licenses]()
+---------
+
+UNFINISHED, INCOMPLETE, WIP attempt at explaining the differences between
+open-source licenses.  
