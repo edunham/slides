@@ -211,3 +211,7 @@ Solution: ``ssh-add ~/.ssh/id-rsa`` or whatever key you have added on github
 
 Solution: To avoid a messy merge commit, ``git pull --rebase``. 
 
+Other Resources
+===============
+
+`Git Visualizations <http://www.wei-wang.com/ExplainGitWithD3/#>`_
