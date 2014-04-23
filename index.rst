@@ -2,3 +2,5 @@
     irc
     github
     licenses
+    algorithms
+    security
