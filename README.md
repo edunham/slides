@@ -3,19 +3,22 @@ Slides
 
 Things I can talk about, for half an hour to an hour, whenever requested. 
 
-[IRC](https://rawgithub.com/edunham/slides/master/_build/slides/irc.html#1)
-------
+Finished Presentations: 
+-----------------------
 
-Covers network topology and the basics of screen + irssi
+Intro to Git and GitHub (~1hr)
 
-[GitHub](https://rawgithub.com/edunham/slides/master/_build/slides/github.html#1)
----------
+IRC (with Screen and Irssi) (~1hr)
 
-Approximately my Intro to Git slides from G-docs, plus a list of topics to
-demonstrate on GitHub. 
+DevOps Bootcamp history + organization (30-min)
 
-[Licenses]()
----------
+Basic security principles (30-min)
 
-UNFINISHED, INCOMPLETE, WIP attempt at explaining the differences between
-open-source licenses.  
+Unfinished, or still just ideas:
+--------------------------------
+
+Licenses and OSS legal stuff
+
+History of OSS
+
+"Thinking in Git"
