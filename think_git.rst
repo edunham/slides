@@ -59,7 +59,7 @@ Setting Up
 * You'll need SSH keys later
 * Install Git
   * also tk and tcl if you want the GUI later
-
+* Set preferred editor
 
 What's a **repository**?
 ------------------------
@@ -157,4 +157,50 @@ Can you look at a rebase?
 Oops!
 -----
 
+GitHub Stuff
+============
+
+GH is not exactly Git. 
+
+* Less distributed paradigm
+* Git carefully never told us who to trust
+
+Watch `Linus's talk <https://www.youtube.com/watch?v=4XpnKHJAok8>`_ for enlightenment
+
+Forking
+-------
+
+Pull Requests
+-------------
+
+Annoying tricks
+---------------
+
+* Branches keep adding their content to PRs
+* Group management and access rights
+* No project license required
+
+Extra features
+--------------
+
+* Wiki
+* Gist
+* Issue trackers
+* Cool graphs
+* Repo descriptions and automatic README display
+
+Hooks and CI
+============
+
+Hooks
+-----
+
+Jenkins
+-------
+
+Travis
+------
+
+Playing Well with Others
+========================
 
