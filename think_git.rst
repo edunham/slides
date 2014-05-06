@@ -52,4 +52,109 @@ Goals of Distributed Version Control
 How?
 ====
 
+Setting Up
+----------
+
+* Tell Git who you are
+* You'll need SSH keys later
+* Install Git
+  * also tk and tcl if you want the GUI later
+
+
+What's a **repository**?
+------------------------
+
+Getting a repo
+--------------
+
+Looking at a repo
+-----------------
+
+Oops!
+-----
+
+What're **staged changes**?
+---------------------------
+
+Staging changes
+---------------
+
+Looking at staged changes
+-------------------------
+
+Oops!
+-----
+
+What's a **commit**?
+--------------------
+
+Making a commit
+---------------
+
+Looking at a commit
+-------------------
+
+Oops!
+-----
+
+What's a **remote**?
+--------------------
+
+Adding a remote
+---------------
+
+Looking at remotes
+------------------
+
+Oops!
+-----
+
+What's a **tag**?
+-----------------
+
+Adding a tag
+------------
+
+Looking at tags
+---------------
+
+Oops!
+-----
+
+What's a **branch**?
+--------------------
+
+Making a branch
+---------------
+
+Looking at branches
+-------------------
+
+Oops!
+-----
+
+What's a **merge**?
+-------------------
+
+Making a merge
+--------------
+
+Looking at merges
+-----------------
+
+Oops!
+-----
+
+What's a **rebase**?
+--------------------
+
+Rebasing
+--------
+
+Can you look at a rebase?
+-------------------------
+
+Oops!
+-----
+
 
