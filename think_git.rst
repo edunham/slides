@@ -107,11 +107,38 @@ Oops!
 What're **staged changes**?
 ---------------------------
 
+* Staging area is like backstage -- decide what changes go into your snapshot
+
+* Files or parts of files can be added or removed
+
 Staging changes
 ---------------
 
+.. code-block:: shell
+
+    $ touch foo
+    $ git add foo
+
 Looking at staged changes
 -------------------------
+
+.. code-block:: shell
+
+    $ touch bar
+    $ git status
+    On branch master
+
+    Initial commit
+
+    Changes to be committed:
+      (use "git rm --cached <file>..." to unstage)
+
+        new file:   foo
+
+        Untracked files:
+          (use "git add <file>..." to include in what will be committed)
+
+            bar
 
 Oops!
 -----
