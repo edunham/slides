@@ -64,14 +64,45 @@ Setting Up
 What's a **repository**?
 ------------------------
 
+Database of snapshots of your code
+
+IMAGE: film strip
+
 Getting a repo
 --------------
+
+.. code-block:: shell
+
+    $ git init
+
+    $ git clone <git clone url>
+
+    # git@github.com:organization/reponame.git
+    # https://github.com/organization/reponame.git
 
 Looking at a repo
 -----------------
 
+.. code-block:: shell
+
+    $ git show
+    fatal: bad default revision 'HEAD'
+    # To be expected with nothing in the repo yet
+
+    $ git show
+    fatal: Not a git repository (or any of the parent directories): .git
+    # not in a repo
+
 Oops!
 -----
+
+.. warning:: This deletes your history. Only do it if you really want to stop
+    having a Git repo here.
+
+ .. code-block:: shell
+    
+    $ rm -rf .git
+
 
 What're **staged changes**?
 ---------------------------
