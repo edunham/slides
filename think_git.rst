@@ -143,14 +143,42 @@ Looking at staged changes
 Oops!
 -----
 
+* Git doesn't know about it yet
+
+.. code-block:: shell
+    $ git rm --cached foo
+
+* It was in version control before
+
+.. code-block:: shell
+    $ git reset HEAD foo
+
 What's a **commit**?
 --------------------
+
+Snapshot of changes
+
+Includes snapshot (with pointers to unchanged files), author, date, committer
+(can differ from author), parent commit
 
 Making a commit
 ---------------
 
+.. code-block:: shell
+    $ git commit
+
+Commit creation options
+-----------------------
+
 Looking at a commit
 -------------------
+
+.. code-block:: shell
+    $ git show
+    $ git log
+
+Commit display options
+----------------------
 
 Oops!
 -----
@@ -158,11 +186,23 @@ Oops!
 What's a **remote**?
 --------------------
 
+Another *clone* of more or less the same repo
+
+(remember when we cloned to get a copy?)
+
 Adding a remote
 ---------------
 
+.. code-block:: shell
+    $ man git-remote
+    $ git remote add <name> <url>
+
 Looking at remotes
 ------------------
+
+.. code-block:: shell
+    $ git config -e
+    $ git remote show <name>
 
 Oops!
 -----
