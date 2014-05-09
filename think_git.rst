@@ -2,26 +2,22 @@
 Thinking in Git
 ===============
 
+
+Git is the most popular source code management and version control system in
+the open source community. Its complexity and power make it the best choice
+for most projects, while simultaneously giving it a daunting learning curve
+for newcomers. This talk will assume no background knowledge of version
+control, and will teach the basics of Git in order to give you an accurate
+mental model of what the tool does, and help you fix mistakes then ask the
+right questions if you run into problems using it later.
+
 Agenda
 ======
 
-What we'll cover
-    * Why you need Git
-    * Philosophies
-    * Commands
-
-
-How I'll teach stuff
-    * Here's a thing
-    * How to look at it
-    * How to undo it
-
-Why?
-====
-
-.. figure:: phdcomic.gif
-    :align: center
-    :scale: 75%
+* How to look at software development 
+* What's Git
+* How to learn it
+    * Real life vs. tutorials
 
 Thinking about Software Development
 ===================================
@@ -32,10 +28,29 @@ Thinking about Software Development
     * Add feature, fix bug, test idea
     * Sometimes have several reasons at once, want changes separate
 
+Why version control?
+====================
+
+.. figure:: phdcomic.gif
+    :align: center
+    :scale: 75%
+
+Types of version control
+========================
+
+* Centralized vs. decentralized
+* Concurrent vs. locking
+* Diffs/patches vs. snapshots
+
+Git's buzzwords
+===============
+
 Thinking about snapshots
 ========================
 
 * Represented as changes to a file plus pointers to unchanged files
+
+
 
 How Git sees your project
 =========================
