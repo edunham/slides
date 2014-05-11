@@ -49,8 +49,8 @@ Thinking about snapshots
 ========================
 
 * Represented as changes to a file plus pointers to unchanged files
-
-
+* Not a diff (tracks all files)
+* Not a duplicate of everything (points to unchanged files)
 
 How Git sees your project
 =========================
@@ -75,6 +75,7 @@ Setting Up
 * Install Git
   * also tk and tcl if you want the GUI later
 * Set preferred editor
+* Pick a project to work on
 
 What's a **repository**?
 ------------------------
