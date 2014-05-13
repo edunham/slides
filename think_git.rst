@@ -2,14 +2,13 @@
 Thinking in Git
 ===============
 
-
-Git is the most popular source code management and version control system in
-the open source community. Its complexity and power make it the best choice
-for most projects, while simultaneously giving it a daunting learning curve
-for newcomers. This talk will assume no background knowledge of version
-control, and will teach the basics of Git in order to give you an accurate
-mental model of what the tool does, and help you fix mistakes then ask the
-right questions if you run into problems using it later.
+    Git is the most popular source code management and version control system in
+    the open source community. Its complexity and power make it the best choice
+    for most projects, while simultaneously giving it a daunting learning curve
+    for newcomers. This talk will assume no background knowledge of version
+    control, and will teach the basics of Git in order to give you an accurate
+    mental model of what the tool does, and help you fix mistakes then ask the
+    right questions if you run into problems using it later.
 
 Agenda
 ======
@@ -23,15 +22,15 @@ Thinking about Software Development
 ===================================
 
 * Changing files
-  * Some changes manual, other changes automatic
-  * Changes for different reasons
-    * Add feature, fix bug, test idea
-    * Sometimes have several reasons at once, want changes separate
+    * Some changes manual, other changes automatic
+    * Changes for different reasons
+        * Add feature, fix bug, test idea
+        * Sometimes have several reasons at once, want changes separate
 
 Why version control?
 ====================
 
-.. figure:: phdcomic.gif
+.. figure:: _static/think/phdcomic.gif
     :align: center
     :scale: 75%
 
@@ -73,7 +72,7 @@ Setting Up
 * Tell Git who you are
 * You'll need SSH keys later
 * Install Git
-  * also tk and tcl if you want the GUI later
+    * also tk and tcl if you want the GUI later
 * Set preferred editor
 * Pick a project to work on
 
@@ -285,6 +284,8 @@ Forking
 -------
 
 .. figure:: _static/think/forking.gif
+    :align: center
+    :scale: 150%
 
 * Parallel repos (or possibly divergent)
 * Duplicating the "center" of the centralized VCS
@@ -292,7 +293,10 @@ Forking
 Pull Requests
 -------------
 
+|
+
 .. figure:: _static/think/pr-button.png
+    :align: center
 
 * Formalizes "Hi, please merge my changes"
 
