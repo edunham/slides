@@ -284,8 +284,18 @@ Watch `Linus's talk <https://www.youtube.com/watch?v=4XpnKHJAok8>`_ for enlighte
 Forking
 -------
 
+.. figure:: _static/think/forking.gif
+
+* Parallel repos (or possibly divergent)
+* Duplicating the "center" of the centralized VCS
+
 Pull Requests
 -------------
+
+.. figure:: _static/think/pr-button.png
+
+* Formalizes "Hi, please merge my changes"
+
 
 Annoying tricks
 ---------------
