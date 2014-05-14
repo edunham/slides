@@ -44,8 +44,12 @@ Types of version control
 Git's buzzwords
 ===============
 
+TODO: add buzzwords
+
 Thinking about snapshots
 ========================
+
+TODO: add picture of polaroid camera with a photo coming out
 
 * Represented as changes to a file plus pointers to unchanged files
 * Not a diff (tracks all files)
@@ -53,6 +57,8 @@ Thinking about snapshots
 
 How Git sees your project
 =========================
+
+TODO: put the graphic here
 
 Unstaged | Staged | Committed
 
@@ -279,6 +285,17 @@ GH is not exactly Git.
 * Git carefully never told us who to trust
 
 Watch `Linus's talk <https://www.youtube.com/watch?v=4XpnKHJAok8>`_ for enlightenment
+
+HTTP vs SSH clones
+------------------
+
+.. code-block:: shell
+
+    Permission denied (publickey).
+    fatal: Could not read from remote repository.
+
+    Please make sure you have the correct access rights
+    and the repository exists.
 
 Forking
 -------
