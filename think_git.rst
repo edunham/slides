@@ -129,6 +129,10 @@ Oops!
 What're **staged changes**?
 ---------------------------
 
+.. figure:: _static/think/staging.png
+    :align: center
+    :scale: 75%
+
 * Staging area is like backstage -- decide what changes go into your snapshot
 
 * Files or parts of files can be added or removed
@@ -284,6 +288,10 @@ Marker attached to a specific commit
 Adding a tag
 ------------
 
+.. figure:: _static/think/bookmarks.jpg
+    :align: center
+    :scale: 50%
+
 .. code-block:: shell
     $ man git-tag
     $ git tag -m <msg> <tagname> 
@@ -295,8 +303,10 @@ Looking at tags
 ---------------
 
 .. code-block:: shell
-    $ git tag               # List all available tags
-    $ git tag -l 'regex'    # List tags matching regex
+    $ git tag                   # List all available tags
+    $ git tag -l 'regex'        # List tags matching regex
+
+    $ git checkout <tag name>   # I want this version!
 
 Oops!
 -----
@@ -309,17 +319,39 @@ Oops!
 What's a **branch**?
 --------------------
 
+.. figure:: _static/think/gitflow_branches.png
+    :align: center
+
+A parallel path of development, starting from a commit that's in the tree
+
+.. note:: Point out why the arrows are "backwards"
+
 Making a branch
 ---------------
+
+.. code-block:: shell
+    $ git checkout -b <branchname>  # track remote branch by default if one matches
 
 Looking at branches
 -------------------
 
+.. code-block:: shell
+    $ git branch
+
 Oops!
 -----
 
+.. code-block:: shell
+    $ git branch -d     # delete only if fully merged
+    $ git branch -D     # sudo delete
+
 What's a **merge**?
 -------------------
+
+.. figure:: _static/think/pdx.jpe
+    :align: center
+
+* Converges the divergent branches
 
 Making a merge
 --------------
