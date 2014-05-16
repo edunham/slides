@@ -32,6 +32,7 @@ Thinking about Software Development
 
 .. figure:: _static/think/compiling.png
     :align: center
+    :scale: 60%
 
 Why version control?
 ====================
@@ -48,6 +49,10 @@ Types of version control
 * Centralized vs. decentralized
 * Concurrent vs. locking
 * Diffs/patches vs. snapshots
+
+.. figure:: _static/think/deskdisaster.jpg
+    :align: center
+    :scale: 75%
 
 Git's buzzwords
 ===============
@@ -70,23 +75,29 @@ Thinking about snapshots
     :align: right
     :scale: 50%
 
-.. figure:: _static/think/snapshots_model.png
-    :align: left
-
 * Represented as changes to a file plus pointers to unchanged files
 * Not a diff (tracks all files)
 * Not a duplicate of everything (points to unchanged files)
 
+.. figure:: _static/think/snapshots_model.png
+    :align: center
+    :scale: 70%
+
+
 How Git sees your project
 =========================
 
-Unstaged | Staged | Committed
+.. note:: Unstaged | Staged | Committed
 
 .. figure:: _static/think/staging.png
     :align: center
 
 Goals of Distributed Version Control
 ====================================
+
+.. figure:: _static/think/dvcs.gif
+    :align: right
+    :scale: 60%
 
 * Reliability
 * No SPOF
@@ -113,12 +124,13 @@ Setting Up
 What's a **repository**?
 ------------------------
 
-Database of snapshots of your code
-
 .. figure:: _static/think/filmstrip.png
     :align: center
 
+Database of snapshots of your code
+
 .. code-block:: bash
+
     $ ls .git/
 
 Getting a repo
@@ -145,16 +157,19 @@ Looking at a repo
     fatal: Not a git repository (or any of the parent directories): .git
     # not in a repo
 
-Oops!
+Undo?
 -----
 
-.. warning:: This deletes your history. Only do it if you really want to stop
+.. warning:: 
+    This deletes your history. Only do it if you really want to stop
     having a Git repo here.
 
  .. code-block:: bash
     
     $ rm -rf .git
 
+.. figure:: _static/think/kaboom.jpg
+    :align: center
 
 What're **staged changes**?
 ---------------------------
@@ -198,7 +213,7 @@ Looking at staged changes
 
     $ git commit --dry-run
 
-Oops!
+Undo?
 -----
 
 * Git doesn't know about it yet
@@ -219,8 +234,14 @@ Snapshot of changes
 Includes snapshot (with pointers to unchanged files), author, date, committer
 (can differ from author), parent commit
 
+.. figure:: _static/think/snapshots_model.png
+    :align: center
+
 Making a commit
 ---------------
+
+.. figure:: _static/think/tardis.jpg
+    :align: right
 
 .. code-block:: bash
     $ git commit
@@ -263,7 +284,7 @@ Commit display options
 .. code-block:: bash
     $ git show
 
-Oops!
+Undo?
 -----
 
 .. code-block:: bash
@@ -294,7 +315,7 @@ Looking at remotes
     # OR
     $ git remote show <name>
 
-Oops!
+Undo?
 -----
 
 .. code-block:: bash
@@ -338,7 +359,7 @@ Looking at tags
 
     $ git checkout <tag name>   # I want this version!
 
-Oops!
+Undo?
 -----
 
 .. code-block:: bash
@@ -368,7 +389,7 @@ Looking at branches
 .. code-block:: bash
     $ git branch
 
-Oops!
+Undo?
 -----
 
 .. code-block:: bash
@@ -389,7 +410,7 @@ Making a merge
 Looking at merges
 -----------------
 
-Oops!
+Undo?
 -----
 
 What's a **rebase**?
@@ -401,7 +422,7 @@ Rebasing
 Can you look at a rebase?
 -------------------------
 
-Oops!
+Undo?
 -----
 
 GitHub Stuff
