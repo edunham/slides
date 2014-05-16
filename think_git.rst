@@ -118,14 +118,13 @@ Database of snapshots of your code
 .. figure:: _static/think/filmstrip.png
     :align: center
 
-.. code-block:: shell
+.. code-block:: bash
     $ ls .git/
 
 Getting a repo
 --------------
 
-.. code-block:: shell
-
+.. code-block:: bash
     $ git init
 
     $ git clone <git clone url>
@@ -136,7 +135,7 @@ Getting a repo
 Looking at a repo
 -----------------
 
-.. code-block:: shell
+.. code-block:: bash
 
     $ git show
     fatal: bad default revision 'HEAD'
@@ -152,7 +151,7 @@ Oops!
 .. warning:: This deletes your history. Only do it if you really want to stop
     having a Git repo here.
 
- .. code-block:: shell
+ .. code-block:: bash
     
     $ rm -rf .git
 
@@ -171,7 +170,7 @@ What're **staged changes**?
 Staging changes
 ---------------
 
-.. code-block:: shell
+.. code-block:: bash
 
     $ touch foo
     $ git add foo
@@ -179,7 +178,7 @@ Staging changes
 Looking at staged changes
 -------------------------
 
-.. code-block:: shell
+.. code-block:: bash
 
     $ touch bar
     $ git status
@@ -204,12 +203,12 @@ Oops!
 
 * Git doesn't know about it yet
 
-.. code-block:: shell
+.. code-block:: bash
     $ git rm --cached foo
 
 * It was in version control before (go back to the latest committed version)
 
-.. code-block:: shell
+.. code-block:: bash
     $ git reset HEAD foo
 
 What's a **commit**?
@@ -223,13 +222,13 @@ Includes snapshot (with pointers to unchanged files), author, date, committer
 Making a commit
 ---------------
 
-.. code-block:: shell
+.. code-block:: bash
     $ git commit
 
 Commit creation options
 -----------------------
 
-.. code-block:: shell
+.. code-block:: bash
     $ man git-commit
     -a, --all
     -i, --interactive
@@ -253,7 +252,7 @@ Looking at a commit
     :align: right
     :scale: 50%
 
-.. code-block:: shell
+.. code-block:: bash
     $ git show  # details on latest commit, or specified one
     $ git log   # summary of recent commits, or a range
                 # man gitrevisions for help with ranges
@@ -261,13 +260,13 @@ Looking at a commit
 Commit display options
 ----------------------
 
-.. code-block:: shell
+.. code-block:: bash
     $ git show
 
 Oops!
 -----
 
-.. code-block:: shell
+.. code-block:: bash
     $ git revert <commit to revert to>
 
 Reverting makes a revert commit. Yes, you have to; time travel is more
@@ -283,14 +282,14 @@ Another *clone* of more or less the same repo
 Adding a remote
 ---------------
 
-.. code-block:: shell
+.. code-block:: bash
     $ man git-remote
     $ git remote add <name> <url>
 
 Looking at remotes
 ------------------
 
-.. code-block:: shell
+.. code-block:: bash
     $ git config -e
     # OR
     $ git remote show <name>
@@ -298,7 +297,7 @@ Looking at remotes
 Oops!
 -----
 
-.. code-block:: shell
+.. code-block:: bash
     $ git config -e
     # delete or change remote
     $ man git-remote
@@ -323,7 +322,7 @@ Adding a tag
     :align: center
     :scale: 50%
 
-.. code-block:: shell
+.. code-block:: bash
     $ man git-tag
     $ git tag -m <msg> <tagname> 
 
@@ -333,7 +332,7 @@ Pass ``-s`` or ``-u <key-id>`` to GPG-sign
 Looking at tags
 ---------------
 
-.. code-block:: shell
+.. code-block:: bash
     $ git tag                   # List all available tags
     $ git tag -l 'regex'        # List tags matching regex
 
@@ -342,7 +341,7 @@ Looking at tags
 Oops!
 -----
 
-.. code-block:: shell
+.. code-block:: bash
     $ git tag -d <tagname>
     # And remove it from a remote repo
     $ git push origin :refs/tags/<tagname> 
@@ -360,19 +359,19 @@ A parallel path of development, starting from a commit that's in the tree
 Making a branch
 ---------------
 
-.. code-block:: shell
+.. code-block:: bash
     $ git checkout -b <branchname>  # track remote branch by default if one matches
 
 Looking at branches
 -------------------
 
-.. code-block:: shell
+.. code-block:: bash
     $ git branch
 
 Oops!
 -----
 
-.. code-block:: shell
+.. code-block:: bash
     $ git branch -d     # delete only if fully merged
     $ git branch -D     # sudo delete
 
@@ -418,7 +417,7 @@ Watch `Linus's talk <https://www.youtube.com/watch?v=4XpnKHJAok8>`_ for enlighte
 HTTP vs SSH clones
 ------------------
 
-.. code-block:: shell
+.. code-block:: bash
 
     Permission denied (publickey).
     fatal: Could not read from remote repository.
