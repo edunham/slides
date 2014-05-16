@@ -14,6 +14,8 @@ DevOps Bootcamp history + organization (30-min)
 
 Basic security principles (30-min)
 
+Thinking in Git (1hr of brain pain)
+
 Unfinished, or still just ideas:
 --------------------------------
 
@@ -21,4 +23,4 @@ Licenses and OSS legal stuff
 
 History of OSS
 
-"Thinking in Git"
+Vim
