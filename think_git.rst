@@ -290,6 +290,15 @@ Commit display options
 
     $ git show
 
+
+    $ git show --oneline
+
+    # see PRETTY FORMATS section of
+    $ man git-show
+
+    # Check the GPG signature
+    $ git show --show-signature
+
 Undo?
 -----
 
@@ -321,6 +330,7 @@ Adding a remote
 .. code-block:: bash
 
     $ man git-remote
+
     $ git remote add <name> <url>
 
 Looking at remotes
@@ -329,22 +339,27 @@ Looking at remotes
 .. code-block:: bash
 
     $ git config -e
+
     # OR
+
     $ git remote show <name>
 
 Undo?
 -----
 
+Do you prefer text editor or commands?
+
 .. code-block:: bash
 
     $ git config -e
     # delete or change remote
+
     $ man git-remote
     $ git remote rename <old> <new>
     $ git remote remove <name>
     ...etc.
 
-"undoing" a push to a remote is... trickier.
+.. note:: "Undoing" push to remote is... trickier
 
 What's a **tag**?
 -----------------
@@ -352,7 +367,8 @@ What's a **tag**?
 .. figure:: _static/think/graffiti.jpg
     :align: center
 
-Marker attached to a specific commit
+* Marker attached to a specific commit
+* Typically used for version or release number
 
 Adding a tag
 ------------
@@ -406,14 +422,25 @@ Making a branch
 ---------------
 
 .. code-block:: bash
+
     # track remote branch by default if one matches
     $ git checkout -b <branchname>
+
+    # Shorthand for:
+    $ git branch <branchname>   # create
+    $ git checkout <branchname> # check out
+
+    # Pushing a branch to a remote
+    $ git push <remotename> <branchname>
 
 Looking at branches
 -------------------
 
 .. code-block:: bash
+
     $ git branch
+
+    $ git show <branchname>
 
 Undo?
 -----
@@ -426,6 +453,9 @@ Undo?
     # sudo delete
     $ git branch -D
 
+    # delete remote branch
+    $ git push <remotename> :<branchname> 
+
 What's a **merge**?
 -------------------
 
@@ -436,6 +466,9 @@ What's a **merge**?
 
 Making a merge
 --------------
+
+
+
 
 Looking at merges
 -----------------
