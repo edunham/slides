@@ -137,6 +137,7 @@ Getting a repo
 --------------
 
 .. code-block:: bash
+
     $ git init
 
     $ git clone <git clone url>
@@ -151,10 +152,11 @@ Looking at a repo
 
     $ git show
     fatal: bad default revision 'HEAD'
-    # To be expected with nothing in the repo yet
+    # To be expected with nothing in the repo
 
     $ git show
-    fatal: Not a git repository (or any of the parent directories): .git
+    fatal: Not a git repository (or any of the 
+           parent directories): .git
     # not in a repo
 
 Undo?
@@ -205,15 +207,13 @@ Looking at staged changes
     Initial commit
 
     Changes to be committed:
-      (use "git rm --cached <file>..." to unstage)
-
+      (use "git rm --cached <file>..." 
+       to unstage)
         new file:   foo
-
         Untracked files:
-          (use "git add <file>..." to include in what will be committed)
-
+          (use "git add <file>..." to include 
+           in what will be committed)
             bar
-
     $ git commit --dry-run
 
 Undo?
@@ -222,11 +222,13 @@ Undo?
 * Keeping uncommitted changes
 
 .. code-block:: bash
+
     $ git rm --cached foo
 
 * Go back to the latest committed version
 
 .. code-block:: bash
+    
     $ git reset HEAD foo
 
 What's a **commit**?
@@ -250,9 +252,6 @@ Making a commit
 
     $ git commit
 
-Commit creation options
------------------------
-
 .. code-block:: bash
 
     $ man git-commit
@@ -273,9 +272,9 @@ Commit creation options
 
 Looking at a commit
 -------------------
-
+|
 .. figure:: _static/think/gitk.png
-    :align: right
+    :align: center 
     :scale: 50%
 
 .. code-block:: bash
@@ -298,13 +297,21 @@ Undo?
 
     $ git revert <commit to revert to>
 
-Reverting makes a revert commit. Yes, you have to; time travel is more
-important than "This really never happened"
+Reverting makes a revert commit. 
+
+Yes, you have to; time travel is more important than "This never happened"
+
+.. figure:: _static/think/tardis2.jpg
+    :scale: 50%
+    :align: center
 
 What's a **remote**?
 --------------------
 
 Another *clone* of more or less the same repo
+
+.. figure:: _static/think/sheepclones.jpg
+    :align: center
 
 (remember when we cloned to get a copy?)
 
@@ -367,10 +374,14 @@ Looking at tags
 
 .. code-block:: bash
 
-    $ git tag                   # List all available tags
-    $ git tag -l 'regex'        # List tags matching regex
+    # List all available tags
+    $ git tag                   
 
-    $ git checkout <tag name>   # I want this version!
+    # List tags matching regex
+    $ git tag -l 'regex'        
+
+    # I want this version!
+    $ git checkout <tag name>   
 
 Undo?
 -----
@@ -395,7 +406,8 @@ Making a branch
 ---------------
 
 .. code-block:: bash
-    $ git checkout -b <branchname>  # track remote branch by default if one matches
+    # track remote branch by default if one matches
+    $ git checkout -b <branchname>
 
 Looking at branches
 -------------------
@@ -407,9 +419,12 @@ Undo?
 -----
 
 .. code-block:: bash
+    
+    # delete only if fully merged
+    $ git branch -d
 
-    $ git branch -d     # delete only if fully merged
-    $ git branch -D     # sudo delete
+    # sudo delete
+    $ git branch -D
 
 What's a **merge**?
 -------------------
@@ -456,10 +471,12 @@ HTTP vs SSH clones
 .. code-block:: bash
 
     Permission denied (publickey).
-    fatal: Could not read from remote repository.
+    fatal: Could not read from remote 
+    repository.
 
-    Please make sure you have the correct access rights
-    and the repository exists.
+    Please make sure you have the 
+    correct access rights and the 
+    repository exists.
 
 Forking
 -------
