@@ -535,8 +535,33 @@ What's a **rebase**?
 Rebasing
 --------
 
-Can you look at a rebase?
--------------------------
+.. code-block:: bash
+
+    $ git rebase -i <commit range>
+                    HEAD~4
+                    # last 4 commits
+    $ git pull --rebase
+
+Looking at the rebase
+---------------------
+
+.. code-block:: shell
+
+    # Rebase 1a20f51..147c812 onto 1a20f51                                          
+    #                                                                               
+    # Commands:                                                                     
+    #  p, pick = use commit                                                         
+    #  r, reword = use commit, but edit the commit message                          
+    #  e, edit = use commit, but stop for amending                                  
+    #  s, squash = use commit, but meld into previous commit                        
+    #  f, fixup = like "squash", but discard this commit's log message              
+    #  x, exec = run command (the rest of the line) using shell                     
+    #                                                                               
+    # These lines can be re-ordered; they are executed from top to bottom.          
+    #                                                                               
+    # If you remove a line here THAT COMMIT WILL BE LOST.
+
+.. note:: Make sure you have your git editor set!
 
 Undo?
 -----
