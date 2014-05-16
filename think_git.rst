@@ -459,25 +459,78 @@ Undo?
 What's a **merge**?
 -------------------
 
+* Converges the divergent branches
+
 .. figure:: _static/think/pdx.jpe
     :align: center
-
-* Converges the divergent branches
+    :scale: 80%
 
 Making a merge
 --------------
 
+.. figure:: _static/think/merge.png
+    :align: center
+    :scale: 75%
 
+.. code-block:: bash
 
+    # Branch you're changing
+    $ git checkout mywork
+
+    $ git merge master
+
+    # Merge conflicts?
+    $ git status
+        On branch mywork
+        You have unmerged paths.
+          (fix conflicts and run "git commit")
+
+.. note:: COMMIT OR STASH CHANGES FIRST
+
+Merge Conflicts
+---------------
+|
+.. code-block:: shell 
+
+    <<<<<<< HEAD
+    This content was in mywork but not master
+    =======
+    This content was in master but not mywork  
+    >>>>>>> master
+
+Replace all that stuff with what the content *should* be.
+
+``git add`` the file. 
+
+Check that you've got everything with ``git status``, then commit.
+
+Or consider ``git mergetool`` for a graphical option.
 
 Looking at merges
 -----------------
 
+.. code-block:: bash
+
+    $ git diff <commit before merge> <merge commit>
+
+    # before merging, see changes
+    $ git log ..otherbranch
+    $ git diff ...otherbranch
+    $ gitk ...otherbranch
+
 Undo?
 -----
 
+.. code-block:: bash
+
+    $ git merge abort
+    $ git reset --keep HEAD@{1}
+
 What's a **rebase**?
 --------------------
+
+.. figure:: _static/think/billted.jpg
+    :align: center
 
 Rebasing
 --------
