@@ -13,6 +13,9 @@ Thinking in Git
 Agenda
 ======
 
+.. figure:: _static/think/gitlogo.png
+    :align: right
+
 * How to look at software development 
 * What's Git
 * How to learn it
@@ -27,6 +30,9 @@ Thinking about Software Development
         * Add feature, fix bug, test idea
         * Sometimes have several reasons at once, want changes separate
 
+.. figure:: _static/think/compiling.png
+    :align: center
+
 Why version control?
 ====================
 
@@ -37,6 +43,8 @@ Why version control?
 Types of version control
 ========================
 
+* Formal vs. impromptu
+* Scalable vs. too much work
 * Centralized vs. decentralized
 * Concurrent vs. locking
 * Diffs/patches vs. snapshots
@@ -44,12 +52,26 @@ Types of version control
 Git's buzzwords
 ===============
 
-TODO: add buzzwords
+* Decentralized
+* Distributed
+* Data assurance
+* FOSS (GPLv2)
+
+.. figure:: _static/think/oaktree.jpg
+    :align: center
+    :scale: 75%
+
+.. note:: We'll get to branches later
 
 Thinking about snapshots
 ========================
 
-TODO: add picture of polaroid camera with a photo coming out
+.. figure:: _static/think/polaroid.jpeg
+    :align: right
+    :scale: 50%
+
+.. figure:: _static/think/snapshots_model.png
+    :align: left
 
 * Represented as changes to a file plus pointers to unchanged files
 * Not a diff (tracks all files)
@@ -58,9 +80,10 @@ TODO: add picture of polaroid camera with a photo coming out
 How Git sees your project
 =========================
 
-TODO: put the graphic here
-
 Unstaged | Staged | Committed
+
+.. figure:: _static/think/staging.png
+    :align: center
 
 Goals of Distributed Version Control
 ====================================
@@ -80,15 +103,23 @@ Setting Up
     * GitHub can handle ECDSA, GitLab only does RSA as of 5.1.0
 * Install Git
     * also tk and tcl if you want the GUI later
-* Set preferred editor
+* Set preferred editor 
+    * ``export GIT_EDITOR=vim`` in ``~/.bashrc`` or equivalent
 * Pick a project to work on
+
+.. note:: ECDSA is the new hotness -- elliptic-curve digital signature
+    algorithm -- much smaller keys have comparable security
 
 What's a **repository**?
 ------------------------
 
 Database of snapshots of your code
 
-IMAGE: film strip
+.. figure:: _static/think/filmstrip.png
+    :align: center
+
+.. code-block:: shell
+    $ ls .git/
 
 Getting a repo
 --------------
