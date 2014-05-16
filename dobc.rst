@@ -8,11 +8,12 @@ Teaching DevOps to University Students
         :class: fill
 
     .. note:: Hi. I'm Emily Dunham. CS student at Oregon State University. 
-        Past: FIRST team 847 captain, programmer, mechanical design
-              OSU Robotics Club VP for ~2yrs
-              OSU Linux Users Group VP then president
-              TA and peer advisor for OSU EECS department
-              ... and assorted other stuff.
+
+              * FIRST team 847 captain, programmer, mechanical design
+              * OSU Robotics Club VP for ~2yrs
+              * OSU Linux Users Group VP then president
+              * TA and peer advisor for OSU EECS department
+              * ... and assorted other stuff.
 
 .. slide::
 
@@ -22,7 +23,9 @@ Teaching DevOps to University Students
     .. note:: 
         Been coding on and off since 2008, but didn't get into OSS till
         joining OSL in spring 2011 (recruited at Beaver BarCamp)
+
         ... I almost didn't get involved with OSS at all. 
+
         I thought I might want to sysadmin, interviewed and they made me a
         dev. Did that for a year including summer, interned at Intel the next
         summer, TAed for a while, came back to OSL as a sysadmin in December
@@ -91,6 +94,7 @@ Teaching DevOps to University Students
         * Clear, focused purpose (make PSU sysadmins), good win criterion
         * ~10yrs old, well-established, grew organically out of mentorship
         * infrastructure in place, real systems to administer
+        * The Deal
 
 .. slide:: 
 
@@ -133,6 +137,7 @@ Teaching DevOps to University Students
     * Teaching devops
     * Extracurricular through school year
     * Hands-on
+    * "The Deal"
 
 .. slide:: 
 
@@ -155,6 +160,9 @@ Teaching DevOps to University Students
         Super important to do this early so everybody's on the same page -- it
         solves so many arguments before they start. 
 
+        Using Sphinx (the readthedocs thing) but locally hosted because we
+        have the infra, though RTD would've been ok too
+
         Now it's time to start on curriculum...
 
 .. slide:: 
@@ -166,6 +174,28 @@ Teaching DevOps to University Students
         with which you're intimately familiar? Saying to a newbie "let me just
         step back and begin at the beginning" then realizing you don't know
         where the "actual beginning" even is? Welcome to writing curriculum.
+
+.. slide:: 
+
+    .. figure:: /_static/dobc/gplus.png
+        :class: fill
+
+    .. note:: Format of our meetings: 2 hours each thursday, roughly half and
+        half development / ops topics
+
+        Screencast over Google Hangouts -- early feedback is that the videos
+        help people not in Corvallis, plus makes it easier for students to
+        catch up ("the deal")
+
+        Unifying the hardware -- should have a single boot USB that brings up
+        EVERYTHING 
+
+            * logged-in g+ account with hangout perms
+            * working VM
+            * all the slides
+            * able to talk to projector
+
+        
 
 .. slide:: 
 
@@ -237,8 +267,6 @@ Teaching DevOps to University Students
         * Preparing to run it again next year
             * passing the torch, documenting everything
 
-
-
 .. slide:: 
 
     .. figure:: /_static/dobc/audience.jpg
@@ -246,3 +274,21 @@ Teaching DevOps to University Students
 
     .. note:: What do YOU want out of this? Why are you here? What do you want
         to learn from me? What are you trying to build? How can I help you?
+
+.. slide::
+
+
+    Me: 
+
+    * github.com/edunham
+    * edunham@osuosl.org (work email) or dunhame@onid.orst.edu (school)
+    * irc: edunham on Freenode
+    * The accent is from New Zealand
+    * The slides are made with Hieroglyph (a Sphinx extension)
+
+    Bootcamp: 
+
+    * devopsbootcamp.osuosl.org
+    * devopsbootcamp@osuosl.org -- email all the organizers
+
+
