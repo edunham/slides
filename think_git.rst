@@ -185,6 +185,9 @@ What're **staged changes**?
 Staging changes
 ---------------
 
+.. figure:: _static/think/thewings.jpg
+    :align: center
+
 .. code-block:: bash
 
     $ touch foo
@@ -216,12 +219,12 @@ Looking at staged changes
 Undo?
 -----
 
-* Git doesn't know about it yet
+* Keeping uncommitted changes
 
 .. code-block:: bash
     $ git rm --cached foo
 
-* It was in version control before (go back to the latest committed version)
+* Go back to the latest committed version
 
 .. code-block:: bash
     $ git reset HEAD foo
@@ -244,12 +247,14 @@ Making a commit
     :align: right
 
 .. code-block:: bash
+
     $ git commit
 
 Commit creation options
 -----------------------
 
 .. code-block:: bash
+
     $ man git-commit
     -a, --all
     -i, --interactive
@@ -274,6 +279,7 @@ Looking at a commit
     :scale: 50%
 
 .. code-block:: bash
+
     $ git show  # details on latest commit, or specified one
     $ git log   # summary of recent commits, or a range
                 # man gitrevisions for help with ranges
@@ -282,12 +288,14 @@ Commit display options
 ----------------------
 
 .. code-block:: bash
+
     $ git show
 
 Undo?
 -----
 
 .. code-block:: bash
+
     $ git revert <commit to revert to>
 
 Reverting makes a revert commit. Yes, you have to; time travel is more
@@ -304,6 +312,7 @@ Adding a remote
 ---------------
 
 .. code-block:: bash
+
     $ man git-remote
     $ git remote add <name> <url>
 
@@ -311,6 +320,7 @@ Looking at remotes
 ------------------
 
 .. code-block:: bash
+
     $ git config -e
     # OR
     $ git remote show <name>
@@ -319,6 +329,7 @@ Undo?
 -----
 
 .. code-block:: bash
+
     $ git config -e
     # delete or change remote
     $ man git-remote
@@ -344,6 +355,7 @@ Adding a tag
     :scale: 50%
 
 .. code-block:: bash
+
     $ man git-tag
     $ git tag -m <msg> <tagname> 
 
@@ -354,6 +366,7 @@ Looking at tags
 ---------------
 
 .. code-block:: bash
+
     $ git tag                   # List all available tags
     $ git tag -l 'regex'        # List tags matching regex
 
@@ -363,6 +376,7 @@ Undo?
 -----
 
 .. code-block:: bash
+
     $ git tag -d <tagname>
     # And remove it from a remote repo
     $ git push origin :refs/tags/<tagname> 
@@ -393,6 +407,7 @@ Undo?
 -----
 
 .. code-block:: bash
+
     $ git branch -d     # delete only if fully merged
     $ git branch -D     # sudo delete
 
