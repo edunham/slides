@@ -16,7 +16,7 @@ Agenda
 .. figure:: _static/think/gitlogo.png
     :align: right
 
-* How to look at software development 
+* How to look at software development
 * What's Git
 * How to learn it
     * Real life vs. tutorials
@@ -116,7 +116,7 @@ Setting Up
     * GitHub can handle ECDSA, GitLab only does RSA as of 5.1.0
 * Install Git
     * also tk and tcl if you want the GUI later
-* Set preferred editor 
+* Set preferred editor
     * ``export GIT_EDITOR=vim`` in ``~/.bashrc`` or equivalent
 * Pick a project to work on
 
@@ -157,19 +157,19 @@ Looking at a repo
     # To be expected with nothing in the repo
 
     $ git show
-    fatal: Not a git repository (or any of the 
+    fatal: Not a git repository (or any of the
            parent directories): .git
     # not in a repo
 
 Undo?
 -----
 
-.. warning:: 
+.. warning::
     This deletes your history. Only do it if you really want to stop
     having a Git repo here.
 
  .. code-block:: bash
-    
+
     $ rm -rf .git
 
 .. figure:: _static/think/kaboom.jpg
@@ -209,11 +209,11 @@ Looking at staged changes
     Initial commit
 
     Changes to be committed:
-      (use "git rm --cached <file>..." 
+      (use "git rm --cached <file>..."
        to unstage)
         new file:   foo
         Untracked files:
-          (use "git add <file>..." to include 
+          (use "git add <file>..." to include
            in what will be committed)
             bar
     $ git commit --dry-run
@@ -230,7 +230,7 @@ Undo?
 * Go back to the latest committed version
 
 .. code-block:: bash
-    
+
     $ git reset HEAD foo
 
 What's a **commit**?
@@ -266,7 +266,7 @@ Making a commit
     -o, --only
     -S, --gpg-sign
 
-.. note:: 
+.. note::
     -o is for *only files from command line* disregarding the stash
     Specifying file names disregards staged changes, plus stages all current
     contents
@@ -276,16 +276,16 @@ Looking at a commit
 -------------------
 
 .. figure:: _static/think/gitk.png
-    :align: center 
+    :align: center
     :scale: 50%
 
 .. code-block:: bash
-    
-    # details on latest or specified 
+
+    # details on latest or specified
     $ git show
-    
+
     # Summary of recent, or a range
-    $ git log 
+    $ git log
 
     $ man gitrevisions # ranges
 
@@ -305,7 +305,7 @@ Commit display options
     $ git show --show-signature
 
     # Want a GUI?
-    $ gitk 
+    $ gitk
 
 Undo?
 -----
@@ -314,7 +314,7 @@ Undo?
 
     $ git revert <commit to revert to>
 
-Reverting makes a revert commit. 
+Reverting makes a revert commit.
 
 Reversability > hiding mistakes
 
@@ -364,11 +364,11 @@ From one of my git configs...
 
 .. code-block:: shell
 
-    [remote "origin"]                                                               
-      url = git@github.com:monte-language/monte.git                               
-      fetch = +refs/heads/*:refs/remotes/origin/* 
-    [remote "ed"]                                                                   
-      url = git@github.com:edunham/monte.git                                      
+    [remote "origin"]
+      url = git@github.com:monte-language/monte.git
+      fetch = +refs/heads/*:refs/remotes/origin/*
+    [remote "ed"]
+      url = git@github.com:edunham/monte.git
       fetch = +refs/heads/*:refs/remotes/ed/*
 
 Undo?
@@ -411,7 +411,7 @@ Adding a tag
 .. code-block:: bash
 
     $ man git-tag
-    $ git tag -m <msg> <tagname> 
+    $ git tag -m <msg> <tagname>
 
 Default is lightweight tag -- just a reference for SHA-1 of latest commit
 
@@ -423,13 +423,13 @@ Looking at tags
 .. code-block:: bash
 
     # List all available tags
-    $ git tag                   
+    $ git tag
 
     # List tags matching regex
-    $ git tag -l 'regex'        
+    $ git tag -l 'regex'
 
     # I want this version!
-    $ git checkout <tag name>   
+    $ git checkout <tag name>
 
 Undo?
 -----
@@ -439,7 +439,7 @@ Undo?
     $ git tag -d <tagname>
 
     # And remove it from a remote repo
-    $ git push origin :refs/tags/<tagname> 
+    $ git push origin :refs/tags/<tagname>
 
 What's a **branch**?
 ====================
@@ -482,7 +482,7 @@ Undo?
 -----
 
 .. code-block:: bash
-    
+
     # delete only if fully merged
     $ git branch -d
 
@@ -490,7 +490,7 @@ Undo?
     $ git branch -D
 
     # delete remote branch
-    $ git push <remotename> :<branchname> 
+    $ git push <remotename> :<branchname>
 
 .. figure:: _static/think/pruning_bonsai.jpg
     :align: center
@@ -530,17 +530,17 @@ Making a merge
 Merge Conflicts
 ---------------
 |
-.. code-block:: shell 
+.. code-block:: shell
 
     <<<<<<< HEAD
     This content was in mywork but not master
     =======
-    This content was in master but not mywork  
+    This content was in master but not mywork
     >>>>>>> master
 
 Replace all that stuff with what the content *should* be.
 
-``git add`` the file. 
+``git add`` the file.
 
 Check that you've got everything with ``git status``, then commit.
 
@@ -597,18 +597,18 @@ Looking at the rebase
 |
 .. code-block:: shell
 
-    # Rebase 1a20f51..147c812 onto 1a20f51                                          
-    #                                                                               
-    # Commands:                                                                     
-    #  p, pick = use commit                                                         
-    #  r, reword = use commit, but edit the commit message                          
-    #  e, edit = use commit, but stop for amending                                  
-    #  s, squash = use commit, but meld into previous commit                        
-    #  f, fixup = like "squash", but discard this commit's log message              
-    #  x, exec = run command (the rest of the line) using shell                     
-    #                                                                               
-    # These lines can be re-ordered; they are executed from top to bottom.          
-    #                                                                               
+    # Rebase 1a20f51..147c812 onto 1a20f51
+    #
+    # Commands:
+    #  p, pick = use commit
+    #  r, reword = use commit, but edit the commit message
+    #  e, edit = use commit, but stop for amending
+    #  s, squash = use commit, but meld into previous commit
+    #  f, fixup = like "squash", but discard this commit's log message
+    #  x, exec = run command (the rest of the line) using shell
+    #
+    # These lines can be re-ordered; they are executed from top to bottom.
+    #
     # If you remove a line here THAT COMMIT WILL BE LOST.
 
 .. note:: Make sure you have your git editor set!
@@ -633,10 +633,10 @@ GitHub Stuff
 ============
 
 .. figure:: _static/think/github.png
-    :align: right 
+    :align: right
     :scale: 80%
 |
-GH is not exactly Git. 
+GH is not exactly Git.
 
 * Less distributed paradigm
 * Git carefully never told us who to trust
@@ -649,11 +649,11 @@ HTTP vs SSH clones
 .. code-block:: bash
 
     Permission denied (publickey).
-    fatal: Could not read from remote 
+    fatal: Could not read from remote
     repository.
 
-    Please make sure you have the 
-    correct access rights and the 
+    Please make sure you have the
+    correct access rights and the
     repository exists.
 
 HTTP clone prompts for username and password
@@ -714,7 +714,7 @@ Continuous Integration
 Playing Well with Others
 ========================
 
-* Change history locally, never globally 
+* Change history locally, never globally
     * Never force push (unless you have to)
 * Focused commits with clear commit messages
 * Follow project standards for branching, tagging, etc.
