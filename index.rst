@@ -5,3 +5,5 @@
     algorithms
     security
     dobc
+    vim
+    think_git
