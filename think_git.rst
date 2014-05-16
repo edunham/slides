@@ -2,13 +2,22 @@
 Thinking in Git
 ===============
 
-    Git is the most popular source code management and version control system in
+.. slide::
+
+    "Git is the most popular source code management and version control system in
     the open source community. Its complexity and power make it the best choice
     for most projects, while simultaneously giving it a daunting learning curve
     for newcomers. This talk will assume no background knowledge of version
     control, and will teach the basics of Git in order to give you an accurate
     mental model of what the tool does, and help you fix mistakes then ask the
-    right questions if you run into problems using it later.
+    right questions if you run into problems using it later."
+
+    * Emily Dunham
+    * edunham on irc.freenode.net and irc.cat.pdx.edu
+    * edunham@osuosl.org
+    
+    .. note:: instead of a photo of me, you get a wall of text on what i'll
+        teach you!
 
 Agenda
 ======
@@ -67,6 +76,9 @@ Goals of Distributed Version Control
 * No SPOF
 * Eliminate network dependencies
 
+.. note:: reliability means put one file in, get same file out again,
+    guaranteed
+
 Git's buzzwords
 ===============
 
@@ -80,23 +92,8 @@ Git's buzzwords
     :align: center
     :scale: 75%
 
-.. note:: We'll get to branches later
-
-Thinking about snapshots
-========================
-
-.. figure:: _static/think/polaroid.jpeg
-    :align: right
-    :scale: 50%
-
-* Represented as changes to a file plus pointers to unchanged files
-* Not a diff (tracks all files)
-* Not a duplicate of everything (points to unchanged files)
-
-.. figure:: _static/think/snapshots_model.png
-    :align: center
-    :scale: 70%
-
+.. note:: We'll get to branches later... but you've noticed people saying
+    oddly horticultural things like branches and trunks
 
 How Git sees your project
 =========================
@@ -114,7 +111,8 @@ Setting Up
 
 * Tell Git who you are
 * You'll need SSH keys later
-    * GitHub can handle ECDSA, GitLab only does RSA as of 5.1.0
+    * ``ssh-keygen -t rsa -b 2048``
+    * ``ssh-keygen -t ecdsa``
 * Install Git
     * also tk and tcl if you want the GUI later
 * Set preferred editor
@@ -123,6 +121,8 @@ Setting Up
 
 .. note:: ECDSA is the new hotness -- elliptic-curve digital signature
     algorithm -- much smaller keys have comparable security
+
+    * GitHub can handle ECDSA, GitLab only does RSA as of 5.1.0
 
 What's a **repository**?
 ========================
@@ -234,6 +234,25 @@ Undo?
 
     $ git reset HEAD foo
 
+.. note:: next, snapshots
+
+Thinking about snapshots
+========================
+
+.. figure:: _static/think/polaroid.jpeg
+    :align: right
+    :scale: 50%
+
+* Represented as changes to a file plus pointers to unchanged files
+* Not a diff (tracks all files)
+* Not a duplicate of everything (points to unchanged files)
+
+.. figure:: _static/think/snapshots_model.png
+    :align: center
+    :scale: 70%
+
+.. note:: next, commits
+
 What's a **commit**?
 ====================
 
@@ -273,12 +292,12 @@ Making a commit
     contents
 
 
-Looking at a commit
--------------------
+Looking at commits
+------------------
 
 .. figure:: _static/think/gitk.png
     :align: center
-    :scale: 50%
+    :scale: 40%
 
 .. code-block:: bash
 
@@ -289,6 +308,12 @@ Looking at a commit
     $ git log
 
     $ man gitrevisions # ranges
+
+What about commits per file?
+
+.. code-block:: bash
+
+    $ git blame <file>
 
 Commit display options
 ----------------------
@@ -322,6 +347,8 @@ Reversability > hiding mistakes
 .. figure:: _static/think/tardis2.jpg
     :scale: 50%
     :align: center
+
+.. next:: remotes
 
 What's a **remote**?
 ====================
@@ -388,6 +415,7 @@ Do you prefer text editor or commands?
     ...etc.
 
 .. note:: "Undoing" push to remote is... trickier
+    next: tags
 
 What's a **tag**?
 =================
@@ -441,6 +469,8 @@ Undo?
 
     # And remove it from a remote repo
     $ git push origin :refs/tags/<tagname>
+
+.. next:: branches
 
 What's a **branch**?
 ====================
