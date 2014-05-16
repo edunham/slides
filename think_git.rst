@@ -20,6 +20,8 @@ Agenda
 * What's Git
 * How to learn it
     * Real life vs. tutorials
+* Essential Git concepts & commands
+* GitHub
 
 Thinking about Software Development
 ===================================
@@ -53,6 +55,17 @@ Types of version control
 .. figure:: _static/think/deskdisaster.jpg
     :align: center
     :scale: 75%
+
+Goals of Distributed Version Control
+====================================
+
+.. figure:: _static/think/dvcs.gif
+    :align: right
+    :scale: 60%
+
+* Reliability
+* No SPOF
+* Eliminate network dependencies
 
 Git's buzzwords
 ===============
@@ -92,17 +105,6 @@ How Git sees your project
 .. figure:: _static/think/staging.png
     :align: center
 
-Goals of Distributed Version Control
-====================================
-
-.. figure:: _static/think/dvcs.gif
-    :align: right
-    :scale: 60%
-
-* Reliability
-* No SPOF
-* Eliminate network dependencies
-
 How?
 ====
 
@@ -122,7 +124,7 @@ Setting Up
     algorithm -- much smaller keys have comparable security
 
 What's a **repository**?
-------------------------
+========================
 
 .. figure:: _static/think/filmstrip.png
     :align: center
@@ -174,7 +176,7 @@ Undo?
     :align: center
 
 What're **staged changes**?
----------------------------
+===========================
 
 .. figure:: _static/think/staging.png
     :align: center
@@ -232,7 +234,7 @@ Undo?
     $ git reset HEAD foo
 
 What's a **commit**?
---------------------
+====================
 
 Snapshot of changes
 
@@ -272,16 +274,20 @@ Making a commit
 
 Looking at a commit
 -------------------
-|
+
 .. figure:: _static/think/gitk.png
     :align: center 
     :scale: 50%
 
 .. code-block:: bash
+    
+    # details on latest or specified 
+    $ git show
+    
+    # Summary of recent, or a range
+    $ git log 
 
-    $ git show  # details on latest commit, or specified one
-    $ git log   # summary of recent commits, or a range
-                # man gitrevisions for help with ranges
+    $ man gitrevisions # ranges
 
 Commit display options
 ----------------------
@@ -290,7 +296,6 @@ Commit display options
 
     $ git show
 
-
     $ git show --oneline
 
     # see PRETTY FORMATS section of
@@ -298,6 +303,9 @@ Commit display options
 
     # Check the GPG signature
     $ git show --show-signature
+
+    # Want a GUI?
+    $ gitk 
 
 Undo?
 -----
@@ -308,30 +316,38 @@ Undo?
 
 Reverting makes a revert commit. 
 
-Yes, you have to; time travel is more important than "This never happened"
+Reversability > hiding mistakes
 
 .. figure:: _static/think/tardis2.jpg
     :scale: 50%
     :align: center
 
 What's a **remote**?
---------------------
+====================
+|
+.. figure:: _static/think/remotes.png
+    :scale: 75%
+    :align: right
 
 Another *clone* of more or less the same repo
 
-.. figure:: _static/think/sheepclones.jpg
-    :align: center
-
 (remember when we cloned to get a copy?)
+
+|
+.. figure:: _static/think/sheepclones.jpg
+    :scale: 75%
 
 Adding a remote
 ---------------
-
+|
 .. code-block:: bash
 
     $ man git-remote
 
     $ git remote add <name> <url>
+|
+.. figure:: _static/think/remotes.jpg
+    :align: center
 
 Looking at remotes
 ------------------
@@ -343,6 +359,17 @@ Looking at remotes
     # OR
 
     $ git remote show <name>
+
+From one of my git configs...
+
+.. code-block:: shell
+
+    [remote "origin"]                                                               
+      url = git@github.com:monte-language/monte.git                               
+      fetch = +refs/heads/*:refs/remotes/origin/* 
+    [remote "ed"]                                                                   
+      url = git@github.com:edunham/monte.git                                      
+      fetch = +refs/heads/*:refs/remotes/ed/*
 
 Undo?
 -----
@@ -362,13 +389,17 @@ Do you prefer text editor or commands?
 .. note:: "Undoing" push to remote is... trickier
 
 What's a **tag**?
------------------
+=================
 
 .. figure:: _static/think/graffiti.jpg
-    :align: center
+    :align: right
+    :scale: 40%
 
 * Marker attached to a specific commit
 * Typically used for version or release number
+
+.. figure:: _static/think/tags.png
+    :scale: 130%
 
 Adding a tag
 ------------
@@ -383,11 +414,12 @@ Adding a tag
     $ git tag -m <msg> <tagname> 
 
 Default is lightweight tag -- just a reference for SHA-1 of latest commit
+
 Pass ``-s`` or ``-u <key-id>`` to GPG-sign
 
 Looking at tags
 ---------------
-
+|
 .. code-block:: bash
 
     # List all available tags
@@ -401,15 +433,16 @@ Looking at tags
 
 Undo?
 -----
-
+|
 .. code-block:: bash
 
     $ git tag -d <tagname>
+
     # And remove it from a remote repo
     $ git push origin :refs/tags/<tagname> 
 
 What's a **branch**?
---------------------
+====================
 
 .. figure:: _static/think/gitflow_branches.png
     :align: center
@@ -435,12 +468,15 @@ Making a branch
 
 Looking at branches
 -------------------
-
+|
 .. code-block:: bash
 
     $ git branch
 
     $ git show <branchname>
+|
+.. figure:: _static/think/branchgraph.png
+    :align: center
 
 Undo?
 -----
@@ -456,8 +492,12 @@ Undo?
     # delete remote branch
     $ git push <remotename> :<branchname> 
 
+.. figure:: _static/think/pruning_bonsai.jpg
+    :align: center
+    :scale: 80%
+
 What's a **merge**?
--------------------
+===================
 
 * Converges the divergent branches
 
@@ -508,10 +548,10 @@ Or consider ``git mergetool`` for a graphical option.
 
 Looking at merges
 -----------------
-
+|
 .. code-block:: bash
 
-    $ git diff <commit before merge> <merge commit>
+    $ git diff <commit before> <merge commit>
 
     # before merging, see changes
     $ git log ..otherbranch
@@ -520,31 +560,41 @@ Looking at merges
 
 Undo?
 -----
-
+|
 .. code-block:: bash
 
     $ git merge abort
     $ git reset --keep HEAD@{1}
 
 What's a **rebase**?
---------------------
-
+====================
+|
 .. figure:: _static/think/billted.jpg
     :align: center
+|
+Changing history. Means others will have to force pull.
+
+.. note:: Don't do this unless you know what you're doing... But here's how to
+    know what you're doing.
 
 Rebasing
 --------
-
+|
 .. code-block:: bash
 
     $ git rebase -i <commit range>
                     HEAD~4
                     # last 4 commits
+
+|
+.. code-block:: bash
+
+    # Oops I forgot to pull
     $ git pull --rebase
 
 Looking at the rebase
 ---------------------
-
+|
 .. code-block:: shell
 
     # Rebase 1a20f51..147c812 onto 1a20f51                                          
@@ -565,10 +615,27 @@ Looking at the rebase
 
 Undo?
 -----
+|
+I should never have done that
+
+.. code-block:: bash
+
+    $ git reset --hard ORIG_HEAD
+|
+I'm stuck in a broken rebase, get me out
+
+.. code-block:: bash
+
+    $ git rebase --abort
+
 
 GitHub Stuff
 ============
 
+.. figure:: _static/think/github.png
+    :align: right 
+    :scale: 80%
+|
 GH is not exactly Git. 
 
 * Less distributed paradigm
@@ -578,7 +645,7 @@ Watch `Linus's talk <https://www.youtube.com/watch?v=4XpnKHJAok8>`_ for enlighte
 
 HTTP vs SSH clones
 ------------------
-
+|
 .. code-block:: bash
 
     Permission denied (publickey).
@@ -589,6 +656,10 @@ HTTP vs SSH clones
     correct access rights and the 
     repository exists.
 
+HTTP clone prompts for username and password
+
+SSH clone uses key from your account
+
 Forking
 -------
 
@@ -597,7 +668,7 @@ Forking
     :scale: 150%
 
 * Parallel repos (or possibly divergent)
-* Duplicating the "center" of the centralized VCS
+* Act like the "center" of the centralized VCS
 
 Pull Requests
 -------------
@@ -612,10 +683,13 @@ Pull Requests
 
 Annoying tricks
 ---------------
-
+|
 * Branches keep adding their content to PRs
 * Group management and access rights
 * No project license required
+|
+.. figure:: _static/think/gh-teams.png
+    :align: center
 
 Extra features
 --------------
@@ -626,18 +700,28 @@ Extra features
 * Cool graphs
 * Repo descriptions and automatic README display
 
-Hooks and CI
-============
+Continuous Integration
+======================
+|
+.. figure:: _static/think/jenkins.png
+    :align: right
+    :scale: 25%
 
-Hooks
------
-
-Jenkins
--------
-
-Travis
-------
+.. figure:: _static/think/travis.png
+    :align: left
+    :scale: 150%
 
 Playing Well with Others
 ========================
 
+* Change history locally, never globally 
+    * Never force push (unless you have to)
+* Focused commits with clear commit messages
+* Follow project standards for branching, tagging, etc.
+|
+.. figure:: _static/think/communication_dalek.jpe
+    :align: center
+    :scale: 120%
+
+Questions?
+==========
