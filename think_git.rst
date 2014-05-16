@@ -73,6 +73,7 @@ Git's buzzwords
 * Decentralized
 * Distributed
 * Data assurance
+* Porcelain vs Plumbing
 * FOSS (GPLv2)
 
 .. figure:: _static/think/oaktree.jpg
