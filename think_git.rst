@@ -77,6 +77,7 @@ Setting Up
 
 * Tell Git who you are
 * You'll need SSH keys later
+    * GitHub can handle ECDSA, GitLab only does RSA as of 5.1.0
 * Install Git
     * also tk and tcl if you want the GUI later
 * Set preferred editor
@@ -161,6 +162,8 @@ Looking at staged changes
 
             bar
 
+    $ git commit --dry-run
+
 Oops!
 -----
 
@@ -169,7 +172,7 @@ Oops!
 .. code-block:: shell
     $ git rm --cached foo
 
-* It was in version control before
+* It was in version control before (go back to the latest committed version)
 
 .. code-block:: shell
     $ git reset HEAD foo
@@ -191,18 +194,49 @@ Making a commit
 Commit creation options
 -----------------------
 
+.. code-block:: shell
+    $ man git-commit
+    -a, --all
+    -i, --interactive
+    --reset-author
+    --date=<date> (see DATE FORMATS in man page)
+    --allow-empty
+    --amend
+    -o, --only
+    -S, --gpg-sign
+
+.. note:: 
+    -o is for *only files from command line* disregarding the stash
+    Specifying file names disregards staged changes, plus stages all current
+    contents
+
+
 Looking at a commit
 -------------------
 
+.. figure:: _static/think/gitk.png
+    :align: right
+    :scale: 50%
+
 .. code-block:: shell
-    $ git show
-    $ git log
+    $ git show  # details on latest commit, or specified one
+    $ git log   # summary of recent commits, or a range
+                # man gitrevisions for help with ranges
 
 Commit display options
 ----------------------
 
+.. code-block:: shell
+    $ git show
+
 Oops!
 -----
+
+.. code-block:: shell
+    $ git revert <commit to revert to>
+
+Reverting makes a revert commit. Yes, you have to; time travel is more
+important than "This really never happened"
 
 What's a **remote**?
 --------------------
@@ -223,22 +257,54 @@ Looking at remotes
 
 .. code-block:: shell
     $ git config -e
+    # OR
     $ git remote show <name>
 
 Oops!
 -----
 
+.. code-block:: shell
+    $ git config -e
+    # delete or change remote
+    $ man git-remote
+    $ git remote rename <old> <new>
+    $ git remote remove <name>
+    ...etc.
+
+"undoing" a push to a remote is... trickier.
+
 What's a **tag**?
 -----------------
+
+.. figure:: _static/think/graffiti.jpg
+    :align: center
+
+Marker attached to a specific commit
 
 Adding a tag
 ------------
 
+.. code-block:: shell
+    $ man git-tag
+    $ git tag -m <msg> <tagname> 
+
+Default is lightweight tag -- just a reference for SHA-1 of latest commit
+Pass ``-s`` or ``-u <key-id>`` to GPG-sign
+
 Looking at tags
 ---------------
 
+.. code-block:: shell
+    $ git tag               # List all available tags
+    $ git tag -l 'regex'    # List tags matching regex
+
 Oops!
 -----
+
+.. code-block:: shell
+    $ git tag -d <tagname>
+    # And remove it from a remote repo
+    $ git push origin :refs/tags/<tagname> 
 
 What's a **branch**?
 --------------------
