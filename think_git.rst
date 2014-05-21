@@ -10,6 +10,9 @@ Thinking in Git
     mental model of what the tool does, and help you fix mistakes then ask the
     right questions if you run into problems using it later.
 
+.. note:: probably ought to encorporate https://github.com/github/training-kit
+    ... eventually.
+
 Agenda
 ======
 
