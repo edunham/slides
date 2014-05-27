@@ -11,6 +11,8 @@ Thinking in Git
     right questions if you run into problems using it later.
 
 .. note:: probably ought to encorporate https://github.com/github/training-kit
+    http://justinhileman.info/article/git-pretty/git-pretty.png
+    http://www.ndpsoftware.com/git-cheatsheet.html
     ... eventually.
 
 Agenda
