@@ -13,6 +13,7 @@ Thinking in Git
 .. note:: probably ought to encorporate https://github.com/github/training-kit
     http://justinhileman.info/article/git-pretty/git-pretty.png
     http://www.ndpsoftware.com/git-cheatsheet.html
+    mention bisect when talking about advanced undoing
     ... eventually.
 
 Agenda
