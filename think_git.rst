@@ -15,6 +15,7 @@ Thinking in Git
     http://www.ndpsoftware.com/git-cheatsheet.html
     mention bisect when talking about advanced undoing
     ... eventually.
+    https://github.com/k88hudson/git-flight-rules
 
 Agenda
 ======
