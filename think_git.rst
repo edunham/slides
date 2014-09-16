@@ -16,6 +16,7 @@ Thinking in Git
     mention bisect when talking about advanced undoing
     ... eventually.
     https://github.com/k88hudson/git-flight-rules
+    http://githut.info/ for finding repos by language on gh
 
 Agenda
 ======
