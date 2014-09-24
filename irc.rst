@@ -6,6 +6,7 @@ by edunham
 10/22/2013
 
 .. note:: also include /msg memoserv help send
+         also include etiquette -- don't assume gender, don't asktoask
 
 You already know
 ================
