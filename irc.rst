@@ -5,6 +5,8 @@ by edunham
 
 10/22/2013
 
+.. note:: also include /msg memoserv help send
+
 You already know
 ================
 
