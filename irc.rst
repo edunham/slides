@@ -7,6 +7,7 @@ by edunham
 
 .. note:: also include /msg memoserv help send
          also include etiquette -- don't assume gender, don't asktoask
+         also /ns vs /msg nickserv@services vs /msg nickserv when splitty
 
 You already know
 ================
