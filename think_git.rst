@@ -19,6 +19,14 @@ Thinking in Git
     .. note:: instead of a photo of me, you get a wall of text on what i'll
         teach you!
 
+.. note:: probably ought to encorporate https://github.com/github/training-kit
+    http://justinhileman.info/article/git-pretty/git-pretty.png
+    http://www.ndpsoftware.com/git-cheatsheet.html
+    mention bisect when talking about advanced undoing
+    ... eventually.
+    https://github.com/k88hudson/git-flight-rules
+    http://githut.info/ for finding repos by language on gh
+
 Agenda
 ======
 
