@@ -8,6 +8,8 @@ by edunham
 .. note:: also include /msg memoserv help send
          also include etiquette -- don't assume gender, don't asktoask
          also /ns vs /msg nickserv@services vs /msg nickserv when splitty
+         in the "do not list on freenode", we have /msg alis help list
+         alis is a lady protagonist from a book; freenode-specific services
 
 You already know
 ================
