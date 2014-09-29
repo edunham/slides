@@ -20,7 +20,7 @@ You already know
 * Take actions
     * /me does things
 * Have private message conversations
-* Leave a channel or network
+* Leave a channel (``\part``) or network (``disconnect``)
 
 We'll talk about
 ================
@@ -29,7 +29,8 @@ We'll talk about
 * Network Topology
 * Using multiple networks
 * Bots
-* Identity management (Freenode's NickServ)
+  * Freenode's services (alis, memoserv, nickserv)
+* Identity management (NickServ)
 * Channel administration
 
 The IRC Protocol
@@ -79,17 +80,13 @@ Multiple Networks
 Irssi: Multiple networks
 ========================
 
-/connect irc.freenode.net
-
-/connect cat.pdx.edu
-
-alt+1 # go to status buffer
-
-ctrl+x # switch contexts
-
-/msg -freenode <person> <message>
-
-/join -pdx <channel>
+.. code-block::
+    /connect irc.freenode.net
+    /connect cat.pdx.edu
+    alt+1 # go to status buffer
+    ctrl+x # switch contexts
+    /msg -freenode <person> <message>
+    /join -pdx <channel>
 
 Q. Different nicks in different channels?
 
@@ -207,8 +204,8 @@ https://github.com/marineam/hackabot
      }
  }
 
-GitHub
-======
+GitHub Integration
+==================
 
 .. figure:: /_static/irc/github.jpg
    :align: center
@@ -243,9 +240,18 @@ Other Useful Bots
 * Bouncers
     * Remember, a bot is just an automated client
 
-* NickServ
+Freenode's Services:
 
+* NickServ
 * ChanServ
+* alis
+* MemoServ
+
+/ns vs /msg nickserv
+====================
+
+
+
 
 Identity Management on Freenode
 ===============================
