@@ -251,6 +251,31 @@ Freenode's Services:
 ====================
 
 
+MemoServ
+========
+
+.. figure:: _static/irc/mailboxes.jpg
+    :align: left
+
+.. code-block:: 
+
+    ***** MemoServ Help *****
+    MemoServ allows users to send memos to registered users.
+     
+    For more information on a command, type:
+    /msg MemoServ help <command>
+     
+    The following commands are available:
+    DEL             Alias for DELETE
+    DELETE          Deletes memos.
+    FORWARD         Forwards a memo.
+    HELP            Displays contextual help information.
+    IGNORE          Ignores memos.
+    LIST            Lists all of your memos.
+    READ            Reads a memo.
+    SEND            Sends a memo to a user.
+    SENDOPS         Sends a memo to all ops on a channel.
+    ***** End of Help *****
 
 
 Identity Management on Freenode
