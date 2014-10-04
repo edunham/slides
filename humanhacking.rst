@@ -54,13 +54,34 @@ Why did it happen?
 
 How will changing the contributing factors change the results?
 
+Getting What You Want
+---------------------
+
+.. note::
+    I realize my abstract is written in a way that will attract people who
+    want to learn how to *get what they want* from open-source humans. 
+
+    my "be careful what you wish for" is as follows: Identify what you want.
+    Does it make life better or worse for you and the people around you? If
+    it's unprecedented, get others' feedback on whether they'd see its results
+    as an improvement. 
+
+    If what you think you want is generally harmful, examine why you want it
+    and whether that underlying desire could be satisfied through another
+    course of action with fewer detrimental effects. 
+
+    Harming others as collateral damage to selfishness is generally bad for 
+    you because most people who intentionally harm others percieve themselves
+    as doing it to right some wrong against them. Fewer wrongs against others
+    => fewer wronged people thinking it's ok to try to harm you.
+
 Outline
 -------
 
 .. note:: pic of person -> people -> group -> leadership
 
 웃
---
+==
 
 Why do people do things?
 
@@ -93,5 +114,117 @@ Fallacies
 
     <example of same "fallacy" being both good and bad>
 
-Maslow's needs
+MBTI types
+----------
+
+.. note:: 4 axes, sides of each axis, matrix of types
+
+Disposition Matrix
+------------------
+
+.. note:: not the conspiracy theorists' list. Book suggestion.
+
+A word of warning
+-----------------
+
+.. note:: genearlizations are useful because they help you ask the right
+    questions and suggest what to look for
+    
+    Differences != flaws -- a trait that's a strength in one context is a
+    weakness in another. 
+
+    Never assume you have enough context -- if you want to say/do something
+    that makes an assumption, look for a less assumptive way to phrase it or
+    at least acknowledge that guess. Example: initial conversation w/ Dryack
+
+웃웃
+====
+
+.. note:: all of the factors that affect an individual's behavior are still
+    relevant... 
+
+Social Scripts
 --------------
+
+.. note:: 
+    Kind of like conversations with NPCs in a video game
+
+    helpful for dealing with anxiety -- get help from a friend who's good at
+    handling a given situation to write out its script if you're nervous.
+    They'll feel good...
+
+Reciprocity
+-----------
+
+.. note:: benjamin franklin quote about getting people to do you favors?
+
+Body Language
+-------------
+
+.. note:: dominant/confident/aggressive vs submissive/uncertain/scared
+
+    "Body language" of online communication: 
+        * sentence length/structure/punctuation ~= tone
+        * word choice ~= style of dress or medium of meatspace comms (graffiti
+          vs newsletter vs political speech)
+        * presence/absence in IRC channel (rage quit = slamming door)
+        * interrupting with offtopic or inane things ~= being fidgety and
+          attention-seeking
+        * typing super slowly ~= mumble or stutter
+        * email address, handle, email sig ~= race, hairstyle, instantly
+          obvious things
+
+Mirroring
+---------
+
+.. note:: 
+    Hints at someone's communication style and priorities -- match their style
+
+    most assume all others think/feel/prioritize the same way they do, until
+    they learn otherwise
+
+Inviting conversation
+---------------------
+
+.. note:: 
+    we'll get into how to get a specific question answered from a project
+    later; this is along the lines of generally making friends
+
+    when do *you* feel safe approaching someone and then do it? give the
+    situation those traits. 
+
+    * be present, calm, engaged in shared channels
+    * subtly solve a problem of theirs
+
+    storytime: trying to talk to linus at linuxcon vs plug
+
+Effective email
+---------------
+
+.. note:: 
+    again look at your own inbox -- which important messages are still
+    unanswered? why? because they're hard
+
+    * use a good title
+    * most people only see one ask per message
+    * summarize w/ bullet points
+    * anticipate questions -- know audience and purpose
+
+Social Capital
+--------------
+
+.. note:: 
+    karma, esteem, popularity, call it what you will
+
+    DON'T LIE TO SOUND COOL
+        * storytime: Google interviews if you rate yourself a 10 at a skill
+    
+    Making recommendations is a gamble of social capital, proportionate to the
+    pain that'll ensue if the recommendation was wrong
+
+
+웃웃웃웃웃웃웃웃
+================
+
+
+
