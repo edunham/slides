@@ -223,8 +223,87 @@ Social Capital
     pain that'll ensue if the recommendation was wrong
 
 
+Stalking Skills
+---------------
+
+.. note::
+    GitHub
+    IRC
+    social media
+    news articles
+    personal site/blog
+
 웃웃웃웃웃웃웃웃
 ================
 
+FOSS
+----
+
+.. note::
+    Meritocracy: Currency is fucks given measured in lines of code
+
+Getting Taken Seriously
+-----------------------
+
+.. note::
+    non-ridiculous handle
+    conform to channel/list behavior
+        storytime: gifs vs no gifs
+    ask questions well
+
+Case study: They're ignoring my PRs!
+------------------------------------
+
+.. note::
+    is your expectation realistic?
+    what feedback have you gotten?
+    where could you get some feedback?
+    what's blocking them? can you help?
+    the magic of "when shall I remind you..."
+
+Asking Questions Well
+---------------------
+
+.. note::
+    KNOW WHAT YOU WANT
+
+    I want ____ to ___ in order to ____. At ____, I read that ____ which makes
+    me think that I should be able to get it to _____ by doing ______. But
+    when I try to ______, ______ happens instead. Please help me ______. 
+
+    * decypher error
+    * find an alternative
+    * find the correct documentation
+
+Routes into a project
+---------------------
+
+.. note::
+    1) use it and fix a bug
+    2) find a contributor you know and get mentored/introduced
+    3) edunham's help with installdocs technique
+    4) start your own project
+
+Improving Docs
+--------------
+
+.. note::
+    For mega-karma just offer to do it yourself
+        * first diagnose why they haven't been written already
+            * not needed by target audience?
+            * project doesn't care?
+            * just not enough time / too much work (usually)?
+    are you asking the right person?
+    can/should you change project culture? (social influence)
+    remove roadblocks (empower)
+
+Route Around Damage
+-------------------
+
+.. note::
+    yes maybe it takes more effort; this means that you'll only do the things
+    that're worth it
+
+    storytime: pessimistic coworker and big new project idea (dobc)
 
 
