@@ -306,4 +306,148 @@ Route Around Damage
 
     storytime: pessimistic coworker and big new project idea (dobc)
 
+Leveraging Conferences
+----------------------
 
+.. note::
+
+    <PICTURE FROM FIRST DAY OF SEAGL>
+
+    hallway track
+    when you get a business card, take notes
+    FOLLOW-UP sets you apart
+    when writing talk proposals, questions show that you know your audience
+    stalk conference abstracts from past years to get a feel for tone
+
+Leadership
+==========
+
+Know Your Audience
+------------------
+
+.. note::
+    goals
+    priorities
+    biases
+
+Establishing Culture
+--------------------
+
+.. note::
+    accountability -- CONSISTENCY
+    benefit of the doubt -- they chose best of percieved options. to change
+    future behavior, ADD MORE OPTIONS
+    empower...
+
+Delegation
+----------
+
+.. note:: 
+    successful leadership is when everybody else does the work
+    the bus problem (git-bus)
+    EMPOWER minions vs DIY... what do you gain by burning yourself out?
+    KNOW WHAT YOU WANT
+    knowing it will happen == knowing who will do it
+
+Managing Expectations
+---------------------
+
+.. note::
+    pre-emptive strike with codes of conduct, clear expectations, etc.
+    dropped balls are noticed a LOT less than perfect serves
+        * good for managing own burnout
+
+pre-emptive problem solving
+---------------------------
+
+.. note::
+    clearly communicate expectations -- this includes being attentive to what
+    the group wants its expectations to be
+    
+    Establish code of conduct early, enforce consistently
+    get buy-in from group, leverage inner monolog (i'm a good contributor) to
+    get public commitment to go along with rules once group votes
+
+    don't make enemies; be careful with professional friendships because if
+    you need to end them... yeah
+
+    keep all communications on the record and remain beyond reproach
+
+    if possible, don't feed the trolls
+
+DFIU
+----
+
+.. note::
+    don't leak information or make people feel unsafe -- don't make it worse
+    try not to break consistency of rule enforcement -- don't discriminate
+    storytime: EMT rules (find the patient, don't kill the patient...)
+
+And Yet...
+----------
+
+.. note:: 
+    <picture: fire station on fire>
+
+    sometimes you do your best and yet it all goes to shit anyways.
+
+    techniques: get someone who feels offended to propose a rule that could be
+    enforced equally on everyone in the channel including them... asking them
+    for help/input at least makes them feel included
+
+    mirroring is super powerful for inciting self-awareness of behavior, but
+    self-awareness does not necessarily inspire them to change and can in
+    cases with self-hatred or w/e actually make things worse
+
+Getting People Out
+------------------
+
+.. note::
+    assess the situation. what's best for the rest of the group? if someone is
+    causing drama for attention, how to avoid giving it to them?
+
+    why aren't they doing something productive/useful with their life? 
+        * insufficient information? can they be educated?
+        * path of least resistance? increase resistance till they go troll
+          someone else
+    super important time to step back from perception that you're "right" and
+    they're "wrong"
+
+Avoiding Burnout
+----------------
+
+.. note:: 
+    empower group
+    realistic expectations
+    forgive yourself
+
+Leadership Handoff
+------------------
+
+.. note:: 
+    madlibs version of common tasks
+    canned responses
+    share with newbie during transition
+    mentor vs. walk away... 
+    diversity: recognize that new leader does not work the same way you do,
+    and that's good for the group -- work with them to use your handoff to
+    make the next handoff easier
+
+Mental health / brain bugs
+--------------------------
+
+.. note::
+    read the CVE
+    apply patches (usefully obtained from shrinks)
+    unplugged machine is "secure" but useless
+
+Sneaky Hacks
+------------
+
+.. note:: 
+    disregard expectations of fairness
+    eliciting information:
+        * leverage traits we've talked about, desire to correct falsehoods,
+          quid pro quo, etc
+    social engineering
+    do things that make you happy/motivated/inspired
