@@ -251,6 +251,44 @@ Freenode's Services:
 ====================
 
 
+ChanServ
+========
+
+::
+
+     ***** ChanServ Help *****
+     ChanServ gives normal users the ability to maintain control
+     of a channel, without the need of a bot. Channel takeovers are
+     virtually impossible when a channel is registered with ChanServ.
+     Registration is a quick and painless process. Once registered,
+     the founder can maintain complete and total control over the channel.
+     Please note that channels will expire if there are no eligible channel successors.
+     Successors are primarily those who have the +R flag
+     set on their account in the channel, although other
+     people may be chosen depending on their access
+     level and activity.
+      
+     For more information on a command, type:
+     /msg ChanServ help <command>
+     For a verbose listing of all commands, type:
+     /msg ChanServ help commands
+      
+     The following commands are available:
+     FLAGS           Manipulates specific permissions on a channel.
+     INVITE          Invites you to a channel.
+     OP              Gives channel ops to a user.
+     RECOVER         Regain control of your channel.
+     REGISTER        Registers a channel.
+     SET             Sets various control flags.
+     UNBAN           Unbans you on a channel.
+      
+     Other commands: ACCESS, AKICK, CLEAR, COUNT, DEOP, DEVOICE, 
+                     DROP, GETKEY, HELP, INFO, QUIET, STATUS, 
+                     SYNC, TAXONOMY, TEMPLATE, TOPIC, TOPICAPPEND, 
+                     TOPICPREPEND, UNQUIET, VOICE, WHY
+     ***** End of Help *****
+
+
 MemoServ
 ========
 
@@ -277,34 +315,50 @@ MemoServ
     SENDOPS         Sends a memo to all ops on a channel.
     ***** End of Help *****
 
+alis
+====
+
+::
+     ***** alis Help *****
+     alis allows searching for channels with more
+     flexibility than the /list command.
+      
+     For more information on a command, type:
+     /msg alis help <command>
+      
+     The following commands are available:
+     HELP            Displays contextual help information.
+     LIST            Lists channels matching given parameters.
+     ***** End of Help *****
+
 
 Identity Management on Freenode
 ===============================
 
 ::
 
- 12:39 -NickServ- ***** NickServ Help *****
- 12:39 -NickServ- NickServ allows users to 'register' a nickname, and stop
- 12:39 -NickServ- others from using that nick. NickServ allows the owner of a
- 12:39 -NickServ- nickname to disconnect a user from the network that is using
- 12:39 -NickServ- their nickname.
- 12:39 -NickServ-  
- 12:39 -NickServ- For more information on a command, type:
- 12:39 -NickServ- /msg NickServ help <command>
- 12:39 -NickServ- For a verbose listing of all commands, type:
- 12:39 -NickServ- /msg NickServ help commands
- 12:39 -NickServ-  
- 12:39 -NickServ- The following commands are available:
- 12:39 -NickServ- GHOST           Reclaims use of a nickname.
- 12:39 -NickServ- IDENTIFY        Identifies to services for a nickname.
- 12:39 -NickServ- INFO            Displays information on registrations.
- 12:39 -NickServ- LISTCHANS       Lists channels that you have access to.
- 12:39 -NickServ- REGISTER        Registers a nickname.
- 12:39 -NickServ- RELEASE         Releases a services enforcer.
- 12:39 -NickServ-  
- 12:39 -NickServ- Other commands: ACC, ACCESS, CERT, DROP, HELP, LOGOUT, 
- 12:39 -NickServ-                 REGAIN, SETPASS, STATUS, TAXONOMY, VERIFY
- 12:39 -NickServ- ***** End of Help *****
+     ***** NickServ Help *****
+     NickServ allows users to 'register' a nickname, and stop
+     others from using that nick. NickServ allows the owner of a
+     nickname to disconnect a user from the network that is using
+     their nickname.
+      
+     For more information on a command, type:
+     /msg NickServ help <command>
+     For a verbose listing of all commands, type:
+     /msg NickServ help commands
+      
+     The following commands are available:
+     GHOST           Reclaims use of a nickname.
+     IDENTIFY        Identifies to services for a nickname.
+     INFO            Displays information on registrations.
+     LISTCHANS       Lists channels that you have access to.
+     REGISTER        Registers a nickname.
+     RELEASE         Releases a services enforcer.
+      
+     Other commands: ACC, ACCESS, CERT, DROP, HELP, LOGOUT, 
+                     REGAIN, SETPASS, STATUS, TAXONOMY, VERIFY
+     ***** End of Help *****
  
 
 /whois <person>
