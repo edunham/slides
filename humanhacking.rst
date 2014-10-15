@@ -75,6 +75,12 @@ Getting What You Want
     as doing it to right some wrong against them. Fewer wrongs against others
     => fewer wronged people thinking it's ok to try to harm you.
 
+    But that caveat is step 1. Step 0 is knowing what you want. If you don't
+    konw what you want, I can't help you -- go spin up an instance of Elizabot
+    and talk to her or something. What I regard as human hacking is mostly
+    about channeling motivations and fulfilling desires, not about summoning
+    that motivation out of thin air.
+
 Outline
 -------
 
@@ -94,13 +100,24 @@ Maslow
 
     <picture of maslow's hierarchy of needs pyramid>
 
+MBTI types
+----------
+
+.. note:: 4 axes, sides of each axis, matrix of types
+
+Disposition Matrix
+------------------
+
+.. note:: not the conspiracy theorists' list. Book suggestion.
+
 Priorities
 ----------
 
 * Fast vs slow gratification
-* personal narrative/monolog
+* **personal narrative/monolog**
 
 .. note:: internal monolog goes with Dryack's story about Fred
+
 
 Fallacies
 ---------
@@ -112,17 +129,13 @@ Fallacies
     Negative connotations but neither necessarily good nor bad, they just
     *explain*. 
 
+    <the xkcd about breaking changes>
+
+    impostor syndrome, dunning-kruger, etc. for tech... several slides
+    that thing about asking favors
+
     <example of same "fallacy" being both good and bad>
 
-MBTI types
-----------
-
-.. note:: 4 axes, sides of each axis, matrix of types
-
-Disposition Matrix
-------------------
-
-.. note:: not the conspiracy theorists' list. Book suggestion.
 
 A word of warning
 -----------------
@@ -251,16 +264,6 @@ Getting Taken Seriously
         storytime: gifs vs no gifs
     ask questions well
 
-Case study: They're ignoring my PRs!
-------------------------------------
-
-.. note::
-    is your expectation realistic?
-    what feedback have you gotten?
-    where could you get some feedback?
-    what's blocking them? can you help?
-    the magic of "when shall I remind you..."
-
 Asking Questions Well
 ---------------------
 
@@ -274,6 +277,17 @@ Asking Questions Well
     * decypher error
     * find an alternative
     * find the correct documentation
+
+
+Case study: They're ignoring my PRs!
+------------------------------------
+
+.. note::
+    is your expectation realistic?
+    what feedback have you gotten?
+    where could you get some feedback?
+    what's blocking them? can you help?
+    the magic of "when shall I remind you..."
 
 Routes into a project
 ---------------------
