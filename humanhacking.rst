@@ -12,9 +12,7 @@ Human Hacking
     algorithms for common sources of confusion about human interaction, explained in
     terms that will make sense to engineers.
 
-.. note:: Intro: Writing curricula is hard. trying to jump into a circular
-    dependency of knowledge. 
-    
+.. note:: 
     I'm an active open source contributor 
 
     <gh commit graph screenshot>
@@ -29,33 +27,29 @@ Human Hacking
 
     , and incidentally and reluctantly still a student at OSU.
 
-Being Scientific
-----------------
+.. slide::
 
-.. note:: I'll cite sources when I make claims, I've gotten this proofed by
-    others whom I sure hope know what they're talking about, but to apply
-    these things you have to apply the correct mindset: 
+    .. figure:: /_static/humans/sciencecat.jpg
+        :class: fill
 
-    <dictionary definition of pragmatic>
+    .. note:: 
+        pragmatism / science
 
-    Think of the stories in this talk as fairytales or campfire tales; they
-    shouldn't be applied directly and literally but instead used as data
-    points to help you see what to look for in gathering your own data and
-    coming to your own conclusions about the applicability of the principles
-    that i'm discussing. 
+        Being scientific == the mindset that you have got to use to get useful
+        results from any "experiment" or time you change a cause to see how its
+        effects are altered. 
 
-    Being scientific == the mindset that you have got to ues to get useful
-    results from any "experiment" or time you change a cause to see how its
-    effects are altered. 
+    What happened?
 
-What happened?
+    Why did it happen?
 
-Why did it happen?
-
-How will changing the contributing factors change the results?
+    How will changing the contributing factors change the results?
 
 Getting What You Want
 ---------------------
+
+.. figure:: /_static/humans/too-many-gifts-clipart.gif
+    :class: fill
 
 .. note::
     I realize my abstract is written in a way that will attract people who
@@ -86,8 +80,14 @@ Outline
 
 .. note:: pic of person -> people -> group -> leadership
 
+웃 => 웃웃 => 웃웃웃웃웃웃웃웃
+
+
 웃
 ==
+
+.. figure:: /_static/humans/brain.jpg
+    :class: fill
 
 Why do people do things?
 
