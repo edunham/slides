@@ -96,12 +96,18 @@ Why do people do things?
 Maslow
 ------
 
+.. figure:: /_static/humans/maslow.jpg
+    :class: fill
+
 .. note:: 
 
     <picture of maslow's hierarchy of needs pyramid>
 
 MBTI types
 ----------
+
+.. figure:: /_static/humans/mbti.jpg
+    :class: fill
 
 .. note:: 4 axes, sides of each axis, matrix of types
 
@@ -112,6 +118,9 @@ Disposition Matrix
 
 Priorities
 ----------
+
+.. figure:: /_static/humans/marshmallows.jpg
+    :class: fill
 
 * Fast vs slow gratification
 * **personal narrative/monolog**
@@ -136,9 +145,15 @@ Fallacies
 
     <example of same "fallacy" being both good and bad>
 
+.. figure:: /_static/humans/workflow.png
+    :class: fill
+
 
 A word of warning
 -----------------
+
+.. figure:: /_static/humans/warning.png
+    :class: fill
 
 .. note:: genearlizations are useful because they help you ask the right
     questions and suggest what to look for
@@ -159,6 +174,9 @@ A word of warning
 Social Scripts
 --------------
 
+.. figure:: /_static/humans/arrowtotheknee.jpg
+    :class: fill
+
 .. note:: 
     Kind of like conversations with NPCs in a video game
 
@@ -169,10 +187,24 @@ Social Scripts
 Reciprocity
 -----------
 
-.. note:: benjamin franklin quote about getting people to do you favors?
+.. figure:: /_static/humans/cooperation.gif
+    :class: fill
+
+.. note::
+    The Ben Franklin effect is a proposed psychological phenomenon: A person who
+    has done or completed a favor for someone is more likely to do another favor
+    for that person than they would be if they had received a favor from that
+    person. Similarly, one who harms another is more willing to harm them again
+    than the victim is to retaliate.
+
+    He that has once done you a kindness will be more ready to do you another,
+    than he whom you yourself have obliged.
 
 Body Language
 -------------
+
+.. figure:: /_static/humans/bodylanguage.jpg
+    :class: fill
 
 .. note:: dominant/confident/aggressive vs submissive/uncertain/scared
 
@@ -189,6 +221,9 @@ Body Language
 
 Mirroring
 ---------
+
+.. figure:: /_static/humans/mirroring.jpg
+    :class: fill
 
 .. note:: 
     Hints at someone's communication style and priorities -- match their style
