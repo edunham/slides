@@ -455,6 +455,8 @@ pre-emptive problem solving
 ---------------------------
 
 .. note::
+    picture: neon-haired collectible troll
+
     clearly communicate expectations -- this includes being attentive to what
     the group wants its expectations to be
     
@@ -473,6 +475,8 @@ DFIU
 ----
 
 .. note::
+    picture: hacker jeopardy sticker
+
     don't leak information or make people feel unsafe -- don't make it worse
     try not to break consistency of rule enforcement -- don't discriminate
     storytime: EMT rules (find the patient, don't kill the patient...)
@@ -497,6 +501,9 @@ Getting People Out
 ------------------
 
 .. note::
+
+    picture: defenestration
+
     assess the situation. what's best for the rest of the group? if someone is
     causing drama for attention, how to avoid giving it to them?
 
@@ -510,7 +517,10 @@ Getting People Out
 Avoiding Burnout
 ----------------
 
-.. note:: 
+.. note::
+
+    picture: fried chip on a board, blown capacitor?
+
     empower group
     realistic expectations
     forgive yourself
@@ -519,6 +529,8 @@ Leadership Handoff
 ------------------
 
 .. note:: 
+    picture: passing baton or passing olympic torch
+
     madlibs version of common tasks
     canned responses
     share with newbie during transition
@@ -531,12 +543,14 @@ Mental health / brain bugs
 --------------------------
 
 .. note::
+    picture: original software bug
+
     read the CVE
     apply patches (usefully obtained from shrinks)
     unplugged machine is "secure" but useless
 
 Sneaky Hacks
-------------
+============
 
 .. note:: 
     disregard expectations of fairness
@@ -545,3 +559,19 @@ Sneaky Hacks
           quid pro quo, etc
     social engineering
     do things that make you happy/motivated/inspired
+
+identify what you're optimizing for
+-----------------------------------
+
+.. note::
+
+    picture: suit with a graph going up and to the right
+    happiness, money, social status... assess how you spend your time in the
+    context of whether 
+
+it's ok to drop the ball
+------------------------
+
+.. note::
+
+    picture of ball dropping in nyc on new years
