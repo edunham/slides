@@ -78,7 +78,8 @@ Getting What You Want
 Outline
 -------
 
-.. note:: pic of person -> people -> group -> leadership
+.. figure:: /_static/humans/treasuremap.png
+    :class: fill
 
 웃 => 웃웃 => 웃웃웃웃웃웃웃웃
 
@@ -234,6 +235,9 @@ Mirroring
 Inviting conversation
 ---------------------
 
+.. figure:: /_static/humans/freehugs.jpg
+    :class: fill
+
 .. note:: 
     we'll get into how to get a specific question answered from a project
     later; this is along the lines of generally making friends
@@ -249,6 +253,14 @@ Inviting conversation
 Effective email
 ---------------
 
+.. figure:: /_static/humans/gmail.jpg
+    :class: fill
+
+|
+
+.. figure:: /_static/humans/inboxfull.png
+    :align: center
+
 .. note:: 
     again look at your own inbox -- which important messages are still
     unanswered? why? because they're hard
@@ -261,7 +273,13 @@ Effective email
 Social Capital
 --------------
 
+.. figure:: /_static/humans/redditpony.png
+    :class: fill
+
 .. note:: 
+
+    pony by raegar on deviantart :)
+
     karma, esteem, popularity, call it what you will
 
     DON'T LIE TO SOUND COOL
@@ -273,6 +291,10 @@ Social Capital
 
 Stalking Skills
 ---------------
+
+.. figure:: /_static/humans/neighborhoodwatch.jpg
+    :class: fill
+
 
 .. note::
     GitHub
@@ -287,11 +309,17 @@ Stalking Skills
 FOSS
 ----
 
+.. figure:: /_static/humans/businesspenguin.gif
+    :class: fill
+
 .. note::
     Meritocracy: Currency is fucks given measured in lines of code
 
 Getting Taken Seriously
 -----------------------
+
+.. figure:: /_static/humans/clowns.jpg
+    :class: fill
 
 .. note::
     non-ridiculous handle
@@ -301,6 +329,8 @@ Getting Taken Seriously
 
 Asking Questions Well
 ---------------------
+
+.. figure:: /_static/humans/question.jpg
 
 .. note::
     KNOW WHAT YOU WANT
@@ -313,19 +343,11 @@ Asking Questions Well
     * find an alternative
     * find the correct documentation
 
-
-Case study: They're ignoring my PRs!
-------------------------------------
-
-.. note::
-    is your expectation realistic?
-    what feedback have you gotten?
-    where could you get some feedback?
-    what's blocking them? can you help?
-    the magic of "when shall I remind you..."
-
 Routes into a project
 ---------------------
+
+.. figure:: /_static/humans/routes.png
+    :class: fill
 
 .. note::
     1) use it and fix a bug
@@ -335,6 +357,9 @@ Routes into a project
 
 Improving Docs
 --------------
+
+.. figure:: /_static/humans/macmanual.jpg
+    :class: fill
 
 .. note::
     For mega-karma just offer to do it yourself
@@ -349,11 +374,25 @@ Improving Docs
 Route Around Damage
 -------------------
 
+.. figure:: /_static/humans/censorship.png
+    :class: fill
+
 .. note::
     yes maybe it takes more effort; this means that you'll only do the things
     that're worth it
 
     storytime: pessimistic coworker and big new project idea (dobc)
+
+Case study: They're ignoring my PRs!
+------------------------------------
+TODO: PICTURE
+.. note::
+    is your expectation realistic?
+    what feedback have you gotten?
+    where could you get some feedback?
+    what's blocking them? can you help?
+    the magic of "when shall I remind you..."
+
 
 Leveraging Conferences
 ----------------------
@@ -374,6 +413,9 @@ Leadership
 Know Your Audience
 ------------------
 
+.. figure:: /_static/humans/audience.jpg
+    :class: fill
+
 .. note::
     goals
     priorities
@@ -381,6 +423,9 @@ Know Your Audience
 
 Establishing Culture
 --------------------
+
+.. figure:: /_static/humans/petri.jpg
+    :class: fill
 
 .. note::
     accountability -- CONSISTENCY
