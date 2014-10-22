@@ -30,7 +30,7 @@ Human Hacking
 .. slide::
 
     .. figure:: /_static/humans/sciencecat.jpg
-        :class: fill
+        :class: scale
 
     .. note:: 
         pragmatism / science
@@ -49,7 +49,7 @@ Getting What You Want
 ---------------------
 
 .. figure:: /_static/humans/too-many-gifts-clipart.gif
-    :class: fill
+    :class: scale
 
 .. note::
     I realize my abstract is written in a way that will attract people who
@@ -79,7 +79,7 @@ Outline
 -------
 
 .. figure:: /_static/humans/treasuremap.png
-    :class: fill
+    :class: scale
 
 웃 => 웃웃 => 웃웃웃웃웃웃웃웃
 
@@ -88,7 +88,7 @@ Outline
 ==
 
 .. figure:: /_static/humans/brain.jpg
-    :class: fill
+    :class: scale
 
 Why do people do things?
 
@@ -98,7 +98,7 @@ Maslow
 ------
 
 .. figure:: /_static/humans/maslow.jpg
-    :class: fill
+    :class: scale
 
 .. note:: 
 
@@ -108,7 +108,7 @@ MBTI types
 ----------
 
 .. figure:: /_static/humans/mbti.jpg
-    :class: fill
+    :class: scale
 
 .. note:: 4 axes, sides of each axis, matrix of types
 
@@ -121,7 +121,7 @@ Priorities
 ----------
 
 .. figure:: /_static/humans/marshmallows.jpg
-    :class: fill
+    :class: scale
 
 * Fast vs slow gratification
 * **personal narrative/monolog**
@@ -147,14 +147,14 @@ Fallacies
     <example of same "fallacy" being both good and bad>
 
 .. figure:: /_static/humans/workflow.png
-    :class: fill
+    :class: scale
 
 
 A word of warning
 -----------------
 
 .. figure:: /_static/humans/warning.png
-    :class: fill
+    :class: scale
 
 .. note:: genearlizations are useful because they help you ask the right
     questions and suggest what to look for
@@ -169,6 +169,9 @@ A word of warning
 웃웃
 ====
 
+.. figure:: /_static/humans/tcas.png
+    :class: scale
+
 .. note:: all of the factors that affect an individual's behavior are still
     relevant... 
 
@@ -176,7 +179,7 @@ Social Scripts
 --------------
 
 .. figure:: /_static/humans/arrowtotheknee.jpg
-    :class: fill
+    :class: scale
 
 .. note:: 
     Kind of like conversations with NPCs in a video game
@@ -189,7 +192,7 @@ Reciprocity
 -----------
 
 .. figure:: /_static/humans/cooperation.gif
-    :class: fill
+    :class: scale
 
 .. note::
     The Ben Franklin effect is a proposed psychological phenomenon: A person who
@@ -205,7 +208,7 @@ Body Language
 -------------
 
 .. figure:: /_static/humans/bodylanguage.jpg
-    :class: fill
+    :class: scale
 
 .. note:: dominant/confident/aggressive vs submissive/uncertain/scared
 
@@ -224,7 +227,7 @@ Mirroring
 ---------
 
 .. figure:: /_static/humans/mirroring.jpg
-    :class: fill
+    :class: scale
 
 .. note:: 
     Hints at someone's communication style and priorities -- match their style
@@ -236,7 +239,7 @@ Inviting conversation
 ---------------------
 
 .. figure:: /_static/humans/freehugs.jpg
-    :class: fill
+    :class: scale
 
 .. note:: 
     we'll get into how to get a specific question answered from a project
@@ -254,7 +257,7 @@ Effective email
 ---------------
 
 .. figure:: /_static/humans/gmail.jpg
-    :class: fill
+    :class: scale
 
 |
 
@@ -274,7 +277,7 @@ Social Capital
 --------------
 
 .. figure:: /_static/humans/redditpony.png
-    :class: fill
+    :class: scale
 
 .. note:: 
 
@@ -293,7 +296,7 @@ Stalking Skills
 ---------------
 
 .. figure:: /_static/humans/neighborhoodwatch.jpg
-    :class: fill
+    :class: scale
 
 
 .. note::
@@ -310,7 +313,7 @@ FOSS
 ----
 
 .. figure:: /_static/humans/businesspenguin.gif
-    :class: fill
+    :class: scale
 
 .. note::
     Meritocracy: Currency is fucks given measured in lines of code
@@ -319,7 +322,7 @@ Getting Taken Seriously
 -----------------------
 
 .. figure:: /_static/humans/clowns.jpg
-    :class: fill
+    :class: scale
 
 .. note::
     non-ridiculous handle
@@ -347,7 +350,7 @@ Routes into a project
 ---------------------
 
 .. figure:: /_static/humans/routes.png
-    :class: fill
+    :class: scale
 
 .. note::
     1) use it and fix a bug
@@ -359,7 +362,7 @@ Improving Docs
 --------------
 
 .. figure:: /_static/humans/macmanual.jpg
-    :class: fill
+    :class: scale
 
 .. note::
     For mega-karma just offer to do it yourself
@@ -375,7 +378,7 @@ Route Around Damage
 -------------------
 
 .. figure:: /_static/humans/censorship.png
-    :class: fill
+    :class: scale
 
 .. note::
     yes maybe it takes more effort; this means that you'll only do the things
@@ -413,11 +416,14 @@ Leveraging Conferences
 Leadership
 ==========
 
+.. figure:: /_static/humans/ducklings.jpg
+    :class: scale
+
 Know Your Audience
 ------------------
 
 .. figure:: /_static/humans/audience.jpg
-    :class: fill
+    :class: scale
 
 .. note::
     goals
@@ -428,7 +434,7 @@ Establishing Culture
 --------------------
 
 .. figure:: /_static/humans/petri.jpg
-    :class: fill
+    :class: scale
 
 .. note::
     accountability -- CONSISTENCY
@@ -450,7 +456,7 @@ Managing Expectations
 ---------------------
 
 .. figure:: /_static/humans/balldrop.jpg
-    :class: fill
+    :class: scale
 
 .. note::
     pre-emptive strike with codes of conduct, clear expectations, etc.
@@ -461,7 +467,7 @@ pre-emptive problem solving
 ---------------------------
 
 .. figure:: /_static/humans/rubiks.jpg
-    :class: fill
+    :class: scale
 
 .. note::
     clearly communicate expectations -- this includes being attentive to what
@@ -493,7 +499,7 @@ And Yet...
 ----------
 
 .. figure:: /_static/humans/firetruck.jpg
-    :class: fill
+    :class: scale
 
 .. note:: 
     sometimes you do your best and yet it all goes to shit anyways.
@@ -510,7 +516,7 @@ Getting People Out
 ------------------
 
 .. figure:: /_static/humans/defenestrate.png
-    :class: fill
+    :class: scale
 
 * Do not actually throw anyone out of any windows.
 
@@ -529,7 +535,7 @@ Avoiding Burnout
 ----------------
 
 .. figure:: /_static/humans/burnout.jpg
-    :class: fill
+    :class: scale
 
 .. note::
     empower group
@@ -540,7 +546,7 @@ Leadership Handoff
 ------------------
 
 .. figure:: /_static/humans/baton.jpg
-    :class: fill
+    :class: scale
 
 .. note:: 
     madlibs version of common tasks
@@ -555,7 +561,7 @@ Mental health / brain bugs
 --------------------------
 
 .. figure:: /_static/humans/bug.jpg
-    :class: fill
+    :class: scale
 
 .. note::
     picture: original software bug
