@@ -309,6 +309,9 @@ Stalking Skills
 웃웃웃웃웃웃웃웃
 ================
 
+.. figure:: /_static/humans/committee.jpg
+    :class: scale
+
 FOSS
 ----
 
