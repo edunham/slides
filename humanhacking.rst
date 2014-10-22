@@ -385,7 +385,10 @@ Route Around Damage
 
 Case study: They're ignoring my PRs!
 ------------------------------------
-TODO: PICTURE
+
+.. figure:: /_static/humans/madscientist.jpg
+    :class: scale
+
 .. note::
     is your expectation realistic?
     what feedback have you gotten?
@@ -446,6 +449,9 @@ Delegation
 Managing Expectations
 ---------------------
 
+.. figure:: /_static/humans/balldrop.jpg
+    :class: fill
+
 .. note::
     pre-emptive strike with codes of conduct, clear expectations, etc.
     dropped balls are noticed a LOT less than perfect serves
@@ -454,9 +460,10 @@ Managing Expectations
 pre-emptive problem solving
 ---------------------------
 
-.. note::
-    picture: neon-haired collectible troll
+.. figure:: /_static/humans/rubiks.jpg
+    :class: fill
 
+.. note::
     clearly communicate expectations -- this includes being attentive to what
     the group wants its expectations to be
     
@@ -474,9 +481,10 @@ pre-emptive problem solving
 DFIU
 ----
 
-.. note::
-    picture: hacker jeopardy sticker
+.. figure:: /_static/humans/trolls.jpg
+    :class: scale
 
+.. note::
     don't leak information or make people feel unsafe -- don't make it worse
     try not to break consistency of rule enforcement -- don't discriminate
     storytime: EMT rules (find the patient, don't kill the patient...)
@@ -484,9 +492,10 @@ DFIU
 And Yet...
 ----------
 
-.. note:: 
-    <picture: fire station on fire>
+.. figure:: /_static/humans/firetruck.jpg
+    :class: fill
 
+.. note:: 
     sometimes you do your best and yet it all goes to shit anyways.
 
     techniques: get someone who feels offended to propose a rule that could be
@@ -500,10 +509,12 @@ And Yet...
 Getting People Out
 ------------------
 
+.. figure:: /_static/humans/defenestrate.png
+    :class: fill
+
+* Do not actually throw anyone out of any windows.
+
 .. note::
-
-    picture: defenestration
-
     assess the situation. what's best for the rest of the group? if someone is
     causing drama for attention, how to avoid giving it to them?
 
@@ -517,10 +528,10 @@ Getting People Out
 Avoiding Burnout
 ----------------
 
+.. figure:: /_static/humans/burnout.jpg
+    :class: fill
+
 .. note::
-
-    picture: fried chip on a board, blown capacitor?
-
     empower group
     realistic expectations
     forgive yourself
@@ -528,9 +539,10 @@ Avoiding Burnout
 Leadership Handoff
 ------------------
 
-.. note:: 
-    picture: passing baton or passing olympic torch
+.. figure:: /_static/humans/baton.jpg
+    :class: fill
 
+.. note:: 
     madlibs version of common tasks
     canned responses
     share with newbie during transition
@@ -541,6 +553,9 @@ Leadership Handoff
 
 Mental health / brain bugs
 --------------------------
+
+.. figure:: /_static/humans/bug.jpg
+    :class: fill
 
 .. note::
     picture: original software bug
@@ -563,15 +578,10 @@ Sneaky Hacks
 identify what you're optimizing for
 -----------------------------------
 
-.. note::
+.. figure:: /_static/humans/upright.jpg
 
+.. note::
     picture: suit with a graph going up and to the right
     happiness, money, social status... assess how you spend your time in the
     context of whether 
 
-it's ok to drop the ball
-------------------------
-
-.. note::
-
-    picture of ball dropping in nyc on new years
