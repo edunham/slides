@@ -448,6 +448,9 @@ Establishing Culture
 Delegation
 ----------
 
+.. figure:: /_static/humans/rosie.jpg
+    :class: scale
+
 .. note:: 
     successful leadership is when everybody else does the work
     the bus problem (git-bus)
