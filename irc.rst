@@ -61,15 +61,13 @@ Network Topology
 ================
 
 .. figure:: /_static/irc/example_network.gif
-    :class: fill
-    :scale: 75%
+    :class: scale
 
 Netsplits
 =========
 
 .. figure:: /_static/irc/example_netsplit.gif
-    :class: fill
-    :scale: 75%
+    :class: scale 
 
 Multiple Networks
 =================
@@ -95,9 +93,13 @@ A. Multiple connections to same network.
 Bots...
 =======
 
-* "Services"
-* Client automated to perform some behaviors
-* Any level of complexity you want
+.. figure:: /_static/irc/musicrobots.jpg
+    :class: scale
+
+.. note:: 
+    * "Services"
+    * Client automated to perform some behaviors
+    * Any level of complexity you want
 
 ...can be this easy
 ===================
@@ -226,6 +228,9 @@ Remember to check 'active'!
 
 Write your own!
 ===============
+
+.. figure:: /_static/irc/pen.jpg
+    :class: fill
 
 * Common first project for a new language
 * Practice with databases, sockets/networking, UI, machine learning
@@ -371,6 +376,9 @@ Identity Management on Freenode
 Etiquette
 =========
 
+.. figure:: /_static/irc/fancytable.jpg
+    :class: fill
+
 * Don't ask to ask
     * Lure help out of hiding with details of your problem
 * Follow channel rules
@@ -381,6 +389,10 @@ Etiquette
 
 Mistakes
 ========
+
+.. figure:: /_static/irc/facepalm.jpg
+    :class: fill
+
 
 * Sending PM to channel
     * Compose in server buffer (typically #1)
