@@ -298,7 +298,7 @@ MemoServ
 ========
 
 .. figure:: _static/irc/mailboxes.jpg
-    :align: left
+    :class: fill
 
 .. code-block:: 
 
@@ -324,6 +324,7 @@ alis
 ====
 
 ::
+
      ***** alis Help *****
      alis allows searching for channels with more
      flexibility than the /list command.
@@ -339,6 +340,12 @@ alis
 
 Identity Management on Freenode
 ===============================
+
+.. figure:: /_static/irc/identity.jpg
+    :class: scale
+
+NickServ
+========
 
 ::
 
@@ -377,7 +384,7 @@ Etiquette
 =========
 
 .. figure:: /_static/irc/fancytable.jpg
-    :class: fill
+    :class: scale
 
 * Don't ask to ask
     * Lure help out of hiding with details of your problem
@@ -391,7 +398,7 @@ Mistakes
 ========
 
 .. figure:: /_static/irc/facepalm.jpg
-    :class: fill
+    :class: scale
 
 
 * Sending PM to channel
@@ -411,35 +418,35 @@ Channel Management
 ==================
 ::
  
- 12:44 -ChanServ- ***** ChanServ Help *****
- 12:44 -ChanServ- ChanServ gives normal users the ability to maintain control
- 12:44 -ChanServ- of a channel, without the need of a bot. Channel takeovers are
- 12:44 -ChanServ- virtually impossible when a channel is registered with ChanServ.
- 12:44 -ChanServ- Registration is a quick and painless process. Once registered,
- 12:44 -ChanServ- the founder can maintain complete and total control over the channel.
- 12:44 -ChanServ- Please note that channels will expire if there are no eligible channel successors.
- 12:44 -ChanServ- Successors are primarily those who have the +R flag
- 12:44 -ChanServ- set on their account in the channel, although other
- 12:44 -ChanServ- people may be chosen depending on their access
- 12:44 -ChanServ- level and activity.
- 12:44 -ChanServ-  
- 12:44 -ChanServ- For more information on a command, type:
- 12:44 -ChanServ- /msg ChanServ help <command>
- 12:44 -ChanServ- For a verbose listing of all commands, type:
- 12:44 -ChanServ- /msg ChanServ help commands
- 12:44 -ChanServ-  
- 12:44 -ChanServ- The following commands are available:
- 12:44 -ChanServ- FLAGS           Manipulates specific permissions on a channel.
- 12:44 -ChanServ- INVITE          Invites you to a channel.
- 12:44 -ChanServ- OP              Gives channel ops to a user.
- 12:44 -ChanServ- RECOVER         Regain control of your channel.
- 12:44 -ChanServ- SET             Sets various control flags.
- 12:44 -ChanServ-  
- 12:44 -ChanServ- Other commands: ACCESS, AKICK, CLEAR, COUNT, DEOP, DEVOICE, 
- 12:44 -ChanServ-                 DROP, GETKEY, HELP, INFO, STATUS, SYNC, 
- 12:44 -ChanServ-                 TAXONOMY, TEMPLATE, TOPIC, TOPICAPPEND, 
- 12:44 -ChanServ-                 TOPICPREPEND, VOICE, WHY
- 12:44 -ChanServ- ***** End of Help *****
+  ***** ChanServ Help *****
+  ChanServ gives normal users the ability to maintain control
+  of a channel, without the need of a bot. Channel takeovers are
+  virtually impossible when a channel is registered with ChanServ.
+  Registration is a quick and painless process. Once registered,
+  the founder can maintain complete and total control over the channel.
+  Please note that channels will expire if there are no eligible channel successors.
+  Successors are primarily those who have the +R flag
+  set on their account in the channel, although other
+  people may be chosen depending on their access
+  level and activity.
+   
+  For more information on a command, type:
+  /msg ChanServ help <command>
+  For a verbose listing of all commands, type:
+  /msg ChanServ help commands
+   
+  The following commands are available:
+  FLAGS           Manipulates specific permissions on a channel.
+  INVITE          Invites you to a channel.
+  OP              Gives channel ops to a user.
+  RECOVER         Regain control of your channel.
+  SET             Sets various control flags.
+   
+  Other commands: ACCESS, AKICK, CLEAR, COUNT, DEOP, DEVOICE, 
+                  DROP, GETKEY, HELP, INFO, STATUS, SYNC, 
+                  TAXONOMY, TEMPLATE, TOPIC, TOPICAPPEND, 
+                  TOPICPREPEND, VOICE, WHY
+  ***** End of Help *****
  
 * Joining creates a channel
 * /topic & /topicappend
@@ -448,69 +455,69 @@ Flags
 =====
 ::
  
- 12:46 -ChanServ- Syntax: FLAGS <#channel> [nickname|hostmask|group template]
- 12:46 -ChanServ- Syntax: FLAGS <#channel> [nickname|hostmask|group flag_changes]
- 12:46 -ChanServ-  
- 12:46 -ChanServ- Permissions:
- 12:46 -ChanServ-     +v - Enables use of the voice/devoice commands.
- 12:46 -ChanServ-     +V - Enables automatic voice.
- 12:46 -ChanServ-     +o - Enables use of the op/deop commands.
- 12:46 -ChanServ-     +O - Enables automatic op.
- 12:46 -ChanServ-     +s - Enables use of the set command.
- 12:46 -ChanServ-     +i - Enables use of the invite and getkey commands.
- 12:46 -ChanServ-     +r - Enables use of the unban command.
- 12:46 -ChanServ-     +R - Enables use of the recover and clear commands.
- 12:46 -ChanServ-     +f - Enables modification of channel access lists.
- 12:46 -ChanServ-     +t - Enables use of the topic and topicappend commands.
- 12:46 -ChanServ-     +A - Enables viewing of channel access lists.
- 12:46 -ChanServ-     +S - Marks the user as a successor.
- 12:46 -ChanServ-     +F - Grants full founder access.
- 12:46 -ChanServ-     +b - Enables automatic kickban.
- 12:46 -ChanServ-  
- 12:46 -ChanServ- The special permission +* adds all permissions except +b, +S, and +F.
- 12:46 -ChanServ- The special permission -* removes all permissions including +b and +F.
- 12:46 -ChanServ-  
- 12:46 -ChanServ- Examples:
- 12:46 -ChanServ-     /msg ChanServ FLAGS #foo
- 12:46 -ChanServ-     /msg ChanServ FLAGS #foo foo!*@bar.com VOP
- 12:46 -ChanServ-     /msg ChanServ FLAGS #foo foo!*@bar.com -V+oO
- 12:46 -ChanServ-     /msg ChanServ FLAGS #foo foo!*@bar.com -*
- 12:46 -ChanServ-     /msg ChanServ FLAGS #foo foo +oOtsi
- 12:46 -ChanServ-     /msg ChanServ FLAGS #foo TroubleUser!*@*.troubleisp.net +b
- 12:46 -ChanServ-     /msg ChanServ FLAGS #foo !baz +*
- 12:46 -ChanServ- ***** End of Help *****
+  Syntax: FLAGS <#channel> [nickname|hostmask|group template]
+  Syntax: FLAGS <#channel> [nickname|hostmask|group flag_changes]
+   
+  Permissions:
+      +v - Enables use of the voice/devoice commands.
+      +V - Enables automatic voice.
+      +o - Enables use of the op/deop commands.
+      +O - Enables automatic op.
+      +s - Enables use of the set command.
+      +i - Enables use of the invite and getkey commands.
+      +r - Enables use of the unban command.
+      +R - Enables use of the recover and clear commands.
+      +f - Enables modification of channel access lists.
+      +t - Enables use of the topic and topicappend commands.
+      +A - Enables viewing of channel access lists.
+      +S - Marks the user as a successor.
+      +F - Grants full founder access.
+      +b - Enables automatic kickban.
+   
+  The special permission +* adds all permissions except +b, +S, and +F.
+  The special permission -* removes all permissions including +b and +F.
+   
+  Examples:
+      /msg ChanServ FLAGS #foo
+      /msg ChanServ FLAGS #foo foo!*@bar.com VOP
+      /msg ChanServ FLAGS #foo foo!*@bar.com -V+oO
+      /msg ChanServ FLAGS #foo foo!*@bar.com -*
+      /msg ChanServ FLAGS #foo foo +oOtsi
+      /msg ChanServ FLAGS #foo TroubleUser!*@*.troubleisp.net +b
+      /msg ChanServ FLAGS #foo !baz +*
+  ***** End of Help *****
  
 Private Channels
 ================
 
 ::
  
- [11:06] - ChanServ-  ***** ChanServ Help *****
- [11:06] - ChanServ-  Help for SET:
- [11:06] - ChanServ-   
- [11:06] - ChanServ-  SET allows you to set various control flags
- [11:06] - ChanServ-  for channels that change the way certain
- [11:06] - ChanServ-  operations are performed on them.
- [11:06] - ChanServ-   
- [11:06] - ChanServ-  The following subcommands are available:
- [11:06] - ChanServ-  EMAIL     Sets the channel e-mail address.
- [11:06] - ChanServ-  ENTRYMSG  Sets the channel's entry message.
- [11:06] - ChanServ-  FOUNDER   Transfers foundership of a channel.
- [11:06] - ChanServ-  GUARD     Sets whether or not services will inhabit the channel.
- [11:06] - ChanServ-  KEEPTOPIC    Enables topic retention.
- [11:06] - ChanServ-  MLOCK     Sets channel mode lock.
- [11:06] - ChanServ-  NOSYNC    Disables automatic channel ACL syncing.
- [11:06] - ChanServ-  PRIVATE   Hides information about a channel.
- [11:06] - ChanServ-  PROPERTY  Manipulates channel metadata.
- [11:06] - ChanServ-  RESTRICTED   Restricts access to the channel to users on the access list. 
+   ***** ChanServ Help *****
+   Help for SET:
+    
+   SET allows you to set various control flags
+   for channels that change the way certain
+   operations are performed on them.
+    
+   The following subcommands are available:
+   EMAIL     Sets the channel e-mail address.
+   ENTRYMSG  Sets the channel's entry message.
+   FOUNDER   Transfers foundership of a channel.
+   GUARD     Sets whether or not services will inhabit the channel.
+   KEEPTOPIC    Enables topic retention.
+   MLOCK     Sets channel mode lock.
+   NOSYNC    Disables automatic channel ACL syncing.
+   PRIVATE   Hides information about a channel.
+   PROPERTY  Manipulates channel metadata.
+   RESTRICTED   Restricts access to the channel to users on the access list. 
      (Other users are kickbanned.)
- [11:06] - ChanServ-  SECURE    Prevents unauthorized users from gaining operator status.
- [11:06] - ChanServ-  TOPICLOCK    Restricts who can change the topic.
- [11:06] - ChanServ-  URL    Sets the channel URL.
- [11:06] - ChanServ-  VERBOSE   Notifies channel about access list modifications.
- [11:06] - ChanServ-   
- [11:06] - ChanServ-  For more specific help use /msg ChanServ HELP SET command.
- [11:06] - ChanServ-  ***** End of Help *****
+   SECURE    Prevents unauthorized users from gaining operator status.
+   TOPICLOCK    Restricts who can change the topic.
+   URL    Sets the channel URL.
+   VERBOSE   Notifies channel about access list modifications.
+    
+   For more specific help use /msg ChanServ HELP SET command.
+   ***** End of Help *****
 
 /msg chanserv list #channel
 
