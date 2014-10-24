@@ -483,8 +483,8 @@ ul li::before {
 pre {
   font-family: 'Droid Sans Mono', 'Courier New', monospace;
 
-  font-size: 1em;
-  line-height: 1.1em;
+  font-size: 0.75em;
+  line-height: 1em;
   padding: 5px 10px;
 
   letter-spacing: 0px; 
@@ -501,7 +501,7 @@ pre {
 }
 
 code {
-  font-size: 200%;
+  font-size: 100%;
   font-family: 'Droid Sans Mono', 'Courier New', monospace;
 
   color: black;
