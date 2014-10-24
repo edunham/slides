@@ -96,14 +96,16 @@ Multiple Networks
 Irssi: Multiple networks
 ========================
 
-.. code-block::
+|
+
+::
 
     /connect irc.freenode.net
-    /connect cat.pdx.edu
+    /connect irc.mozilla.org
     alt+1 # go to status buffer
     ctrl+x # switch contexts
     /msg -freenode <person> <message>
-    /join -pdx <channel>
+    /join -mozilla <channel>
 
 Different nicks in different channels?
 
@@ -251,8 +253,12 @@ Write your own!
 .. figure:: /_static/irc/pen.jpg
     :class: fill
 
-* Common first project for a new language
-* Practice with databases, sockets/networking, UI, machine learning
+* Common first project 
+* Practice with 
+    * databases
+    * sockets/networking
+    * UI
+    * machine learning
 * any API -> bot functionality
 * Machine learning is easier than it looks
     * Markov chains
@@ -265,6 +271,9 @@ Other Useful Bots
     * Remember, a bot is just an automated client
 
 Freenode's Services:
+
+.. figure:: /_static/irc/bouncer.jpg
+    :align: right
 
 * NickServ
 * ChanServ
@@ -395,6 +404,21 @@ NickServ
 * Prevents you from appearing in global WHO/WHOIS by normal users, and
   hides which channels you are on (default on Freenode)
 
+Cloaks
+======
+
+.. figure:: /_static/irc/cloak.png
+    :align: center
+    :scale: 50%
+
+::
+
+    /whois edunham
+    [freenode] -!- edunham [~edunham@osuosl/staff/edunham]
+    [freenode] -!-  ircname  : Unknown
+
+
+
 Etiquette
 =========
 
@@ -448,9 +472,11 @@ Personal preference... I use Irssi
 Neat Features
 -------------
 
+.. figure:: /_static/irc/hilighter.jpg
+    :align: right
+
 * hilight
 * /lastlog
-* alt+#
 * ctrl+n, ctrl+p, alt+n, alt+p
 * smartfilter or /ignore CRAP
 * /ignore (or /silence if flooding)
@@ -471,6 +497,34 @@ Buffers
     /b <name>
     /join #channel (if already connected)
     /window move
+
+    ctrl+n, ctrl+p vs alt+n, alt+p
+
+Go away!
+--------
+
+.. figure:: /_static/irc/kitten.jpg
+    :align: center
+
+::
+
+    /ignore
+    /silence
+    /mode <username> +g (callerid)
+
+Logging
+-------
+
+.. figure:: /_static/irc/logtruck.jpg
+    :align: center
+    :scale: 50%
+
+::
+
+    /set autolog on
+    /lastlog <searchterm>
+    ~/irclogs/<network>/#channel.log
+
 
 Connection Configuration
 ------------------------
@@ -534,6 +588,8 @@ Flags
 
 Flags Examples
 ==============
+
+|
 
 ::
 
