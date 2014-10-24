@@ -22,6 +22,8 @@ You already know
 * Have private message conversations
 * Leave a channel (``\part``) or network (``disconnect``)
 
+.. note:: you know not to /list, right?
+
 We'll talk about
 ================
 
@@ -61,24 +63,41 @@ Network Topology
 ================
 
 .. figure:: /_static/irc/example_network.gif
-    :class: scale
+    :class: fill
+    :scale: 75%
+
+.. note:: 
+
+    it's a bunch of servers
+
+    servers have CHANNELS on them
+
+    servers have PERMISSIONS and PORTS and ACCESS LISTS and stuff
+
+    channels have PERMISIONS and FLAGS and stuff
 
 Netsplits
 =========
 
 .. figure:: /_static/irc/example_netsplit.gif
-    :class: scale 
+    :class: fill
+    :scale: 75% 
+
+.. note:: 
+
+    the CHANNEL exists on both sides
 
 Multiple Networks
 =================
 
 .. figure:: /_static/irc/multiple_networks.gif
-    :scale: 70%
+    :scale: 60%
 
 Irssi: Multiple networks
 ========================
 
 .. code-block::
+
     /connect irc.freenode.net
     /connect cat.pdx.edu
     alt+1 # go to status buffer
@@ -86,20 +105,20 @@ Irssi: Multiple networks
     /msg -freenode <person> <message>
     /join -pdx <channel>
 
-Q. Different nicks in different channels?
-
-A. Multiple connections to same network.
+Different nicks in different channels?
 
 Bots...
 =======
 
 .. figure:: /_static/irc/musicrobots.jpg
-    :class: scale
+    :class: fill
+    
 
 .. note:: 
     * "Services"
     * Client automated to perform some behaviors
     * Any level of complexity you want
+    * Freenode bots have @services in their cloaks
 
 ...can be this easy
 ===================
@@ -252,8 +271,9 @@ Freenode's Services:
 * alis
 * MemoServ
 
-/ns vs /msg nickserv
-====================
+.. note:: the official services bots have @services in their cloaks
+    
+    if you're paranoid, /msg them for help first then check the cloak
 
 
 ChanServ
@@ -262,22 +282,7 @@ ChanServ
 ::
 
      ***** ChanServ Help *****
-     ChanServ gives normal users the ability to maintain control
-     of a channel, without the need of a bot. Channel takeovers are
-     virtually impossible when a channel is registered with ChanServ.
-     Registration is a quick and painless process. Once registered,
-     the founder can maintain complete and total control over the channel.
-     Please note that channels will expire if there are no eligible channel successors.
-     Successors are primarily those who have the +R flag
-     set on their account in the channel, although other
-     people may be chosen depending on their access
-     level and activity.
-      
-     For more information on a command, type:
-     /msg ChanServ help <command>
-     For a verbose listing of all commands, type:
-     /msg ChanServ help commands
-      
+     ...     
      The following commands are available:
      FLAGS           Manipulates specific permissions on a channel.
      INVITE          Invites you to a channel.
@@ -293,21 +298,36 @@ ChanServ
                      TOPICPREPEND, UNQUIET, VOICE, WHY
      ***** End of Help *****
 
+.. note::
+
+     ChanServ gives normal users the ability to maintain control
+     of a channel, without the need of a bot. Channel takeovers are
+     virtually impossible when a channel is registered with ChanServ.
+     Registration is a quick and painless process. Once registered,
+     the founder can maintain complete and total control over the channel.
+     Please note that channels will expire if there are no eligible channel successors.
+     Successors are primarily those who have the +R flag
+     set on their account in the channel, although other
+     people may be chosen depending on their access
+     level and activity.
+
+     For more information on a command, type:
+     /msg ChanServ help <command>
+     For a verbose listing of all commands, type:
+     /msg ChanServ help commands
+ 
 
 MemoServ
 ========
 
 .. figure:: _static/irc/mailboxes.jpg
-    :class: fill
+    :align: center 
+    :scale: 50%
 
-.. code-block:: 
+:: 
 
     ***** MemoServ Help *****
     MemoServ allows users to send memos to registered users.
-     
-    For more information on a command, type:
-    /msg MemoServ help <command>
-     
     The following commands are available:
     DEL             Alias for DELETE
     DELETE          Deletes memos.
@@ -323,20 +343,18 @@ MemoServ
 alis
 ====
 
+.. figure:: /_static/irc/alice.png
+    :align: center
+    :scale: 50%
+
 ::
 
-     ***** alis Help *****
-     alis allows searching for channels with more
-     flexibility than the /list command.
-      
-     For more information on a command, type:
-     /msg alis help <command>
-      
-     The following commands are available:
-     HELP            Displays contextual help information.
-     LIST            Lists channels matching given parameters.
-     ***** End of Help *****
+    /msg alis help <command>
+     
+    The following commands are available:
 
+    HELP            Displays contextual help information.
+    LIST            Lists channels matching given parameters.
 
 Identity Management on Freenode
 ===============================
@@ -350,6 +368,20 @@ NickServ
 ::
 
      ***** NickServ Help *****
+     The following commands are available:
+     GHOST           Reclaims use of a nickname.
+     IDENTIFY        Identifies to services for a nickname.
+     INFO            Displays information on registrations.
+     LISTCHANS       Lists channels that you have access to.
+     REGISTER        Registers a nickname.
+     RELEASE         Releases a services enforcer.
+     ***** End of Help *****
+     /whois <person>
+     /mode <yourusername> +i 
+
+
+.. note::
+
      NickServ allows users to 'register' a nickname, and stop
      others from using that nick. NickServ allows the owner of a
      nickname to disconnect a user from the network that is using
@@ -359,32 +391,16 @@ NickServ
      /msg NickServ help <command>
      For a verbose listing of all commands, type:
      /msg NickServ help commands
-      
-     The following commands are available:
-     GHOST           Reclaims use of a nickname.
-     IDENTIFY        Identifies to services for a nickname.
-     INFO            Displays information on registrations.
-     LISTCHANS       Lists channels that you have access to.
-     REGISTER        Registers a nickname.
-     RELEASE         Releases a services enforcer.
-      
-     Other commands: ACC, ACCESS, CERT, DROP, HELP, LOGOUT, 
-                     REGAIN, SETPASS, STATUS, TAXONOMY, VERIFY
-     ***** End of Help *****
- 
-
-/whois <person>
-
-/mode <yourusername> +i 
 
 * Prevents you from appearing in global WHO/WHOIS by normal users, and
-  hides which channels you are on. 
+  hides which channels you are on (default on Freenode)
 
 Etiquette
 =========
 
 .. figure:: /_static/irc/fancytable.jpg
-    :class: scale
+    :align: center
+    :scale: 40%
 
 * Don't ask to ask
     * Lure help out of hiding with details of your problem
@@ -398,8 +414,8 @@ Mistakes
 ========
 
 .. figure:: /_static/irc/facepalm.jpg
-    :class: scale
-
+    :align: right
+    :scale: 50%
 
 * Sending PM to channel
     * Compose in server buffer (typically #1)
@@ -414,8 +430,57 @@ Mistakes
 * Asking for too much information crashes client
     * Don't `/list` on freenode
 
+Client Configuration
+====================
+
+|
+
+.. figure:: /_static/irc/irssiweechat.png
+    :align: center
+
+|
+
+Irssi, Weechat, ZNC (bouncer), GUIs
+
+Personal preference... I use Irssi
+
+
+Neat Features
+-------------
+
+* hilight
+* /lastlog
+* alt+#
+* ctrl+n, ctrl+p, alt+n, alt+p
+* smartfilter or /ignore CRAP
+* /ignore (or /silence if flooding)
+* usermode +g == "callerid"
+* moving windows (/window move # or /buffer move #)
+* autolog
+
+Buffers
+-------
+
+.. figure:: /_static/irc/buffering.gif
+    :align: center
+
+::
+
+    /win #
+    /buf #
+    /b <name>
+    /join #channel (if already connected)
+    /window move
+
+Connection Configuration
+------------------------
+
+/connect -ssl (TLS)
+sasl (cap_sasl.pl)
+
 Channel Management
 ==================
+
 ::
  
   ***** ChanServ Help *****
@@ -453,6 +518,7 @@ Channel Management
 
 Flags 
 =====
+
 ::
  
   Syntax: FLAGS <#channel> [nickname|hostmask|group template]
