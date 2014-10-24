@@ -475,8 +475,18 @@ Buffers
 Connection Configuration
 ------------------------
 
-/connect -ssl (TLS)
-sasl (cap_sasl.pl)
+.. figure:: /_static/irc/connection.jpg
+    :align: center
+
+:: 
+
+    /connect -ssl
+    sasl (cap_sasl.pl)
+
+.. note::
+
+    SSL = secure socket layer, tls = transport layer security
+    sasl = simple authentication and security layer
 
 Channel Management
 ==================
@@ -484,22 +494,6 @@ Channel Management
 ::
  
   ***** ChanServ Help *****
-  ChanServ gives normal users the ability to maintain control
-  of a channel, without the need of a bot. Channel takeovers are
-  virtually impossible when a channel is registered with ChanServ.
-  Registration is a quick and painless process. Once registered,
-  the founder can maintain complete and total control over the channel.
-  Please note that channels will expire if there are no eligible channel successors.
-  Successors are primarily those who have the +R flag
-  set on their account in the channel, although other
-  people may be chosen depending on their access
-  level and activity.
-   
-  For more information on a command, type:
-  /msg ChanServ help <command>
-  For a verbose listing of all commands, type:
-  /msg ChanServ help commands
-   
   The following commands are available:
   FLAGS           Manipulates specific permissions on a channel.
   INVITE          Invites you to a channel.
@@ -523,8 +517,6 @@ Flags
  
   Syntax: FLAGS <#channel> [nickname|hostmask|group template]
   Syntax: FLAGS <#channel> [nickname|hostmask|group flag_changes]
-   
-  Permissions:
       +v - Enables use of the voice/devoice commands.
       +V - Enables automatic voice.
       +o - Enables use of the op/deop commands.
@@ -539,7 +531,12 @@ Flags
       +S - Marks the user as a successor.
       +F - Grants full founder access.
       +b - Enables automatic kickban.
-   
+
+Flags Examples
+==============
+
+::
+
   The special permission +* adds all permissions except +b, +S, and +F.
   The special permission -* removes all permissions including +b and +F.
    
@@ -560,11 +557,7 @@ Private Channels
  
    ***** ChanServ Help *****
    Help for SET:
-    
-   SET allows you to set various control flags
-   for channels that change the way certain
-   operations are performed on them.
-    
+   
    The following subcommands are available:
    EMAIL     Sets the channel e-mail address.
    ENTRYMSG  Sets the channel's entry message.
@@ -584,8 +577,6 @@ Private Channels
     
    For more specific help use /msg ChanServ HELP SET command.
    ***** End of Help *****
-
-/msg chanserv list #channel
 
 
 What next?
