@@ -136,7 +136,6 @@ Outline
 
 .. figure:: /_static/humans/brain.jpg
     :class: scale
-    :scale: 50%
     :align: center
 
 Why do people do things?
