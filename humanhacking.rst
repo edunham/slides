@@ -2,7 +2,7 @@
 Human Hacking
 =============
 
-.. note:: 
+.. quote::
     Is the project of your dreams ignoring your pull requests? Do you need a way to
     convince other contributors to improve their documentation? Are you trying to herd
     cats as a project leader, or simply wondering how to evaluate a project's culture from
@@ -15,17 +15,21 @@ Human Hacking
 .. note:: 
     I'm an active open source contributor 
 
-    <gh commit graph screenshot>
-
     , a leader of things 
-
-    <PHRED, OSURC, LUG, DOBC>
 
     , and an amateur student of psychology
 
-    <photo of bookshelf>
-
     , and incidentally and reluctantly still a student at OSU.
+
+    Note that a lot of things I'm going to discuss are further from having
+    objectively correct answers than many of the problems we're accustomed to
+    discussing in the open-source world. 
+
+    These ideas are almost impossible to communicate wihtout a bit of a spin toward
+    the presenter's worldview. Please don't blindly follow, but think about
+    whether taking my advice would make you happier and only follow it if it
+    would.
+
 
 .. slide::
 
@@ -35,11 +39,16 @@ Human Hacking
         :scale: 200%
 
     .. note:: 
+
+        The attitude which turns ordinary interactions into useful leraning
+        experiences is pragmatism, or being scientific
         pragmatism / science
 
-        Being scientific == the mindset that you have got to use to get useful
+        Being scientific == the approach required to get useful
         results from any "experiment" or time you change a cause to see how its
         effects are altered. 
+
+        Next: Getting What You Want
 
     What happened?
 
@@ -54,8 +63,8 @@ Getting What You Want
     :class: scale
 
 .. note::
-    I realize my abstract is written in a way that will attract people who
-    want to learn how to *get what they want* from open-source humans. 
+    My abstract is written in a way that will attract people who
+    want to learn how to *get what they want* from others. 
 
     my "be careful what you wish for" is as follows: Identify what you want.
     Does it make life better or worse for you and the people around you? If
@@ -66,24 +75,51 @@ Getting What You Want
     and whether that underlying desire could be satisfied through another
     course of action with fewer detrimental effects. 
 
-    Harming others as collateral damage to selfishness is generally bad for 
-    you because most people who intentionally harm others percieve themselves
-    as doing it to right some wrong against them. Fewer wrongs against others
-    => fewer wronged people thinking it's ok to try to harm you.
+    Next: Know what you want.
 
-    But that caveat is step 1. Step 0 is knowing what you want. If you don't
+Getting... What?
+================
+
+.. figure:: /_static/humans/treasuremap.png
+    :class: scale
+
+.. note::
+
+    But "Be Careful what You Wish For" has a prerequisite:
+
+    Step 0 is knowing what you want. If you don't
     konw what you want, I can't help you -- go spin up an instance of Elizabot
     and talk to her or something. What I regard as human hacking is mostly
     about channeling motivations and fulfilling desires, not about summoning
     that motivation out of thin air.
 
+    Next: Outline
+
 Outline
 -------
 
-.. figure:: /_static/humans/treasuremap.png
-    :class: scale
-
 웃 => 웃웃 => 웃웃웃웃웃웃웃웃
+
+
+.. figure:: /_static/humans/ouroboros.png
+    :class: fill
+
+.. note:: Writing this talk has shown me that introductory curricula in
+    non-technical fields are just as hard to write as for technical ones. 
+
+    Fully understanding the topic is a circular dependency of knowledge, so
+    you have to pick the point with the fewest prerequisites and just jump
+    in.
+
+    This is the first time I've done this talk, so it may not be the best way
+    to organize the information -- I'd love to hear your feedback at the end
+    (I'll have my contact information on a slide). 
+
+    But this time around, I'm starting with abstractions of techniques to
+    understand and predict an individual human, then generalizing those to
+    small group interactions, then to the large groups of open source
+    projects, and then talking about some things I've learned in nearly a
+    decade of leading engineers.
 
 
 웃
@@ -91,10 +127,16 @@ Outline
 
 .. figure:: /_static/humans/brain.jpg
     :class: scale
+    :scale: 50%
+    :align: center
 
 Why do people do things?
 
-.. note:: about models, generalization, only sometimes useful, etc. 
+.. note::
+    Congratulations, you live in a human emulator! It helps you predict the
+    reactions and behavior of people similar to yourself. 
+
+    This can be a double-edged sword, because not everyone is the same.
 
 Maslow
 ------
@@ -104,7 +146,9 @@ Maslow
 
 .. note:: 
 
-    <picture of maslow's hierarchy of needs pyramid>
+    Here's a model of how people *are* more or less the same: basic needs.
+
+    Lower needs need to be met before higher needs can be sought
 
 MBTI types
 ----------
@@ -112,13 +156,35 @@ MBTI types
 .. figure:: /_static/humans/mbti.jpg
     :class: scale
 
-.. note:: 4 axes, sides of each axis, matrix of types
+.. note:: Meyers-Briggs Type Indicator -- self-reported, seeks understanding
 
-Disposition Matrix
-------------------
+    Attitude: Extraversion vs Introversion
 
-.. note:: not the conspiracy theorists' list. Book suggestion.
+        Jungian interpretation. 
+        Briggs and Myers recognized that each of the cognitive functions can
+        operate in the external world of behavior, action, people, and things
+        ("extraverted attitude") or the internal world of ideas and reflection
+        ("introverted attitude"). 
 
+   Functions: sensing/intuition (S/N) and thinking/feeling (T/F)
+
+        1 of the 4 is dominant; this is shown by the J/P
+
+        Sensing/Intuition: Information-gathering. **Sensing:** Present, tangible,
+        concrete... **Intuition:** Abstract, theoretical, association-based.
+        Meaning in theory/principles/patterns.
+  
+
+        Thinking/Feeling: Decision-making. **Thinking:** Rational,
+        data-driven, logical, detached, rule-based, causal. **Feeling:**
+        Association, empathy, consensus
+
+    Lifestyle: Judging vs Percieving
+
+        Extraverts: J/P is dominant function, Introverts it's auxilary
+
+        Judging prefers thinking|feeling; Percieving prefers Sensing|Intuition
+   
 Priorities
 ----------
 
@@ -131,12 +197,34 @@ Priorities
 .. note:: internal monolog goes with Dryack's story about Fred
 
 
-Fallacies
----------
+Pop Quiz
+========
+
+|
+
+.. quote::
+
+    Do you think that humans are mostly reasonable?
+
+**rea·son·a·ble**
+
+*ˈrēz(ə)nəb(ə)l/*
+
+adjective
+1. (of a person) having sound judgment; fair and sensible.
+"no reasonable person could have objected"
+
+.. note:: ha ha uhh NOOOOOO
+
+
+Cognitive Biases
+================
+
+http://en.wikipedia.org/wiki/List_of_cognitive_biases
 
 .. note:: 
 
-    <Wikipedia's list of fallacies>
+    These are to everyday life what common fallacies are to logic
 
     Negative connotations but neither necessarily good nor bad, they just
     *explain*. 
@@ -151,6 +239,67 @@ Fallacies
 .. figure:: /_static/humans/workflow.png
     :class: scale
 
+POP QUIZ
+========
+
+.. figure:: headsup7up.jpg
+    :align: center
+
+.. quote::
+    Raise your hand if you think you're better at driving than the average 
+    person in this room  
+
+Overconfidence Effects
+----------------------
+
+.. figure:: /_static/humans/selfagg.jpg
+    :align: center
+
+.. note::
+
+    Overconficence effects -- Planning fallacy
+
+    the tendency for people to overestimate their rate of work or to underestimate how long it will take them to get
+    things done.
+
+    Ever tried to do time estimates on a software project?
+
+POP QUIZ
+========
+
+.. figure:: headsup7up.jpg
+    :align: center
+
+.. quote::
+    Raise your hand if you think you're better at coding than the average
+    person in this room
+
+Underconfidence Effects
+-----------------------
+
+.. figure:: /_static/humans/underconfidence.jpeg
+    :align: center
+
+Dunning-Kruger Effect
+
+.. note::
+    Underconfidence effects -- Dunning-Kruger
+
+    The Dunning–Kruger effect is a cognitive bias manifesting in two principal
+    ways: unskilled individuals tend to suffer from illusory superiority,
+    mistakenly rating their ability much higher than is accurate, while highly
+    skilled individuals tend to rate their ability lower than is accurate. 
+
+Cognitive Biases...
+-------------------
+
+.. figure:: /_static/humans/theresmore.jpg
+    :align: center
+
+.. quote::
+    http://en.wikipedia.org/wiki/List_of_cognitive_biases
+
+.. note:: We could talk about cognitive biases all day... but let's not.
 
 A word of warning
 -----------------
@@ -158,7 +307,7 @@ A word of warning
 .. figure:: /_static/humans/warning.png
     :class: scale
 
-.. note:: genearlizations are useful because they help you ask the right
+.. note:: generalizations are useful because they help you ask the right
     questions and suggest what to look for
     
     Differences != flaws -- a trait that's a strength in one context is a
@@ -182,29 +331,39 @@ Social Scripts
 
 .. figure:: /_static/humans/arrowtotheknee.jpg
     :class: scale
+    :align: center
+    :scale: 150%
 
 .. note:: 
     Kind of like conversations with NPCs in a video game
 
     helpful for dealing with anxiety -- get help from a friend who's good at
     handling a given situation to write out its script if you're nervous.
-    They'll feel good...
+    They'll feel good... because people like helping others! Inner monolog:
+    I'm a good friend because I help people in need...
 
 Reciprocity
 -----------
 
 .. figure:: /_static/humans/cooperation.gif
     :class: scale
+ 
+.. quote::
+
+    He that has once done you a kindness will be more ready to do you another,
+    than he whom you yourself have obliged.
 
 .. note::
+    People like helping others! 
+
+    Ben Franklin effect is extension of attribution error -- people observe
+    themselves doing a thing and then make up a reason why it happened
+
     The Ben Franklin effect is a proposed psychological phenomenon: A person who
     has done or completed a favor for someone is more likely to do another favor
     for that person than they would be if they had received a favor from that
     person. Similarly, one who harms another is more willing to harm them again
     than the victim is to retaliate.
-
-    He that has once done you a kindness will be more ready to do you another,
-    than he whom you yourself have obliged.
 
 Body Language
 -------------
@@ -222,8 +381,7 @@ Body Language
         * interrupting with offtopic or inane things ~= being fidgety and
           attention-seeking
         * typing super slowly ~= mumble or stutter
-        * email address, handle, email sig ~= race, hairstyle, instantly
-          obvious things
+        * email address, handle, email sig ~= age, style of dress, gender
 
 Mirroring
 ---------
@@ -287,6 +445,9 @@ Social Capital
 
     karma, esteem, popularity, call it what you will
 
+    Use your brain -- your built-in human emulator -- assess how you judge
+    others
+
     DON'T LIE TO SOUND COOL
         * storytime: Google interviews if you rate yourself a 10 at a skill
     
@@ -299,20 +460,32 @@ Stalking Skills
 
 .. figure:: /_static/humans/neighborhoodwatch.jpg
     :class: scale
-
+    :scale: 75%
 
 .. note::
     GitHub
+
     IRC
+    
     social media
-    news articles
+    
+    news articles -- it's amazing what you learn by Googling somebody -- be
+    prepared to feel like you invaded their privacy
+    
     personal site/blog
+    
+    is their hostmask or email at custom domain?
 
 웃웃웃웃웃웃웃웃
 ================
 
 .. figure:: /_static/humans/committee.jpg
     :class: scale
+
+.. note:: Okay so now we have a whole BUNCH of people. no longer feasible to
+    consider them as individuals...
+
+    next: FOSS
 
 FOSS
 ----
@@ -323,6 +496,8 @@ FOSS
 .. note::
     Meritocracy: Currency is fucks given measured in lines of code
 
+    next: getting taken seriously
+
 Getting Taken Seriously
 -----------------------
 
@@ -331,25 +506,26 @@ Getting Taken Seriously
 
 .. note::
     non-ridiculous handle
+
     conform to channel/list behavior
-        storytime: gifs vs no gifs
+        storytime: gifs vs no gifs, UA vs Intel
+    
     ask questions well
 
 Asking Questions Well
 ---------------------
 
 .. figure:: /_static/humans/question.jpg
+    :align: center
+
+I want ____ to ___ in order to ____. At ____, I read that ____ which makes
+me think that I should be able to get it to _____ by doing ______. But
+when I try to ______, ______ happens instead. Please help me ______. 
 
 .. note::
-    KNOW WHAT YOU WANT
+    KNOW WHAT YOU WANT  
 
-    I want ____ to ___ in order to ____. At ____, I read that ____ which makes
-    me think that I should be able to get it to _____ by doing ______. But
-    when I try to ______, ______ happens instead. Please help me ______. 
-
-    * decypher error
-    * find an alternative
-    * find the correct documentation
+    Format is "I wanted X; I did Y; I got Z"
 
 Routes into a project
 ---------------------
@@ -371,19 +547,27 @@ Improving Docs
 
 .. note::
     For mega-karma just offer to do it yourself
-        * first diagnose why they haven't been written already
-            * not needed by target audience?
-            * project doesn't care?
-            * just not enough time / too much work (usually)?
+    
+    * first diagnose why they haven't been written already
+
+        * not needed by target audience?
+
+        * project doesn't care?
+
+        * just not enough time / too much work (usually)?
+
     are you asking the right person?
+
     can/should you change project culture? (social influence)
-    remove roadblocks (empower)
 
 Route Around Damage
 -------------------
 
+|
+
 .. figure:: /_static/humans/censorship.png
-    :class: scale
+    :scale: 75%
+    :align: center
 
 .. note::
     yes maybe it takes more effort; this means that you'll only do the things
@@ -399,11 +583,14 @@ Case study: They're ignoring my PRs!
 
 .. note::
     is your expectation realistic?
-    what feedback have you gotten?
-    where could you get some feedback?
-    what's blocking them? can you help?
-    the magic of "when shall I remind you..."
 
+    what feedback have you gotten?
+
+    where could you get some feedback?
+
+    what's blocking them? can you help?
+
+    the magic of "when shall I remind you..."
 
 Leveraging Conferences
 ----------------------
@@ -424,6 +611,10 @@ Leadership
 .. figure:: /_static/humans/ducklings.jpg
     :class: scale
 
+.. note:: Leadership tends to happen to people who work hard, are reliable,
+    and are bad at saying 'no'. Here's what I wish someone had told me back
+    when I started leading groups of humans (usually engineers).
+
 Know Your Audience
 ------------------
 
@@ -432,8 +623,14 @@ Know Your Audience
 
 .. note::
     goals
+
     priorities
+    
     biases
+
+    culture
+
+    energy/time/resources
 
 Establishing Culture
 --------------------
@@ -442,10 +639,12 @@ Establishing Culture
     :class: scale
 
 .. note::
-    accountability -- CONSISTENCY
+    foster accountability -- CONSISTENCY
+
     benefit of the doubt -- they chose best of percieved options. to change
     future behavior, ADD MORE OPTIONS
-    empower...
+    
+    empower... give people percieved buy-in, investment
 
 Delegation
 ----------
@@ -455,9 +654,13 @@ Delegation
 
 .. note:: 
     successful leadership is when everybody else does the work
+
     the bus problem (git-bus)
+    
     EMPOWER minions vs DIY... what do you gain by burning yourself out?
+    
     KNOW WHAT YOU WANT
+    
     knowing it will happen == knowing who will do it
 
 Managing Expectations
@@ -468,7 +671,9 @@ Managing Expectations
 
 .. note::
     pre-emptive strike with codes of conduct, clear expectations, etc.
+    
     dropped balls are noticed a LOT less than perfect serves
+    
         * good for managing own burnout
 
 pre-emptive problem solving
@@ -499,9 +704,12 @@ DFIU
     :class: scale
 
 .. note::
-    don't leak information or make people feel unsafe -- don't make it worse
-    try not to break consistency of rule enforcement -- don't discriminate
-    storytime: EMT rules (find the patient, don't kill the patient...)
+     don't leak information or make people feel unsafe -- don't make it worse
+
+     storytime: EMT rules (find the patient, don't kill the patient...)
+     
+     Discrimination is when the rules are enforced inconsistently, different
+     rules for different people. Priveledge literally means **private law**.  
 
 And Yet...
 ----------
