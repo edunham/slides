@@ -12,23 +12,30 @@ Human Hacking
     algorithms for common sources of confusion about human interaction, explained in
     terms that will make sense to engineers.
 
-.. note:: 
-    I'm an active open source contributor 
+.. slide::
 
-    , a leader of things 
+    |
 
-    , and an amateur student of psychology
+    .. figure:: /_static/humans/helloworld.jpg
+        :align: center
 
-    , and incidentally and reluctantly still a student at OSU.
+    .. note:: 
+        I'm an active open source contributor 
 
-    Note that a lot of things I'm going to discuss are further from having
-    objectively correct answers than many of the problems we're accustomed to
-    discussing in the open-source world. 
+        , a leader of things 
 
-    These ideas are almost impossible to communicate wihtout a bit of a spin toward
-    the presenter's worldview. Please don't blindly follow, but think about
-    whether taking my advice would make you happier and only follow it if it
-    would.
+        , and an amateur student of psychology
+
+        , and incidentally and reluctantly still a student at OSU.
+
+        Note that a lot of things I'm going to discuss are further from having
+        objectively correct answers than many of the problems we're accustomed to
+        discussing in the open-source world. 
+
+        These ideas are almost impossible to communicate wihtout a bit of a spin toward
+        the presenter's worldview. Please don't blindly follow, but think about
+        whether taking my advice would make you happier and only follow it if it
+        would.
 
 
 .. slide::
@@ -58,6 +65,8 @@ Human Hacking
 
 Getting What You Want
 ---------------------
+
+|
 
 .. figure:: /_static/humans/too-many-gifts-clipart.gif
     :class: scale
@@ -102,7 +111,7 @@ Outline
 
 
 .. figure:: /_static/humans/ouroboros.png
-    :class: fill
+    :align: center
 
 .. note:: Writing this talk has shown me that introductory curricula in
     non-technical fields are just as hard to write as for technical ones. 
@@ -154,7 +163,8 @@ MBTI types
 ----------
 
 .. figure:: /_static/humans/mbti.jpg
-    :class: scale
+    :align: center
+    :scale: 120%
 
 .. note:: Meyers-Briggs Type Indicator -- self-reported, seeks understanding
 
@@ -202,9 +212,9 @@ Pop Quiz
 
 |
 
-.. quote::
+Do you think that humans are mostly reasonable?
 
-    Do you think that humans are mostly reasonable?
+|
 
 **rea·son·a·ble**
 
@@ -219,8 +229,6 @@ adjective
 
 Cognitive Biases
 ================
-
-http://en.wikipedia.org/wiki/List_of_cognitive_biases
 
 .. note:: 
 
@@ -237,20 +245,23 @@ http://en.wikipedia.org/wiki/List_of_cognitive_biases
     <example of same "fallacy" being both good and bad>
 
 .. figure:: /_static/humans/workflow.png
-    :class: scale
+    :align: center
 
 POP QUIZ
 ========
 
-.. figure:: headsup7up.jpg
+.. figure:: /_static/humans/headsup7up.jpg
     :align: center
 
-.. quote::
+|
+
     Raise your hand if you think you're better at driving than the average 
     person in this room  
 
 Overconfidence Effects
 ----------------------
+
+|
 
 .. figure:: /_static/humans/selfagg.jpg
     :align: center
@@ -267,20 +278,21 @@ Overconfidence Effects
 POP QUIZ
 ========
 
-.. figure:: headsup7up.jpg
+.. figure:: _static/humans/headsup7up.jpg
     :align: center
 
-.. quote::
+|
+
     Raise your hand if you think you're better at coding than the average
     person in this room
 
 Underconfidence Effects
 -----------------------
 
+|
+
 .. figure:: /_static/humans/underconfidence.jpeg
     :align: center
-
-Dunning-Kruger Effect
 
 .. note::
     Underconfidence effects -- Dunning-Kruger
@@ -293,11 +305,12 @@ Dunning-Kruger Effect
 Cognitive Biases...
 -------------------
 
+|
+
 .. figure:: /_static/humans/theresmore.jpg
     :align: center
 
-.. quote::
-    http://en.wikipedia.org/wiki/List_of_cognitive_biases
+http://en.wikipedia.org/wiki/List_of_cognitive_biases
 
 .. note:: We could talk about cognitive biases all day... but let's not.
 
@@ -305,7 +318,8 @@ A word of warning
 -----------------
 
 .. figure:: /_static/humans/warning.png
-    :class: scale
+    :align: center
+    :scale: 75%
 
 .. note:: generalizations are useful because they help you ask the right
     questions and suggest what to look for
@@ -321,13 +335,15 @@ A word of warning
 ====
 
 .. figure:: /_static/humans/tcas.png
-    :class: scale
+    :align: center
 
 .. note:: all of the factors that affect an individual's behavior are still
     relevant... 
 
 Social Scripts
 --------------
+
+|
 
 .. figure:: /_static/humans/arrowtotheknee.jpg
     :class: scale
@@ -346,12 +362,12 @@ Reciprocity
 -----------
 
 .. figure:: /_static/humans/cooperation.gif
-    :class: scale
+    :align: right
  
-.. quote::
 
-    He that has once done you a kindness will be more ready to do you another,
-    than he whom you yourself have obliged.
+"He that has once done you a kindness will be more ready to do you another,
+than he whom you yourself have obliged."
+        - Benjamin Franklin
 
 .. note::
     People like helping others! 
@@ -367,6 +383,8 @@ Reciprocity
 
 Body Language
 -------------
+
+|
 
 .. figure:: /_static/humans/bodylanguage.jpg
     :class: scale
@@ -386,8 +404,11 @@ Body Language
 Mirroring
 ---------
 
+|
+
 .. figure:: /_static/humans/mirroring.jpg
-    :class: scale
+    :scale: 150%
+    :align: center
 
 .. note:: 
     Hints at someone's communication style and priorities -- match their style
@@ -398,8 +419,11 @@ Mirroring
 Inviting conversation
 ---------------------
 
+|
+
 .. figure:: /_static/humans/freehugs.jpg
     :class: scale
+    :align: center
 
 .. note:: 
     we'll get into how to get a specific question answered from a project
@@ -417,7 +441,7 @@ Effective email
 ---------------
 
 .. figure:: /_static/humans/gmail.jpg
-    :class: scale
+    :class: fill
 
 |
 
@@ -435,6 +459,8 @@ Effective email
 
 Social Capital
 --------------
+
+|
 
 .. figure:: /_static/humans/redditpony.png
     :class: scale
@@ -461,6 +487,7 @@ Stalking Skills
 .. figure:: /_static/humans/neighborhoodwatch.jpg
     :class: scale
     :scale: 75%
+    :align: center
 
 .. note::
     GitHub
@@ -487,11 +514,19 @@ Stalking Skills
 
     next: FOSS
 
+.. slide::
+
+    .. figure:: /_static/humans/person_vs_people_quote.gif
+        :align: center
+
 FOSS
 ----
 
+|
+
 .. figure:: /_static/humans/businesspenguin.gif
     :class: scale
+    :align: center
 
 .. note::
     Meritocracy: Currency is fucks given measured in lines of code
@@ -566,7 +601,6 @@ Route Around Damage
 |
 
 .. figure:: /_static/humans/censorship.png
-    :scale: 75%
     :align: center
 
 .. note::
@@ -580,6 +614,7 @@ Case study: They're ignoring my PRs!
 
 .. figure:: /_static/humans/madscientist.jpg
     :class: scale
+    :align: center
 
 .. note::
     is your expectation realistic?
@@ -635,8 +670,11 @@ Know Your Audience
 Establishing Culture
 --------------------
 
+|
+
 .. figure:: /_static/humans/petri.jpg
     :class: scale
+    :align: center
 
 .. note::
     foster accountability -- CONSISTENCY
@@ -649,8 +687,12 @@ Establishing Culture
 Delegation
 ----------
 
+|
+
 .. figure:: /_static/humans/rosie.jpg
     :class: scale
+    :scale: 200%
+    :align: center
 
 .. note:: 
     successful leadership is when everybody else does the work
@@ -700,6 +742,8 @@ pre-emptive problem solving
 DFIU
 ----
 
+|
+
 .. figure:: /_static/humans/trolls.jpg
     :class: scale
 
@@ -732,7 +776,8 @@ Getting People Out
 ------------------
 
 .. figure:: /_static/humans/defenestrate.png
-    :class: scale
+    :scale: 200%
+    :align: center
 
 * Do not actually throw anyone out of any windows.
 
@@ -750,8 +795,12 @@ Getting People Out
 Avoiding Burnout
 ----------------
 
+|
+
 .. figure:: /_static/humans/burnout.jpg
     :class: scale
+    :align: center
+    :scale: 150%
 
 .. note::
     empower group
@@ -786,8 +835,13 @@ Mental health / brain bugs
     apply patches (usefully obtained from shrinks)
     unplugged machine is "secure" but useless
 
-Sneaky Hacks
-============
+Questions?
+==========
+
+|
+
+.. figure:: /_static/humans/tea.gif
+    :align: center
 
 .. note:: 
     disregard expectations of fairness
@@ -796,14 +850,3 @@ Sneaky Hacks
           quid pro quo, etc
     social engineering
     do things that make you happy/motivated/inspired
-
-identify what you're optimizing for
------------------------------------
-
-.. figure:: /_static/humans/upright.jpg
-
-.. note::
-    picture: suit with a graph going up and to the right
-    happiness, money, social status... assess how you spend your time in the
-    context of whether 
-
