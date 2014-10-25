@@ -843,6 +843,12 @@ Questions?
 .. figure:: /_static/humans/tea.gif
     :align: center
 
+edunham on irc.freenode.net
+
+dunhame@onid.orst.edu 
+
+edunham@osuosl.org
+
 .. note:: 
     disregard expectations of fairness
     eliciting information:
