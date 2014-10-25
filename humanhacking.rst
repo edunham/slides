@@ -31,6 +31,8 @@ Human Hacking
 
     .. figure:: /_static/humans/sciencecat.jpg
         :class: scale
+        :align: center
+        :scale: 200%
 
     .. note:: 
         pragmatism / science
