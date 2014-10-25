@@ -630,14 +630,22 @@ Case study: They're ignoring my PRs!
 Leveraging Conferences
 ----------------------
 
+.. figure:: /_static/humans/seagl.jpg
+    :align: center
+    :scale: 75%
+
 .. note::
 
     <PICTURE FROM FIRST DAY OF SEAGL>
 
     hallway track
+
     when you get a business card, take notes
+    
     FOLLOW-UP sets you apart
+    
     when writing talk proposals, questions show that you know your audience
+    
     stalk conference abstracts from past years to get a feel for tone
 
 Leadership
