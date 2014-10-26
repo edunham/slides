@@ -269,8 +269,8 @@ Overconfidence Effects
 
     Overconficence effects -- Planning fallacy
 
-    the tendency for people to overestimate their rate of work or to underestimate how long it will take them to get
-    things done.
+    the tendency for people to overestimate their rate of work or to 
+    underestimate how long it will take them to get things done.
 
     Ever tried to do time estimates on a software project?
 
@@ -318,7 +318,7 @@ A word of warning
 
 .. figure:: /_static/humans/warning.png
     :align: center
-    :scale: 75%
+    :scale: 50%
 
 .. note:: generalizations are useful because they help you ask the right
     questions and suggest what to look for
@@ -382,8 +382,6 @@ than he whom you yourself have obliged."
 
 Body Language
 -------------
-
-|
 
 .. figure:: /_static/humans/bodylanguage.jpg
     :class: scale
@@ -515,6 +513,8 @@ Stalking Skills
 
 .. slide::
 
+    |
+
     .. figure:: /_static/humans/person_vs_people_quote.gif
         :align: center
 
@@ -539,7 +539,9 @@ Getting Taken Seriously
     :class: scale
 
 .. note::
-    non-ridiculous handle
+    non-ridiculous handle -- be especially cautious of negative implications
+    about any group, because the code reviewer might well be in that group
+    (even sports teams)
 
     conform to channel/list behavior
         storytime: gifs vs no gifs, UA vs Intel
@@ -551,6 +553,7 @@ Asking Questions Well
 
 .. figure:: /_static/humans/question.jpg
     :align: center
+    :scale: 30%
 
 I want ____ to ___ in order to ____. At ____, I read that ____ which makes
 me think that I should be able to get it to _____ by doing ______. But
@@ -691,6 +694,14 @@ Establishing Culture
     
     empower... give people percieved buy-in, investment
 
+    **Discrimination** is when the rules are enforced inconsistently, different
+    rules for different people. Priveledge literally means **private law**.  
+
+
+    Prevent it by choosing rules that *can* be consistently applied to
+    everybody -- be careful of **assumptions** about hardware or monetary
+    resources, time zones and geographic constraints
+
 Delegation
 ----------
 
@@ -720,7 +731,7 @@ Managing Expectations
 
 .. note::
     pre-emptive strike with codes of conduct, clear expectations, etc.
-    
+
     dropped balls are noticed a LOT less than perfect serves
     
         * good for managing own burnout
@@ -736,6 +747,7 @@ pre-emptive problem solving
     the group wants its expectations to be
     
     Establish code of conduct early, enforce consistently
+
     get buy-in from group, leverage inner monolog (i'm a good contributor) to
     get public commitment to go along with rules once group votes
 
@@ -759,7 +771,7 @@ DFIU
 
      storytime: EMT rules (find the patient, don't kill the patient...)
      
-     Discrimination is when the rules are enforced inconsistently, different
+     **Discrimination** is when the rules are enforced inconsistently, different
      rules for different people. Priveledge literally means **private law**.  
 
 And Yet...
@@ -814,6 +826,8 @@ Avoiding Burnout
     realistic expectations
     forgive yourself
 
+    http://burnout.io/ for more resources
+
 Leadership Handoff
 ------------------
 
@@ -822,10 +836,14 @@ Leadership Handoff
 
 .. note:: 
     madlibs version of common tasks
+
     canned responses
+    
     share with newbie during transition
+    
     mentor vs. walk away... 
-    diversity: recognize that new leader does not work the same way you do,
+    
+    **diversity:** recognize that new leader does not work the same way you do,
     and that's good for the group -- work with them to use your handoff to
     make the next handoff easier
 
