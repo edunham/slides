@@ -417,8 +417,6 @@ Cloaks
     [freenode] -!- edunham [~edunham@osuosl/staff/edunham]
     [freenode] -!-  ircname  : Unknown
 
-
-
 Etiquette
 =========
 
@@ -433,6 +431,22 @@ Etiquette
 * Use pastebins for code
 * Some strangers don't like PMs
 * Choose your nick carefully
+
+Timing
+======
+
+.. figure:: /_static/irc/whiterabbit.jpg
+    :align: right
+
+* "Lurk Moar"
+    * Wait ~5mins to talk after joining
+    * Be patient
+* Re-ask
+    * Discussion moved on?
+    * Different people around?
+    * Be polite!
+* Time Zones
+* Rage quit == leaving during argument
 
 Mistakes
 ========
