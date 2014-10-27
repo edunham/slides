@@ -746,6 +746,8 @@ pre-emptive problem solving
     the group wants its expectations to be
     
     Establish code of conduct early, enforce consistently
+    COMMUNICATE about it --
+    https://modelviewculture.com/pieces/a-code-of-conduct-is-not-enough
 
     get buy-in from group, leverage inner monolog (i'm a good contributor) to
     get public commitment to go along with rules once group votes
