@@ -637,9 +637,6 @@ Leveraging Conferences
     :scale: 75%
 
 .. note::
-
-    <PICTURE FROM FIRST DAY OF SEAGL>
-
     hallway track
 
     when you get a business card, take notes
@@ -659,6 +656,8 @@ Leadership
 .. note:: Leadership tends to happen to people who work hard, are reliable,
     and are bad at saying 'no'. Here's what I wish someone had told me back
     when I started leading groups of humans (usually engineers).
+
+    http://www.huffingtonpost.com/liz-orsquo/cant-say-no-say-yes-instead_b_4583052.html
 
 Know Your Audience
 ------------------
