@@ -6,15 +6,23 @@ Things I can talk about, for half an hour to an hour, whenever requested.
 Finished Presentations: 
 -----------------------
 
-Intro to Git and GitHub (~1hr)
+* Intro to Git and GitHub (~1hr)
+    * OSU Linux Users Group, April 2014(?)
+    * DevOps Bootcamp, 2013
 
-IRC (with Screen and Irssi) (~1hr)
+* IRC (with Screen and Irssi) (~1hr)
+    * OSU Linux Users Group, 2013
+    * Seattle GNU/Linux Conference, 2014
 
-DevOps Bootcamp history + organization (30-min)
+* DevOps Bootcamp history + organization (30-min)
+    * LinuxFest Northwest 2014
 
-Basic security principles (30-min)
+* Basic security principles (30-min)
+    * OSU Linux Users Group in April 2014
 
-Thinking in Git (1hr of brain pain)
+* Thinking in Git (1hr of brain pain)
+    * Portland State University ACM, Spring 2014
+    * Seattle GNU/Linux Conference, 2014
 
 Unfinished, or still just ideas:
 --------------------------------
@@ -24,3 +32,7 @@ Licenses and OSS legal stuff
 History of OSS
 
 Vim
+
+Linux For Humans (non-computer people)
+
+Social engineering tactics vs psychological research
