@@ -26,6 +26,17 @@ When you're viewing a slide deck, hit ctrl+c to bring up the presenter console
 
     see? here's a note to the speaker! It's in a ..note:: block in the source.
 
+Feedback?
+---------
+
+If you've seen one of my talks in person or online and have an opinion about
+it, please let me know! Email dunhame@onid.orst.edu or IRC edunham on
+freenode.net with your thoughts. 
+
+I'm especially interested in suggestions for improving the abstracts and
+organization of each presentation, since I often reuse the same slides a few
+times.
+
 Where are the slides from $CONFERENCE?
 --------------------------------------
 
