@@ -1,9 +1,51 @@
-.. toctree::
-    irc
-    github
-    licenses
-    algorithms
-    security
-    dobc
-    vim
-    think_git
+================
+edunham's slides
+================
+
+Slides?
+-------
+
+They're made with Sphinx and Hieroglyph.
+
+http://sphinx-doc.org/latest/index.html
+
+http://hieroglyph.readthedocs.org/en/latest/
+
+Source?
+-------
+
+If you've found a typo or have a resource to add, shoot me a pull request over
+at https://github.com/edunham/slides !
+
+Speaker notes?
+--------------
+
+When you're viewing a slide deck, hit ctrl+c to bring up the presenter console
+
+.. note:: 
+
+    see? here's a note to the speaker! It's in a ..note:: block in the source.
+
+Where are the slides from $CONFERENCE?
+--------------------------------------
+
+Try http://talks.edunham.net/ . Click on the conference name for the slides I
+used at it.
+
+Are the talks recorded?
+-----------------------
+
+When recordings are available, they're linked from the snapshot of the slides
+from that conference.
+
+Will you speak about $TOPIC?
+----------------------------
+
+Maybe! Email me (dunhame@onid.orst.edu) or ping me (edunham on
+irc.freenode.net) with your request!
+
+Will you speak at $CONFERENCE?
+------------------------------
+
+Probably! If it's outside the Pacific Northwest, I might need travel and
+housing assistance, since I'm still a student.
