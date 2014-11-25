@@ -1,0 +1,63 @@
+ Submitted by Emily Dunham on Mon, 2014-11-24 16:37
+Speaker: 
+Emily Dunham
+Audience: 
+Everyone
+Topic: 
+Keynote
+Tags: 
+Foss
+community
+leadership
+Brief description: 
+Applying concepts from psychology to accomplish your FOSS community goals.
+Short abstract: 
+
+Are you trying to herd cats as a project leader, or simply wondering how to
+evaluate a project's culture from the outside before getting involved? This
+talk explains some basic models of human motivation and behavior and include
+examples of applying them in the world of open­source software. As engineers,
+we use simple heuristics and algorithms for solving computer problems every
+day, although we rarely use those models to understand human interaction.
+Long abstract: 
+
+Compiled by an enthusiastic student of computer science and psychology with
+over 7 years' experience in the art of getting volunteers to build cool stuff,
+this talk starts by introducing a variety of ways that psychology models human
+behavior. It then relates each of them to helpful insights about community
+management, software usability, and open-source project and community
+leadership.
+
+The advice in this talk is gathered from a variety of experiences including
+over 4 years in the robotics community, 2 years as president of a university
+Linux Users Group, founding a free DevOps education program, and collaboration
+with veterans of all branches of the FOSS community.
+Presentation Link: 
+Human Hacking (ctrl+c for presenter console)
+Message to the reviewers: 
+
+I was approached after giving this talk at the Seattle Gnu/Linux Conference by
+a SCALE organizer who asked me to submit it as a keynote. The recordings and
+slides from my SeaGL talk are at http://lanyrd.com/2014/seagl/sdfggm/.
+
+I originally got the idea for this talk when mentoring the student who's
+taking over from me as president of the OSU Linux Users Group this year. I
+realized that a lot of the concepts and approaches that I was describing to
+him were things that I'd been able to formalize thanks to my background in
+psychology, though many of my peers in engineering either haven't observed or
+don't use them. Quantifying the techniques I've actually used to manage
+various large and somtimes difficult groups of engineers made me realize that
+this handful of relatively simple strategies have contributed greatly to my
+own success in the FOSS community.
+
+There's content in this talk for people of all different backgrounds and
+aspirations -- I approach the applications of the concepts that I discuss from
+both how you can use them as an individual contributor (for instance, to get
+better feedback in code reviews) and as a community leader (for instance, to
+deal with problematic community members).
+Primary contact email address: 
+dunhame@onid.oregonstate.edu
+Time: 
+Monday, November 24, 2014 - 16:15
+appropriate for: 
+All ages
