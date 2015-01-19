@@ -1,0 +1,14 @@
+LinuxFest Northwest 2015
+========================
+
+When you're new to programming, or self-taught with an emphasis on those
+topics that're directly relevant to your current project, it's easy to skip
+learning about analyzing the complexity of algorithms. 
+
+But when your pet project runs too slowly, you find yourself wondering if there's
+anything you can do to speed it up. This talk will minimize the scary math
+which often accompanies formal computer science education, while maximizing
+concrete examples of what the mysterious greek letters mean and how
+understanding them can help you. It will also include an overview of the
+profiling tools which professionals use to analyze real code and understand
+its performance problems. 
