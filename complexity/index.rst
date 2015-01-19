@@ -52,6 +52,12 @@ Algorithmic complexity in real code
   psuedo-code -- simplify it till all you have are bits that'll take constant
   time, and loops
 
+Expected Use Case
+-----------------
+
+graphs of how exponential time with a really tiny constant compares to linear
+time with a really huge constant, especially for small n
+
 So, why **is** my program slow?
 -------------------------------
 
