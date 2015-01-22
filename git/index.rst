@@ -27,7 +27,8 @@ Thinking in Git
     https://github.com/k88hudson/git-flight-rules
     http://githut.info/ for finding repos by language on gh
     https://github.com/tomheon/git_by_a_bus cool analytics
-
+    http://visualize-your-git.herokuapp.com/
+    
 Agenda
 ======
 
