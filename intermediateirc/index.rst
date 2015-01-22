@@ -52,7 +52,7 @@ to·pol·o·gy
 
 təˈpäləjē/
 
-.. figure:: /_static/irc/topo_map.jpg
+.. figure:: /_static/topo_map.jpg
     :scale: 50%
     :align: center
 
@@ -62,7 +62,7 @@ təˈpäləjē/
 Network Topology
 ================
 
-.. figure:: /_static/irc/example_network.gif
+.. figure:: /_static/example_network.gif
     :class: fill
     :scale: 75%
 
@@ -79,7 +79,7 @@ Network Topology
 Netsplits
 =========
 
-.. figure:: /_static/irc/example_netsplit.gif
+.. figure:: /_static/example_netsplit.gif
     :class: fill
     :scale: 75% 
 
@@ -90,7 +90,7 @@ Netsplits
 Multiple Networks
 =================
 
-.. figure:: /_static/irc/multiple_networks.gif
+.. figure:: /_static/multiple_networks.gif
     :scale: 60%
 
 Irssi: Multiple networks
@@ -112,7 +112,7 @@ Different nicks in different channels?
 Bots...
 =======
 
-.. figure:: /_static/irc/musicrobots.jpg
+.. figure:: /_static/musicrobots.jpg
     :class: fill
     
 
@@ -230,7 +230,7 @@ https://github.com/marineam/hackabot
 GitHub Integration
 ==================
 
-.. figure:: /_static/irc/github.jpg
+.. figure:: /_static/github.jpg
    :align: center
 
 GitHub can join your channel and notify you that something happened. 
@@ -250,7 +250,7 @@ Remember to check 'active'!
 Write your own!
 ===============
 
-.. figure:: /_static/irc/pen.jpg
+.. figure:: /_static/pen.jpg
     :class: fill
 
 * Common first project 
@@ -272,7 +272,7 @@ Other Useful Bots
 
 Freenode's Services:
 
-.. figure:: /_static/irc/bouncer.jpg
+.. figure:: /_static/bouncer.jpg
     :align: right
 
 * NickServ
@@ -329,7 +329,7 @@ ChanServ
 MemoServ
 ========
 
-.. figure:: _static/irc/mailboxes.jpg
+.. figure:: _static/mailboxes.jpg
     :align: center 
     :scale: 50%
 
@@ -352,7 +352,7 @@ MemoServ
 alis
 ====
 
-.. figure:: /_static/irc/alice.png
+.. figure:: /_static/alice.png
     :align: center
     :scale: 50%
 
@@ -368,7 +368,7 @@ alis
 Identity Management on Freenode
 ===============================
 
-.. figure:: /_static/irc/identity.jpg
+.. figure:: /_static/identity.jpg
     :class: scale
 
 NickServ
@@ -407,7 +407,7 @@ NickServ
 Cloaks
 ======
 
-.. figure:: /_static/irc/cloak.png
+.. figure:: /_static/cloak.png
     :align: center
     :scale: 50%
 
@@ -420,7 +420,7 @@ Cloaks
 Etiquette
 =========
 
-.. figure:: /_static/irc/fancytable.jpg
+.. figure:: /_static/fancytable.jpg
     :align: center
     :scale: 40%
 
@@ -435,7 +435,7 @@ Etiquette
 Timing
 ======
 
-.. figure:: /_static/irc/whiterabbit.jpg
+.. figure:: /_static/whiterabbit.jpg
     :align: right
 
 * "Lurk Moar"
@@ -451,7 +451,7 @@ Timing
 Mistakes
 ========
 
-.. figure:: /_static/irc/facepalm.jpg
+.. figure:: /_static/facepalm.jpg
     :align: right
     :scale: 50%
 
@@ -473,7 +473,7 @@ Client Configuration
 
 |
 
-.. figure:: /_static/irc/irssiweechat.png
+.. figure:: /_static/irssiweechat.png
     :align: center
 
 |
@@ -486,7 +486,7 @@ Personal preference... I use Irssi
 Neat Features
 -------------
 
-.. figure:: /_static/irc/hilighter.jpg
+.. figure:: /_static/hilighter.jpg
     :align: right
 
 * hilight
@@ -501,7 +501,7 @@ Neat Features
 Buffers
 -------
 
-.. figure:: /_static/irc/buffering.gif
+.. figure:: /_static/buffering.gif
     :align: center
 
 ::
@@ -517,7 +517,7 @@ Buffers
 Go away!
 --------
 
-.. figure:: /_static/irc/kitten.jpg
+.. figure:: /_static/kitten.jpg
     :align: center
 
 ::
@@ -529,7 +529,7 @@ Go away!
 Logging
 -------
 
-.. figure:: /_static/irc/logtruck.jpg
+.. figure:: /_static/logtruck.jpg
     :align: center
     :scale: 50%
 
@@ -543,7 +543,7 @@ Logging
 Connection Configuration
 ------------------------
 
-.. figure:: /_static/irc/connection.jpg
+.. figure:: /_static/connection.jpg
     :align: center
 
 :: 
