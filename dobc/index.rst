@@ -4,7 +4,7 @@ Teaching DevOps to University Students
 
 .. slide::
 
-    .. figure:: /_static/dobc/corvallis.png
+    .. figure:: /_static/corvallis.png
         :class: fill
 
     .. note:: Hi. I'm Emily Dunham. CS student at Oregon State University. 
@@ -17,7 +17,7 @@ Teaching DevOps to University Students
 
 .. slide::
 
-    .. figure:: /_static/dobc/osl_logo.png
+    .. figure:: /_static/osl_logo.png
         :class: fill
 
     .. note:: 
@@ -33,7 +33,7 @@ Teaching DevOps to University Students
 
 .. slide::
 
-    .. figure:: /_static/dobc/teddybear.jpg
+    .. figure:: /_static/teddybear.jpg
         :class: fill
 
     .. note:: Founded in 2004, primarily student-driven
@@ -51,7 +51,7 @@ Teaching DevOps to University Students
 
 .. slide::
 
-    .. figure:: /_static/dobc/oregonian.png
+    .. figure:: /_static/oregonian.png
         :class: fill
 
     .. note::  Due to some bureaucracy, the OSL got moved from network
@@ -59,7 +59,7 @@ Teaching DevOps to University Students
 
 .. slide::
 
-    .. figure:: /_static/dobc/eecssite.png
+    .. figure:: /_static/eecssite.png
         :class: fill
 
     .. note:: So I start hearing about how the goal is to reach *a hundred*
@@ -67,7 +67,7 @@ Teaching DevOps to University Students
 
 .. slide::
 
-    .. figure:: /_static/dobc/calendar.png
+    .. figure:: /_static/calendar.png
         :align: center
 
     .. note:: Some time passes and it becomes obvious that no way will anyone
@@ -76,7 +76,7 @@ Teaching DevOps to University Students
 
 .. slide::
 
-    .. figure:: /_static/dobc/brain.jpg
+    .. figure:: /_static/brain.jpg
         :align: center
 
     .. note:: So a few of us sysadmins start talking about how we could fix
@@ -84,7 +84,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/braindump.png
+    .. figure:: /_static/braindump.png
         :align: center
 
     .. note:: Portland State University does this neat Brain Dump program,
@@ -98,7 +98,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/opsschool.png
+    .. figure:: /_static/opsschool.png
         :class: fill
 
     .. note:: There's kind of an online sysadmin training program called
@@ -111,7 +111,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/cookies.jpg
+    .. figure:: /_static/cookies.jpg
         :class: fill
 
     .. note:: Did you know that opsschool sends you cookies once you
@@ -119,7 +119,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/cs312.png
+    .. figure:: /_static/cs312.png
         :class: fill
 
     .. note:: My boss used to teach a course in Linux systems administration.
@@ -141,7 +141,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/nametag.png
+    .. figure:: /_static/nametag.png
         :class: fill
 
     .. note:: Naming things is HARD.
@@ -153,7 +153,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/dobcsite.png
+    .. figure:: /_static/dobcsite.png
         :class: fill
 
     .. note:: Centralized a site and wrote down mission, goals, audience, etc.
@@ -167,7 +167,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/puzzle.jpg
+    .. figure:: /_static/puzzle.jpg
         :class: fill
 
     .. note:: Have you ever tried to pull apart your knowledge of a subject
@@ -177,7 +177,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/gplus.png
+    .. figure:: /_static/gplus.png
         :class: fill
 
     .. note:: Format of our meetings: 2 hours each thursday, roughly half and
@@ -199,7 +199,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/balance.jpg
+    .. figure:: /_static/balance.jpg
         :class: fill
 
     .. note:: Time management is hard, keeping it hands-on is hard, balancing
@@ -208,7 +208,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/thinker.jpg
+    .. figure:: /_static/thinker.jpg
         :class: fill
 
     .. note:: The fix is self-awareness. Pay attention to what you're doing,
@@ -218,7 +218,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/hourglass.jpg
+    .. figure:: /_static/hourglass.jpg
         :align: center
         :scale: 30%
 
@@ -233,7 +233,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/youtube.png
+    .. figure:: /_static/youtube.png
         :align: center
 
     .. note:: We've done 10 lessons so far through the year. 
@@ -253,7 +253,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/dobc.jpg
+    .. figure:: /_static/dobc.jpg
         :align: center
 
     .. note:: Other results
@@ -269,7 +269,7 @@ Teaching DevOps to University Students
 
 .. slide:: 
 
-    .. figure:: /_static/dobc/audience.jpg
+    .. figure:: /_static/audience.jpg
         :class: fill
 
     .. note:: What do YOU want out of this? Why are you here? What do you want
