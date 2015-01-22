@@ -32,7 +32,7 @@ Thinking in Git
 Agenda
 ======
 
-.. figure:: _static/think/gitlogo.png
+.. figure:: _static/gitlogo.png
     :align: right
 
 * How to look at software development
@@ -51,14 +51,14 @@ Thinking about Software Development
         * Add feature, fix bug, test idea
         * Sometimes have several reasons at once, want changes separate
 
-.. figure:: _static/think/compiling.png
+.. figure:: _static/compiling.png
     :align: center
     :scale: 60%
 
 Why version control?
 ====================
 
-.. figure:: _static/think/phdcomic.gif
+.. figure:: _static/phdcomic.gif
     :align: center
     :scale: 75%
 
@@ -71,14 +71,14 @@ Types of version control
 * Concurrent vs. locking
 * Diffs/patches vs. snapshots
 
-.. figure:: _static/think/deskdisaster.jpg
+.. figure:: _static/deskdisaster.jpg
     :align: center
     :scale: 75%
 
 Goals of Distributed Version Control
 ====================================
 
-.. figure:: _static/think/dvcs.gif
+.. figure:: _static/dvcs.gif
     :align: right
     :scale: 60%
 
@@ -98,7 +98,7 @@ Git's buzzwords
 * Porcelain vs Plumbing
 * FOSS (GPLv2)
 
-.. figure:: _static/think/oaktree.jpg
+.. figure:: _static/oaktree.jpg
     :align: center
     :scale: 75%
 
@@ -110,7 +110,7 @@ How Git sees your project
 
 .. note:: Unstaged | Staged | Committed
 
-.. figure:: _static/think/staging.png
+.. figure:: _static/staging.png
     :align: center
 
 How?
@@ -137,7 +137,7 @@ Setting Up
 What's a **repository**?
 ========================
 
-.. figure:: _static/think/filmstrip.png
+.. figure:: _static/filmstrip.png
     :align: center
 
 Database of snapshots of your code
@@ -183,13 +183,13 @@ Undo?
 
     $ rm -rf .git
 
-.. figure:: _static/think/kaboom.jpg
+.. figure:: _static/kaboom.jpg
     :align: center
 
 What're **staged changes**?
 ===========================
 
-.. figure:: _static/think/staging.png
+.. figure:: _static/staging.png
     :align: center
     :scale: 75%
 
@@ -200,7 +200,7 @@ What're **staged changes**?
 Staging changes
 ---------------
 
-.. figure:: _static/think/thewings.jpg
+.. figure:: _static/thewings.jpg
     :align: center
 
 .. code-block:: bash
@@ -249,7 +249,7 @@ Undo?
 Thinking about snapshots
 ========================
 
-.. figure:: _static/think/polaroid.jpeg
+.. figure:: _static/polaroid.jpeg
     :align: right
     :scale: 50%
 
@@ -257,7 +257,7 @@ Thinking about snapshots
 * Not a diff (tracks all files)
 * Not a duplicate of everything (points to unchanged files)
 
-.. figure:: _static/think/snapshots_model.png
+.. figure:: _static/snapshots_model.png
     :align: center
     :scale: 70%
 
@@ -271,13 +271,13 @@ Snapshot of changes
 Includes snapshot (with pointers to unchanged files), author, date, committer
 (can differ from author), parent commit
 
-.. figure:: _static/think/snapshots_model.png
+.. figure:: _static/snapshots_model.png
     :align: center
 
 Making a commit
 ---------------
 
-.. figure:: _static/think/tardis.jpg
+.. figure:: _static/tardis.jpg
     :align: right
 
 .. code-block:: bash
@@ -305,7 +305,7 @@ Making a commit
 Looking at commits
 ------------------
 
-.. figure:: _static/think/gitk.png
+.. figure:: _static/gitk.png
     :align: center
     :scale: 40%
 
@@ -354,7 +354,7 @@ Reverting makes a revert commit.
 
 Reversability > hiding mistakes
 
-.. figure:: _static/think/tardis2.jpg
+.. figure:: _static/tardis2.jpg
     :scale: 50%
     :align: center
 
@@ -363,7 +363,7 @@ Reversability > hiding mistakes
 What's a **remote**?
 ====================
 |
-.. figure:: _static/think/remotes.png
+.. figure:: _static/remotes.png
     :scale: 75%
     :align: right
 
@@ -372,7 +372,7 @@ Another *clone* of more or less the same repo
 (remember when we cloned to get a copy?)
 
 |
-.. figure:: _static/think/sheepclones.jpg
+.. figure:: _static/sheepclones.jpg
     :scale: 75%
 
 Adding a remote
@@ -384,7 +384,7 @@ Adding a remote
 
     $ git remote add <name> <url>
 |
-.. figure:: _static/think/remotes.jpg
+.. figure:: _static/remotes.jpg
     :align: center
 
 Looking at remotes
@@ -430,20 +430,20 @@ Do you prefer text editor or commands?
 What's a **tag**?
 =================
 
-.. figure:: _static/think/graffiti.jpg
+.. figure:: _static/graffiti.jpg
     :align: right
     :scale: 40%
 
 * Marker attached to a specific commit
 * Typically used for version or release number
 
-.. figure:: _static/think/tags.png
+.. figure:: _static/tags.png
     :scale: 130%
 
 Adding a tag
 ------------
 
-.. figure:: _static/think/bookmarks.jpg
+.. figure:: _static/bookmarks.jpg
     :align: center
     :scale: 50%
 
@@ -485,7 +485,7 @@ Undo?
 What's a **branch**?
 ====================
 
-.. figure:: _static/think/gitflow_branches.png
+.. figure:: _static/gitflow_branches.png
     :align: center
 
 A parallel path of development, starting from a commit that's in the tree
@@ -516,7 +516,7 @@ Looking at branches
 
     $ git show <branchname>
 |
-.. figure:: _static/think/branchgraph.png
+.. figure:: _static/branchgraph.png
     :align: center
 
 Undo?
@@ -533,7 +533,7 @@ Undo?
     # delete remote branch
     $ git push <remotename> :<branchname>
 
-.. figure:: _static/think/pruning_bonsai.jpg
+.. figure:: _static/pruning_bonsai.jpg
     :align: center
     :scale: 80%
 
@@ -542,14 +542,14 @@ What's a **merge**?
 
 * Converges the divergent branches
 
-.. figure:: _static/think/pdx.jpe
+.. figure:: _static/pdx.jpe
     :align: center
     :scale: 80%
 
 Making a merge
 --------------
 
-.. figure:: _static/think/merge.png
+.. figure:: _static/merge.png
     :align: center
     :scale: 75%
 
@@ -610,7 +610,7 @@ Undo?
 What's a **rebase**?
 ====================
 |
-.. figure:: _static/think/billted.jpg
+.. figure:: _static/billted.jpg
     :align: center
 |
 Changing history. Means others will have to force pull.
@@ -673,7 +673,7 @@ I'm stuck in a broken rebase, get me out
 GitHub Stuff
 ============
 
-.. figure:: _static/think/github.png
+.. figure:: _static/github.png
     :align: right
     :scale: 80%
 |
@@ -704,7 +704,7 @@ SSH clone uses key from your account
 Forking
 -------
 
-.. figure:: _static/think/forking.gif
+.. figure:: _static/forking.gif
     :align: center
     :scale: 150%
 
@@ -716,7 +716,7 @@ Pull Requests
 
 |
 
-.. figure:: _static/think/pr-button.png
+.. figure:: _static/pr-button.png
     :align: center
 
 * Formalizes "Hi, please merge my changes"
@@ -729,7 +729,7 @@ Annoying tricks
 * Group management and access rights
 * No project license required
 |
-.. figure:: _static/think/gh-teams.png
+.. figure:: _static/gh-teams.png
     :align: center
 
 Extra features
@@ -744,11 +744,11 @@ Extra features
 Continuous Integration
 ======================
 |
-.. figure:: _static/think/jenkins.png
+.. figure:: _static/jenkins.png
     :align: right
     :scale: 25%
 
-.. figure:: _static/think/travis.png
+.. figure:: _static/travis.png
     :align: left
     :scale: 150%
 
@@ -760,7 +760,7 @@ Playing Well with Others
 * Focused commits with clear commit messages
 * Follow project standards for branching, tagging, etc.
 |
-.. figure:: _static/think/communication_dalek.jpe
+.. figure:: _static/communication_dalek.jpe
     :align: center
     :scale: 120%
 
