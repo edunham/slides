@@ -1,12 +1,22 @@
 git pull
 source v/bin/activate
-make html
+    rm -rf _build
+    make slides
+    ln -s _build/slides/index.html index.html
 cd humanhacking
-make html
+    rm -rf _build
+    make slides
+    ln -s _build/slides ../humans
 cd ../dobc
-make html
+    rm -rf _build
+    make slides
+    ln -s _build/slides ../dobc
 cd ../git
-make html
+    rm -rf _build
+    make slides
+    ln -s _build/slides ../git
 cd ../intermediateirc
-make html
+    rm -rf _build
+    make slides
+    ln -s _build/slides ../irc
 deactivate
