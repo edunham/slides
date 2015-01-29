@@ -1,3 +1,4 @@
+git pull
 source v/bin/activate
 make html
 cd humanhacking
