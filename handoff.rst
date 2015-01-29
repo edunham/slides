@@ -1,3 +1,26 @@
+OSCON Proposal
+
+Title: Avoiding Burnout with Community Leadership Handoffs
+
+As active participants in FOSS communities, we often see the disastrous
+effects that a project leader's burnout can have on their group. In this talk,
+Elijah Caine and Emily Dunham will share what they learned from the successful
+leadership handoff of one of the largest active Linux Users Groups in Oregon. 
+
+Topics will include how to avoid the pitfalls which the group encountered in
+previous transitions, the unique challenges faced by all-volunteer groups of
+busy people, how we fostered a group culture that facilitates successful
+transitions. Throught the talk, we'll emphasize how you can apply the basic
+leadership skills which tie it all together. 
+
+
+
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 evading burnout: lessons from a successful <adj> <noun> handoff
 
 Passing the Torch: Our lessons from FOSS organization leadership handoff
