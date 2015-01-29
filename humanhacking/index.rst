@@ -16,7 +16,7 @@ Human Hacking
 
     |
 
-    .. figure:: /_static/humans/helloworld.jpg
+    .. figure:: _static/helloworld.jpg
         :align: center
 
     .. note:: 
@@ -40,7 +40,7 @@ Human Hacking
 
 .. slide::
 
-    .. figure:: /_static/humans/sciencecat.jpg
+    .. figure:: _static/sciencecat.jpg
         :class: scale
         :align: center
         :scale: 200%
@@ -68,7 +68,7 @@ Getting What You Want
 
 |
 
-.. figure:: /_static/humans/too-many-gifts-clipart.gif
+.. figure:: _static/too-many-gifts-clipart.gif
     :class: scale
 
 .. note::
@@ -89,7 +89,7 @@ Getting What You Want
 Getting... What?
 ================
 
-.. figure:: /_static/humans/treasuremap.png
+.. figure:: _static/treasuremap.png
     :class: scale
 
 .. note::
@@ -110,7 +110,7 @@ Outline
 웃 => 웃웃 => 웃웃웃웃웃웃웃웃
 
 
-.. figure:: /_static/humans/ouroboros.png
+.. figure:: _static/ouroboros.png
     :align: center
 
 .. note:: Writing this talk has shown me that introductory curricula in
@@ -134,7 +134,7 @@ Outline
 웃
 ==
 
-.. figure:: /_static/humans/brain.jpg
+.. figure:: _static/brain.jpg
     :class: scale
     :align: center
 
@@ -149,7 +149,7 @@ Why do people do things?
 Maslow
 ------
 
-.. figure:: /_static/humans/maslow.jpg
+.. figure:: _static/maslow.jpg
     :class: scale
 
 .. note:: 
@@ -161,7 +161,7 @@ Maslow
 MBTI types
 ----------
 
-.. figure:: /_static/humans/mbti.jpg
+.. figure:: _static/mbti.jpg
     :align: center
     :scale: 120%
 
@@ -197,7 +197,7 @@ MBTI types
 Priorities
 ----------
 
-.. figure:: /_static/humans/marshmallows.jpg
+.. figure:: _static/marshmallows.jpg
     :class: scale
 
 * Fast vs slow gratification
@@ -243,13 +243,13 @@ Cognitive Biases
 
     <example of same "fallacy" being both good and bad>
 
-.. figure:: /_static/humans/workflow.png
+.. figure:: _static/workflow.png
     :align: center
 
 POP QUIZ
 ========
 
-.. figure:: /_static/humans/headsup7up.jpg
+.. figure:: _static/headsup7up.jpg
     :align: center
 
 |
@@ -262,7 +262,7 @@ Overconfidence Effects
 
 |
 
-.. figure:: /_static/humans/selfagg.jpg
+.. figure:: _static/selfagg.jpg
     :align: center
 
 .. note::
@@ -277,7 +277,7 @@ Overconfidence Effects
 POP QUIZ
 ========
 
-.. figure:: _static/humans/headsup7up.jpg
+.. figure:: _static/headsup7up.jpg
     :align: center
 
 |
@@ -290,7 +290,7 @@ Underconfidence Effects
 
 |
 
-.. figure:: /_static/humans/underconfidence.jpeg
+.. figure:: _static/underconfidence.jpeg
     :align: center
 
 .. note::
@@ -306,7 +306,7 @@ Cognitive Biases...
 
 |
 
-.. figure:: /_static/humans/theresmore.jpg
+.. figure:: _static/theresmore.jpg
     :align: center
 
 http://en.wikipedia.org/wiki/List_of_cognitive_biases
@@ -316,7 +316,7 @@ http://en.wikipedia.org/wiki/List_of_cognitive_biases
 A word of warning
 -----------------
 
-.. figure:: /_static/humans/warning.png
+.. figure:: _static/warning.png
     :align: center
     :scale: 50%
 
@@ -333,7 +333,7 @@ A word of warning
 웃웃
 ====
 
-.. figure:: /_static/humans/tcas.png
+.. figure:: _static/tcas.png
     :align: center
 
 .. note:: all of the factors that affect an individual's behavior are still
@@ -344,7 +344,7 @@ Social Scripts
 
 |
 
-.. figure:: /_static/humans/arrowtotheknee.jpg
+.. figure:: _static/arrowtotheknee.jpg
     :class: scale
     :align: center
     :scale: 150%
@@ -360,7 +360,7 @@ Social Scripts
 Reciprocity
 -----------
 
-.. figure:: /_static/humans/cooperation.gif
+.. figure:: _static/cooperation.gif
     :align: right
  
 
@@ -383,7 +383,7 @@ than he whom you yourself have obliged."
 Body Language
 -------------
 
-.. figure:: /_static/humans/bodylanguage.jpg
+.. figure:: _static/bodylanguage.jpg
     :class: scale
 
 .. note:: dominant/confident/aggressive vs submissive/uncertain/scared
@@ -403,7 +403,7 @@ Mirroring
 
 |
 
-.. figure:: /_static/humans/mirroring.jpg
+.. figure:: _static/mirroring.jpg
     :scale: 150%
     :align: center
 
@@ -418,7 +418,7 @@ Inviting conversation
 
 |
 
-.. figure:: /_static/humans/freehugs.jpg
+.. figure:: _static/freehugs.jpg
     :class: scale
     :align: center
 
@@ -437,12 +437,12 @@ Inviting conversation
 Effective email
 ---------------
 
-.. figure:: /_static/humans/gmail.jpg
+.. figure:: _static/gmail.jpg
     :class: fill
 
 |
 
-.. figure:: /_static/humans/inboxfull.png
+.. figure:: _static/inboxfull.png
     :align: center
 
 .. note:: 
@@ -459,7 +459,7 @@ Social Capital
 
 |
 
-.. figure:: /_static/humans/redditpony.png
+.. figure:: _static/redditpony.png
     :class: scale
 
 .. note:: 
@@ -481,7 +481,7 @@ Social Capital
 Stalking Skills
 ---------------
 
-.. figure:: /_static/humans/neighborhoodwatch.jpg
+.. figure:: _static/neighborhoodwatch.jpg
     :class: scale
     :scale: 75%
     :align: center
@@ -503,7 +503,7 @@ Stalking Skills
 웃웃웃웃웃웃웃웃
 ================
 
-.. figure:: /_static/humans/committee.jpg
+.. figure:: _static/committee.jpg
     :class: scale
 
 .. note:: Okay so now we have a whole BUNCH of people. no longer feasible to
@@ -515,7 +515,7 @@ Stalking Skills
 
     |
 
-    .. figure:: /_static/humans/person_vs_people_quote.gif
+    .. figure:: _static/person_vs_people_quote.gif
         :align: center
 
 FOSS
@@ -523,7 +523,7 @@ FOSS
 
 |
 
-.. figure:: /_static/humans/businesspenguin.gif
+.. figure:: _static/businesspenguin.gif
     :class: scale
     :align: center
 
@@ -535,7 +535,7 @@ FOSS
 Getting Taken Seriously
 -----------------------
 
-.. figure:: /_static/humans/clowns.jpg
+.. figure:: _static/clowns.jpg
     :class: scale
 
 .. note::
@@ -551,7 +551,7 @@ Getting Taken Seriously
 Asking Questions Well
 ---------------------
 
-.. figure:: /_static/humans/question.jpg
+.. figure:: _static/question.jpg
     :align: center
     :scale: 30%
 
@@ -567,7 +567,7 @@ when I try to ______, ______ happens instead. Please help me ______.
 Routes into a project
 ---------------------
 
-.. figure:: /_static/humans/routes.png
+.. figure:: _static/routes.png
     :class: scale
 
 .. note::
@@ -579,7 +579,7 @@ Routes into a project
 Improving Docs
 --------------
 
-.. figure:: /_static/humans/macmanual.jpg
+.. figure:: _static/macmanual.jpg
     :class: scale
 
 .. note::
@@ -602,7 +602,7 @@ Route Around Damage
 
 |
 
-.. figure:: /_static/humans/censorship.png
+.. figure:: _static/censorship.png
     :align: center
 
 .. note::
@@ -614,7 +614,7 @@ Route Around Damage
 Case study: They're ignoring my PRs!
 ------------------------------------
 
-.. figure:: /_static/humans/madscientist.jpg
+.. figure:: _static/madscientist.jpg
     :class: scale
     :align: center
 
@@ -632,7 +632,7 @@ Case study: They're ignoring my PRs!
 Leveraging Conferences
 ----------------------
 
-.. figure:: /_static/humans/seagl.jpg
+.. figure:: _static/seagl.jpg
     :align: center
     :scale: 75%
 
@@ -650,7 +650,7 @@ Leveraging Conferences
 Leadership
 ==========
 
-.. figure:: /_static/humans/ducklings.jpg
+.. figure:: _static/ducklings.jpg
     :class: scale
 
 .. note:: Leadership tends to happen to people who work hard, are reliable,
@@ -662,7 +662,7 @@ Leadership
 Know Your Audience
 ------------------
 
-.. figure:: /_static/humans/audience.jpg
+.. figure:: _static/audience.jpg
     :class: scale
 
 .. note::
@@ -681,7 +681,7 @@ Establishing Culture
 
 |
 
-.. figure:: /_static/humans/petri.jpg
+.. figure:: _static/petri.jpg
     :class: scale
     :align: center
 
@@ -706,7 +706,7 @@ Delegation
 
 |
 
-.. figure:: /_static/humans/rosie.jpg
+.. figure:: _static/rosie.jpg
     :class: scale
     :scale: 200%
     :align: center
@@ -725,7 +725,7 @@ Delegation
 Managing Expectations
 ---------------------
 
-.. figure:: /_static/humans/balldrop.jpg
+.. figure:: _static/balldrop.jpg
     :class: scale
 
 .. note::
@@ -738,7 +738,7 @@ Managing Expectations
 pre-emptive problem solving
 ---------------------------
 
-.. figure:: /_static/humans/rubiks.jpg
+.. figure:: _static/rubiks.jpg
     :class: scale
 
 .. note::
@@ -764,7 +764,7 @@ DFIU
 
 |
 
-.. figure:: /_static/humans/trolls.jpg
+.. figure:: _static/trolls.jpg
     :class: scale
 
 .. note::
@@ -778,7 +778,7 @@ DFIU
 And Yet...
 ----------
 
-.. figure:: /_static/humans/firetruck.jpg
+.. figure:: _static/firetruck.jpg
     :class: scale
 
 .. note:: 
@@ -795,7 +795,7 @@ And Yet...
 Getting People Out
 ------------------
 
-.. figure:: /_static/humans/defenestrate.png
+.. figure:: _static/defenestrate.png
     :scale: 200%
     :align: center
 
@@ -817,7 +817,7 @@ Avoiding Burnout
 
 |
 
-.. figure:: /_static/humans/burnout.jpg
+.. figure:: _static/burnout.jpg
     :class: scale
     :align: center
     :scale: 150%
@@ -832,7 +832,7 @@ Avoiding Burnout
 Leadership Handoff
 ------------------
 
-.. figure:: /_static/humans/baton.jpg
+.. figure:: _static/baton.jpg
     :class: scale
 
 .. note:: 
@@ -851,7 +851,7 @@ Leadership Handoff
 Mental health / brain bugs
 --------------------------
 
-.. figure:: /_static/humans/bug.jpg
+.. figure:: _static/bug.jpg
     :class: scale
 
 .. note::
@@ -866,7 +866,7 @@ Questions?
 
 |
 
-.. figure:: /_static/humans/tea.gif
+.. figure:: _static/tea.gif
     :align: center
 
 edunham on irc.freenode.net
