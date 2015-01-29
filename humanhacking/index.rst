@@ -2,7 +2,7 @@
 Human Hacking
 =============
 
-.. quote::
+::
     Is the project of your dreams ignoring your pull requests? Do you need a way to
     convince other contributors to improve their documentation? Are you trying to herd
     cats as a project leader, or simply wondering how to evaluate a project's culture from
