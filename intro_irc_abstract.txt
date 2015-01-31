@@ -1,0 +1,12 @@
+Introduction to IRC
+
+Internet Relay Chat is a favorite communication tool among open source users
+and developers. If you've never been on IRC before or are confused by the many
+networks, channels, and clients available, this talk will help you understand
+and get involved with IRC communities. We'll discuss the differences between
+servers, networks, and channels, with a focus on how to find the communities
+that best fit your interests.   After explaining what IRC is, the talk will
+help you choose which client software best fits your needs. You'll learn about
+the unique benefits and challenges of the type of communication that IRC
+encourages, and the etiquette of being a good community member in IRC
+channels.   
