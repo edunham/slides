@@ -1,0 +1,52 @@
+Proposal Title: Avoiding Burnout with Community Leadership Handoffs
+
+Description(brief overview for marketing purposes, max. length 400
+characters -- about 65 words): 
+
+As active participants in FOSS communities, we often see the disastrous
+effects that a project leader's burnout can have on their group. In this talk,
+Elijah Caine and Emily Dunham will share what they learned from the successful
+leadership handoff of one of the largest active Linux Users Groups in Oregon.
+
+Topic: People
+
+Session Type: 40-minute
+
+Abstract: (Longer, more detailed description (3-6 paragraph, bullet points
+welcome) of your presentation to help the program committee understand what
+you will cover. Please keep in mind that if your proposal is chosen, this
+abstract will also appear on the website to help conference attendees decide
+if it's right for them.)
+
+As active participants in FOSS communities, we often see the disastrous
+effects that a project leader's burnout can have on their group. In this talk,
+Elijah Caine and Emily Dunham will share what they learned from the successful
+leadership handoff of one of the largest active Linux Users Groups in Oregon.
+                                                                        
+Topics will include how to avoid the pitfalls which the group encountered in
+previous transitions, the unique challenges faced by all-volunteer groups of
+busy people, how we fostered a group culture that facilitates successful
+transitions. Throught the talk, we'll emphasize how you can apply the basic
+leadership skills which tie it all together.
+
+This talk represents a truly unique opportunity to get an in-depth view of a
+group's leadership handoff from both sides -- you'll hear from the former
+president what she was trying to do, and from her successor about what did and
+didn't actually work. Although it uses the specific example of the OSU LUG's
+leadership transition, this talk will focus on the reasons that various
+techniques did and didn't work and how other groups can apply these lessons
+themselves.
+
+
+Tags: Geek Life/Lifestyle, Tools & Techniques, Other ("Community Leadership")
+
+Audience level: Non-technical
+
+Prerequisite Knowledge: 
+
+Interest in leadership and open source communities
+
+Conceptual vs. How-to: Conceptual
+
+
+
