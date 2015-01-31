@@ -1,0 +1,5 @@
+Teaching DevOps to University Students
+
+University students rarely get a chance to fully embrace the Devops or FOSS development culture while in school. Last year, I started a program at the Oregon State University  Open Source Lab called Devops Bootcamp, which is a hands-on, informal workshop open to any student at OSU. Devops Bootcamp immerses college students in the basics of Linux, Linux system administration and FOSS development practices. I combined my experience as LUG president, Computer Science teaching assistant, and Open Source Lab sysadmin to develop a training curriculum and present it to 20-40 students through the year.
+
+Come to this talk to learn what we did, why we did it, how it worked, and what you can learn from out experiences to improve your organization's recruitment and outreach. It will be especially relevant to those interested in introducing aspiring programmers and sysadmins to the open source community.
