@@ -14,4 +14,7 @@ cd ../git
 cd ../intermediateirc
     rm -rf _build
     make slides
+cd ../handoff
+    rm -rf _build
+    make slides
 deactivate
