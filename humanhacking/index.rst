@@ -647,6 +647,9 @@ Leveraging Conferences
     
     stalk conference abstracts from past years to get a feel for tone
 
+    for talks, more KNOW YOUR AUDIENCE -- do they prefer buzzwords, or data?
+    Use cases, or test cases? Pictures, or code?
+
 Leadership
 ==========
 
