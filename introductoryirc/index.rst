@@ -36,8 +36,19 @@ clients
     * recognise that others' might be different
     * services (picture of a maid and butler, alis and nickserv)
 
+What To Expect
+--------------
+
+* Lots of extraneous messages are available to you -- joins, parts, quits,
+  nickname changes. You'll want a client that helps you hide the ones you
+  don't care about. 
+
+* Asynchronous communication -- time zones, etc. mean it can sometimes be
+  hours before you get a reply. You want a client that stays in the channel
+  even when your portable device is asleep. 
+
 Choosing a Client
------------------
+=================
 
 explain persistent vs not
 shell vs bouncer vs local client, pros and cons
@@ -50,6 +61,28 @@ Client Settings
 
 network and port (SSL is like the https thing, not scary)
 nick (we'll sort this out for you on freenode)
+
+Choosing a Name
+===============
+
+Your nickname or "handle" is your unique identifier across the network. 
+
+I'll show you how to protect it with Freenode services so it's harder for
+anyone to steal your identity. 
+
+Parallels to email address -- ok to change it a few times before people know
+you, but annoys everyone to change it once you're entrenched in a community
+
+First Impressions
+-----------------
+
+We all judge people. It's a thing. Rather than being judged by your face or
+your voice or your clothes, on IRC you're judged by what you say. The first
+thing any message you send on IRC says is your nick. 
+
+* Professional
+* Perhaps anonymizing?
+* gender & interests
 
 Registering your nick
 ---------------------
