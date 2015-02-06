@@ -738,6 +738,21 @@ Managing Expectations
     
         * good for managing own burnout
 
+Experiment Time
+---------------
+
+TODO: FIXME: PICTURE AND POLL AND STUFF... science dog?
+
+.. note::
+    A few gotchas about teaching: 
+    * more KNOW YOUR AUDIENCE
+    * people do not like embarrassing themselves or standing out
+    * you're all here because you're pretty knowledgeable about Linux, does
+      anyone not know why we choose Linux over other operating systems? 
+      * then an anonymous Google poll link
+      * then we look at the poll results vs the presenter's impression of the
+        room's knowledge
+
 pre-emptive problem solving
 ---------------------------
 
