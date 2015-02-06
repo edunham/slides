@@ -5,7 +5,7 @@ by edunham
 
 10/22/2013
 
-.. note:: also include /msg memoserv help send
+.. note:: 
          also include etiquette -- don't assume gender, don't asktoask
          also /ns vs /msg nickserv@services vs /msg nickserv when splitty
          in the "do not list on freenode", we have /msg alis help list
@@ -364,6 +364,24 @@ alis
 
     HELP            Displays contextual help information.
     LIST            Lists channels matching given parameters.
+
+memoserv
+========
+
+.. figure:: /_static/postiebike.jpg
+    :align: center
+    :scale: 50%
+    :alt: photo by Wikimedia user Khaosaming
+
+::
+
+    /msg memoserv help
+
+    DELETE          Deletes memos.
+    HELP            Displays contextual help 
+    LIST            Lists all of your memos.
+    READ            Reads a memo.
+    SEND            Sends a memo to a user.
 
 Identity Management on Freenode
 ===============================
