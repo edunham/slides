@@ -37,73 +37,6 @@ Human Hacking
         whether taking my advice would make you happier and only follow it if it
         would.
 
-
-.. slide::
-
-    .. figure:: _static/sciencecat.jpg
-        :class: scale
-        :align: center
-        :scale: 200%
-
-    .. note:: 
-
-        The attitude which turns ordinary interactions into useful leraning
-        experiences is pragmatism, or being scientific
-        pragmatism / science
-
-        Being scientific == the approach required to get useful
-        results from any "experiment" or time you change a cause to see how its
-        effects are altered. 
-
-        Next: Getting What You Want
-
-    What happened?
-
-    Why did it happen?
-
-    How will changing the contributing factors change the results?
-
-Getting What You Want
----------------------
-
-|
-
-.. figure:: _static/too-many-gifts-clipart.gif
-    :class: scale
-
-.. note::
-    My abstract is written in a way that will attract people who
-    want to learn how to *get what they want* from others. 
-
-    my "be careful what you wish for" is as follows: Identify what you want.
-    Does it make life better or worse for you and the people around you? If
-    it's unprecedented, get others' feedback on whether they'd see its results
-    as an improvement. 
-
-    If what you think you want is generally harmful, examine why you want it
-    and whether that underlying desire could be satisfied through another
-    course of action with fewer detrimental effects. 
-
-    Next: Know what you want.
-
-Getting... What?
-================
-
-.. figure:: _static/treasuremap.png
-    :class: scale
-
-.. note::
-
-    But "Be Careful what You Wish For" has a prerequisite:
-
-    Step 0 is knowing what you want. If you don't
-    konw what you want, I can't help you -- go spin up an instance of Elizabot
-    and talk to her or something. What I regard as human hacking is mostly
-    about channeling motivations and fulfilling desires, not about summoning
-    that motivation out of thin air.
-
-    Next: Outline
-
 Outline
 -------
 
@@ -129,6 +62,10 @@ Outline
     small group interactions, then to the large groups of open source
     projects, and then talking about some things I've learned in nearly a
     decade of leading engineers.
+
+
+Theories
+========
 
 
 웃
@@ -312,6 +249,76 @@ Cognitive Biases...
 http://en.wikipedia.org/wiki/List_of_cognitive_biases
 
 .. note:: We could talk about cognitive biases all day... but let's not.
+
+Applications
+============
+
+.. slide::
+
+    .. figure:: _static/sciencecat.jpg
+        :class: scale
+        :align: center
+        :scale: 200%
+
+    .. note:: 
+
+        The attitude which turns ordinary interactions into useful leraning
+        experiences is pragmatism, or being scientific
+        pragmatism / science
+
+        Being scientific == the approach required to get useful
+        results from any "experiment" or time you change a cause to see how its
+        effects are altered. 
+
+        Next: Getting What You Want
+
+    What happened?
+
+    Why did it happen?
+
+    How will changing the contributing factors change the results?
+
+Getting What You Want
+---------------------
+
+|
+
+.. figure:: _static/too-many-gifts-clipart.gif
+    :class: scale
+
+.. note::
+    My abstract is written in a way that will attract people who
+    want to learn how to *get what they want* from others. 
+
+    my "be careful what you wish for" is as follows: Identify what you want.
+    Does it make life better or worse for you and the people around you? If
+    it's unprecedented, get others' feedback on whether they'd see its results
+    as an improvement. 
+
+    If what you think you want is generally harmful, examine why you want it
+    and whether that underlying desire could be satisfied through another
+    course of action with fewer detrimental effects. 
+
+    Next: Know what you want.
+
+Getting... What?
+================
+
+.. figure:: _static/treasuremap.png
+    :class: scale
+
+.. note::
+
+    But "Be Careful what You Wish For" has a prerequisite:
+
+    Step 0 is knowing what you want. If you don't
+    konw what you want, I can't help you -- go spin up an instance of Elizabot
+    and talk to her or something. What I regard as human hacking is mostly
+    about channeling motivations and fulfilling desires, not about summoning
+    that motivation out of thin air.
+
+    Next: Outline
+
 
 A word of warning
 -----------------
