@@ -7,6 +7,13 @@ Introduction
 
 IMAGE: stickman waving hello
 
+talks.edunham.net/SCALE2015
+
+.. note::
+    Slides are Hieroglyph, images are Blender with resources from
+    blendswap.com starring Wooden Mannequin (blend 74733) by the amazing
+    jgilhutton
+
 Outline
 -------
 
@@ -270,6 +277,12 @@ EMPOWER minions
 knowing it'll happen == knowing who'll do it
 
 IMAGE: stickman handing sketch the map
+
+delegation: Timing
+------------------
+
+IMAGE: calendar with can start, deadline, and lastminute. sketch on can start,
+stickman on lastminute.
 
 manage burnout
 --------------
