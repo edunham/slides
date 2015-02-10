@@ -1,0 +1,27 @@
+Characters: 
+
+    Stickman
+    Sketch Person
+    Sketch People Crowd
+
+
+Settings:
+
+    Stage
+    Chairs
+    Doorway
+    Desk
+
+Props:
+
+    Map
+    Speech Bubble
+    Thought Bubble
+    Laptop with IRC
+    Laptop wtih Email
+    necktie
+    briefcase
+    paper hat
+    lab coat
+    microphone
+    binoculars
