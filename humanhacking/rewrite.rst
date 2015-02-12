@@ -2,6 +2,21 @@
 Human Hacking
 =============
 
+.. note:: focuses... 
+    pacing
+    no questionmarks
+    transitions
+    fight tendency to get shrill when nervous
+    kill the "kind of" -- use synonyms
+    "umm"
+    less mbti
+    accent gets stronger when joking
+    BEST FRIEND or DAD thinks they're better at driving than averae
+    git by a bus (for good culture stuff?)... delegation+redundancy
+    transition into dropped ball was good
+    good reiteration on burnout stuff -- goes so fast it needs more repetition
+    fewer words on the "automate yourself out of a job" for handoffs
+
 Introduction
 ------------
 
@@ -76,13 +91,14 @@ Milgram Obedience
 
 use the more modern less unethical remake
 
-IMAGE: stickman with buttons and sketch in a lab coat
+IMAGE: stickman with buttons and sketch with clipboard 
 
 social scripts/expectations
 ---------------------------
 
 IMAGE: sketch as an NPC dialog
 
+.. note:: get help with scripts example
 
 bystander effect
 ----------------
@@ -95,6 +111,7 @@ reciprocity
 IMAGE: stickman giving something to sketch -> sketch giving something to
 stickman (like a recycle symbol)
 
+.. note:: attribution error, assumption that helps you -> likes you
 
 mirroring / body language
 -------------------------
@@ -173,12 +190,24 @@ IMAGE: sketch people crowdsurfing stickman
 stalking skills
 ---------------
 
+.. note:: put free software or open source software or project name in search,
+    use safesearch
+
 with the caveat that there are sometimes things you didn't want to know
 
 IMAGE: stickman with binoculars?
 
 As a FOSS Contributor
 =====================
+
+.. note:: people are dumb, panicky animals quote was a REALLY GOOD transition
+
+social capital
+--------------
+
+.. note:: move this?
+
+recommendations are gambling
 
 meritocracy
 -----------
@@ -193,7 +222,7 @@ first impressions
 
 (that bit about pattern recognition) identify which patterns you'll match
 
-IMAGE: irc convo over s's shoulder, "IM_NOT_LISTENING_TO_YOU" nick
+IMAGE: irc convo over stickman's shoulder, "IM_NOT_LISTENING_TO_YOU" nick
 
 
 asking good questions
@@ -203,12 +232,17 @@ IMAGE: stickman with the madlibs in a speech bubble
 
 fit the pattern of contributors who've turned out to be useful
 
+.. note:: shows that you read the docs and that will make them very happy,
+    especially the person who wrote the docs. 
+
 routes into a project
 ---------------------
 
 IMAGE: stickman with a treasure map
 
 improving docs
+
+.. note:: get out of dumb question free cards
 
 routing around damage
 
