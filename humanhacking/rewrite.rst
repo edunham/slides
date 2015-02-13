@@ -35,6 +35,14 @@ Outline
 IMAGE: stickman with a piece of chalk at chalkboard? or, drawing the outline
 of himself
 
+.. note:: 
+    1) theories about people                    (20mins)
+        * theories about individuals    (~12min)
+        * theories about groups         (~8min)
+    2) applications as FOSS contributor         (15mins)
+    3) Leadership                               (15mins)
+
+
 Individuals In Theory...
 ========================
 
@@ -60,13 +68,6 @@ MBTI
 
 
 
-great at pattern recognition
-----------------------------
-
-ergo judgemental, quick to jump to conclusions.
-IMAGE: stickman looking at several different sorts of dogs
-
-
 Cognitive Biases
 ----------------
 
@@ -77,6 +78,17 @@ Overconfidence/Underconfidence effects
 --------------------------------------
 
 IMAGE: stickman fleeing from tiny dog (or offering a bone to a t-rex?)
+
+great at pattern recognition
+----------------------------
+
+ergo judgemental, quick to jump to conclusions.
+IMAGE: stickman looking at several different sorts of dogs
+
+priming
+-------
+
+image: stickman w/ paintbrush?
 
 Groups in Theory...
 ===================
@@ -93,6 +105,21 @@ use the more modern less unethical remake
 
 IMAGE: stickman with buttons and sketch with clipboard 
 
+.. note:: 
+        Milgram's book Obedience to Authority ISBN 0-06-176521-X 
+
+        virtual representation, observes that humans empathize with an avatar
+        and obey authority to shock it anyway 
+        http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000039
+
+        partial reproduction, stopping at 150V to avoid traumatizing
+        participants, in 2009
+        http://www.apa.org/pubs/journals/releases/amp-64-1-1.pdf
+
+        and the replicated it on a fake French game show in 2010 and, surprise
+        surprise, people zap others for TV authority too
+        http://www.npr.org/templates/story/story.php?storyId=124838091
+
 social scripts/expectations
 ---------------------------
 
@@ -104,6 +131,18 @@ bystander effect
 ----------------
 
 IMAGE: stickman shrugging as crowd of sketch folks stand around
+
+.. note:: 
+   
+    Somebody Else's Problem field, or SEP, is a cheap, easy, and staggeringly
+    useful way of safely protecting something from unwanted eyes. It can run
+    almost indefinitely on a flashlight/9 volt battery, and is able to do so
+    because it utilizes a person's natural tendency to ignore things they
+    don't easily accept, like, for example, aliens at a cricket match. Any
+    object around which a S.E.P is applied will cease to be noticed, because
+    any problems one may have understanding it (and therefore accepting its
+    existence) become Somebody Else's. An object becomes not so much invisible
+    as unnoticed. 
 
 reciprocity
 -----------
