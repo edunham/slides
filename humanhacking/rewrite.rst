@@ -66,7 +66,30 @@ IMAGE: stickman placing top of pyramid onto pyramid
 MBTI
 ----
 
+IMAGE: 3D of transparent 2x2x2 cubes, each 2 colors split
 
+.. note:: test is designed to force dichotomies; during development tested
+    thousands of questions to find those on which people statistically
+    differentiate
+
+          Extraversion vs Introversion "attitudes"
+          Sensing vs Intuition -- percieving functions, what we do with
+                                  information
+          Feeling vs Thinking -- decision making functions
+          Judging vs Percieving -- meta-types, J prefers order/predictable; P
+                                   prefers spontaneous
+
+.. note:: maybe an image of the lawful/chaotic good/evil D&D matrix as well?
+
+.. note::
+    "The Forer effect... is the observation that individuals will give high
+    accuracy ratings to descriptions of their personality that supposedly are
+    tailored specifically for them, but are in fact vague and general enough
+    to apply to a wide range of people." -- horoscope effect...
+
+    Subjective validation occurs when two unrelated or even random events are
+    perceived to be related because a belief, expectation, or hypothesis
+    demands a relationship.
 
 Cognitive Biases
 ----------------
