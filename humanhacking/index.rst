@@ -20,14 +20,17 @@ Human Hacking
 Introduction
 ------------
 
+.. figure:: _drawn/hello.png
+    :align: right
+    :scale: 90%
+
+|
+ 
 talks.edunham.net/SCALE2015
 
 github.com/edunham
 
 Hieroglyph
-
-.. figure:: _drawn/hello.png
-    :align: right
 
 
 .. note::
@@ -36,8 +39,11 @@ Hieroglyph
 Outline
 -------
 
+|
+
 .. figure:: _drawn/outline.png
     :align: right
+    :scale: 35%
 
 * Theories
     * Individuals
@@ -65,6 +71,7 @@ You Live in a Human Emulator
 
 .. figure:: _drawn/metacognition_grayscale.png
     :align: center
+    :scale: 50%
 
 Homo Economicus
 ---------------
@@ -132,7 +139,9 @@ Groups in Theory...
 Asch Conformity
 ---------------
 
-IMAGE: stickman and sketch pointing at lines of different lengths
+.. figure:: _drawn/asch_colored.png
+    :align: center
+    :scale: 30%
 
 Milgram Obedience
 -----------------
