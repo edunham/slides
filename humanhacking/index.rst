@@ -2,909 +2,454 @@
 Human Hacking
 =============
 
-::
-    Is the project of your dreams ignoring your pull requests? Do you need a
-    way to convince other contributors to improve their documentation? Are you
-    trying to herd cats as a project leader, or simply wondering how to
-    evaluate a project's culture from the outside before getting involved?
-    This talk will explain some basic principles of human motivation and
-    behavior and include examples and story time about applying them in the
-    world of open­source software. It will provide simple heuristics and
-    algorithms for common sources of confusion about human interaction,
-    explained in terms that will make sense to engineers.
+.. note:: focuses... 
+    pacing
+    no questionmarks
+    transitions
+    fight tendency to get shrill when nervous
+    kill the "kind of" -- use synonyms
+    "umm"
+    less mbti
+    accent gets stronger when joking
+    BEST FRIEND or DAD thinks they're better at driving than averae
+    git by a bus (for good culture stuff?)... delegation+redundancy
+    transition into dropped ball was good
+    good reiteration on burnout stuff -- goes so fast it needs more repetition
+    fewer words on the "automate yourself out of a job" for handoffs
 
-.. slide::
+Introduction
+------------
 
-    |
+talks.edunham.net/SCALE2015
 
-    .. figure:: _static/helloworld.jpg
-        :align: center
+github.com/edunham
 
-    .. note:: 
-        I'm an active open source contributor 
+Hieroglyph
 
-        , a leader of things 
+.. figure:: _drawn/hello.png
+    :align: right
 
-        , and an amateur student of psychology
 
-        , and incidentally and reluctantly still a student at OSU.
-
-        Note that a lot of things I'm going to discuss are further from having
-        objectively correct answers than many of the problems we're accustomed to
-        discussing in the open-source world. 
-
-        These ideas are almost impossible to communicate wihtout a bit of a spin toward
-        the presenter's worldview. Please don't blindly follow, but think about
-        whether taking my advice would make you happier and only follow it if it
-        would.
+.. note::
+    Slides are Hieroglyph, pictures sharpies -> phone camera -> Pinta
 
 Outline
 -------
 
-웃 => 웃웃 => 웃웃웃웃웃웃웃웃
+.. figure:: _drawn/outline.png
+    :align: right
+
+* Theories
+    * Individuals
+    * Groups
+* Applications
+    * Contributor
+    * Leader 
+
+.. note:: 
+    1) theories about people                    (20mins)
+        * theories about individuals    (~12min)
+        * theories about groups         (~8min)
+    2) applications as FOSS contributor         (15mins)
+    3) Leadership                               (15mins)
 
 
-.. figure:: _static/ouroboros.png
+Individuals In Theory...
+========================
+
+.. figure:: _drawn/in_theory.png
     :align: center
 
-.. note:: Writing this talk has shown me that introductory curricula in
-    non-technical fields are just as hard to write as for technical ones. 
+You Live in a Human Emulator
+----------------------------
 
-    Fully understanding the topic is a circular dependency of knowledge, so
-    you have to pick the point with the fewest prerequisites and just jump
-    in.
-
-    This is the first time I've done this talk, so it may not be the best way
-    to organize the information -- I'd love to hear your feedback at the end
-    (I'll have my contact information on a slide). 
-
-    But this time around, I'm starting with abstractions of techniques to
-    understand and predict an individual human, then generalizing those to
-    small group interactions, then to the large groups of open source
-    projects, and then talking about some things I've learned in nearly a
-    decade of leading engineers.
-
-
-Theories
-========
-
-
-웃
-==
-
-.. figure:: _static/brain.jpg
-    :class: scale
+.. figure:: _drawn/metacognition_grayscale.png
     :align: center
 
-Why do people do things?
+Homo Economicus
+---------------
 
-.. note::
-    Congratulations, you live in a human emulator! It helps you predict the
-    reactions and behavior of people similar to yourself. 
-
-    This can be a double-edged sword, because not everyone is the same.
+IMAGE: stickman with a tie and briefcase?
 
 Maslow
 ------
 
-.. figure:: _static/maslow.jpg
-    :class: scale
+IMAGE: stickman placing top of pyramid onto pyramid
 
-.. note:: 
+MBTI
+----
 
-    Here's a model of how people *are* more or less the same: basic needs.
+IMAGE: 3D of transparent 2x2x2 cubes, each 2 colors split
 
-    Lower needs need to be met before higher needs can be sought
+.. note:: test is designed to force dichotomies; during development tested
+    thousands of questions to find those on which people statistically
+    differentiate
 
-MBTI types
-----------
+          Extraversion vs Introversion "attitudes"
+          Sensing vs Intuition -- percieving functions, what we do with
+                                  information
+          Feeling vs Thinking -- decision making functions
+          Judging vs Percieving -- meta-types, J prefers order/predictable; P
+                                   prefers spontaneous
 
-.. figure:: _static/mbti.jpg
-    :align: center
-    :scale: 120%
+.. note:: maybe an image of the lawful/chaotic good/evil D&D matrix as well?
 
-.. note:: Meyers-Briggs Type Indicator -- self-reported, seeks understanding
+.. note::
+    "The Forer effect... is the observation that individuals will give high
+    accuracy ratings to descriptions of their personality that supposedly are
+    tailored specifically for them, but are in fact vague and general enough
+    to apply to a wide range of people." -- horoscope effect...
 
-    Attitude: Extraversion vs Introversion
-
-        Jungian interpretation. 
-        Briggs and Myers recognized that each of the cognitive functions can
-        operate in the external world of behavior, action, people, and things
-        ("extraverted attitude") or the internal world of ideas and reflection
-        ("introverted attitude"). 
-
-   Functions: sensing/intuition (S/N) and thinking/feeling (T/F)
-
-        1 of the 4 is dominant; this is shown by the J/P
-
-        Sensing/Intuition: Information-gathering. **Sensing:** Present, tangible,
-        concrete... **Intuition:** Abstract, theoretical, association-based.
-        Meaning in theory/principles/patterns.
-  
-
-        Thinking/Feeling: Decision-making. **Thinking:** Rational,
-        data-driven, logical, detached, rule-based, causal. **Feeling:**
-        Association, empathy, consensus
-
-    Lifestyle: Judging vs Percieving
-
-        Extraverts: J/P is dominant function, Introverts it's auxilary
-
-        Judging prefers thinking|feeling; Percieving prefers Sensing|Intuition
-   
-Priorities
-----------
-
-.. figure:: _static/marshmallows.jpg
-    :class: scale
-
-* Fast vs slow gratification
-* **personal narrative/monolog**
-
-.. note:: internal monolog goes with Dryack's story about Fred
-
-
-Pop Quiz
-========
-
-|
-
-Do you think that humans are mostly reasonable?
-
-|
-
-**rea·son·a·ble**
-
-*ˈrēz(ə)nəb(ə)l/*
-
-adjective
-1. (of a person) having sound judgment; fair and sensible.
-"no reasonable person could have objected"
-
-.. note:: ha ha uhh NOOOOOO
-
+    Subjective validation occurs when two unrelated or even random events are
+    perceived to be related because a belief, expectation, or hypothesis
+    demands a relationship.
 
 Cognitive Biases
-================
+----------------
+
+IMAGE: stickman looking at thing with warped version of thing in thogught
+bubble (mistaking t-rex for dog?)
+
+Overconfidence/Underconfidence effects
+--------------------------------------
+
+IMAGE: stickman fleeing from tiny dog (or offering a bone to a t-rex?)
+
+great at pattern recognition
+----------------------------
+
+ergo judgemental, quick to jump to conclusions.
+IMAGE: stickman looking at several different sorts of dogs
+
+priming
+-------
+
+image: stickman w/ paintbrush?
+
+Groups in Theory...
+===================
+
+Asch Conformity
+---------------
+
+IMAGE: stickman and sketch pointing at lines of different lengths
+
+Milgram Obedience
+-----------------
+
+use the more modern less unethical remake
+
+IMAGE: stickman with buttons and sketch with clipboard 
 
 .. note:: 
+        Milgram's book Obedience to Authority ISBN 0-06-176521-X 
 
-    These are to everyday life what common fallacies are to logic
+        virtual representation, observes that humans empathize with an avatar
+        and obey authority to shock it anyway 
+        http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000039
 
-    Negative connotations but neither necessarily good nor bad, they just
-    *explain*. 
+        partial reproduction, stopping at 150V to avoid traumatizing
+        participants, in 2009
+        http://www.apa.org/pubs/journals/releases/amp-64-1-1.pdf
 
-    <the xkcd about breaking changes>
+        and the replicated it on a fake French game show in 2010 and, surprise
+        surprise, people zap others for TV authority too
+        http://www.npr.org/templates/story/story.php?storyId=124838091
 
-    impostor syndrome, dunning-kruger, etc. for tech... several slides
-    that thing about asking favors
+social scripts/expectations
+---------------------------
 
-    <example of same "fallacy" being both good and bad>
+IMAGE: sketch as an NPC dialog
 
-.. figure:: _static/workflow.png
-    :align: center
+.. note:: get help with scripts example
 
-POP QUIZ
-========
+bystander effect
+----------------
 
-.. figure:: _static/headsup7up.jpg
-    :align: center
+IMAGE: stickman shrugging as crowd of sketch folks stand around
 
-|
+.. note:: 
+   
+    Somebody Else's Problem field, or SEP, is a cheap, easy, and staggeringly
+    useful way of safely protecting something from unwanted eyes. It can run
+    almost indefinitely on a flashlight/9 volt battery, and is able to do so
+    because it utilizes a person's natural tendency to ignore things they
+    don't easily accept, like, for example, aliens at a cricket match. Any
+    object around which a S.E.P is applied will cease to be noticed, because
+    any problems one may have understanding it (and therefore accepting its
+    existence) become Somebody Else's. An object becomes not so much invisible
+    as unnoticed. 
 
-    Raise your hand if you think you're better at driving than the average 
-    person in this room  
+reciprocity
+-----------
 
-Overconfidence Effects
-----------------------
+IMAGE: stickman giving something to sketch -> sketch giving something to
+stickman (like a recycle symbol)
 
-|
+.. note:: attribution error, assumption that helps you -> likes you
 
-.. figure:: _static/selfagg.jpg
-    :align: center
+mirroring / body language
+-------------------------
 
-.. note::
+IMAGE: stickman and sketch leaning into a conversation in interest; stickman
+trying to get away from sketch
 
-    Overconficence effects -- Planning fallacy
+Application Advice
+==================
 
-    the tendency for people to overestimate their rate of work or to 
-    underestimate how long it will take them to get things done.
+doing science
+-------------
 
-    Ever tried to do time estimates on a software project?
+IMAGE: sketch in a labcoat
 
-POP QUIZ
-========
+(be open-minded)
 
-.. figure:: _static/headsup7up.jpg
-    :align: center
+getting what you want
+---------------------
 
-|
+IMAGE: stickman crushed under a pile of presents, waving for help
 
-    Raise your hand if you think you're better at coding than the average
-    person in this room
+(be careful what you wish for)
 
-Underconfidence Effects
------------------------
+recognize end of usefulness
+---------------------------
 
-|
+generalizations useful for asking right questions, etc.
 
-.. figure:: _static/underconfidence.jpeg
-    :align: center
+IMAGE: stickman pedantically proclaiming that dinosaur = dog?
 
-.. note::
-    Underconfidence effects -- Dunning-Kruger
+use your words carefully
+------------------------
 
-    The Dunning–Kruger effect is a cognitive bias manifesting in two principal
-    ways: unskilled individuals tend to suffer from illusory superiority,
-    mistakenly rating their ability much higher than is accurate, while highly
-    skilled individuals tend to rate their ability lower than is accurate. 
-
-Cognitive Biases...
--------------------
-
-|
-
-.. figure:: _static/theresmore.jpg
-    :align: center
-
-http://en.wikipedia.org/wiki/List_of_cognitive_biases
-
-.. note:: We could talk about cognitive biases all day... but let's not.
+some terms imply a goal or a set of values, ie right/wrong, fair/unfair,
+good/bad. when using them, SPECIFY THE GOAL rather than trusting audience to
+guess what you were thinking. 
 
 Applications
 ============
 
-.. slide::
+recognizing social norms
+------------------------
 
-    .. figure:: _static/sciencecat.jpg
-        :class: scale
-        :align: center
-        :scale: 200%
+image: all the sketch folks wearing hats; stickman in a paper hat?
 
-    .. note:: 
 
-        The attitude which turns ordinary interactions into useful leraning
-        experiences is pragmatism, or being scientific
-        pragmatism / science
+body language of online communication
+-------------------------------------
 
-        Being scientific == the approach required to get useful
-        results from any "experiment" or time you change a cause to see how its
-        effects are altered. 
+IMAGE: same as for mirroring
 
-        Next: Getting What You Want
+mirroring speech styles
 
-    What happened?
-
-    Why did it happen?
-
-    How will changing the contributing factors change the results?
-
-Getting What You Want
+inviting conversation
 ---------------------
 
-|
+remember the part about living in a human emulator?
 
-.. figure:: _static/too-many-gifts-clipart.gif
-    :class: scale
+IMAGE: stickman with thought bubble of sketch with a speech bubble
 
-.. note::
-    My abstract is written in a way that will attract people who
-    want to learn how to *get what they want* from others. 
+effective email
+---------------
 
-    my "be careful what you wish for" is as follows: Identify what you want.
-    Does it make life better or worse for you and the people around you? If
-    it's unprecedented, get others' feedback on whether they'd see its results
-    as an improvement. 
+IMAGE: stickman with a laptop, email dialog, single ? on it
 
-    If what you think you want is generally harmful, examine why you want it
-    and whether that underlying desire could be satisfied through another
-    course of action with fewer detrimental effects. 
+ditto the human emulator
 
-    Next: Know what you want.
+social hierarchies and capital
+------------------------------
 
-Getting... What?
-================
+karma/popularity -- how do you judge others? 
 
-.. figure:: _static/treasuremap.png
-    :class: scale
+IMAGE: sketch people crowdsurfing stickman
 
-.. note::
+stalking skills
+---------------
 
-    But "Be Careful what You Wish For" has a prerequisite:
+.. note:: put free software or open source software or project name in search,
+    use safesearch
 
-    Step 0 is knowing what you want. If you don't
-    konw what you want, I can't help you -- go spin up an instance of Elizabot
-    and talk to her or something. What I regard as human hacking is mostly
-    about channeling motivations and fulfilling desires, not about summoning
-    that motivation out of thin air.
+with the caveat that there are sometimes things you didn't want to know
 
-    Next: Outline
+IMAGE: stickman with binoculars?
 
+As a FOSS Contributor
+=====================
 
-A word of warning
------------------
+.. note:: people are dumb, panicky animals quote was a REALLY GOOD transition
 
-.. figure:: _static/warning.png
-    :align: center
-    :scale: 50%
-
-.. note:: generalizations are useful because they help you ask the right
-    questions and suggest what to look for
-    
-    Differences != flaws -- a trait that's a strength in one context is a
-    weakness in another. 
-
-    Never assume you have enough context -- if you want to say/do something
-    that makes an assumption, look for a less assumptive way to phrase it or
-    at least acknowledge that guess. Example: initial conversation w/ Dryack
-
-웃웃
-====
-
-.. figure:: _static/tcas.png
-    :align: center
-
-.. note:: all of the factors that affect an individual's behavior are still
-    relevant... 
-
-Social Scripts
+social capital
 --------------
 
-|
+.. note:: move this?
 
-.. figure:: _static/arrowtotheknee.jpg
-    :class: scale
-    :align: center
-    :scale: 150%
+recommendations are gambling
 
-.. note:: 
-    Kind of like conversations with NPCs in a video game
-
-    helpful for dealing with anxiety -- get help from a friend who's good at
-    handling a given situation to write out its script if you're nervous.
-    They'll feel good... because people like helping others! Inner monolog:
-    I'm a good friend because I help people in need...
-
-Reciprocity
+meritocracy
 -----------
 
-.. figure:: _static/cooperation.gif
-    :align: right
- 
+IMAGE: stickman writing code
 
-"He that has once done you a kindness will be more ready to do you another,
-than he whom you yourself have obliged."
-        - Benjamin Franklin
+currency is fucks given, often measured in lines of code. passion/enthusiasm
+etc.
 
-.. note::
-    People like helping others! 
+first impressions
+-----------------
 
-    Ben Franklin effect is extension of attribution error -- people observe
-    themselves doing a thing and then make up a reason why it happened
+(that bit about pattern recognition) identify which patterns you'll match
 
-    The Ben Franklin effect is a proposed psychological phenomenon: A person who
-    has done or completed a favor for someone is more likely to do another favor
-    for that person than they would be if they had received a favor from that
-    person. Similarly, one who harms another is more willing to harm them again
-    than the victim is to retaliate.
+IMAGE: irc convo over stickman's shoulder, "IM_NOT_LISTENING_TO_YOU" nick
 
-Body Language
--------------
 
-.. figure:: _static/bodylanguage.jpg
-    :class: scale
-
-.. note:: dominant/confident/aggressive vs submissive/uncertain/scared
-
-    "Body language" of online communication: 
-        * sentence length/structure/punctuation ~= tone
-        * word choice ~= style of dress or medium of meatspace comms (graffiti
-          vs newsletter vs political speech)
-        * presence/absence in IRC channel (rage quit = slamming door)
-        * interrupting with offtopic or inane things ~= being fidgety and
-          attention-seeking
-        * typing super slowly ~= mumble or stutter
-        * email address, handle, email sig ~= age, style of dress, gender
-
-Mirroring
----------
-
-|
-
-.. figure:: _static/mirroring.jpg
-    :scale: 150%
-    :align: center
-
-.. note:: 
-    Hints at someone's communication style and priorities -- match their style
-
-    most assume all others think/feel/prioritize the same way they do, until
-    they learn otherwise
-
-Inviting conversation
+asking good questions
 ---------------------
 
-|
+IMAGE: stickman with the madlibs in a speech bubble
 
-.. figure:: _static/freehugs.jpg
-    :class: scale
-    :align: center
+fit the pattern of contributors who've turned out to be useful
 
-.. note:: 
-    we'll get into how to get a specific question answered from a project
-    later; this is along the lines of generally making friends
+.. note:: shows that you read the docs and that will make them very happy,
+    especially the person who wrote the docs. 
 
-    when do *you* feel safe approaching someone and then do it? give the
-    situation those traits. 
-
-    * be present, calm, engaged in shared channels
-    * subtly solve a problem of theirs
-
-    storytime: trying to talk to linus at linuxcon vs plug
-
-Effective email
----------------
-
-.. figure:: _static/gmail.jpg
-    :class: fill
-
-|
-
-.. figure:: _static/inboxfull.png
-    :align: center
-
-.. note:: 
-    again look at your own inbox -- which important messages are still
-    unanswered? why? because they're hard
-
-    * use a good title
-    * most people only see one ask per message
-    * summarize w/ bullet points
-    * anticipate questions -- know audience and purpose
-
-Social Capital
---------------
-
-|
-
-.. figure:: _static/redditpony.png
-    :class: scale
-
-.. note:: 
-
-    pony by raegar on deviantart :)
-
-    karma, esteem, popularity, call it what you will
-
-    Use your brain -- your built-in human emulator -- assess how you judge
-    others
-
-    DON'T LIE TO SOUND COOL
-        * storytime: Google interviews if you rate yourself a 10 at a skill
-    
-    Making recommendations is a gamble of social capital, proportionate to the
-    pain that'll ensue if the recommendation was wrong
-
-
-Stalking Skills
----------------
-
-.. figure:: _static/neighborhoodwatch.jpg
-    :class: scale
-    :scale: 75%
-    :align: center
-
-.. note::
-    GitHub
-
-    IRC
-    
-    social media
-    
-    news articles -- it's amazing what you learn by Googling somebody -- be
-    prepared to feel like you invaded their privacy
-    
-    personal site/blog
-    
-    is their hostmask or email at custom domain?
-
-웃웃웃웃웃웃웃웃
-================
-
-.. figure:: _static/committee.jpg
-    :class: scale
-
-.. note:: Okay so now we have a whole BUNCH of people. no longer feasible to
-    consider them as individuals...
-
-    next: FOSS
-
-.. slide::
-
-    |
-
-    .. figure:: _static/person_vs_people_quote.gif
-        :align: center
-
-FOSS
-----
-
-|
-
-.. figure:: _static/businesspenguin.gif
-    :class: scale
-    :align: center
-
-.. note::
-    Meritocracy: Currency is fucks given measured in lines of code
-
-    next: getting taken seriously
-
-Getting Taken Seriously
------------------------
-
-.. figure:: _static/clowns.jpg
-    :class: scale
-
-.. note::
-    non-ridiculous handle -- be especially cautious of negative implications
-    about any group, because the code reviewer might well be in that group
-    (even sports teams)
-
-    conform to channel/list behavior
-        storytime: gifs vs no gifs, UA vs Intel
-    
-    ask questions well
-
-Asking Questions Well
+routes into a project
 ---------------------
 
-.. figure:: _static/question.jpg
-    :align: center
-    :scale: 30%
+IMAGE: stickman with a treasure map
 
-I want ____ to ___ in order to ____. At ____, I read that ____ which makes
-me think that I should be able to get it to _____ by doing ______. But
-when I try to ______, ______ happens instead. Please help me ______. 
+improving docs
 
-.. note::
-    KNOW WHAT YOU WANT  
+.. note:: get out of dumb question free cards
 
-    Format is "I wanted X; I did Y; I got Z"
+routing around damage
 
-Routes into a project
----------------------
+they're ignoring my PRs!
+------------------------
 
-.. figure:: _static/routes.png
-    :class: scale
+IMAGE: sketch shunning stickman (who's wearing a silly hat)
 
-.. note::
-    1) use it and fix a bug
-    2) find a contributor you know and get mentored/introduced
-    3) edunham's help with installdocs technique
-    4) start your own project
-
-Improving Docs
---------------
-
-.. figure:: _static/macmanual.jpg
-    :class: scale
-
-.. note::
-    For mega-karma just offer to do it yourself
-    
-    * first diagnose why they haven't been written already
-
-        * not needed by target audience?
-
-        * project doesn't care?
-
-        * just not enough time / too much work (usually)?
-
-    are you asking the right person?
-
-    can/should you change project culture? (social influence)
-
-Route Around Damage
--------------------
-
-|
-
-.. figure:: _static/censorship.png
-    :align: center
-
-.. note::
-    yes maybe it takes more effort; this means that you'll only do the things
-    that're worth it
-
-    storytime: pessimistic coworker and big new project idea (dobc)
-
-Case study: They're ignoring my PRs!
-------------------------------------
-
-.. figure:: _static/madscientist.jpg
-    :class: scale
-    :align: center
-
-.. note::
-    is your expectation realistic?
-
-    what feedback have you gotten?
-
-    where could you get some feedback?
-
-    what's blocking them? can you help?
-
-    the magic of "when shall I remind you..."
-
-Leveraging Conferences
+leveraging conferences
 ----------------------
 
-.. figure:: _static/seagl.jpg
-    :align: center
-    :scale: 75%
-
-.. note::
-    hallway track
-
-    when you get a business card, take notes
-    
-    FOLLOW-UP sets you apart
-    
-    when writing talk proposals, questions show that you know your audience
-    
-    stalk conference abstracts from past years to get a feel for tone
-
-    for talks, more KNOW YOUR AUDIENCE -- do they prefer buzzwords, or data?
-    Use cases, or test cases? Pictures, or code?
+IMAGE: stickman with a microphone, necktie
 
 Leadership
 ==========
 
-.. figure:: _static/ducklings.jpg
-    :class: scale
+the emulator thing: which leaders do you look up to? why?
 
-.. note:: Leadership tends to happen to people who work hard, are reliable,
-    and are bad at saying 'no'. Here's what I wish someone had told me back
-    when I started leading groups of humans (usually engineers).
-
-    http://www.huffingtonpost.com/liz-orsquo/cant-say-no-say-yes-instead_b_4583052.html
-
-Know Your Audience
+know your audience
 ------------------
 
-.. figure:: _static/audience.jpg
-    :class: scale
+IMAGE: stickman with microphone, bunch of sketch people
 
-.. note::
-    goals
+group culture
+-------------
 
-    priorities
-    
-    biases
+you can't just say "our culture is going to be x". there's already one there.
 
-    culture
+IMAGE: bunch of sketch people with big shared thought bubble with computer in
+it, computer from email
 
-    energy/time/resources
+avoiding discrimination
+-----------------------
 
-Establishing Culture
+just inconsistent enforcement of rules, or different rules for different
+people. priveledge == "private law". whether it's ok seems to be based on
+whether it uses a differnce that people can control -- ie commit bit for those
+with more code in the repo
+
+IMAGE: stickman giving sketch a hat?
+
+
+identify assumptions
 --------------------
 
-|
+who's "everybody"? make statements about "everybody" in your group then
+challenge each assumption
 
-.. figure:: _static/petri.jpg
-    :class: scale
-    :align: center
+IMAGE: big sketch people with hats, little sketch person with no hat looking
+confused
 
-.. note::
-    foster accountability -- CONSISTENCY
+diversity
+---------
 
-    benefit of the doubt -- they chose best of percieved options. to change
-    future behavior, ADD MORE OPTIONS
-    
-    empower... give people percieved buy-in, investment
+recognize the difference between wanting people who *think differently* and
+people who *look different*. 
 
-    **Discrimination** is when the rules are enforced inconsistently, different
-    rules for different people. Priveledge literally means **private law**.  
+IMAGE: stickman and sketch sharing a thoughtbubble with IRC computer in it,
+other sketch with thoughtbubble of email computer
 
 
-    Prevent it by choosing rules that *can* be consistently applied to
-    everybody -- be careful of **assumptions** about hardware or monetary
-    resources, time zones and geographic constraints
-
-Delegation
+delegation
 ----------
 
-|
+EMPOWER minions
+knowing it'll happen == knowing who'll do it
 
-.. figure:: _static/rosie.jpg
-    :class: scale
-    :scale: 200%
-    :align: center
+IMAGE: stickman handing sketch the map
 
-.. note:: 
-    successful leadership is when everybody else does the work
+delegation: Timing
+------------------
 
-    the bus problem (git-bus)
-    
-    EMPOWER minions vs DIY... what do you gain by burning yourself out?
-    
-    KNOW WHAT YOU WANT
-    
-    knowing it will happen == knowing who will do it
+IMAGE: calendar with can start, deadline, and lastminute. sketch on can start,
+stickman on lastminute.
 
-Managing Expectations
----------------------
+manage burnout
+--------------
 
-.. figure:: _static/balldrop.jpg
-    :class: scale
+IMAGE: sketches waving papers at sad-looking Stickman
 
-.. note::
-    pre-emptive strike with codes of conduct, clear expectations, etc.
+dropped balls aren't noticed as much as you think; monitor own state carefully
+so burnout doesn't sneak up
 
-    dropped balls are noticed a LOT less than perfect serves
-    
-        * good for managing own burnout
+burnout.io
 
-Experiment Time
+leadership handoff
+------------------
+
+madlibs of tasks, share responsibilities, "puppet" them for smoother
+transition if they're not confident yet, recognize their differences
+
+IMAGE: stickman saying speechbubble of map to sketch, who says speech bubble
+of map to crowd
+
+troll-proofing
+--------------
+
+IMAGE: stickman with speech bubble with crossed-out troll
+
+
+clear codes of conduct, clear expectations that reflect the community's
+standards
+
+buy-in from group on code of conduct
+
+communications on the record -- encourages you to behave better, as well
+
+and if that didn't work
+-----------------------
+
+IMAGE: stickman and troll talking, each has speech bubble with the other in it 
+
+
+don't make it worse
+
+if someone's unduly offended and just wants to make a scene, get them to
+propose rules that could be enforced equally on everyone (sometimes helps
+improve self-awareness)
+
+also mirroring (BUT BE CAREFUL, works best when behavior is OTT patently
+absurd)
+
+get someone out
 ---------------
 
-TODO: FIXME: PICTURE AND POLL AND STUFF... science dog?
+IMAGE: stickman and sketch shoving troll through a doorway
 
-.. note::
-    A few gotchas about teaching: 
-    * more KNOW YOUR AUDIENCE
-    * people do not like embarrassing themselves or standing out
-    * you're all here because you're pretty knowledgeable about Linux, does
-      anyone not know why we choose Linux over other operating systems? 
-      * then an anonymous Google poll link
-      * then we look at the poll results vs the presenter's impression of the
-        room's knowledge
+LAST resort
+why aren't they able to play well with others?
+    * path of least resistance? 
+    * insufficient information?
+avoid "right" and "wrong" -- all they'll do is alienate people and encourage
+you to make unidentified assumptions
 
-pre-emptive problem solving
----------------------------
 
-.. figure:: _static/rubiks.jpg
-    :class: scale
-
-.. note::
-    clearly communicate expectations -- this includes being attentive to what
-    the group wants its expectations to be
-    
-    Establish code of conduct early, enforce consistently
-    COMMUNICATE about it --
-    https://modelviewculture.com/pieces/a-code-of-conduct-is-not-enough
-
-    get buy-in from group, leverage inner monolog (i'm a good contributor) to
-    get public commitment to go along with rules once group votes
-
-    don't make enemies; be careful with professional friendships because if
-    you need to end them... yeah
-
-    keep all communications on the record and remain beyond reproach
-
-    if possible, don't feed the trolls
-
-DFIU
-----
-
-|
-
-.. figure:: _static/trolls.jpg
-    :class: scale
-
-.. note::
-     don't leak information or make people feel unsafe -- don't make it worse
-
-     storytime: EMT rules (find the patient, don't kill the patient...)
-     
-     **Discrimination** is when the rules are enforced inconsistently, different
-     rules for different people. Priveledge literally means **private law**.  
-
-And Yet...
-----------
-
-.. figure:: _static/firetruck.jpg
-    :class: scale
-
-.. note:: 
-    sometimes you do your best and yet it all goes to shit anyways.
-
-    techniques: get someone who feels offended to propose a rule that could be
-    enforced equally on everyone in the channel including them... asking them
-    for help/input at least makes them feel included
-
-    mirroring is super powerful for inciting self-awareness of behavior, but
-    self-awareness does not necessarily inspire them to change and can in
-    cases with self-hatred or w/e actually make things worse
-
-Getting People Out
-------------------
-
-.. figure:: _static/defenestrate.png
-    :scale: 200%
-    :align: center
-
-* Do not actually throw anyone out of any windows.
-
-.. note::
-    assess the situation. what's best for the rest of the group? if someone is
-    causing drama for attention, how to avoid giving it to them?
-
-    why aren't they doing something productive/useful with their life? 
-        * insufficient information? can they be educated?
-        * path of least resistance? increase resistance till they go troll
-          someone else
-    super important time to step back from perception that you're "right" and
-    they're "wrong"
-
-Avoiding Burnout
-----------------
-
-|
-
-.. figure:: _static/burnout.jpg
-    :class: scale
-    :align: center
-    :scale: 150%
-
-.. note::
-    empower group
-    realistic expectations
-    forgive yourself
-
-    http://burnout.io/ for more resources
-
-Leadership Handoff
-------------------
-
-.. figure:: _static/baton.jpg
-    :class: scale
-
-.. note:: 
-    madlibs version of common tasks
-
-    canned responses
-    
-    share with newbie during transition
-    
-    mentor vs. walk away... 
-    
-    **diversity:** recognize that new leader does not work the same way you do,
-    and that's good for the group -- work with them to use your handoff to
-    make the next handoff easier
-
-Mental health / brain bugs
---------------------------
-
-.. figure:: _static/bug.jpg
-    :class: scale
-
-.. note::
-    picture: original software bug
-
-    read the CVE
-    apply patches (usefully obtained from shrinks)
-    unplugged machine is "secure" but useless
-
-Questions?
-==========
-
-|
-
-.. figure:: _static/tea.gif
-    :align: center
-
-edunham on irc.freenode.net
-
-dunhame@onid.orst.edu 
-
-edunham@osuosl.org
-
-.. note:: 
-    disregard expectations of fairness
-    eliciting information:
-        * leverage traits we've talked about, desire to correct falsehoods,
-          quid pro quo, etc
-    social engineering
-    do things that make you happy/motivated/inspired
