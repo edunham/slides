@@ -20,20 +20,31 @@ Human Hacking
 Introduction
 ------------
 
-IMAGE: stickman waving hello
-
 talks.edunham.net/SCALE2015
 
+github.com/edunham
+
+Hieroglyph
+
+.. figure:: _drawn/hello.png
+    :align: right
+
+
 .. note::
-    Slides are Hieroglyph, images are Blender with resources from
-    blendswap.com starring Wooden Mannequin (blend 74733) by the amazing
-    jgilhutton
+    Slides are Hieroglyph, pictures sharpies -> phone camera -> Pinta
 
 Outline
 -------
 
-IMAGE: stickman with a piece of chalk at chalkboard? or, drawing the outline
-of himself
+.. figure:: _drawn/outline.png
+    :align: right
+
+* Theories
+    * Individuals
+    * Groups
+* Applications
+    * Contributor
+    * Leader 
 
 .. note:: 
     1) theories about people                    (20mins)
@@ -46,12 +57,14 @@ of himself
 Individuals In Theory...
 ========================
 
-IMAGE: page of book with sketch of stickman on it
+.. figure:: _drawn/in_theory.png
+    :align: center
 
 You Live in a Human Emulator
 ----------------------------
 
-IMAGE: stickman with stickman in a thoughtbubble
+.. figure:: _drawn/metacognition_grayscale.png
+    :align: center
 
 Homo Economicus
 ---------------
