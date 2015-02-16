@@ -461,11 +461,7 @@ stalking skills
 
     with the caveat that there are sometimes things you didn't want to know
 
-        GitHub
-
-    IRC
-
-    social media
+    GitHub, IRC, social media
 
     news articles -- it's amazing what you learn by Googling somebody -- be
     prepared to feel like you invaded their privacy
@@ -481,25 +477,30 @@ As a FOSS Contributor
 
 .. note:: people are dumb, panicky animals quote was a REALLY GOOD transition
 
-social capital
---------------
-
-.. note:: move this?
-
-recommendations are gambling
 
 meritocracy
 -----------
 
 IMAGE: stickman writing code
 
-currency is fucks given, often measured in lines of code. passion/enthusiasm
-etc.
+.. note::
+
+    currency is fucks given, often measured in lines of code.
+    passion/enthusiasm etc.
 
 first impressions
 -----------------
 
-(that bit about pattern recognition) identify which patterns you'll match
+.. note::
+    (that bit about pattern recognition) identify which patterns you'll match
+    non-ridiculous handle -- be especially cautious of negative implications
+    about any group, because the code reviewer might well be in that group
+    (even sports teams)
+
+    conform to channel/list behavior
+        storytime: gifs vs no gifs, UA vs Intel
+
+    ask questions well
 
 IMAGE: irc convo over stickman's shoulder, "IM_NOT_LISTENING_TO_YOU" nick
 
@@ -514,41 +515,113 @@ fit the pattern of contributors who've turned out to be useful
 .. note:: shows that you read the docs and that will make them very happy,
     especially the person who wrote the docs.
 
+    KNOW WHAT YOU WANT
+
+    I want ____ to ___ in order to ____. At ____, I read that ____ which makes
+    me think that I should be able to get it to _____ by doing ______. But when I
+    try to ______, ______ happens instead. Please help me ______.
+
 routes into a project
 ---------------------
 
 IMAGE: stickman with a treasure map
 
-improving docs
-
 .. note:: get out of dumb question free cards
+    1) use it and fix a bug
+    2) find a contributor you know and get mentored/introduced
+    3) edunham's help with installdocs technique
+    4) start your own project
+
+improving docs
+--------------
+.. note::
+    For mega-karma just offer to do it yourself
+
+    * first diagnose why they haven't been written already
+
+        * not needed by target audience?
+
+        * project doesn't care?
+
+        * just not enough time / too much work (usually)?
+
+    are you asking the right person?
+
+    can/should you change project culture? (social influence)
 
 routing around damage
+---------------------
+
+.. note::
+    yes maybe it takes more effort; this means that you'll only do the things
+    that're worth it
+
+    storytime: pessimistic coworker and big new project idea (dobc)
 
 they're ignoring my PRs!
 ------------------------
 
 IMAGE: sketch shunning stickman (who's wearing a silly hat)
 
+.. note::
+    is your expectation realistic?
+
+    what feedback have you gotten?
+
+    where could you get some feedback?
+
+    what's blocking them? can you help?
+
+    the magic of "when shall I remind you..."
+
 leveraging conferences
 ----------------------
+
+.. note::
+    hallway track
+
+    when you get a business card, take notes
+
+    FOLLOW-UP sets you apart
+
+    when writing talk proposals, questions show that you know your audience
+
+    stalk conference abstracts from past years to get a feel for tone
+
+    for talks, more KNOW YOUR AUDIENCE -- do they prefer buzzwords, or data?
+    Use cases, or test cases? Pictures, or code?
 
 IMAGE: stickman with a microphone, necktie
 
 Leadership
 ==========
 
-the emulator thing: which leaders do you look up to? why?
+.. note:: Leadership tends to happen to people who work hard, are reliable,
+    and are bad at saying 'no'. Here's what I wish someone had told me back
+    when I started leading groups of humans (usually engineers).
+
+    http://www.huffingtonpost.com/liz-orsquo/cant-say-no-say-yes-instead_b_4583052.html
+
+    the emulator thing: which leaders do you look up to? why?
 
 know your audience
 ------------------
 
 IMAGE: stickman with microphone, bunch of sketch people
 
+.. note::
+    goals, priorities, biases, culture, energy/time/resources
+
 group culture
 -------------
 
-you can't just say "our culture is going to be x". there's already one there.
+.. note::                                                                       
+    foster accountability -- CONSISTENCY                                        
+                                                                                
+    benefit of the doubt -- they chose best of percieved options. to change     
+    future behavior, ADD MORE OPTIONS                                           
+                                                                                
+    empower... give people percieved buy-in, investment                            **you can't just say "our culture is going to be x". there's already one there.**
 
 IMAGE: bunch of sketch people with big shared thought bubble with computer in
 it, computer from email
@@ -556,10 +629,19 @@ it, computer from email
 avoiding discrimination
 -----------------------
 
-just inconsistent enforcement of rules, or different rules for different
-people. priveledge == "private law". whether it's ok seems to be based on
-whether it uses a differnce that people can control -- ie commit bit for those
-with more code in the repo
+.. note::
+    just inconsistent enforcement of rules, or different rules for different
+    people. priveledge == "private law". whether it's ok seems to be based on
+    whether it uses a differnce that people can control -- ie commit bit for those
+    with more code in the repo
+                                                                                
+    **Discrimination** is when the rules are enforced inconsistently, different 
+    rules for different people. Priveledge literally means **private law**.     
+                                                                                
+    Prevent it by choosing rules that *can* be consistently applied to          
+    everybody -- be careful of **assumptions** about hardware or monetary       
+    resources, time zones and geographic constraints
+
 
 IMAGE: stickman giving sketch a hat?
 
@@ -567,8 +649,9 @@ IMAGE: stickman giving sketch a hat?
 identify assumptions
 --------------------
 
-who's "everybody"? make statements about "everybody" in your group then
-challenge each assumption
+.. note::
+    who's "everybody"? make statements about "everybody" in your group then
+    challenge each assumption
 
 IMAGE: big sketch people with hats, little sketch person with no hat looking
 confused
@@ -576,8 +659,9 @@ confused
 diversity
 ---------
 
-recognize the difference between wanting people who *think differently* and
-people who *look different*.
+.. note:: 
+    recognize the difference between wanting people who *think differently* and
+    people who *look different*.
 
 IMAGE: stickman and sketch sharing a thoughtbubble with IRC computer in it,
 other sketch with thoughtbubble of email computer
@@ -586,8 +670,13 @@ other sketch with thoughtbubble of email computer
 delegation
 ----------
 
-EMPOWER minions
-knowing it'll happen == knowing who'll do it
+.. note:: 
+    successful leadership is when everybody else does the work                  
+                                                                                
+    the bus problem (git-bus)
+
+    EMPOWER minions
+    knowing it'll happen == knowing who'll do it
 
 IMAGE: stickman handing sketch the map
 
@@ -602,58 +691,100 @@ manage burnout
 
 IMAGE: sketches waving papers at sad-looking Stickman
 
-dropped balls aren't noticed as much as you think; monitor own state carefully
-so burnout doesn't sneak up
+.. note:: 
+    dropped balls aren't noticed as much as you think; monitor own state carefully
+    so burnout doesn't sneak up
 
-burnout.io
+    burnout.io
 
 leadership handoff
 ------------------
 
-madlibs of tasks, share responsibilities, "puppet" them for smoother
-transition if they're not confident yet, recognize their differences
+.. note::
+    start ASAP when you realize you'll need to
+
+    makes life easier for YOU, not just newbie
+    
+    madlibs of tasks, share responsibilities, "puppet" them for smoother
+    transition if they're not confident yet, recognize their differences
 
 IMAGE: stickman saying speechbubble of map to sketch, who says speech bubble
 of map to crowd
+
 
 troll-proofing
 --------------
 
 IMAGE: stickman with speech bubble with crossed-out troll
 
+.. note::
+    clear codes of conduct, clear expectations that reflect the community's
+    standards
 
-clear codes of conduct, clear expectations that reflect the community's
-standards
+    buy-in from group on code of conduct
 
-buy-in from group on code of conduct
+    communications on the record -- encourages you to behave better, as well
 
-communications on the record -- encourages you to behave better, as well
 
 and if that didn't work
 -----------------------
 
 IMAGE: stickman and troll talking, each has speech bubble with the other in it
 
+.. note::
+    don't make it worse
 
-don't make it worse
-
-if someone's unduly offended and just wants to make a scene, get them to
-propose rules that could be enforced equally on everyone (sometimes helps
-improve self-awareness)
-
-also mirroring (BUT BE CAREFUL, works best when behavior is OTT patently
-absurd)
+    if someone's unduly offended and just wants to make a scene, get them to
+    propose rules that could be enforced equally on everyone (sometimes helps
+    improve self-awareness)
 
 get someone out
 ---------------
 
 IMAGE: stickman and sketch shoving troll through a doorway
 
-LAST resort
-why aren't they able to play well with others?
+.. note::
+    LAST resort
+    why aren't they able to play well with others?
     * path of least resistance?
     * insufficient information?
-avoid "right" and "wrong" -- all they'll do is alienate people and encourage
-you to make unidentified assumptions
+    avoid "right" and "wrong" -- all they'll do is alienate people and encourage
+    you to make unidentified assumptions
+
+teaching
+--------
+
+.. note:: 
+
+    how you learned it -> how you teach it
+
+know your audience?
+-------------------
+
+.. note::                                                                       
+    A few gotchas about teaching:                                               
+    * more KNOW YOUR AUDIENCE                                                   
+    * people do not like embarrassing themselves or standing out                
+    * you're all here because you're pretty knowledgeable about Linux, does     
+      anyone not know why we choose Linux over other operating systems?         
+      * then an anonymous Google poll link                                      
+      * then we look at the poll results vs the presenter's impression of the   
+        room's knowledge  
+
+Q&A
+---
+
+.. figure:: _drawn/hello.png
+    :align: right
+    :scale: 90%
+
+|
+
+talks.edunham.net/SCALE2015
+
+github.com/edunham
+
+Hieroglyph
+
 
 
