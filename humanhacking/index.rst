@@ -649,7 +649,10 @@ routing around damage
 they're ignoring my PRs!
 ------------------------
 
-IMAGE: sketch shunning stickman (who's wearing a silly hat)
+.. figure:: _drawn/shun.png
+    :align: center
+    :scale" 35%
+
 
 .. note::
     is your expectation realistic?
