@@ -224,6 +224,11 @@ priming
     useful question: notice where environment and context are priming for a
     given response
 
+    lots of links to study summaries at:
+    https://www.psychologytoday.com/basics/priming
+
+    http://en.wikipedia.org/wiki/Priming_%28psychology%29
+
 Groups in Theory...
 ===================
 
@@ -346,7 +351,8 @@ mirroring / body language
     are interested in something they lean in, open posture, etc. disinterested
     or defensive, closed posture, turn away, etc.
 
-    TODO: SOURCE FOR HOW BODY LANGUAGE AFFECTS MOOD
+    http://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are?language=en
+
 
 Application Advice
 ==================
