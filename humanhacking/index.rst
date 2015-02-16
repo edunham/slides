@@ -211,7 +211,7 @@ priming
 
 |
 
-.. figure:: _drawn/priming.png
+.. figure:: _drawn/priming_colored.png
     :align: center
     :scale: 45%
 
@@ -342,7 +342,7 @@ doing science
 
 .. figure:: _drawn/science.png
     :align: center
-    :scale: 40%
+    :scale: 35%
 
 .. note::
 
@@ -360,9 +360,11 @@ doing science
 getting what you want
 ---------------------
 
+|
+
 .. figure:: _drawn/careful_wish.png
     :align: center
-    :scale: 50%
+    :scale: 45%
 
 .. note::
     what do you want? (if you don't know, try talking to Eliza)
@@ -417,7 +419,13 @@ recognizing social norms
 body language of online communication
 -------------------------------------
 
-IMAGE: same as for mirroring
+.. figure:: _drawn/mirroring.png
+    :align: left
+    :scale: 35%
+
+* nickname or address
+* speech style
+* grammar/punctuation
 
 .. note::
     mirroring speech styles
@@ -511,8 +519,6 @@ stalking skills
 
     is their hostmask or email at custom domain?
 
-IMAGE: stickman with binoculars?
-
 As a FOSS Contributor
 =====================
 
@@ -562,7 +568,6 @@ asking good questions
     :align: center
     :scale: 50%
 
-fit the pattern of contributors who've turned out to be useful
 
 .. note:: shows that you read the docs and that will make them very happy,
     especially the person who wrote the docs.
@@ -572,6 +577,8 @@ fit the pattern of contributors who've turned out to be useful
     I want ____ to ___ in order to ____. At ____, I read that ____ which makes
     me think that I should be able to get it to _____ by doing ______. But when I
     try to ______, ______ happens instead. Please help me ______.
+
+    fit the pattern of contributors who've turned out to be useful
 
 routes into a project
 ---------------------
@@ -693,10 +700,31 @@ group culture
 IMAGE: bunch of sketch people with big shared thought bubble with computer in
 it, computer from email
 
-avoiding discrimination
------------------------
+identify assumptions
+--------------------
+
+.. figure:: _drawn/diversity_grayscale.png
+    :align: center
+    :scale: 40%
 
 .. note::
+    who's "everybody"? make statements about "everybody" in your group then
+    challenge each assumption
+
+diversity
+---------
+
+.. figure:: _drawn/diversity_grayscale.png
+    :align: center
+    :scale: 40%
+
+.. note:: 
+    recognize the difference between wanting people who *think differently* and
+    people who *look different*.
+
+.. note::
+    discrimination:
+
     just inconsistent enforcement of rules, or different rules for different
     people. priveledge == "private law". whether it's ok seems to be based on
     whether it uses a differnce that people can control -- ie commit bit for those
@@ -709,34 +737,6 @@ avoiding discrimination
     everybody -- be careful of **assumptions** about hardware or monetary       
     resources, time zones and geographic constraints
 
-
-IMAGE: stickman giving sketch a hat?
-
-
-identify assumptions
---------------------
-
-.. figure:: _drawn/diversity_grayscale.png
-    :align: center
-    :scale: 40%
-
-.. note::
-    who's "everybody"? make statements about "everybody" in your group then
-    challenge each assumption
-
-confused
-
-diversity
----------
-
-.. note:: 
-    recognize the difference between wanting people who *think differently* and
-    people who *look different*.
-
-IMAGE: stickman and sketch sharing a thoughtbubble with IRC computer in it,
-other sketch with thoughtbubble of email computer
-
-
 delegation
 ----------
 
@@ -748,13 +748,16 @@ delegation
     EMPOWER minions
     knowing it'll happen == knowing who'll do it
 
-IMAGE: stickman handing sketch the map
+.. figure:: _drawn/delegation_colored.png
+    :align: center
+    :scale: 40%
 
-delegation: Timing
+delegation: timing
 ------------------
 
-IMAGE: calendar with can start, deadline, and lastminute. sketch on can start,
-stickman on lastminute.
+.. figure:: _drawn/calendar.png
+    :align: center
+    :scale: 45%
 
 manage burnout
 --------------
@@ -785,7 +788,9 @@ of map to crowd
 troll-proofing
 --------------
 
-IMAGE: stickman with speech bubble with crossed-out troll
+.. figure:: _drawn/notrolls_grayred.png
+    :align: center
+    :scale: 35%
 
 .. note::
     clear codes of conduct, clear expectations that reflect the community's
@@ -799,7 +804,9 @@ IMAGE: stickman with speech bubble with crossed-out troll
 and if that didn't work
 -----------------------
 
-IMAGE: stickman and troll talking, each has speech bubble with the other in it
+.. figure:: _drawn/trollconvo_uncolored.png
+    :align: center
+    :scale: 35%
 
 .. note::
     don't make it worse
