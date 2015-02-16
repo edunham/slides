@@ -448,7 +448,9 @@ IMAGE: stickman with thought bubble of sketch with a speech bubble
 effective email
 ---------------
 
-IMAGE: stickman with a laptop, email dialog, single ? on it
+.. figure:: _drawn/email.png
+    :align: center
+    :scale: 50%
 
 .. note::
     ditto the human emulator
@@ -463,6 +465,10 @@ IMAGE: stickman with a laptop, email dialog, single ? on it
 social hierarchies and capital
 ------------------------------
 
+.. figure:: _drawn/social_capital.png
+    :align: center
+    :scale: 50%
+
 .. note::
     karma/popularity -- how do you judge others?
 
@@ -472,7 +478,6 @@ social hierarchies and capital
     Making recommendations is a gamble of social capital, proportionate to the
     pain that'll ensue if the recommendation was wrong
 
-IMAGE: sketch people crowdsurfing stickman
 
 stalking skills
 ---------------
@@ -511,7 +516,11 @@ As a FOSS Contributor
 meritocracy
 -----------
 
-IMAGE: stickman writing code
+|
+
+.. figure:: _drawn/meritocracy.png
+    :align: center
+    :scale: 40%
 
 .. note::
 
@@ -538,7 +547,9 @@ IMAGE: irc convo over stickman's shoulder, "IM_NOT_LISTENING_TO_YOU" nick
 asking good questions
 ---------------------
 
-IMAGE: stickman with the madlibs in a speech bubble
+.. figure:: _drawn/madlibs.png
+    :align: center
+    :scale: 50%
 
 fit the pattern of contributors who've turned out to be useful
 
