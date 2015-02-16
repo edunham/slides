@@ -477,6 +477,10 @@ IMAGE: sketch people crowdsurfing stickman
 stalking skills
 ---------------
 
+.. figure:: _drawn/stalkskills.png
+    :align: center
+    :scale: 60%
+
 .. note:: put free software or open source software or project name in search,
     use safesearch
 
@@ -495,6 +499,8 @@ IMAGE: stickman with binoculars?
 
 As a FOSS Contributor
 =====================
+
+| 
 
 .. note:: people are dumb, panicky animals quote was a REALLY GOOD transition
 
