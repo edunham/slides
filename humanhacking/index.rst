@@ -98,7 +98,12 @@ You Live in a Human Emulator
 Personal Narrative
 ------------------
 
-IMAGE: stickman with a tie and briefcase?
+|
+
+.. figure:: _drawn/narrative.png
+    :align: center
+    :scale: 50%
+
 
 .. note::
 
@@ -109,7 +114,10 @@ IMAGE: stickman with a tie and briefcase?
 Maslow
 ------
 
-IMAGE: stickman placing top of pyramid onto pyramid
+.. figure:: _drawn/maslow_grayscale.png
+    :align: center
+    :scale: 45%
+
 
 .. note::
 
@@ -201,7 +209,11 @@ IMAGE: stickman looking at several different sorts of dogs
 priming
 -------
 
-image: stickman w/ paintbrush?
+|
+
+.. figure:: _drawn/priming.png
+    :align: center
+    :scale: 45%
 
 .. note::
 
@@ -214,6 +226,10 @@ image: stickman w/ paintbrush?
 
 Groups in Theory...
 ===================
+
+.. figure:: _drawn/groups_theory.png
+    :align: center
+    :scale: 50%
 
 Asch Conformity
 ---------------
@@ -232,7 +248,12 @@ Asch Conformity
 social scripts/expectations
 ---------------------------
 
-IMAGE: sketch as an NPC dialog
+|
+
+.. figure:: _drawn/npc.png
+    :align: center
+    :scale: 60%
+
 
 .. note:: get help with scripts example
 
@@ -241,9 +262,9 @@ IMAGE: sketch as an NPC dialog
 Milgram Obedience
 -----------------
 
-use the more modern less unethical remake
-
-IMAGE: stickman with buttons and sketch with clipboard
+.. figure:: _drawn/milgram.png
+    :align: center
+    :scale: 50%
 
 .. note::
         Milgram's book Obedience to Authority ISBN 0-06-176521-X
@@ -477,6 +498,9 @@ As a FOSS Contributor
 
 .. note:: people are dumb, panicky animals quote was a REALLY GOOD transition
 
+.. figure:: _drawn/as_a_contributor.png
+    :align: center
+    :scale: 50%
 
 meritocracy
 -----------
@@ -524,7 +548,9 @@ fit the pattern of contributors who've turned out to be useful
 routes into a project
 ---------------------
 
-IMAGE: stickman with a treasure map
+.. figure:: _drawn/map_color.png
+    :align: center
+    :scale: 50%
 
 .. note:: get out of dumb question free cards
     1) use it and fix a bug
@@ -534,6 +560,11 @@ IMAGE: stickman with a treasure map
 
 improving docs
 --------------
+
+.. figure:: _drawn/write_docs.png
+    :align: center
+    :scale: 75%
+
 .. note::
     For mega-karma just offer to do it yourself
 
@@ -577,6 +608,10 @@ IMAGE: sketch shunning stickman (who's wearing a silly hat)
 leveraging conferences
 ----------------------
 
+.. figure:: _drawn/conferences.png
+    :align: center
+    :scale: 45%
+
 .. note::
     hallway track
 
@@ -590,8 +625,6 @@ leveraging conferences
 
     for talks, more KNOW YOUR AUDIENCE -- do they prefer buzzwords, or data?
     Use cases, or test cases? Pictures, or code?
-
-IMAGE: stickman with a microphone, necktie
 
 Leadership
 ==========
@@ -607,13 +640,19 @@ Leadership
 know your audience
 ------------------
 
-IMAGE: stickman with microphone, bunch of sketch people
+.. figure:: _drawn/conferences.png
+    :align: center
+    :scale: 45%
 
 .. note::
     goals, priorities, biases, culture, energy/time/resources
 
 group culture
 -------------
+
+.. figure:: _drawn/groupculture.png
+    :align: center
+    :scale: 50%
 
 .. note::                                                                       
     foster accountability -- CONSISTENCY                                        
@@ -649,11 +688,14 @@ IMAGE: stickman giving sketch a hat?
 identify assumptions
 --------------------
 
+.. figure:: _drawn/diversity_grayscale.png
+    :align: center
+    :scale: 40%
+
 .. note::
     who's "everybody"? make statements about "everybody" in your group then
     challenge each assumption
 
-IMAGE: big sketch people with hats, little sketch person with no hat looking
 confused
 
 diversity
