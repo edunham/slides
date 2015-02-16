@@ -2,7 +2,7 @@
 Human Hacking
 =============
 
-.. note:: focuses... 
+.. note:: focuses...
     pacing
     no questionmarks
     transitions
@@ -25,7 +25,7 @@ Introduction
     :scale: 90%
 
 |
- 
+
 talks.edunham.net/SCALE2015
 
 github.com/edunham
@@ -34,6 +34,9 @@ Hieroglyph
 
 
 .. note::
+    i'm FOSS contributor, leader of stuff, student of psychology, also a
+    student
+
     Slides are Hieroglyph, pictures sharpies -> phone camera -> Pinta
 
 Outline
@@ -50,14 +53,21 @@ Outline
     * Groups
 * Applications
     * Contributor
-    * Leader 
+    * Leader
 
-.. note:: 
+.. note::
     1) theories about people                    (20mins)
         * theories about individuals    (~12min)
         * theories about groups         (~8min)
     2) applications as FOSS contributor         (15mins)
     3) Leadership                               (15mins)
+
+    it's always hard to pick a starting point into a new curriculum but i've
+    done my best
+
+    these ideas are further from having objectively correct answers than most
+    CS problems. i don't want you to blindly do as i say, but to ask better
+    questions and learn what works for you
 
 
 Individuals In Theory...
@@ -66,6 +76,11 @@ Individuals In Theory...
 .. figure:: _drawn/in_theory.png
     :align: center
 
+.. note::
+
+    discussing individuals in theory can include more detail on the facets of
+    motivation and behavior...
+
 You Live in a Human Emulator
 ----------------------------
 
@@ -73,15 +88,37 @@ You Live in a Human Emulator
     :align: center
     :scale: 50%
 
-Homo Economicus
----------------
+.. note::
+
+    this helps you predict the responses and behavior of people similar to
+    yourself.
+
+    do not assume it works correctly on people different from yourself.
+
+Personal Narrative
+------------------
 
 IMAGE: stickman with a tie and briefcase?
+
+.. note::
+
+    everyone has things they tell themself about what kind of person they are
+    -- usually positive things. if you can pick up hints about what these
+    things are, you can understand the person's motivation better.
 
 Maslow
 ------
 
 IMAGE: stickman placing top of pyramid onto pyramid
+
+.. note::
+
+    it's a model of basic similarity between people in the needs they pursue,
+    lower needs need to be met before higher ones can be sought
+
+    useful question: what does someone hope by gain by doing a thing? pyramid
+    is examples of the levels of abstraction at which you might find the
+    answer.
 
 MBTI
 ----
@@ -98,6 +135,9 @@ IMAGE: 3D of transparent 2x2x2 cubes, each 2 colors split
           Feeling vs Thinking -- decision making functions
           Judging vs Percieving -- meta-types, J prefers order/predictable; P
                                    prefers spontaneous
+
+    useful question: how do others' preferences for interaction affect the
+    success of your involvement with them?
 
 .. note:: maybe an image of the lawful/chaotic good/evil D&D matrix as well?
 
@@ -117,21 +157,60 @@ Cognitive Biases
 IMAGE: stickman looking at thing with warped version of thing in thogught
 bubble (mistaking t-rex for dog?)
 
+.. note::
+    these are to everyday life what fallacies are to debate
+
+    deviations from what a "logical" person would do
+
+    wikipedia has a big list
+
+    TODO: LINK
+
 Overconfidence/Underconfidence effects
 --------------------------------------
 
 IMAGE: stickman fleeing from tiny dog (or offering a bone to a t-rex?)
 
+
+.. note::
+
+    overconfidence effects -- planning fallacy, tendency to overestimate rate
+    of work or understimate time frames
+
+    ie every software project ever
+
+    dunning-kruger effect: skilled people have better perspective on what they
+    don't know and assume low skill; low-skill gets illusory superiority
+
 great at pattern recognition
 ----------------------------
 
-ergo judgemental, quick to jump to conclusions.
 IMAGE: stickman looking at several different sorts of dogs
+
+
+.. note::
+
+    this is why natural language processing and image recognition are such a
+    huge challenge for computers, and why CAPCHAs kind of sort of almost still
+    work for forcing a human spammer to fill them out.
+
+    BUT it means we can apply patterns which aren't there, or which aren't
+    correct in a given situation, and end up judgemental or jumping to the
+    wrong conclusions
 
 priming
 -------
 
 image: stickman w/ paintbrush?
+
+.. note::
+
+    along the lines of pattern recognition, priming is the effect where people
+    perform how they're expecting to -- prime someone with stereotypes of
+    efficiency and they work measurably faster, etc.
+
+    useful question: notice where environment and context are priming for a
+    given response
 
 Groups in Theory...
 ===================
@@ -143,18 +222,34 @@ Asch Conformity
     :align: center
     :scale: 30%
 
+.. note::
+
+    this is the peer pressure thing -- people tend to assume they're wrong
+    when the group disagrees with them.
+
+    TODO: SOURCE
+
+social scripts/expectations
+---------------------------
+
+IMAGE: sketch as an NPC dialog
+
+.. note:: get help with scripts example
+
+
+
 Milgram Obedience
 -----------------
 
 use the more modern less unethical remake
 
-IMAGE: stickman with buttons and sketch with clipboard 
+IMAGE: stickman with buttons and sketch with clipboard
 
-.. note:: 
-        Milgram's book Obedience to Authority ISBN 0-06-176521-X 
+.. note::
+        Milgram's book Obedience to Authority ISBN 0-06-176521-X
 
         virtual representation, observes that humans empathize with an avatar
-        and obey authority to shock it anyway 
+        and obey authority to shock it anyway
         http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000039
 
         partial reproduction, stopping at 150V to avoid traumatizing
@@ -165,20 +260,13 @@ IMAGE: stickman with buttons and sketch with clipboard
         surprise, people zap others for TV authority too
         http://www.npr.org/templates/story/story.php?storyId=124838091
 
-social scripts/expectations
----------------------------
-
-IMAGE: sketch as an NPC dialog
-
-.. note:: get help with scripts example
-
 bystander effect
 ----------------
 
 IMAGE: stickman shrugging as crowd of sketch folks stand around
 
-.. note:: 
-   
+.. note::
+
     Somebody Else's Problem field, or SEP, is a cheap, easy, and staggeringly
     useful way of safely protecting something from unwanted eyes. It can run
     almost indefinitely on a flashlight/9 volt battery, and is able to do so
@@ -187,7 +275,10 @@ IMAGE: stickman shrugging as crowd of sketch folks stand around
     object around which a S.E.P is applied will cease to be noticed, because
     any problems one may have understanding it (and therefore accepting its
     existence) become Somebody Else's. An object becomes not so much invisible
-    as unnoticed. 
+    as unnoticed.
+
+    ever seen what happens when a leader goes "somebody needs to do X"? we'll
+    talk about mitigating bystander effect in leadership section.
 
 reciprocity
 -----------
@@ -195,7 +286,7 @@ reciprocity
 IMAGE: stickman giving something to sketch -> sketch giving something to
 stickman (like a recycle symbol)
 
-.. note:: attribution error, assumption that helps you -> likes you
+.. note:: attribution error fallacy, assumption that helps you -> likes you
 
 mirroring / body language
 -------------------------
@@ -203,8 +294,22 @@ mirroring / body language
 IMAGE: stickman and sketch leaning into a conversation in interest; stickman
 trying to get away from sketch
 
+.. note::
+
+    can you tell if they're interested in talking to one another?
+
+    they're lines on a page!
+
+    this is pattern recognition and recognition of *mirroring* -- when people
+    are interested in something they lean in, open posture, etc. disinterested
+    or defensive, closed posture, turn away, etc.
+
+    TODO: SOURCE FOR HOW BODY LANGUAGE AFFECTS MOOD
+
 Application Advice
 ==================
+
+.. note:: just in general
 
 doing science
 -------------
@@ -213,6 +318,18 @@ IMAGE: sketch in a labcoat
 
 (be open-minded)
 
+.. note::
+
+    turn ordinary experiences into learning about humans by:
+        * being observant
+        * identifying and correcting for own biases (mood, perspective)
+
+    what happened? (OBSERVATION)
+
+    why did it happen? (HYPOTHESIS)
+
+    how will changing the inputs change the output? (EXPERIMENT)
+
 getting what you want
 ---------------------
 
@@ -220,40 +337,90 @@ IMAGE: stickman crushed under a pile of presents, waving for help
 
 (be careful what you wish for)
 
+.. note::
+    what do you want? (if you don't know, try talking to Eliza)
+
+    be careful what you wish for. Does it make life better or worse for
+    others? If it's never happened before, get others feedback on whether it
+    would be an improvement.
+
+    If it'd harm others, examine whether your actual goal could be achieved
+    some other way.
+
 recognize end of usefulness
 ---------------------------
 
-generalizations useful for asking right questions, etc.
+.. note::
+
+    generalizations useful for asking right questions, etc.
+
+    differences != flaws, traits that're advantageous in some contexts are
+    harmful in others.
+
+    never assume you have enough context. observe what parts of the story
+    you've made up, assume they're wrong, and proceed accordingly.
 
 IMAGE: stickman pedantically proclaiming that dinosaur = dog?
 
 use your words carefully
 ------------------------
 
-some terms imply a goal or a set of values, ie right/wrong, fair/unfair,
-good/bad. when using them, SPECIFY THE GOAL rather than trusting audience to
-guess what you were thinking. 
+.. note::
+
+    some terms imply a goal or a set of values, ie right/wrong, fair/unfair,
+    good/bad. when using them, SPECIFY THE GOAL rather than trusting audience
+    to guess what you were thinking.
 
 Applications
 ============
+
+.. note::
+    as a contributor
 
 recognizing social norms
 ------------------------
 
 image: all the sketch folks wearing hats; stickman in a paper hat?
 
+.. note::
+    lurk moar!
 
 body language of online communication
 -------------------------------------
 
 IMAGE: same as for mirroring
 
-mirroring speech styles
+.. note::
+    mirroring speech styles
+
+    "Body language" of online communication:
+        * sentence length/structure/punctuation ~= tone
+        * word choice ~= style of dress or medium of meatspace comms (graffiti
+          vs newsletter vs political speech)
+        * presence/absence in IRC channel (rage quit = slamming door)
+        * interrupting with offtopic or inane things ~= being fidgety and
+          attention-seeking
+        * typing super slowly ~= mumble or stutter
+        * email address, handle, email sig ~= age, style of dress, gender
+
 
 inviting conversation
 ---------------------
 
-remember the part about living in a human emulator?
+.. note::
+
+    remember the part about living in a human emulator?
+
+    we'll get into how to get a specific question answered from a project
+    later; this is along the lines of generally making friends
+
+    when do *you* feel safe approaching someone and then do it? give the
+    situation those traits.
+
+    * be present, calm, engaged in shared channels
+    * subtly solve a problem of theirs
+
+    storytime: trying to talk to linus at linuxcon vs plug
 
 IMAGE: stickman with thought bubble of sketch with a speech bubble
 
@@ -262,12 +429,27 @@ effective email
 
 IMAGE: stickman with a laptop, email dialog, single ? on it
 
-ditto the human emulator
+.. note::
+    ditto the human emulator
+    again look at your own inbox -- which important messages are still
+    unanswered? why? because they're hard
+
+    * use a good title
+    * most people only see one ask per message
+    * summarize w/ bullet points
+    * anticipate questions -- know audience and purpose
 
 social hierarchies and capital
 ------------------------------
 
-karma/popularity -- how do you judge others? 
+.. note::
+    karma/popularity -- how do you judge others?
+
+    DON'T LIE TO SOUND COOL
+        * storytime: Google interviews if you rate yourself a 10 at a skill
+
+    Making recommendations is a gamble of social capital, proportionate to the
+    pain that'll ensue if the recommendation was wrong
 
 IMAGE: sketch people crowdsurfing stickman
 
@@ -277,7 +459,20 @@ stalking skills
 .. note:: put free software or open source software or project name in search,
     use safesearch
 
-with the caveat that there are sometimes things you didn't want to know
+    with the caveat that there are sometimes things you didn't want to know
+
+        GitHub
+
+    IRC
+
+    social media
+
+    news articles -- it's amazing what you learn by Googling somebody -- be
+    prepared to feel like you invaded their privacy
+
+    personal site/blog
+
+    is their hostmask or email at custom domain?
 
 IMAGE: stickman with binoculars?
 
@@ -317,7 +512,7 @@ IMAGE: stickman with the madlibs in a speech bubble
 fit the pattern of contributors who've turned out to be useful
 
 .. note:: shows that you read the docs and that will make them very happy,
-    especially the person who wrote the docs. 
+    especially the person who wrote the docs.
 
 routes into a project
 ---------------------
@@ -382,7 +577,7 @@ diversity
 ---------
 
 recognize the difference between wanting people who *think differently* and
-people who *look different*. 
+people who *look different*.
 
 IMAGE: stickman and sketch sharing a thoughtbubble with IRC computer in it,
 other sketch with thoughtbubble of email computer
@@ -437,7 +632,7 @@ communications on the record -- encourages you to behave better, as well
 and if that didn't work
 -----------------------
 
-IMAGE: stickman and troll talking, each has speech bubble with the other in it 
+IMAGE: stickman and troll talking, each has speech bubble with the other in it
 
 
 don't make it worse
@@ -456,7 +651,7 @@ IMAGE: stickman and sketch shoving troll through a doorway
 
 LAST resort
 why aren't they able to play well with others?
-    * path of least resistance? 
+    * path of least resistance?
     * insufficient information?
 avoid "right" and "wrong" -- all they'll do is alienate people and encourage
 you to make unidentified assumptions
