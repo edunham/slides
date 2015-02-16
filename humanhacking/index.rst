@@ -374,21 +374,6 @@ getting what you want
     If it'd harm others, examine whether your actual goal could be achieved
     some other way.
 
-recognize end of usefulness
----------------------------
-
-.. note::
-
-    generalizations useful for asking right questions, etc.
-
-    differences != flaws, traits that're advantageous in some contexts are
-    harmful in others.
-
-    never assume you have enough context. observe what parts of the story
-    you've made up, assume they're wrong, and proceed accordingly.
-
-IMAGE: stickman pedantically proclaiming that dinosaur = dog?
-
 use your words carefully
 ------------------------
 
@@ -401,6 +386,17 @@ use your words carefully
     some terms imply a goal or a set of values, ie right/wrong, fair/unfair,
     good/bad. when using them, SPECIFY THE GOAL rather than trusting audience
     to guess what you were thinking.
+
+.. note::
+    recognize limitations of models
+
+    generalizations useful for asking right questions, etc.
+
+    differences != flaws, traits that're advantageous in some contexts are
+    harmful in others.
+
+    never assume you have enough context. observe what parts of the story
+    you've made up, assume they're wrong, and proceed accordingly.
 
 Applications
 ============
