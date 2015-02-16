@@ -284,7 +284,9 @@ Milgram Obedience
 bystander effect
 ----------------
 
-IMAGE: stickman shrugging as crowd of sketch folks stand around
+.. figure:: _drawn/bystander.png
+    :align: center
+    :scale: 40%
 
 .. note::
 
@@ -304,16 +306,19 @@ IMAGE: stickman shrugging as crowd of sketch folks stand around
 reciprocity
 -----------
 
-IMAGE: stickman giving something to sketch -> sketch giving something to
-stickman (like a recycle symbol)
+.. figure:: _drawn/reciprocity.png
+    :align: center
+    :scale: 30%
+
 
 .. note:: attribution error fallacy, assumption that helps you -> likes you
 
 mirroring / body language
 -------------------------
 
-IMAGE: stickman and sketch leaning into a conversation in interest; stickman
-trying to get away from sketch
+.. figure:: _drawn/mirroring.png
+    :align: center
+    :scale: 40%
 
 .. note::
 
@@ -335,13 +340,14 @@ Application Advice
 doing science
 -------------
 
-IMAGE: sketch in a labcoat
-
-(be open-minded)
+.. figure:: _drawn/science.png
+    :align: center
+    :scale: 40%
 
 .. note::
 
     turn ordinary experiences into learning about humans by:
+    (be open-minded)
         * being observant
         * identifying and correcting for own biases (mood, perspective)
 
@@ -354,9 +360,9 @@ IMAGE: sketch in a labcoat
 getting what you want
 ---------------------
 
-IMAGE: stickman crushed under a pile of presents, waving for help
-
-(be careful what you wish for)
+.. figure:: _drawn/careful_wish.png
+    :align: center
+    :scale: 50%
 
 .. note::
     what do you want? (if you don't know, try talking to Eliza)
@@ -386,6 +392,10 @@ IMAGE: stickman pedantically proclaiming that dinosaur = dog?
 use your words carefully
 ------------------------
 
+.. figure:: _drawn/wordchoice.png
+    :align: center
+    :scale: 50%
+
 .. note::
 
     some terms imply a goal or a set of values, ie right/wrong, fair/unfair,
@@ -401,7 +411,9 @@ Applications
 recognizing social norms
 ------------------------
 
-image: all the sketch folks wearing hats; stickman in a paper hat?
+.. figure:: _drawn/socialnorms.png
+    :align: center
+    :scale: 35%
 
 .. note::
     lurk moar!
@@ -428,6 +440,10 @@ IMAGE: same as for mirroring
 inviting conversation
 ---------------------
 
+.. figure:: _drawn/inviting_conversation.png
+    :align: center
+    :scale: 40%
+
 .. note::
 
     remember the part about living in a human emulator?
@@ -443,7 +459,6 @@ inviting conversation
 
     storytime: trying to talk to linus at linuxcon vs plug
 
-IMAGE: stickman with thought bubble of sketch with a speech bubble
 
 effective email
 ---------------
