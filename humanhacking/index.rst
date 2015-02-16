@@ -243,7 +243,23 @@ Asch Conformity
     this is the peer pressure thing -- people tend to assume they're wrong
     when the group disagrees with them.
 
-    TODO: SOURCE
+    Asch, S.E. (1951). Effects of group pressure on the modification and
+    distortion of judgments. In H. Guetzkow (Ed.), Groups, leadership and
+    men(pp. 177--190). Pittsburgh, PA:Carnegie Press. 
+
+    summary:
+    http://www.integratedsociopsychology.net/asch_lines_experiment.html
+
+    newer analyses: 
+
+    http://psycnet.apa.org/journals/mon/70/9/1/
+
+    age differences: 
+    http://www.ncbi.nlm.nih.gov/pubmed/10224640
+
+    http://www.radford.edu/~jaspelme/_private/gradsoc_articles/individualism_collectivism/conformity%20and%20culture.pdf
+
+
 
 social scripts/expectations
 ---------------------------
