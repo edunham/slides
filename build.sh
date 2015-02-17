@@ -17,4 +17,7 @@ cd ../intermediateirc
 cd ../handoff
     rm -rf _build
     make slides
+cd ../resume_lightningtalk
+    rm -rf _build
+    make slides
 deactivate
