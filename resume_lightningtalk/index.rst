@@ -131,8 +131,10 @@ It's Pretty
 Out Of Time
 ===========
 
-http://edunham.net/2015/02/14/resume_improvement_with_latex_macros.html
+* ``pdflatex resume.tex && evince resume.pdf``
 
-http://lug.oregonstate.edu/blog/resume/
+* `more on macros <http://edunham.net/2015/02/14/resume_improvement_with_latex_macros.html>`_
 
+* `more on what to say <http://lug.oregonstate.edu/blog/resume/>`_
 
+* Slides at talks.edunham.net/OSULUG/resume
