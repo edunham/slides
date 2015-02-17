@@ -131,7 +131,10 @@ Maslow
 MBTI
 ----
 
-IMAGE: 3D of transparent 2x2x2 cubes, each 2 colors split
+.. figure:: _drawn/mbti.png
+    :align: center
+    :scale: 35%
+
 
 .. note:: test is designed to force dichotomies; during development tested
     thousands of questions to find those on which people statistically
@@ -162,8 +165,9 @@ IMAGE: 3D of transparent 2x2x2 cubes, each 2 colors split
 Cognitive Biases
 ----------------
 
-IMAGE: stickman looking at thing with warped version of thing in thogught
-bubble (mistaking t-rex for dog?)
+.. figure:: _drawn/bias.png
+    :align: center
+    :scale: 35%
 
 .. note::
     these are to everyday life what fallacies are to debate
@@ -177,8 +181,9 @@ bubble (mistaking t-rex for dog?)
 Overconfidence/Underconfidence effects
 --------------------------------------
 
-IMAGE: stickman fleeing from tiny dog (or offering a bone to a t-rex?)
-
+.. figure:: _drawn/confidence.png
+    :align: center
+    :scale: 25%
 
 .. note::
 
@@ -193,8 +198,9 @@ IMAGE: stickman fleeing from tiny dog (or offering a bone to a t-rex?)
 great at pattern recognition
 ----------------------------
 
-IMAGE: stickman looking at several different sorts of dogs
-
+.. figure:: _drawn/patternmatch_grayscale.png
+    :align: center
+    :scale: 40%
 
 .. note::
 
@@ -569,6 +575,10 @@ meritocracy
 first impressions
 -----------------
 
+.. figure:: _drawn/firstimpression.png
+    :align: center
+    :scale: 25%
+
 .. note::
     (that bit about pattern recognition) identify which patterns you'll match
     non-ridiculous handle -- be especially cautious of negative implications
@@ -579,9 +589,6 @@ first impressions
         storytime: gifs vs no gifs, UA vs Intel
 
     ask questions well
-
-IMAGE: irc convo over stickman's shoulder, "IM_NOT_LISTENING_TO_YOU" nick
-
 
 asking good questions
 ---------------------
@@ -640,6 +647,12 @@ improving docs
 routing around damage
 ---------------------
 
+|
+
+.. figure:: _drawn/routearound.png
+    :align: center
+    :scale: 50%
+
 .. note::
     yes maybe it takes more effort; this means that you'll only do the things
     that're worth it
@@ -651,7 +664,7 @@ they're ignoring my PRs!
 
 .. figure:: _drawn/shun.png
     :align: center
-    :scale" 35%
+    :scale: 35%
 
 
 .. note::
@@ -787,7 +800,9 @@ delegation: timing
 manage burnout
 --------------
 
-IMAGE: sketches waving papers at sad-looking Stickman
+.. figure:: _drawn/burnout.png
+    :align: center
+    :scale: 45%
 
 .. note:: 
     dropped balls aren't noticed as much as you think; monitor own state carefully
@@ -798,6 +813,11 @@ IMAGE: sketches waving papers at sad-looking Stickman
 leadership handoff
 ------------------
 
+.. figure:: _drawn/delegation_colored.png
+    :align: center
+    :scale: 40%
+
+
 .. note::
     start ASAP when you realize you'll need to
 
@@ -805,10 +825,6 @@ leadership handoff
     
     madlibs of tasks, share responsibilities, "puppet" them for smoother
     transition if they're not confident yet, recognize their differences
-
-IMAGE: stickman saying speechbubble of map to sketch, who says speech bubble
-of map to crowd
-
 
 troll-proofing
 --------------
