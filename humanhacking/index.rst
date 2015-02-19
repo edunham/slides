@@ -639,27 +639,6 @@ stalking skills
 
     is their hostmask or email at custom domain?
 
-leveraging conferences
-----------------------
-
-.. figure:: _drawn/conferences.png
-    :align: center
-    :scale: 45%
-
-.. note::
-    hallway track
-
-    when you get a business card, take notes
-
-    FOLLOW-UP sets you apart
-
-    when writing talk proposals, questions show that you know your audience
-
-    stalk conference abstracts from past years to get a feel for tone
-
-    for talks, more KNOW YOUR AUDIENCE -- do they prefer buzzwords, or data?
-    Use cases, or test cases? Pictures, or code?
-
 Leadership
 ----------
 
@@ -873,5 +852,57 @@ github.com/edunham
 
 Hieroglyph
 
+The Anecdote Graveyard
+----------------------
+
+|
+
+.. figure:: _drawn/ghosties.png
+    :align: center
+    :scale: 30%
+
+
+leveraging conferences
+----------------------
+
+.. figure:: _drawn/conferences.png
+    :align: center
+    :scale: 45%
+
+.. note::
+    hallway track
+
+    when you get a business card, take notes
+
+    FOLLOW-UP sets you apart
+
+    when writing talk proposals, questions show that you know your audience
+
+    stalk conference abstracts from past years to get a feel for tone
+
+    for talks, more KNOW YOUR AUDIENCE -- do they prefer buzzwords, or data?
+    Use cases, or test cases? Pictures, or code?
+
+inviting conversation
+---------------------
+
+.. figure:: _drawn/inviting_conversation.png
+    :align: center
+    :scale: 40%
+
+.. note::
+
+    remember the part about living in a human emulator?
+
+    we'll get into how to get a specific question answered from a project
+    later; this is along the lines of generally making friends
+
+    when do *you* feel safe approaching someone and then do it? give the
+    situation those traits.
+
+    * be present, calm, engaged in shared channels
+    * subtly solve a problem of theirs
+
+    storytime: trying to talk to linus at linuxcon vs plug
 
 
