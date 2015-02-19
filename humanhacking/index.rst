@@ -252,6 +252,62 @@ Groups in Theory...
     :align: center
     :scale: 50%
 
+.. note:: 
+
+    we'll get the scariest parts out of the way first.
+
+Milgram Obedience
+-----------------
+
+.. figure:: _drawn/milgram.png
+    :align: center
+    :scale: 50%
+
+.. note::
+
+        TODO: PERCENTAGES
+
+        Milgram's book Obedience to Authority ISBN 0-06-176521-X
+
+        virtual representation, observes that humans empathize with an avatar
+        and obey authority to shock it anyway
+        http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000039
+
+        partial reproduction, stopping at 150V to avoid traumatizing
+        participants, in 2009
+        http://www.apa.org/pubs/journals/releases/amp-64-1-1.pdf
+
+        and the replicated it on a fake French game show in 2010 and, surprise
+        surprise, people zap others for TV authority too
+        http://www.npr.org/templates/story/story.php?storyId=124838091
+
+        effect of *action when you'd expect inaction*
+
+bystander effect
+----------------
+
+.. figure:: _drawn/bystander.png
+    :align: center
+    :scale: 40%
+
+.. note::
+
+    effect of *inaction when you'd expect action*
+
+    Somebody Else's Problem field, or SEP, is a cheap, easy, and staggeringly
+    useful way of safely protecting something from unwanted eyes. It can run
+    almost indefinitely on a flashlight/9 volt battery, and is able to do so
+    because it utilizes a person's natural tendency to ignore things they
+    don't easily accept, like, for example, aliens at a cricket match. Any
+    object around which a S.E.P is applied will cease to be noticed, because
+    any problems one may have understanding it (and therefore accepting its
+    existence) become Somebody Else's. An object becomes not so much invisible
+    as unnoticed.
+
+    ever seen what happens when a leader goes "somebody needs to do X"? we'll
+    talk about mitigating bystander effect in leadership section.
+
+
 Asch Conformity
 ---------------
 
@@ -296,50 +352,6 @@ social scripts/expectations
 
 
 
-Milgram Obedience
------------------
-
-.. figure:: _drawn/milgram.png
-    :align: center
-    :scale: 50%
-
-.. note::
-        Milgram's book Obedience to Authority ISBN 0-06-176521-X
-
-        virtual representation, observes that humans empathize with an avatar
-        and obey authority to shock it anyway
-        http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000039
-
-        partial reproduction, stopping at 150V to avoid traumatizing
-        participants, in 2009
-        http://www.apa.org/pubs/journals/releases/amp-64-1-1.pdf
-
-        and the replicated it on a fake French game show in 2010 and, surprise
-        surprise, people zap others for TV authority too
-        http://www.npr.org/templates/story/story.php?storyId=124838091
-
-bystander effect
-----------------
-
-.. figure:: _drawn/bystander.png
-    :align: center
-    :scale: 40%
-
-.. note::
-
-    Somebody Else's Problem field, or SEP, is a cheap, easy, and staggeringly
-    useful way of safely protecting something from unwanted eyes. It can run
-    almost indefinitely on a flashlight/9 volt battery, and is able to do so
-    because it utilizes a person's natural tendency to ignore things they
-    don't easily accept, like, for example, aliens at a cricket match. Any
-    object around which a S.E.P is applied will cease to be noticed, because
-    any problems one may have understanding it (and therefore accepting its
-    existence) become Somebody Else's. An object becomes not so much invisible
-    as unnoticed.
-
-    ever seen what happens when a leader goes "somebody needs to do X"? we'll
-    talk about mitigating bystander effect in leadership section.
-
 reciprocity
 -----------
 
@@ -370,13 +382,8 @@ mirroring / body language
     http://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are?language=en
 
 
-Application Advice
-==================
-
-.. note:: just in general
-
-doing science
--------------
+The Disclaimers
+===============
 
 .. figure:: _drawn/science.png
     :align: center
@@ -435,14 +442,129 @@ use your words carefully
     differences != flaws, traits that're advantageous in some contexts are
     harmful in others.
 
+    for instance in one ecosystem it's great to have lungs, another it's great
+    to have gills. 
+
     never assume you have enough context. observe what parts of the story
     you've made up, assume they're wrong, and proceed accordingly.
 
-Applications
-============
+Applications as a FOSS Contributor
+==================================
+
+| 
+
+.. note:: people are dumb, panicky animals quote was a REALLY GOOD transition
+
+.. figure:: _drawn/as_a_contributor.png
+    :align: center
+    :scale: 50%
+
+first impressions
+-----------------
+
+.. figure:: _drawn/firstimpression.png
+    :align: center
+    :scale: 25%
 
 .. note::
-    as a contributor
+    (that bit about pattern recognition) identify which patterns you'll match
+    non-ridiculous handle -- be especially cautious of negative implications
+    about any group, because the code reviewer might well be in that group
+    (even sports teams)
+
+    conform to channel/list behavior
+        storytime: gifs vs no gifs, UA vs Intel
+
+    ask questions well
+
+asking good questions
+---------------------
+
+.. figure:: _drawn/madlibs.png
+    :align: center 
+    :scale: 30%
+
+
+I want ____ to ___ in order to ____. At ____, I read that ____ which makes me
+think that I should be able to get it to _____ by doing ______. But when I try
+to ______, ______ happens instead. Please help me ______.
+
+.. note:: shows that you read the docs and that will make them very happy,
+    especially the person who wrote the docs.
+
+    KNOW WHAT YOU WANT
+
+    fit the pattern of contributors who've turned out to be useful
+
+routes into a project
+---------------------
+
+.. figure:: _drawn/map_color.png
+    :align: center
+    :scale: 50%
+
+.. note:: get out of dumb question free cards
+    1) use it and fix a bug
+    2) find a contributor you know and get mentored/introduced
+    3) edunham's help with installdocs technique
+    4) start your own project
+
+improving docs
+--------------
+
+.. figure:: _drawn/write_docs.png
+    :align: center
+    :scale: 75%
+
+.. note::
+    For mega-karma just offer to do it yourself
+
+    * first diagnose why they haven't been written already
+
+        * not needed by target audience?
+
+        * project doesn't care?
+
+        * just not enough time / too much work (usually)?
+
+    are you asking the right person?
+
+    can/should you change project culture? (social influence)
+
+they're ignoring my PRs!
+------------------------
+
+.. figure:: _drawn/shun.png
+    :align: center
+    :scale: 35%
+
+
+.. note::
+    is your expectation realistic?
+
+    what feedback have you gotten?
+
+    where could you get some feedback?
+
+    what's blocking them? can you help?
+
+    the magic of "when shall I remind you..."
+
+routing around damage
+---------------------
+
+|
+
+.. figure:: _drawn/routearound.png
+    :align: center
+    :scale: 50%
+
+.. note::
+    yes maybe it takes more effort; this means that you'll only do the things
+    that're worth it
+
+    storytime: pessimistic coworker and big new project idea (dobc)
+
 
 recognizing social norms
 ------------------------
@@ -533,137 +655,6 @@ stalking skills
 
     is their hostmask or email at custom domain?
 
-As a FOSS Contributor
-=====================
-
-| 
-
-.. note:: people are dumb, panicky animals quote was a REALLY GOOD transition
-
-.. figure:: _drawn/as_a_contributor.png
-    :align: center
-    :scale: 50%
-
-meritocracy
------------
-
-|
-
-.. figure:: _drawn/meritocracy.png
-    :align: center
-    :scale: 40%
-
-.. note::
-
-    currency is fucks given, often measured in lines of code.
-    passion/enthusiasm etc.
-
-first impressions
------------------
-
-.. figure:: _drawn/firstimpression.png
-    :align: center
-    :scale: 25%
-
-.. note::
-    (that bit about pattern recognition) identify which patterns you'll match
-    non-ridiculous handle -- be especially cautious of negative implications
-    about any group, because the code reviewer might well be in that group
-    (even sports teams)
-
-    conform to channel/list behavior
-        storytime: gifs vs no gifs, UA vs Intel
-
-    ask questions well
-
-asking good questions
----------------------
-
-.. figure:: _drawn/madlibs.png
-    :align: center
-    :scale: 50%
-
-
-.. note:: shows that you read the docs and that will make them very happy,
-    especially the person who wrote the docs.
-
-    KNOW WHAT YOU WANT
-
-    I want ____ to ___ in order to ____. At ____, I read that ____ which makes
-    me think that I should be able to get it to _____ by doing ______. But when I
-    try to ______, ______ happens instead. Please help me ______.
-
-    fit the pattern of contributors who've turned out to be useful
-
-routes into a project
----------------------
-
-.. figure:: _drawn/map_color.png
-    :align: center
-    :scale: 50%
-
-.. note:: get out of dumb question free cards
-    1) use it and fix a bug
-    2) find a contributor you know and get mentored/introduced
-    3) edunham's help with installdocs technique
-    4) start your own project
-
-improving docs
---------------
-
-.. figure:: _drawn/write_docs.png
-    :align: center
-    :scale: 75%
-
-.. note::
-    For mega-karma just offer to do it yourself
-
-    * first diagnose why they haven't been written already
-
-        * not needed by target audience?
-
-        * project doesn't care?
-
-        * just not enough time / too much work (usually)?
-
-    are you asking the right person?
-
-    can/should you change project culture? (social influence)
-
-routing around damage
----------------------
-
-|
-
-.. figure:: _drawn/routearound.png
-    :align: center
-    :scale: 50%
-
-.. note::
-    yes maybe it takes more effort; this means that you'll only do the things
-    that're worth it
-
-    storytime: pessimistic coworker and big new project idea (dobc)
-
-they're ignoring my PRs!
-------------------------
-
-.. figure:: _drawn/shun.png
-    :align: center
-    :scale: 35%
-
-
-.. note::
-    is your expectation realistic?
-
-    what feedback have you gotten?
-
-    where could you get some feedback?
-
-    what's blocking them? can you help?
-
-    the magic of "when shall I remind you..."
-
 leveraging conferences
 ----------------------
 
@@ -696,6 +687,20 @@ Leadership
 
     the emulator thing: which leaders do you look up to? why?
 
+meritocracy
+-----------
+
+|
+
+.. figure:: _drawn/meritocracy.png
+    :align: center
+    :scale: 40%
+
+.. note::
+
+    currency is fucks given, often measured in lines of code.
+    passion/enthusiasm etc.
+
 know your audience
 ------------------
 
@@ -719,21 +724,9 @@ group culture
     benefit of the doubt -- they chose best of percieved options. to change     
     future behavior, ADD MORE OPTIONS                                           
                                                                                 
-    empower... give people percieved buy-in, investment                            **you can't just say "our culture is going to be x". there's already one there.**
+    empower... give people percieved buy-in, investment
+    **you can't just say "our culture is going to be x". there's already one there.**
 
-IMAGE: bunch of sketch people with big shared thought bubble with computer in
-it, computer from email
-
-identify assumptions
---------------------
-
-.. figure:: _drawn/diversity_grayscale.png
-    :align: center
-    :scale: 40%
-
-.. note::
-    who's "everybody"? make statements about "everybody" in your group then
-    challenge each assumption
 
 diversity
 ---------
@@ -741,6 +734,13 @@ diversity
 .. figure:: _drawn/diversity_grayscale.png
     :align: center
     :scale: 40%
+
+.. note:: 
+    IDENTIFY ASSUMPTIONS.
+
+    who's "everybody"? make statements about "everybody" in your group then
+    challenge each assumption
+
 
 .. note:: 
     recognize the difference between wanting people who *think differently* and
@@ -761,62 +761,11 @@ diversity
     everybody -- be careful of **assumptions** about hardware or monetary       
     resources, time zones and geographic constraints
 
-delegation
-----------
-
-.. note:: 
-    successful leadership is when everybody else does the work                  
-                                                                                
-    the bus problem (git-bus)
-
-    EMPOWER minions
-    knowing it'll happen == knowing who'll do it
-
-.. figure:: _drawn/delegation_colored.png
-    :align: center
-    :scale: 40%
-
-delegation: timing
-------------------
-
-.. figure:: _drawn/calendar.png
-    :align: center
-    :scale: 45%
-
-manage burnout
---------------
-
-.. figure:: _drawn/burnout.png
-    :align: center
-    :scale: 45%
-
-.. note:: 
-    dropped balls aren't noticed as much as you think; monitor own state carefully
-    so burnout doesn't sneak up
-
-    burnout.io
-
-leadership handoff
-------------------
-
-.. figure:: _drawn/delegation_colored.png
-    :align: center
-    :scale: 40%
-
-
-.. note::
-    start ASAP when you realize you'll need to
-
-    makes life easier for YOU, not just newbie
-    
-    madlibs of tasks, share responsibilities, "puppet" them for smoother
-    transition if they're not confident yet, recognize their differences
-
 troll-proofing
 --------------
 
 .. figure:: _drawn/notrolls_grayred.png
-    :align: center
+    :align: center  
     :scale: 35%
 
 .. note::
@@ -846,6 +795,7 @@ get someone out
 ---------------
 
 IMAGE: stickman and sketch shoving troll through a doorway
+or exit sign?
 
 .. note::
     LAST resort
@@ -854,6 +804,59 @@ IMAGE: stickman and sketch shoving troll through a doorway
     * insufficient information?
     avoid "right" and "wrong" -- all they'll do is alienate people and encourage
     you to make unidentified assumptions
+
+    speaking of people getting out... / sucky parts of FOSS
+
+manage burnout
+--------------
+
+.. figure:: _drawn/burnout.png
+    :align: center
+    :scale: 45%
+
+.. note:: 
+    dropped balls aren't noticed as much as you think; monitor own state carefully
+    so burnout doesn't sneak up
+
+    burnout.io
+
+delegation
+----------
+
+.. note:: 
+    successful leadership is when everybody else does the work                  
+                                                                                
+    the bus problem (git-bus)
+
+    EMPOWER minions
+    knowing it'll happen == knowing who'll do it
+
+.. figure:: _drawn/delegation_colored.png
+    :align: center
+    :scale: 40%
+
+delegation: timing
+------------------
+
+.. figure:: _drawn/calendar.png
+    :align: center
+    :scale: 45%
+
+leadership handoff
+------------------
+
+.. figure:: _drawn/delegation_colored.png
+    :align: center
+    :scale: 40%
+
+
+.. note::
+    start ASAP when you realize you'll need to
+
+    makes life easier for YOU, not just newbie
+    
+    madlibs of tasks, share responsibilities, "puppet" them for smoother
+    transition if they're not confident yet, recognize their differences
 
 teaching
 --------
