@@ -1,6 +1,6 @@
-=============
+-------------
 Human Hacking
-=============
+-------------
 
 .. note:: focuses...
     pacing
@@ -71,7 +71,7 @@ Outline
 
 
 Individuals In Theory...
-========================
+------------------------
 
 .. figure:: _drawn/in_theory.png
     :align: center
@@ -246,7 +246,7 @@ priming
     http://en.wikipedia.org/wiki/Priming_%28psychology%29
 
 Groups in Theory...
-===================
+-------------------
 
 .. figure:: _drawn/groups_theory.png
     :align: center
@@ -383,7 +383,7 @@ mirroring / body language
 
 
 The Disclaimers
-===============
+---------------
 
 .. figure:: _drawn/science.png
     :align: center
@@ -449,7 +449,7 @@ use your words carefully
     you've made up, assume they're wrong, and proceed accordingly.
 
 Applications as a FOSS Contributor
-==================================
+----------------------------------
 
 | 
 
@@ -661,7 +661,7 @@ leveraging conferences
     Use cases, or test cases? Pictures, or code?
 
 Leadership
-==========
+----------
 
 .. note:: Leadership tends to happen to people who work hard, are reliable,
     and are bad at saying 'no'. Here's what I wish someone had told me back
@@ -670,10 +670,6 @@ Leadership
     http://www.huffingtonpost.com/liz-orsquo/cant-say-no-say-yes-instead_b_4583052.html
 
     the emulator thing: which leaders do you look up to? why?
-
-meritocracy
------------
-
 |
 
 .. figure:: _drawn/meritocracy.png
