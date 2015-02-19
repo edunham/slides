@@ -550,22 +550,6 @@ they're ignoring my PRs!
 
     the magic of "when shall I remind you..."
 
-routing around damage
----------------------
-
-|
-
-.. figure:: _drawn/routearound.png
-    :align: center
-    :scale: 50%
-
-.. note::
-    yes maybe it takes more effort; this means that you'll only do the things
-    that're worth it
-
-    storytime: pessimistic coworker and big new project idea (dobc)
-
-
 recognizing social norms
 ------------------------
 
