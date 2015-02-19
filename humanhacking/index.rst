@@ -136,6 +136,11 @@ Maslow
     is examples of the levels of abstraction at which you might find the
     answer.
 
+    Sabu story: 2 foster daughters; behavior changes completely after arrest
+    http://en.wikipedia.org/wiki/Hector_Monsegur
+    http://www.bbc.com/news/technology-27579765
+
+
 MBTI
 ----
 
