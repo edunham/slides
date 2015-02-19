@@ -95,6 +95,16 @@ You Live in a Human Emulator
 
     do not assume it works correctly on people different from yourself.
 
+    for instance, inviting conversation
+
+    when do *you* feel safe approaching someone and then do it? give the
+    situation those traits.
+
+    * be present, calm, engaged in shared channels
+    * subtly solve a problem of theirs
+
+
+
 Personal Narrative
 ------------------
 
@@ -467,30 +477,6 @@ body language of online communication
           attention-seeking
         * typing super slowly ~= mumble or stutter
         * email address, handle, email sig ~= age, style of dress, gender
-
-
-inviting conversation
----------------------
-
-.. figure:: _drawn/inviting_conversation.png
-    :align: center
-    :scale: 40%
-
-.. note::
-
-    remember the part about living in a human emulator?
-
-    we'll get into how to get a specific question answered from a project
-    later; this is along the lines of generally making friends
-
-    when do *you* feel safe approaching someone and then do it? give the
-    situation those traits.
-
-    * be present, calm, engaged in shared channels
-    * subtly solve a problem of theirs
-
-    storytime: trying to talk to linus at linuxcon vs plug
-
 
 effective email
 ---------------
