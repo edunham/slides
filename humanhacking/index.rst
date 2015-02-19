@@ -38,6 +38,10 @@ Hieroglyph
 
     Slides are Hieroglyph, pictures sharpies -> phone camera -> Pinta
 
+    I've found basic psych knowledge extremely helpful in FOSS and would like
+    to share some theories that I find particularly interesting/applicable,
+    and applications as both a contributor and a leader. 
+
 Outline
 -------
 
@@ -102,7 +106,6 @@ You Live in a Human Emulator
     * subtly solve a problem of theirs
 
 
-
 Personal Narrative
 ------------------
 
@@ -139,6 +142,9 @@ Maslow
     Sabu story: 2 foster daughters; behavior changes completely after arrest
     http://en.wikipedia.org/wiki/Hector_Monsegur
     http://www.bbc.com/news/technology-27579765
+
+    I would be amazed if they *hadn't* threatened him...
+    http://www.wired.com/2015/02/hacker-claims-feds-hit-44-felonies-refused-fbi-spy/
 
 
 MBTI
@@ -678,7 +684,6 @@ group culture
     empower... give people percieved buy-in, investment
     **you can't just say "our culture is going to be x". there's already one there.**
 
-
 diversity
 ---------
 
@@ -691,7 +696,6 @@ diversity
 
     who's "everybody"? make statements about "everybody" in your group then
     challenge each assumption
-
 
 .. note:: 
     recognize the difference between wanting people who *think differently* and
@@ -812,14 +816,34 @@ leadership handoff
 teaching
 --------
 
+Does anybody not know what the Turing Test is?
+
 .. note:: 
 
     how you learned it -> how you teach it
 
-know your audience?
--------------------
+    even really well-taught info is useless if the audience lacks
+    background/perspective
 
-.. note::                                                                       
+thank you for bringing a computer
+---------------------------------
+
+strawpoll.me/<LINK>
+
+Results
+-------
+
+What impression did the presenter get?
+
+Was it accurate?
+
+know your audience
+------------------
+
+.. note::
+
+    overconfidence effects, peer pressure / conformity effects, etc.
+
     A few gotchas about teaching:                                               
     * more KNOW YOUR AUDIENCE                                                   
     * people do not like embarrassing themselves or standing out                
@@ -843,6 +867,8 @@ talks.edunham.net/SCALE2015
 github.com/edunham
 
 Hieroglyph
+
+Vote for me! TODO: LINK
 
 The Anecdote Graveyard
 ----------------------
@@ -914,7 +940,9 @@ stalking skills
     :align: center
     :scale: 60%
 
-.. note:: put free software or open source software or project name in search,
+.. note:: 
+
+    put free software or open source software or project name in search,
     use safesearch
 
     with the caveat that there are sometimes things you didn't want to know
@@ -928,4 +956,11 @@ stalking skills
 
     is their hostmask or email at custom domain?
 
+Negotiation
+-----------
 
+.. note:: 
+
+    roommate going "i don't know what salary to ask for"
+    remember they won't give you OVER what you say
+    but they can't really give you UNDER what THEY say
