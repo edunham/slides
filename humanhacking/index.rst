@@ -144,7 +144,9 @@ MBTI
     :scale: 35%
 
 
-.. note:: test is designed to force dichotomies; during development tested
+.. note:: 
+
+    **test is designed to force dichotomies**; during development tested
     thousands of questions to find those on which people statistically
     differentiate
 
@@ -242,6 +244,17 @@ priming
     https://www.psychologytoday.com/basics/priming
 
     http://en.wikipedia.org/wiki/Priming_%28psychology%29
+
+Bad at Multitasking
+-------------------
+
+.. note:: 
+
+    power of calendars
+    consistency is important
+    much more efficient to focus on one thing at a time, juggling multiple
+    tasks is a lot of overhead and performance suffers
+
 
 Groups in Theory...
 -------------------
