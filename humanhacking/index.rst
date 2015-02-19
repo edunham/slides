@@ -250,6 +250,17 @@ Bad at Multitasking
 
 .. note:: 
 
+    http://news.stanford.edu/news/2009/august24/multitask-research-study-082409.html
+
+    (http://www.pnas.org/content/106/37/15583)
+
+    gender differences: http://www.biomedcentral.com/2050-7283/1/18
+
+    context switches take effort, just like in the kernel
+
+    worrying about whether you'll forget something fires an interrupt
+
+
     power of calendars
     consistency is important
     much more efficient to focus on one thing at a time, juggling multiple
