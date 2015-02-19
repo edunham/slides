@@ -32,7 +32,6 @@ github.com/edunham
 
 Hieroglyph
 
-
 .. note::
     i'm FOSS contributor, leader of stuff, student of psychology, also a
     student
@@ -68,7 +67,6 @@ Outline
     these ideas are further from having objectively correct answers than most
     CS problems. i don't want you to blindly do as i say, but to ask better
     questions and learn what works for you
-
 
 Individuals In Theory...
 ------------------------
@@ -336,8 +334,6 @@ Asch Conformity
 
     http://www.radford.edu/~jaspelme/_private/gradsoc_articles/individualism_collectivism/conformity%20and%20culture.pdf
 
-
-
 social scripts/expectations
 ---------------------------
 
@@ -349,8 +345,6 @@ social scripts/expectations
 
 
 .. note:: get help with scripts example
-
-
 
 reciprocity
 -----------
@@ -380,7 +374,6 @@ mirroring / body language
     or defensive, closed posture, turn away, etc.
 
     http://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are?language=en
-
 
 The Disclaimers
 ---------------
@@ -496,6 +489,48 @@ to ______, ______ happens instead. Please help me ______.
 
     fit the pattern of contributors who've turned out to be useful
 
+body language of online communication
+-------------------------------------
+
+.. figure:: _drawn/mirroring.png
+    :align: left
+    :scale: 35%
+
+* nickname or address
+* speech style
+* grammar/punctuation
+
+.. note::
+    mirroring speech styles
+
+    "Body language" of online communication:
+        * sentence length/structure/punctuation ~= tone
+        * word choice ~= style of dress or medium of meatspace comms (graffiti
+          vs newsletter vs political speech)
+        * presence/absence in IRC channel (rage quit = slamming door)
+        * interrupting with offtopic or inane things ~= being fidgety and
+          attention-seeking
+        * typing super slowly ~= mumble or stutter
+        * email address, handle, email sig ~= age, style of dress, gender
+
+effective email
+---------------
+
+.. figure:: _drawn/email.png
+    :align: center
+    :scale: 50%
+
+.. note::
+    ditto the human emulator
+    again look at your own inbox -- which important messages are still
+    unanswered? why? because they're hard
+
+    * use a good title
+    * most people only see one ask per message
+    * summarize w/ bullet points
+    * anticipate questions -- know audience and purpose
+
+
 routes into a project
 ---------------------
 
@@ -550,57 +585,6 @@ they're ignoring my PRs!
 
     the magic of "when shall I remind you..."
 
-recognizing social norms
-------------------------
-
-.. figure:: _drawn/socialnorms.png
-    :align: center
-    :scale: 35%
-
-.. note::
-    lurk moar!
-
-body language of online communication
--------------------------------------
-
-.. figure:: _drawn/mirroring.png
-    :align: left
-    :scale: 35%
-
-* nickname or address
-* speech style
-* grammar/punctuation
-
-.. note::
-    mirroring speech styles
-
-    "Body language" of online communication:
-        * sentence length/structure/punctuation ~= tone
-        * word choice ~= style of dress or medium of meatspace comms (graffiti
-          vs newsletter vs political speech)
-        * presence/absence in IRC channel (rage quit = slamming door)
-        * interrupting with offtopic or inane things ~= being fidgety and
-          attention-seeking
-        * typing super slowly ~= mumble or stutter
-        * email address, handle, email sig ~= age, style of dress, gender
-
-effective email
----------------
-
-.. figure:: _drawn/email.png
-    :align: center
-    :scale: 50%
-
-.. note::
-    ditto the human emulator
-    again look at your own inbox -- which important messages are still
-    unanswered? why? because they're hard
-
-    * use a good title
-    * most people only see one ask per message
-    * summarize w/ bullet points
-    * anticipate questions -- know audience and purpose
-
 social hierarchies and capital
 ------------------------------
 
@@ -617,27 +601,6 @@ social hierarchies and capital
     Making recommendations is a gamble of social capital, proportionate to the
     pain that'll ensue if the recommendation was wrong
 
-
-stalking skills
----------------
-
-.. figure:: _drawn/stalkskills.png
-    :align: center
-    :scale: 60%
-
-.. note:: put free software or open source software or project name in search,
-    use safesearch
-
-    with the caveat that there are sometimes things you didn't want to know
-
-    GitHub, IRC, social media
-
-    news articles -- it's amazing what you learn by Googling somebody -- be
-    prepared to feel like you invaded their privacy
-
-    personal site/blog
-
-    is their hostmask or email at custom domain?
 
 Leadership
 ----------
@@ -904,5 +867,36 @@ inviting conversation
     * subtly solve a problem of theirs
 
     storytime: trying to talk to linus at linuxcon vs plug
+
+recognizing social norms
+------------------------
+
+.. figure:: _drawn/socialnorms.png
+    :align: center
+    :scale: 35%
+
+.. note::
+    lurk moar!
+
+stalking skills
+---------------
+
+.. figure:: _drawn/stalkskills.png
+    :align: center
+    :scale: 60%
+
+.. note:: put free software or open source software or project name in search,
+    use safesearch
+
+    with the caveat that there are sometimes things you didn't want to know
+
+    GitHub, IRC, social media
+
+    news articles -- it's amazing what you learn by Googling somebody -- be
+    prepared to feel like you invaded their privacy
+
+    personal site/blog
+
+    is their hostmask or email at custom domain?
 
 
