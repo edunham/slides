@@ -689,7 +689,7 @@ Leadership
 
 .. note::
 
-    currency is fucks given, often measured in lines of code.
+    currency is amount cared, often measured in lines of code.
     passion/enthusiasm etc.
 
 know your audience
