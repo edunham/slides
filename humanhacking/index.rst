@@ -2,18 +2,17 @@
 Human Hacking
 -------------
 
-.. note:: focuses...
-    pacing
-    no questionmarks
-    transitions
-    fight tendency to get shrill when nervous
-    kill the "kind of" -- use synonyms
-    "umm"
-    less mbti
-    accent gets stronger when joking
-    BEST FRIEND or DAD thinks they're better at driving than averae
-    git by a bus (for good culture stuff?)... delegation+redundancy
-    transition into dropped ball was good
+.. note::
+
+    Are you trying to herd cats as a project leader, or simply wondering how
+    to evaluate a project's culture from the outside before getting involved?
+    This talk explains some basic models of human motivation and behavior and
+    include examples of applying them in the world of open­source software.
+    As engineers, we use simple heuristics and algorithms for solving computer
+    problems every day, although we rarely use those models to understand
+    human interaction.
+
+
     good reiteration on burnout stuff -- goes so fast it needs more repetition
     fewer words on the "automate yourself out of a job" for handoffs
 
@@ -851,7 +850,7 @@ leadership handoff
 .. note::
     start ASAP when you realize you'll need to
 
-    makes life easier for YOU, not just newbie
+    makes life easier for YOU, not just newbie (automate yourself out of a job)
     
     madlibs of tasks, share responsibilities, "puppet" them for smoother
     transition if they're not confident yet, recognize their differences
