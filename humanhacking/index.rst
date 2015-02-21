@@ -122,6 +122,15 @@ Personal Narrative
     -- usually positive things. if you can pick up hints about what these
     things are, you can understand the person's motivation better.
 
+    related, calling kids smart not necessarily as good as praising effort: 
+
+    (unfortunately paywalled) 
+    http://psycnet.apa.org/index.cfm?fa=buy.optionToBuy&uid=1998-04530-003
+
+    summary of same in NYT
+    http://www.nytimes.com/1998/07/14/science/praise-children-for-effort-not-intelligence-study-says.html
+
+
 Maslow
 ------
 
