@@ -277,6 +277,11 @@ priming
 Bad at Multitasking
 -------------------
 
+.. figure:: _drawn/juggle.png
+    :align: center
+    :scale: 30%
+
+
 .. note:: 
 
     http://news.stanford.edu/news/2009/august24/multitask-research-study-082409.html
