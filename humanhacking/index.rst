@@ -197,7 +197,17 @@ Cognitive Biases
 
     wikipedia has a big list
 
-    TODO: LINK
+    http://en.wikipedia.org/wiki/List_of_cognitive_biases
+
+    also accessibly (though perhaps less accurately) summarized i
+
+    http://www.businessinsider.com/cognitive-biases-2013-8
+    http://www.businessinsider.com/cognitive-biases-2014-6
+
+    related: 
+
+    http://psycnet.apa.org/psycinfo/2011-27261-001
+
 
 Overconfidence/Underconfidence effects
 --------------------------------------
@@ -298,9 +308,26 @@ Milgram Obedience
 
 .. note::
 
-        TODO: PERCENTAGES
-
         Milgram's book Obedience to Authority ISBN 0-06-176521-X
+
+        effect of *action when you'd expect inaction*
+
+        Prod 1: please continue.
+
+        Prod 2: the experiment requires you to continue.
+
+        Prod 3: It is absolutely essential that you continue.
+
+        Prod 4: you have no other choice but to continue.
+
+        65% (two-thirds) of participants (i.e. teachers) continued to the
+        highest level of 450 volts. All the participants continued to 300
+        volts.
+
+        18 variations of his study.  
+
+        summary with video: 
+        http://www.simplypsychology.org/milgram.html
 
         virtual representation, observes that humans empathize with an avatar
         and obey authority to shock it anyway
@@ -314,7 +341,6 @@ Milgram Obedience
         surprise, people zap others for TV authority too
         http://www.npr.org/templates/story/story.php?storyId=124838091
 
-        effect of *action when you'd expect inaction*
 
 bystander effect
 ----------------
@@ -327,6 +353,14 @@ bystander effect
 
     effect of *inaction when you'd expect action*
 
+    presence of others decreases likelihood that individual will help
+ 
+    ever seen what happens when a leader goes "somebody needs to do X"? we'll
+    talk about mitigating bystander effect in leadership section.
+
+    to mitigate: "YOU" do this, YOU do that... CPR training, same with
+    delegation/leadership.
+   
     Somebody Else's Problem field, or SEP, is a cheap, easy, and staggeringly
     useful way of safely protecting something from unwanted eyes. It can run
     almost indefinitely on a flashlight/9 volt battery, and is able to do so
@@ -337,8 +371,8 @@ bystander effect
     existence) become Somebody Else's. An object becomes not so much invisible
     as unnoticed.
 
-    ever seen what happens when a leader goes "somebody needs to do X"? we'll
-    talk about mitigating bystander effect in leadership section.
+    meta-analysis: 
+    http://www.ncbi.nlm.nih.gov/pubmed/21534650
 
 
 Asch Conformity
@@ -868,7 +902,7 @@ github.com/edunham
 
 Hieroglyph
 
-Vote for me! TODO: LINK
+Vote for me! osl.io/voteforemily 
 
 The Anecdote Graveyard
 ----------------------
