@@ -12,10 +12,6 @@ Human Hacking
     problems every day, although we rarely use those models to understand
     human interaction.
 
-
-    good reiteration on burnout stuff -- goes so fast it needs more repetition
-    fewer words on the "automate yourself out of a job" for handoffs
-
 Introduction
 ------------
 
@@ -31,7 +27,10 @@ github.com/edunham
 
 Hieroglyph
 
+Red Hat Women in Open Source Finalist (osl.io/voteforemily)
+
 .. note::
+
     i'm FOSS contributor, leader of stuff, student of psychology, also a
     student
 
@@ -122,6 +121,8 @@ Personal Narrative
     things are, you can understand the person's motivation better.
 
     related, calling kids smart not necessarily as good as praising effort: 
+
+    (growth mindset talk earlier at SCALE; find the video)
 
     (unfortunately paywalled) 
     http://psycnet.apa.org/index.cfm?fa=buy.optionToBuy&uid=1998-04530-003
@@ -796,8 +797,9 @@ and if that didn't work
 get someone out
 ---------------
 
-IMAGE: stickman and sketch shoving troll through a doorway
-or exit sign?
+.. figure:: _drawn/exit.png
+    :align: center
+    :scale: 50%
 
 .. note::
     LAST resort
@@ -863,7 +865,9 @@ leadership handoff
 teaching
 --------
 
-Does anybody not know what the Turing Test is?
+.. figure:: _drawn/audience.png
+    :align: center
+    :scale: 45%
 
 .. note:: 
 
@@ -872,20 +876,40 @@ Does anybody not know what the Turing Test is?
     even really well-taught info is useless if the audience lacks
     background/perspective
 
+    RAISE HANDS:
+
+        * depth-first search
+
+        * Moore's Law
+
+        * Turing Test
+
+
+
 thank you for bringing a computer
 ---------------------------------
 
-strawpoll.me/<LINK>
+|
+
+poll.edunham.net
+
 
 Results
 -------
+
+|
 
 What impression did the presenter get?
 
 Was it accurate?
 
+
 know your audience
 ------------------
+
+.. figure:: _drawn/conferences.png
+    :align: center
+    :scale: 45%
 
 .. note::
 
@@ -915,7 +939,7 @@ github.com/edunham
 
 Hieroglyph
 
-Vote for me! osl.io/voteforemily 
+Vote? osl.io/voteforemily 
 
 The Anecdote Graveyard
 ----------------------
