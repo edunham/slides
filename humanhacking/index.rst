@@ -235,7 +235,7 @@ Overconfidence/Underconfidence effects
     dunning-kruger effect: skilled people have better perspective on what they
     don't know and assume low skill; low-skill gets illusory superiority
 
-great at pattern recognition
+Great at Pattern Recognition
 ----------------------------
 
 .. figure:: _drawn/patternmatch_grayscale.png
@@ -252,7 +252,7 @@ great at pattern recognition
     correct in a given situation, and end up judgemental or jumping to the
     wrong conclusions
 
-priming
+Priming
 -------
 
 |
@@ -356,7 +356,7 @@ Milgram Obedience
         http://www.npr.org/templates/story/story.php?storyId=124838091
 
 
-bystander effect
+Bystander Effect
 ----------------
 
 .. figure:: _drawn/bystander.png
@@ -417,8 +417,8 @@ Asch Conformity
 
     http://www.radford.edu/~jaspelme/_private/gradsoc_articles/individualism_collectivism/conformity%20and%20culture.pdf
 
-social scripts/expectations
----------------------------
+Social Scripts
+--------------
 
 |
 
@@ -429,7 +429,7 @@ social scripts/expectations
 
 .. note:: get help with scripts example
 
-reciprocity
+Reciprocity
 -----------
 
 .. figure:: _drawn/reciprocity.png
@@ -439,7 +439,7 @@ reciprocity
 
 .. note:: attribution error fallacy, assumption that helps you -> likes you
 
-mirroring / body language
+Mirroring / Body Language
 -------------------------
 
 .. figure:: _drawn/mirroring.png
@@ -478,7 +478,7 @@ The Disclaimers
 
     how will changing the inputs change the output? (EXPERIMENT)
 
-getting what you want
+Getting What You Want
 ---------------------
 
 |
@@ -497,7 +497,7 @@ getting what you want
     If it'd harm others, examine whether your actual goal could be achieved
     some other way.
 
-use your words carefully
+Use Your Words Carefully
 ------------------------
 
 .. figure:: _drawn/wordchoice.png
@@ -535,7 +535,7 @@ Applications as a FOSS Contributor
     :align: center
     :scale: 50%
 
-first impressions
+First Impressions
 -----------------
 
 .. figure:: _drawn/firstimpression.png
@@ -553,7 +553,7 @@ first impressions
 
     ask questions well
 
-asking good questions
+Asking Good Questions
 ---------------------
 
 .. figure:: _drawn/madlibs.png
@@ -572,7 +572,7 @@ to ______, ______ happens instead. Please help me ______.
 
     fit the pattern of contributors who've turned out to be useful
 
-body language of online communication
+Body Language of Online Communication
 -------------------------------------
 
 .. figure:: _drawn/mirroring.png
@@ -596,7 +596,7 @@ body language of online communication
         * typing super slowly ~= mumble or stutter
         * email address, handle, email sig ~= age, style of dress, gender
 
-effective email
+Effective Email
 ---------------
 
 .. figure:: _drawn/email.png
@@ -614,7 +614,7 @@ effective email
     * anticipate questions -- know audience and purpose
 
 
-routes into a project
+Routes Into a Project
 ---------------------
 
 .. figure:: _drawn/map_color.png
@@ -627,7 +627,7 @@ routes into a project
     3) edunham's help with installdocs technique
     4) start your own project
 
-improving docs
+Improving Docs
 --------------
 
 .. figure:: _drawn/write_docs.png
@@ -649,7 +649,7 @@ improving docs
 
     can/should you change project culture? (social influence)
 
-they're ignoring my PRs!
+They're Ignoring My PRs!
 ------------------------
 
 .. figure:: _drawn/shun.png
@@ -668,7 +668,7 @@ they're ignoring my PRs!
 
     the magic of "when shall I remind you..."
 
-social hierarchies and capital
+Social Hierarchies and Capital
 ------------------------------
 
 .. figure:: _drawn/social_capital.png
@@ -706,7 +706,7 @@ Leadership
     currency is amount cared, often measured in lines of code.
     passion/enthusiasm etc.
 
-know your audience
+Know Your Audience
 ------------------
 
 .. figure:: _drawn/conferences.png
@@ -716,7 +716,7 @@ know your audience
 .. note::
     goals, priorities, biases, culture, energy/time/resources
 
-group culture
+Group Culture
 -------------
 
 .. figure:: _drawn/groupculture.png
@@ -732,7 +732,7 @@ group culture
     empower... give people percieved buy-in, investment
     **you can't just say "our culture is going to be x". there's already one there.**
 
-diversity
+Diversity
 ---------
 
 .. figure:: _drawn/diversity_grayscale.png
@@ -764,7 +764,7 @@ diversity
     everybody -- be careful of **assumptions** about hardware or monetary       
     resources, time zones and geographic constraints
 
-troll-proofing
+Troll-Proofing
 --------------
 
 .. figure:: _drawn/notrolls_grayred.png
@@ -780,7 +780,7 @@ troll-proofing
     communications on the record -- encourages you to behave better, as well
 
 
-and if that didn't work
+And If That Didn't Work
 -----------------------
 
 .. figure:: _drawn/trollconvo_uncolored.png
@@ -794,7 +794,7 @@ and if that didn't work
     propose rules that could be enforced equally on everyone (sometimes helps
     improve self-awareness)
 
-get someone out
+Get Someone Out
 ---------------
 
 .. figure:: _drawn/exit.png
@@ -804,14 +804,16 @@ get someone out
 .. note::
     LAST resort
     why aren't they able to play well with others?
+
     * path of least resistance?
     * insufficient information?
+
     avoid "right" and "wrong" -- all they'll do is alienate people and encourage
     you to make unidentified assumptions
 
     speaking of people getting out... / sucky parts of FOSS
 
-manage burnout
+Manage Burnout
 --------------
 
 .. figure:: _drawn/burnout.png
@@ -824,7 +826,7 @@ manage burnout
 
     burnout.io
 
-delegation
+Delegation
 ----------
 
 .. note:: 
@@ -839,14 +841,14 @@ delegation
     :align: center
     :scale: 40%
 
-delegation: timing
+Delegation: Timing
 ------------------
 
 .. figure:: _drawn/calendar.png
     :align: center
     :scale: 45%
 
-leadership handoff
+Leadership Handoff
 ------------------
 
 .. figure:: _drawn/delegation_colored.png
@@ -862,7 +864,7 @@ leadership handoff
     madlibs of tasks, share responsibilities, "puppet" them for smoother
     transition if they're not confident yet, recognize their differences
 
-teaching
+Teaching
 --------
 
 .. figure:: _drawn/audience.png
@@ -885,13 +887,8 @@ teaching
         * Turing Test
 
 
-
-thank you for bringing a computer
----------------------------------
-
-|
-
 poll.edunham.net
+----------------
 
 
 Results
@@ -904,7 +901,7 @@ What impression did the presenter get?
 Was it accurate?
 
 
-know your audience
+Know Your Audience
 ------------------
 
 .. figure:: _drawn/conferences.png
@@ -918,11 +915,6 @@ know your audience
     A few gotchas about teaching:                                               
     * more KNOW YOUR AUDIENCE                                                   
     * people do not like embarrassing themselves or standing out                
-    * you're all here because you're pretty knowledgeable about Linux, does     
-      anyone not know why we choose Linux over other operating systems?         
-      * then an anonymous Google poll link                                      
-      * then we look at the poll results vs the presenter's impression of the   
-        room's knowledge  
 
 Q&A
 ---
