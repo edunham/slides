@@ -1030,6 +1030,11 @@ stalking skills
 Negotiation
 -----------
 
+
+.. figure:: _drawn/negotiation.png
+    :align: center
+    :scale: 30%
+
 .. note:: 
 
     roommate going "i don't know what salary to ask for"
