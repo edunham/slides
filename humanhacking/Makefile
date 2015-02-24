@@ -49,6 +49,11 @@ help:
 clean:
 	rm -rf $(BUILDDIR)/*
 
+pdf:
+	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf
+	@echo
+	@echo "Build finished. The PDF is in $(BUILDDIR)/pdf."
+
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
