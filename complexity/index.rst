@@ -31,6 +31,22 @@ more example code, maybe from rosettacode
 how to analyze complexity of recursive functions
 example where you halve the complexity by reusing results of a call
 
+abstract concepts
+-----------------
+
+turing machine, deterministic vs nondeterministic, halting problem, P vs NP
+
+Big-O
+-----
+
+<dare i use that pic from that restraunt scene?>
+
+derive how it's constant * thing as a function of inputs n
+
+pepople ignore the factor -- show why that's a bad idea
+
+
+
 In The Real World
 =================
 
