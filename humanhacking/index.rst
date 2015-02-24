@@ -12,6 +12,12 @@ Human Hacking
     problems every day, although we rarely use those models to understand
     human interaction.
 
+.. note:: 
+
+    SERIOUSLY TYPE OUT THE STUPID TRANSITIONS ALSO FEATURE FREEZE LIKE A WEEK
+    BEFORE PRESENTING
+
+
 Introduction
 ------------
 
@@ -21,13 +27,11 @@ Introduction
 
 |
 
-talks.edunham.net/SCALE2015
+talks.edunham.net/scale13x
 
 github.com/edunham
 
 Hieroglyph
-
-Red Hat Women in Open Source Finalist (osl.io/voteforemily)
 
 .. note::
 
@@ -925,7 +929,7 @@ Q&A
 
 |
 
-talks.edunham.net/SCALE2015
+talks.edunham.net/scale13x
 
 github.com/edunham
 
