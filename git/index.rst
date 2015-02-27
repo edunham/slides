@@ -373,7 +373,9 @@ Reversability > hiding mistakes
 
 What's a **remote**?
 ====================
+
 |
+
 .. figure:: _static/remotes.png
     :scale: 75%
     :align: right
@@ -383,22 +385,27 @@ Another *clone* of more or less the same repo
 (remember when we cloned to get a copy?)
 
 |
+
 .. figure:: _static/sheepclones.jpg
     :scale: 75%
 
-Adding a remote
+Adding a Remote
 ---------------
+
 |
+
 .. code-block:: bash
 
     $ man git-remote
 
     $ git remote add <name> <url>
+
 |
+
 .. figure:: _static/remotes.jpg
     :align: center
 
-Looking at remotes
+Looking at Remotes
 ------------------
 
 .. code-block:: bash
@@ -451,7 +458,7 @@ What's a **tag**?
 .. figure:: _static/tags.png
     :scale: 130%
 
-Adding a tag
+Adding a Tag
 ------------
 
 .. figure:: _static/bookmarks.jpg
@@ -467,9 +474,11 @@ Default is lightweight tag -- just a reference for SHA-1 of latest commit
 
 Pass ``-s`` or ``-u <key-id>`` to GPG-sign
 
-Looking at tags
+Looking at Tags
 ---------------
+
 |
+
 .. code-block:: bash
 
     # List all available tags
@@ -483,7 +492,9 @@ Looking at tags
 
 Undo?
 -----
+
 |
+
 .. code-block:: bash
 
     $ git tag -d <tagname>
@@ -520,13 +531,17 @@ Making a branch
 
 Looking at branches
 -------------------
+
 |
+
 .. code-block:: bash
 
     $ git branch
 
     $ git show <branchname>
+
 |
+
 .. figure:: _static/branchgraph.png
     :align: center
 
@@ -557,7 +572,11 @@ What's a **merge**?
     :align: center
     :scale: 80%
 
-Making a merge
+.. note:: TODO
+
+    that joke about how a group of developers is called a merge conflict
+
+Making a Merge
 --------------
 
 .. figure:: _static/merge.png
@@ -581,7 +600,9 @@ Making a merge
 
 Merge Conflicts
 ---------------
+
 |
+
 .. code-block:: shell
 
     <<<<<<< HEAD
@@ -598,9 +619,11 @@ Check that you've got everything with ``git status``, then commit.
 
 Or consider ``git mergetool`` for a graphical option.
 
-Looking at merges
+Looking at Merges
 -----------------
+
 |
+
 .. code-block:: bash
 
     $ git diff <commit before> <merge commit>
@@ -612,7 +635,9 @@ Looking at merges
 
 Undo?
 -----
+
 |
+
 .. code-block:: bash
 
     $ git merge abort
@@ -620,10 +645,14 @@ Undo?
 
 What's a **rebase**?
 ====================
+
 |
+
 .. figure:: _static/billted.jpg
     :align: center
+
 |
+
 Changing history. Means others will have to force pull.
 
 .. note:: Don't do this unless you know what you're doing... But here's how to
@@ -631,7 +660,9 @@ Changing history. Means others will have to force pull.
 
 Rebasing
 --------
+
 |
+
 .. code-block:: bash
 
     $ git rebase -i <commit range>
@@ -639,6 +670,7 @@ Rebasing
                     # last 4 commits
 
 |
+
 .. code-block:: bash
 
     # Oops I forgot to pull
@@ -646,7 +678,9 @@ Rebasing
 
 Looking at the rebase
 ---------------------
+
 |
+
 .. code-block:: shell
 
     # Rebase 1a20f51..147c812 onto 1a20f51
@@ -667,13 +701,17 @@ Looking at the rebase
 
 Undo?
 -----
+
 |
+
 I should never have done that
 
 .. code-block:: bash
 
     $ git reset --hard ORIG_HEAD
+
 |
+
 I'm stuck in a broken rebase, get me out
 
 .. code-block:: bash
@@ -687,15 +725,18 @@ GitHub Stuff
 .. figure:: _static/github.png
     :align: right
     :scale: 80%
+
 |
+
 GH is not exactly Git.
 
 * Less distributed paradigm
-* Git carefully never told us who to trust
+* Git never told us who to trust
+* Git doesn't care who you are
 
 Watch `Linus's talk <https://www.youtube.com/watch?v=4XpnKHJAok8>`_ for enlightenment
 
-HTTP vs SSH clones
+HTTP vs SSH Clones
 ------------------
 |
 .. code-block:: bash
@@ -733,17 +774,21 @@ Pull Requests
 * Formalizes "Hi, please merge my changes"
 
 
-Annoying tricks
+Annoying Tricks
 ---------------
+
 |
+
 * Branches keep adding their content to PRs
 * Group management and access rights
 * No project license required
+
 |
+
 .. figure:: _static/gh-teams.png
     :align: center
 
-Extra features
+Extra Features
 --------------
 
 * Wiki
@@ -754,7 +799,9 @@ Extra features
 
 Continuous Integration
 ======================
+
 |
+
 .. figure:: _static/jenkins.png
     :align: right
     :scale: 25%
@@ -763,14 +810,16 @@ Continuous Integration
     :align: left
     :scale: 150%
 
-Playing Well with Others
+Playing Well With Others
 ========================
 
 * Change history locally, never globally
     * Never force push (unless you have to)
 * Focused commits with clear commit messages
 * Follow project standards for branching, tagging, etc.
+
 |
+
 .. figure:: _static/communication_dalek.jpe
     :align: center
     :scale: 120%
