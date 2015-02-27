@@ -58,6 +58,9 @@ Thinking about Software Development
 Why version control?
 ====================
 
+
+.. note:: TODO: pic of directory listing here instead
+
 .. figure:: _static/phdcomic.gif
     :align: center
     :scale: 75%
@@ -87,7 +90,7 @@ Goals of Distributed Version Control
 * Eliminate network dependencies
 
 .. note:: reliability means put one file in, get same file out again,
-    guaranteed
+    guaranteed. spell out Single Point of Failure.
 
 Git's buzzwords
 ===============
@@ -113,20 +116,28 @@ How Git sees your project
 .. figure:: _static/staging.png
     :align: center
 
-How?
-====
+
+Using Git
+=========
 
 Setting Up
 ----------
 
-* Tell Git who you are
+* Tell Git who you are::
+
+  $ git config --global user.name "John Doe"
+  $ git config --global user.email johndoe@example.com
+
 * You'll need SSH keys later
     * ``ssh-keygen -t rsa -b 2048``
     * ``ssh-keygen -t ecdsa``
+
 * Install Git
     * also tk and tcl if you want the GUI later
+
 * Set preferred editor
     * ``export GIT_EDITOR=vim`` in ``~/.bashrc`` or equivalent
+
 * Pick a project to work on
 
 .. note:: ECDSA is the new hotness -- elliptic-curve digital signature
