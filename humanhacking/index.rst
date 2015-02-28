@@ -29,6 +29,8 @@ Introduction
 
 talks.edunham.net/scale13x
 
+edunham@edunham.net
+
 github.com/edunham
 
 Hieroglyph
@@ -941,6 +943,8 @@ Q&A
 |
 
 talks.edunham.net/scale13x
+
+edunham@edunham.net
 
 github.com/edunham
 
