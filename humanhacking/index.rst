@@ -378,7 +378,9 @@ Bystander Effect
 
     to mitigate: "YOU" do this, YOU do that... CPR training, same with
     delegation/leadership.
-   
+
+    KNOWING SOMETHIGN WILL HAPPEN == KNOWING WHO WILL DO IT
+
     Somebody Else's Problem field, or SEP, is a cheap, easy, and staggeringly
     useful way of safely protecting something from unwanted eyes. It can run
     almost indefinitely on a flashlight/9 volt battery, and is able to do so
@@ -919,6 +921,15 @@ Know Your Audience
     A few gotchas about teaching:                                               
     * more KNOW YOUR AUDIENCE                                                   
     * people do not like embarrassing themselves or standing out                
+
+Recap
+-----
+
+* You live in a human emulator.
+* People are very good at matching patterns.
+* People do things when they expect to get something they want.
+* Knowing something will happen == knowing who will do it
+
 
 Q&A
 ---
