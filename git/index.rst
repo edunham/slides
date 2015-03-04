@@ -183,6 +183,8 @@ Looking at a repo
            parent directories): .git
     # not in a repo
 
+    $ git log
+
 Undo?
 -----
 
@@ -356,6 +358,15 @@ Commit display options
 
 Undo?
 -----
+
+.. code-block:: bash
+
+    # just one file
+    $ git checkout <commit> <filename>
+    $ git add <filename>
+    $ git commit -m "i put that file back how it was"
+
+Or undo the whole commit
 
 .. code-block:: bash
 
