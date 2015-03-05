@@ -58,7 +58,6 @@ Thinking about Software Development
 Why version control?
 ====================
 
-
 .. note:: TODO: pic of directory listing here instead
 
 .. figure:: _static/phdcomic.gif
@@ -837,3 +836,26 @@ Playing Well With Others
 
 Questions?
 ==========
+
+
+Other Slides I Might Want
+=========================
+
+checkout
+--------
+
+* checkout branch
+* checkout <revision> file
+
+gitrevisions
+------------
+
+::
+
+    $ man gitrevisions
+
+git bisect
+----------
+
+git cherry-pick
+---------------
