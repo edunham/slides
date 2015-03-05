@@ -1,0 +1,8 @@
+% Allow notes to wrap to additional slides.
+\let\oldframe\frame
+\renewcommand\frame[1][allowframebreaks]{\oldframe[#1]}
+
+% Prevent spurious blank slides by shrinking images when needed.
+\usepackage{letltxmacro}
+\LetLtxMacro{\OldIncludegraphics}{\includegraphics}
+\renewcommand{\includegraphics}[2][]{\OldIncludegraphics[width=0.5\textwidth,height=0.5\textheight,keepaspectratio, #1]{#2}}

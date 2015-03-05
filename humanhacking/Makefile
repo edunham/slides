@@ -50,9 +50,9 @@ clean:
 	rm -rf $(BUILDDIR)/*
 
 pdf:
-	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf
+	sed "s/^|$$//" index.rst | ~/.cabal/bin/pandoc -t beamer -f rst -V fontsize=8pt -o $(BUILDDIR)/slides.pdf -H preamble.tex
 	@echo
-	@echo "Build finished. The PDF is in $(BUILDDIR)/pdf."
+	@echo "Build finished. The PDF is at $(BUILDDIR)/slides.pdf."
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
