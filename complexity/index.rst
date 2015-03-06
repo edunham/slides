@@ -31,6 +31,12 @@ more example code, maybe from rosettacode
 how to analyze complexity of recursive functions
 example where you halve the complexity by reusing results of a call
 
+.. note:: 
+
+    `CMU intro CS notes <http://www.cs.cmu.edu/~adamchik/15-121/lectures/Algorithmic%20Complexity/complexity.html>`_
+    `topcoder tutorial <http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=complexity1>`_
+    `study guide <http://www.studytonight.com/data-structures/time-complexity-of-algorithms>`_
+
 abstract concepts
 -----------------
 
@@ -45,6 +51,17 @@ derive how it's constant * thing as a function of inputs n
 
 pepople ignore the factor -- show why that's a bad idea
 
+best vs worst case
+------------------
+
+* best
+* worst
+* average
+* amortized
+
+.. note:: 
+
+    `explanation of amortized <http://stackoverflow.com/questions/15079327/amortized-complexity-in-laymans-terms>`_
 
 
 In The Real World
