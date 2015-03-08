@@ -107,3 +107,23 @@ algorithmic stupidity and it's still bad.
 * language-specific profiling tools
 * maybe it's slow in the real world because reality is different from your
   test cases
+
+Relative Times
+--------------
+
+.. note:: 
+
+    Grace Hopper and the Nanoseconds
+    TODO: bring nanoseconds?
+
+metaphor: going to the fridge vs going to the store vs going to the moon
+
+Analysis Tools
+--------------
+
+Languages
+
+Python: Run Snake Run <pictures>
+
+C: GDB/`gprof <https://sourceware.org/binutils/docs/gprof/>`_
+
