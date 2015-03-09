@@ -5,7 +5,7 @@ Why's my program slow?
 Algorithmic Complexity and You
 
 http://www.vrplumber.com/programming/runsnakerun/
-
+http://bigocheatsheet.com/
 
 Hello
 =====
@@ -25,6 +25,39 @@ simple examples: naive vs optimized code, short-circuiting
 
 introduce formalism of big-oh, big-omega, big-theta notation 
 <joke about frats>
+
+
+Example: Searching a sorted array
+---------------------------------
+
+Brute Force
+
+.. code-block:: python
+
+    def brute_force_search(l, value):
+        for i in range(len(l)):
+            if l[i] == value:
+            return i
+        return -1 
+    
+
+Binary Search
+
+.. code-block:: python
+
+    def binary_search(l, value):
+        low = 0
+        high = len(l)-1
+        while low <= high: 
+            mid = (low+high)//2
+            if l[mid] > value: high = mid-1
+            elif l[mid] < value: low = mid+1
+            else: return mid
+        return -1
+
+(from `rosettacode <http://rosettacode.org/wiki/Binary_search#Python>`_)
+
+
 
 more example code, maybe from rosettacode
 
