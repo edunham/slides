@@ -26,6 +26,36 @@ simple examples: naive vs optimized code, short-circuiting
 introduce formalism of big-oh, big-omega, big-theta notation 
 <joke about frats>
 
+Time Complexity
+---------------
+
+how long does it take?
+
+.. note:: 
+
+    TODO: find example of something n^2 vs log(n) or something. graphs?
+
+
+Space Complexity
+----------------
+
+how much memory does it take? 
+
+.. note::
+    
+    TODO: sorting algos, in-place vs otherwise. example of very large arrays
+    or very small memory, where this would actually matter
+
+
+Constant + Factor * N
+---------------------
+
+* Disregarding the constant
+
+.. note:: 
+
+    TODO: graph of when disregarding the constant is BAD
+
 
 Example: Searching a sorted array
 ---------------------------------
@@ -37,7 +67,7 @@ Brute Force
     def brute_force_search(l, value):
         for i in range(len(l)):
             if l[i] == value:
-            return i
+                return i
         return -1 
     
 
