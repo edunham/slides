@@ -26,6 +26,13 @@ simple examples: naive vs optimized code, short-circuiting
 introduce formalism of big-oh, big-omega, big-theta notation 
 <joke about frats>
 
+.. note:: 
+
+    `CMU intro CS notes <http://www.cs.cmu.edu/~adamchik/15-121/lectures/Algorithmic%20Complexity/complexity.html>`_
+    `topcoder tutorial <http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=complexity1>`_
+    `study guide <http://www.studytonight.com/data-structures/time-complexity-of-algorithms>`_
+
+
 Time Complexity
 ---------------
 
@@ -34,18 +41,6 @@ how long does it take?
 .. note:: 
 
     TODO: find example of something n^2 vs log(n) or something. graphs?
-
-
-Space Complexity
-----------------
-
-how much memory does it take? 
-
-.. note::
-    
-    TODO: sorting algos, in-place vs otherwise. example of very large arrays
-    or very small memory, where this would actually matter
-
 
 Constant + Factor * N
 ---------------------
@@ -87,19 +82,27 @@ Binary Search
 
 (from `rosettacode <http://rosettacode.org/wiki/Binary_search#Python>`_)
 
+Space Complexity
+----------------
+
+how much memory does it take? 
+
+.. note::
+    
+    TODO: sorting algos, in-place vs otherwise. example of very large arrays
+    or very small memory, where this would actually matter
 
 
-more example code, maybe from rosettacode
+What about recursive functions?
+-------------------------------
 
-how to analyze complexity of recursive functions
-example where you halve the complexity by reusing results of a call
+* time complexity: expected number of calls * time in call
+* space complexity: risk running out of stack
 
-.. note:: 
+.. note::
 
-    `CMU intro CS notes <http://www.cs.cmu.edu/~adamchik/15-121/lectures/Algorithmic%20Complexity/complexity.html>`_
-    `topcoder tutorial <http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=complexity1>`_
-    `study guide <http://www.studytonight.com/data-structures/time-complexity-of-algorithms>`_
-
+    TODO: example where you halve the complexity by reusing results of a call;
+    fibonnacci?
 abstract concepts
 -----------------
 
@@ -109,6 +112,10 @@ Big-O
 -----
 
 <dare i use that pic from that restraunt scene?>
+
+.. note::
+
+    TODO: the scary-looking maths from wikipedia
 
 derive how it's constant * thing as a function of inputs n
 
@@ -123,14 +130,23 @@ best vs worst case
 * amortized
 
 .. note:: 
-
+    
+    TODO: explain big theta and big omega; look them up in the book
     `explanation of amortized <http://stackoverflow.com/questions/15079327/amortized-complexity-in-laymans-terms>`_
 
 
 In The Real World
 =================
 
-<comic about premature optimization>
+.. figure:: images/xkcd1205.png
+    :align: center
+
+.. note:: 
+    same things apply to saving time in your algorithm
+
+Why's my program slow? 
+----------------------
+
 <screenshot of size of a gh repo for a decent sized project>
 
 * it's hard to see where an algorithm spends its time
