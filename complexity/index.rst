@@ -6,6 +6,7 @@ Algorithmic Complexity and You
 
 http://www.vrplumber.com/programming/runsnakerun/
 http://bigocheatsheet.com/
+http://accidentallyquadratic.tumblr.com/
 
 Hello
 =====
