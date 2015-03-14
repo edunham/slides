@@ -83,10 +83,28 @@ Binary Search
 
 (from `rosettacode <http://rosettacode.org/wiki/Binary_search#Python>`_)
 
+Big-O
+-----
+
+<dare i use that pic from that restraunt scene?>
+
+.. note::
+
+    TODO: the scary-looking maths from wikipedia
+
+derive how it's constant * thing as a function of inputs n
+
+pepople ignore the factor -- show why that's a bad idea
+
 Space Complexity
 ----------------
 
 how much memory does it take? 
+
+In-place sorting vs sorting by copying the array
+
+* What if your array is > 1/2 your disk?
+* Constant is the size of an item being sorted
 
 .. note::
     
@@ -104,24 +122,6 @@ What about recursive functions?
 
     TODO: example where you halve the complexity by reusing results of a call;
     fibonnacci?
-
-abstract concepts
------------------
-
-turing machine, deterministic vs nondeterministic, halting problem, P vs NP
-
-Big-O
------
-
-<dare i use that pic from that restraunt scene?>
-
-.. note::
-
-    TODO: the scary-looking maths from wikipedia
-
-derive how it's constant * thing as a function of inputs n
-
-pepople ignore the factor -- show why that's a bad idea
 
 best vs worst case
 ------------------
@@ -146,7 +146,13 @@ Relative Times
 
 metaphor: going to the fridge vs going to the store vs going to the moon
 
+Throwing out that constant...
+-----------------------------
 
+.. note:: 
+
+    TODO graphs again of big constant and log time vs tiny constant and linear
+    time
 
 In The Real World
 =================
@@ -166,7 +172,9 @@ Is my program slow?
 .. note:: 
 
     TODO: tools/frameworks for mocking heavy load on a program
+    Worst case vs expected case
 
+    Slow to perform vs slow to write
 
 Why is my program slow?
 -----------------------
