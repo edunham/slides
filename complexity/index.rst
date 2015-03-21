@@ -111,6 +111,25 @@ In-place sorting vs sorting by copying the array
     TODO: sorting algos, in-place vs otherwise. example of very large arrays
     or very small memory, where this would actually matter
 
+Reversing an Array
+------------------
+
+copy elements::
+
+    function reverse(a[0..n - 1])
+        allocate b[0..n - 1]
+        for i from 0 to n - 1
+            b[n − 1 − i] := a[i]
+            return b
+
+vs in-place::
+
+    function reverse_in_place(a[0..n-1])
+        for i from 0 to floor((n-2)/2)
+            tmp := a[i]
+            a[i] := a[n − 1 − i]
+            a[n − 1 − i] := tmp 
+
 
 What about recursive functions?
 -------------------------------
