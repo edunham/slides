@@ -182,6 +182,17 @@ In The Real World
 .. note:: 
     same things apply to saving time in your algorithm
 
+Good Code
+---------
+
+* Correct
+* **Efficient**
+* Simple
+* Readable
+* Maintainable
+
+.. note:: from cracking the coding interview, p. 56
+
 Is my program slow?
 -------------------
 
