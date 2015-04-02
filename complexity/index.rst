@@ -4,9 +4,13 @@ Why's my program slow?
 
 Algorithmic Complexity and You
 
-http://www.vrplumber.com/programming/runsnakerun/
-http://bigocheatsheet.com/
-http://accidentallyquadratic.tumblr.com/
+.. note::
+    
+    http://www.vrplumber.com/programming/runsnakerun/
+    http://bigocheatsheet.com/
+    http://accidentallyquadratic.tumblr.com/
+
+    advanced algorithms resources: https://gist.github.com/debasishg/8172796
 
 Hello
 =====
