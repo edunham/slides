@@ -15,12 +15,41 @@ Algorithmic Complexity and You
 Hello
 =====
 
-* who am i
-* who are you
-* why am i telling you this
+* I was in Computer Science at OSU for 5 years
+* Many hats have included software developer (Intel and OSL)
+
+Why this talk?
+--------------
+
+.. figure:: pics/greek.jpg
+    :align: center
+    :alt: "greek texture" by Randen Pederson on Flickr https://www.flickr.com/photos/chefranden/3183416126/
+
+.. note:: 
+
+    before I took algorithms classes at OSU, I thought complexity was secret
+    magic that only "real computer scientists" could understand... afterwards
+    it looked like common sense
+
+    not everybody in the real world gets the academic side; not everyone in
+    academia gets the real-world side; i'm here to teach you about both
 
 What's complexity?
 ==================
+
+.. figure:: pics/compiling.png
+    :align: center
+    :alt: Image from XKCD https://imgs.xkcd.com/comics/compiling.png
+
+.. note:: 
+
+    Why do they have time for a sword fight while the compiler runs? 
+
+    There are two factors: The compiler has to do *many operations* (this
+    scales with how big a program you compile) and each operation takes *some
+    time* (this is something which can be optimized in the compiler)
+
+
 
 <picture: "it's complicated">
 
@@ -180,7 +209,7 @@ Throwing out that constant...
 In The Real World
 =================
 
-.. figure:: images/xkcd1205.png
+.. figure:: pics/xkcd1205.png
     :align: center
 
 .. note:: 
@@ -277,6 +306,19 @@ Languages
 Python: Run Snake Run <pictures>
 
 C: GDB/`gprof <https://sourceware.org/binutils/docs/gprof/>`_
+
+Instrumentation
+---------------
+
+http://en.wikipedia.org/wiki/Instrumentation_%28computer_programming%29
+
+http://commons.wikimedia.org/wiki/File:Pork_thermometer.jpg
+
+Python
+------
+
+https://docs.python.org/2/library/profile.html
+
 
 Testing
 -------
