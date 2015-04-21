@@ -18,6 +18,19 @@ Hello
 * I was in Computer Science at OSU for 5 years
 * Many hats have included software developer (Intel and OSL)
 
+.. note:: 
+
+    Before upper-division CS classes, I thought there was some kind of secret
+    sauce and complexity was super scary
+
+    Afterwards it's clear how simple things are, so much that the core
+    concepts can fit into an hour at a conference
+
+    The difficulty is in the details, and this stuff is still indescribably
+    tough to implement at the compiler level, but understanding the high-level
+    view can help you ask smart questions and better understand real-world
+    code
+
 Why this talk?
 --------------
 
@@ -34,6 +47,22 @@ Why this talk?
     not everybody in the real world gets the academic side; not everyone in
     academia gets the real-world side; i'm here to teach you about both
 
+    I hope you'll get 3 things today:
+        * Convinced that you can be a Real Computer Scientist too
+        * Tools for comparing algorithms
+        * A better set of basic questions to ask when analyzing program
+          performance
+
+Recap
+-----
+
+TODO: picture of "real computer scientists", wizards?
+
+.. note::
+
+    recap what they'll get
+
+
 What's complexity?
 ==================
 
@@ -49,11 +78,91 @@ What's complexity?
     scales with how big a program you compile) and each operation takes *some
     time* (this is something which can be optimized in the compiler)
 
+How Long it Takes
+-----------------
+
+(or how much space it takes)
+
+* "5 minutes"
+
+In terms of input size
+----------------------
+
+Example: if Project Euler is having you find prime factors of a number, and
+you test your code on small numbers and it's fast, and then you put in the big
+number and it takes a really really long time
+
+**n** is the size of the input.
+
+http://www.catb.org/jargon/html/N/N.html
+
+Quantified in fancy notation
+----------------------------
 
 
-<picture: "it's complicated">
+If the loop runs n times, and takes C (some constant) seconds per loop
 
-<wiki definition>
+Not like C the language; C like a constant amount of time
+
+O(n)
+
+Sound smarter? And write less? Win-Win! 
+
+Graph of why it's "usually ok to omit the constant" (more on that later)
+
+How do you find how many times it runs?
+---------------------------------------
+
+Simplify into psuedo-code till you just have loops
+
+Examine them
+
+(Basic test of fluency and understanding of your language of choice, like
+fizzbuzz)
+
+There are also tools for this, which we'll get to later
+
+Example with an O(n) algo
+-------------------------
+
+* Starter code
+* Simplify into psuedocode
+* Count the loops
+
+
+Example with O(log(n))
+----------------------
+
+* Starter code
+* Simplify into psuedocode
+* Count the loops
+
+
+Example with O(n^2)
+-------------------
+
+* Starter code
+* Simplify into psuedocode
+* Count the loops
+
+Which is fastest? Slowest?
+--------------------------
+
+Graphs! And more graphs!
+
+Now you Try It
+--------------
+
+Example of an nlog(n) algo, walk through the steps
+
+* Starter code
+* Simplify into psuedocode
+* Count the loops
+
+Some Details
+------------
+
+Big-Oh is expected case; we also have notation for best case and worst case
 
 simple examples: naive vs optimized code, short-circuiting
 
@@ -67,27 +176,10 @@ introduce formalism of big-oh, big-omega, big-theta notation
     `study guide <http://www.studytonight.com/data-structures/time-complexity-of-algorithms>`_
 
 
-Time Complexity
----------------
-
-how long does it take?
-
-.. note:: 
-
-    TODO: find example of something n^2 vs log(n) or something. graphs?
-
-Constant + Factor * N
----------------------
-
-* Disregarding the constant
-
-.. note:: 
-
-    TODO: graph of when disregarding the constant is BAD
-
-
 Example: Searching a sorted array
 ---------------------------------
+
+.. #TODO: This slide goes away?
 
 Brute Force
 
@@ -101,6 +193,7 @@ Brute Force
     
 
 Binary Search
+-------------
 
 .. code-block:: python
 
@@ -116,18 +209,6 @@ Binary Search
 
 (from `rosettacode <http://rosettacode.org/wiki/Binary_search#Python>`_)
 
-Big-O
------
-
-<dare i use that pic from that restraunt scene?>
-
-.. note::
-
-    TODO: the scary-looking maths from wikipedia
-
-derive how it's constant * thing as a function of inputs n
-
-pepople ignore the factor -- show why that's a bad idea
 
 Space Complexity
 ----------------
@@ -138,6 +219,9 @@ In-place sorting vs sorting by copying the array
 
 * What if your array is > 1/2 your disk?
 * Constant is the size of an item being sorted
+
+Graphs of space complexity and show how they look quite a bit like time
+complexity
 
 .. note::
     
@@ -188,8 +272,35 @@ best vs worst case
     TODO: explain big theta and big omega; look them up in the book
     `explanation of amortized <http://stackoverflow.com/questions/15079327/amortized-complexity-in-laymans-terms>`_
 
-Relative Times
---------------
+
+Feeling like a Real Computer Scientist yet?
+===========================================
+
+.. #TODO picture of grace hoppper era switchboard operators
+
+
+Comparing Algorithms
+--------------------
+
+Graph of "slow" with small C vs "fast" with huge C
+
+Which one is better?
+
+<wait for answers>
+
+Yeah so it turns out real life is complicated and difficult. 
+
+That Constant
+-------------
+
+IRL, constant times differ by several orders of magnitude. 
+
+* Processor memory vs L1 cache
+* Cache vs RAM
+* RAM vs hitting the disk
+* Local disk vs across the datacenter
+* Across the datacenter vs over wifi or a cell network
+* Wifi or cell vs another continent
 
 .. note:: 
 
@@ -200,6 +311,8 @@ metaphor: going to the fridge vs going to the store vs going to the moon
 
 Throwing out that constant...
 -----------------------------
+
+.. #TODO maybe ditch this slide?
 
 .. note:: 
 
@@ -213,6 +326,9 @@ In The Real World
     :align: center
 
 .. note:: 
+
+    Approximately last 15mins?
+
     same things apply to saving time in your algorithm
 
 Good Code
@@ -229,8 +345,12 @@ Good Code
 Is my program slow?
 -------------------
 
-* What have you tested it with?
-* What will it have to handle in real life?
+Expected input size?
+How's it do in tests?
+(you are testing it, right?)
+How much of test suite time is setup/teardown?
+what will real-world conditions look like?
+    * and under heavy load? (CACHING CACHING CACHING)
 
 .. note:: 
 
@@ -239,6 +359,17 @@ Is my program slow?
 
     Slow to perform vs slow to write
 
+Is my program *too* slow?
+-------------------------
+
+Is speed the worst problem that it has right now?
+What's the minimum that'll make your users happy?
+What's the maximum past which your users won't notice improvements?
+How long will it take the team to make the next big speedup...
+* And would fixing any of the intermediat issues decrease that time
+  substantially? (ie refactor to remove old cruft)
+
+
 Why is my program slow?
 -----------------------
 
@@ -246,6 +377,8 @@ Why is my program slow?
 
 It's probably not how you structured your algorithm. Or you fix the obvious
 algorithmic stupidity and it's still bad. 
+
+Remember the orders of magnitude thing?
 
 .. note::
 
@@ -273,7 +406,7 @@ Algorithmic complexity in real code
 -----------------------------------
 
 * "the pros" can look at a section of code and tell you its best, worst, and
-  average-case performance
+  average-case performance -- kind of like how we practiced earlier
 
 * they do this by recognizing patterns from having read a lot of other code
 
@@ -289,7 +422,8 @@ time with a really huge constant, especially for small n
 
 .. note:: 
 
-    TODO: GRAPHS of high constant vs low constant, fast vs slow
+    TODO: GRAPHS of high constant vs low constant, fast vs slow -- same graphs
+    as before -- AGAIN, this is why context is critical
 
 Analysis Tools
 --------------
@@ -327,7 +461,30 @@ Testing
 
     examples of frameworks and stuff being applied
 
+Continuous Integration Is Awesome (duh)
+
+Example of how easy it is to introduce a regression
 
 Troubleshooting
 ---------------
+
+.. TODO why is this section even here
+
+Recap
+-----
+
+Learned about complexity
+    * Simplify the code
+    * Count how often it'll run for a given size of input
+    * Toss out the constants
+Complexity isn't the entire picture
+    * That constant actually matters
+    * Premature optimization is bad for everyone
+    * Code that never gets finished was the slowest of all
+Tools are great, in their place
+    * Instrumentation hooks into your code
+    * Profilers watch where it spends its time
+    * Test suite can check how long it takes on every change to find
+      regressions
+
 
