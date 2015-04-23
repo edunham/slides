@@ -110,6 +110,22 @@ Sound smarter? And write less? Win-Win!
 
 Graph of why it's "usually ok to omit the constant" (more on that later)
 
+(Math Words)
+------------
+
+.. note::
+
+    http://www.cs.cmu.edu/~adamchik/15-121/lectures/Algorithmic%20Complexity/complexity.html
+
+    monotonic = always-increasing or always-decreasing
+
+For any monotonic functions f(n) and g(n) from the positive integers to the
+positive integers, we say that f(n) = O(g(n)) when there exist constants c > 0
+and n[0] > 0 such that::
+
+    f(n) ≤ c * g(n), for all n ≥ n[0]
+
+
 How do you find how many times it runs?
 ---------------------------------------
 
@@ -128,7 +144,6 @@ Example with an O(n) algo
 * Starter code
 * Simplify into psuedocode
 * Count the loops
-
 
 Example with O(log(n))
 ----------------------
@@ -162,18 +177,31 @@ Example of an nlog(n) algo, walk through the steps
 Some Details
 ------------
 
-Big-Oh is expected case; we also have notation for best case and worst case
+big-oh is UPPER BOUND
 
-simple examples: naive vs optimized code, short-circuiting
+big-omega is LOWER BOUND -- the program can never run faster than this
 
-introduce formalism of big-oh, big-omega, big-theta notation 
-<joke about frats>
+Big theta (not all programs will have this) is when upper and lower bounds
+match
 
 .. note:: 
 
     `CMU intro CS notes <http://www.cs.cmu.edu/~adamchik/15-121/lectures/Algorithmic%20Complexity/complexity.html>`_
     `topcoder tutorial <http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=complexity1>`_
     `study guide <http://www.studytonight.com/data-structures/time-complexity-of-algorithms>`_
+
+Amortized Complexity
+--------------------
+
+.. figure:: pics/amortized.png
+    :align: center
+
+.. note::
+
+    http://stackoverflow.com/questions/15079327/amortized-complexity-in-laymans-terms
+
+If a slow operation is done infrequently, we can spread its cost over all the
+times it didn't happen...
 
 
 Example: Searching a sorted array
@@ -258,20 +286,6 @@ What about recursive functions?
 
     TODO: example where you halve the complexity by reusing results of a call;
     fibonnacci?
-
-best vs worst case
-------------------
-
-* best
-* worst
-* average
-* amortized
-
-.. note:: 
-    
-    TODO: explain big theta and big omega; look them up in the book
-    `explanation of amortized <http://stackoverflow.com/questions/15079327/amortized-complexity-in-laymans-terms>`_
-
 
 Feeling like a Real Computer Scientist yet?
 ===========================================
