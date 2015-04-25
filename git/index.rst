@@ -2,23 +2,6 @@
 Thinking in Git
 ===============
 
-.. slide::
-
-    "Git is the most popular source code management and version control system in
-    the open source community. Its complexity and power make it the best choice
-    for most projects, while simultaneously giving it a daunting learning curve
-    for newcomers. This talk will assume no background knowledge of version
-    control, and will teach the basics of Git in order to give you an accurate
-    mental model of what the tool does, and help you fix mistakes then ask the
-    right questions if you run into problems using it later."
-
-    * Emily Dunham
-    * edunham on irc.freenode.net and irc.cat.pdx.edu
-    * edunham@osuosl.org
-    
-    .. note:: instead of a photo of me, you get a wall of text on what i'll
-        teach you!
-
 .. note:: probably ought to encorporate https://github.com/github/training-kit
     http://justinhileman.info/article/git-pretty/git-pretty.png
     http://www.ndpsoftware.com/git-cheatsheet.html
@@ -28,7 +11,37 @@ Thinking in Git
     http://githut.info/ for finding repos by language on gh
     https://github.com/tomheon/git_by_a_bus cool analytics
     http://visualize-your-git.herokuapp.com/
-    
+
+Hi
+==
+
+* Emily Dunham
+* edunham on irc.freenode.net
+* edunham@edunham.net
+* no Twitter
+
+
+Permanent link to these slides:
+
+http://talks.edunham.net/linuxfestnorthwest2014/git
+
+.. note:: 
+
+    Why listen to me? 
+
+    * 5 years at OSL
+    * ran bootcamp, LUG
+    * Taught a lot of newbies this stuff
+
+    "Git is the most popular source code management and version control system
+    in the open source community. Its complexity and power make it the best
+    choice for most projects, while simultaneously giving it a daunting
+    learning curve for newcomers. This talk will assume no background
+    knowledge of version control, and will teach the basics of Git in order to
+    give you an accurate mental model of what the tool does, and help you fix
+    mistakes then ask the right questions if you run into problems using it
+    later."
+
 Agenda
 ======
 
@@ -41,6 +54,11 @@ Agenda
     * Real life vs. tutorials
 * Essential Git concepts & commands
 * GitHub
+
+.. note:: 
+
+    You won't memorize all the commands in an hour but this will help you ask
+    the right questions
 
 Thinking about Software Development
 ===================================
@@ -119,6 +137,19 @@ How Git sees your project
 Using Git
 =========
 
+.. figure:: _static/fingerpaint.jpg
+    :align: center
+
+    http://www.craftychild.com/finger-painting.html
+
+.. note:: 
+
+    We're going to talk about a lot of commands now. 
+
+    Don't be afraid. Don't expect to know everything at first. 
+
+    These slides will be online; the link will show up again at the end. 
+
 Setting Up
 ----------
 
@@ -128,11 +159,10 @@ Setting Up
   $ git config --global user.email johndoe@example.com
 
 * You'll need SSH keys later
-    * ``ssh-keygen -t rsa -b 2048``
+    * ``ssh-keygen -t rsa -b 2048``, or
     * ``ssh-keygen -t ecdsa``
 
-* Install Git
-    * also tk and tcl if you want the GUI later
+* Install Git (also tk and tcl if you want the GUI)
 
 * Set preferred editor
     * ``export GIT_EDITOR=vim`` in ``~/.bashrc`` or equivalent
@@ -371,15 +401,15 @@ Or undo the whole commit
 
     $ git revert <commit to revert to>
 
-Reverting makes a revert commit.
-
-Reversability > hiding mistakes
-
 .. figure:: _static/tardis2.jpg
     :scale: 50%
     :align: center
 
-.. next:: remotes
+.. note:: 
+
+    next: remotes
+    Reverting makes a revert commit.
+    Reversability > hiding mistakes
 
 What's a **remote**?
 ====================
@@ -440,17 +470,20 @@ From one of my git configs...
 Undo?
 -----
 
-Do you prefer text editor or commands?
+Do you prefer text editor...
 
 .. code-block:: bash
 
     $ git config -e
     # delete or change remote
 
+... or commands?
+
+.. code-block:: bash
+
     $ man git-remote
     $ git remote rename <old> <new>
     $ git remote remove <name>
-    ...etc.
 
 .. note:: "Undoing" push to remote is... trickier
     next: tags
@@ -555,6 +588,10 @@ Looking at branches
 .. figure:: _static/branchgraph.png
     :align: center
 
+.. note:: 
+
+    GitHub's "network" graph and gitk are good for this
+
 Undo?
 -----
 
@@ -563,7 +600,7 @@ Undo?
     # delete only if fully merged
     $ git branch -d
 
-    # sudo delete
+    # Delete, I Don't care what I lose
     $ git branch -D
 
     # delete remote branch
@@ -577,12 +614,13 @@ What's a **merge**?
 ===================
 
 * Converges the divergent branches
+* One branch gets updated, one branch stays unchanged
 
 .. figure:: _static/pdx.jpe
     :align: center
     :scale: 80%
 
-.. note:: TODO
+.. note::
 
     that joke about how a group of developers is called a merge conflict
 
@@ -627,7 +665,7 @@ Replace all that stuff with what the content *should* be.
 
 Check that you've got everything with ``git status``, then commit.
 
-Or consider ``git mergetool`` for a graphical option.
+Or consider ``git mergetool`` for an interactive option.
 
 Looking at Merges
 -----------------
@@ -707,7 +745,9 @@ Looking at the rebase
     #
     # If you remove a line here THAT COMMIT WILL BE LOST.
 
-.. note:: Make sure you have your git editor set!
+.. note:: 
+
+    Make sure you have your git editor set!
 
 Undo?
 -----
@@ -728,9 +768,15 @@ I'm stuck in a broken rebase, get me out
 
     $ git rebase --abort
 
-
 GitHub Stuff
 ============
+
+.. figure:: _static/github.png
+    :align: center
+
+
+Not Exactly Git
+===============
 
 .. figure:: _static/github.png
     :align: right
@@ -738,13 +784,11 @@ GitHub Stuff
 
 |
 
-GH is not exactly Git.
-
 * Less distributed paradigm
 * Git never told us who to trust
 * Git doesn't care who you are
 
-Watch `Linus's talk <https://www.youtube.com/watch?v=4XpnKHJAok8>`_ for enlightenment
+Watch `Linus's talk <https://www.youtube.com/watch?v=4XpnKHJAok8>`_ for more detail
 
 HTTP vs SSH Clones
 ------------------
@@ -837,25 +881,80 @@ Playing Well With Others
 Questions?
 ==========
 
+|
 
-Other Slides I Might Want
-=========================
+* Emily Dunham
+* edunham on irc.freenode.net
+* edunham@edunham.net
+* no Twitter
+
+Permanent link to these slides:
+
+http://talks.edunham.net/linuxfestnorthwest2014/git
+
+Other Stuff
+===========
 
 checkout
 --------
 
-* checkout branch
-* checkout <revision> file
+|
+
+.. code-block:: bash
+
+    $ git checkout branch
+    
+point HEAD at the tip of the specified branch
+    
+.. code-block:: bash
+
+    $ git checkout <revision> file
+
+
 
 gitrevisions
 ------------
+
+|
 
 ::
 
     $ man gitrevisions
 
+* Commit hash
+* Refname
+   * ``HEAD^n`` is nth parent of tip of current branch
+   * ``branchname~n`` is nth generation ancestor of that branch
+* Regex on commit message
+  * ``:/broken``
+* ``revision``:``path`` 
+
+
 git bisect
 ----------
 
+Binary Search: 
+
+::
+
+    git bisect start
+    git bisect bad <commit>
+    git bisect good <commit>
+    git bisect next
+    git bisect reset <commit>
+
 git cherry-pick
 ---------------
+
+.. figure:: _static/cherry.jpg
+    :align: center
+    
+    http://pixabay.com/en/cherry-sweet-cherry-red-fruit-167341/
+
+
+.. code-block:: bash
+
+    $ git checkout <branch that needs special commit>
+    $ git cherry-pick <special commit from another branch>
+
+
