@@ -587,7 +587,6 @@ Constant times differ by several orders of magnitude.
 .. note:: 
 
     Grace Hopper and the Nanoseconds
-    TODO: bring nanoseconds?
 
     metaphor: going to the fridge vs going to the store vs going to the moon
 
@@ -697,8 +696,11 @@ Algorithmic complexity in real code
 Expected Use Case
 -----------------
 
-graphs of how exponential time with a really tiny constant compares to linear
-time with a really huge constant, especially for small n
+* Exponential time with a tiny constant vs. logarithmic with huge constant
+
+* Input size?
+
+* Space constraints?
 
 .. note:: 
 
