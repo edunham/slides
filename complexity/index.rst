@@ -24,7 +24,6 @@ These slides are online at:
 
 http://talks.edunham.net/linuxfestnorthwest2015/complexity/
 
-
 .. note:: 
 
     * I was in Computer Science at OSU for 5 years
@@ -120,32 +119,63 @@ What's complexity?
 How Long it Takes
 -----------------
 
-(or how much space it takes)
+.. figure:: pics/clock.gif
+    :align: center
 
-* "5 minutes"
+    http://commons.wikimedia.org/wiki/File:Analog_clock_animation.gif
+
+.. note:: 
+
+    How long does your code take to run?
+
+    "About 2 minutes to compile"?
+
+    "About half an hour to run all the tests"?
+
+    NEXT: in terms of input size
+
 
 In terms of input size
 ----------------------
 
-Example: if Project Euler is having you find prime factors of a number, and
-you test your code on small numbers and it's fast, and then you put in the big
-number and it takes a really really long time
+.. figure:: pics/euler.png
+    :align: right
+
+    https://projecteuler.net/
+
+
+* Project Euler
+* Solution fast on small input
+* Very slow on large input
 
 **n** is the size of the input.
+
+    N: /N/, quant.
+
+    1. A large and indeterminate number of objects: “There were N bugs in that
+           crock!” Also used in its original sense of a variable name: “This
+           crock has N bugs, as N goes to infinity.”
 
 http://www.catb.org/jargon/html/N/N.html
 
 Quantified in fancy notation
 ----------------------------
 
+|
 
-If the loop runs n times, and takes C (some constant) seconds per loop
+**O(n)**
 
-Not like C the language; C like a constant amount of time
+|
 
-O(n)
+(time in loop) * (times the loop runs) + (time outside of loop)
 
-Sound smarter? And write less? Win-Win! 
+.. note::
+
+    Not like C the language; C like a constant amount of time
+
+    O(n)
+
+    Sound smarter? And write less? Win-Win! 
 
 Graph of why it's "usually ok to omit the constant" (more on that later)
 
@@ -170,6 +200,31 @@ and n[0] > 0 such that::
 
     f(n) ≤ c * g(n), for all n ≥ n[0]
 
+P vs NP
+-------
+
+.. figure:: pics/blue.jpg
+    :align: center
+
+    http://www.public-domain-image.com/objects-public-domain-images-pictures/electronics-devices-public-domain-images-pictures/computer-components-pictures/computer-inside.jpg.html
+
+.. note:: 
+
+    How many of you really understood the P vs NP thing?
+
+    "NP problems are really 'hard', P problems are 'solvable'"
+
+    P is problems that can be SOLVED in polynomial time
+    
+    NP is problems that can be VERIFIED in polynomial time
+
+    x^2 is polynomial; 2^x is exponential
+
+    Traveling salesman by brute force (shortest route between all cities) is
+    O(n!)
+
+    http://en.wikipedia.org/wiki/Travelling_salesman_problem
+
 
 How do you find how many times it runs?
 ---------------------------------------
@@ -189,10 +244,35 @@ fizzbuzz)
 
 There are also tools for this, which we'll get to later
 
-Example with an O(n) algo
--------------------------
+Example: Finding Repeated Words
+-------------------------------
 
-.. TODO
+Disclaimer: If you use this technique in an interview, you will not get the
+job.
+
+.. code-block:: python
+
+    words = ['linux',  ]
+    for w in words:
+
+
+
+Example: Linear Search
+----------------------
+
+.. code-block:: python
+
+    needle = '4'
+    haystack = [2, 8, 23, 5, 4, 7, 42]
+
+    idx = 0
+    while haystack[idx] <= len(haystack):    
+        if haystack[idx] == needle:
+            print "Found it at index " + str(idx)
+        idx += 1
+
+.. note::
+    Let's say we're looking 
 
 * Starter code
 * Simplify into psuedocode
