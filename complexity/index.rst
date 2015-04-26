@@ -15,10 +15,21 @@ Algorithmic Complexity and You
 Hello
 =====
 
-* I was in Computer Science at OSU for 5 years
-* Many hats have included software developer (Intel and OSL)
+* Emily Dunham
+* edunham on Freenode
+* edunham@edunham.net
+* No Twitter
+
+These slides are online at:
+
+http://talks.edunham.net/linuxfestnorthwest2015/complexity/
+
 
 .. note:: 
+
+    * I was in Computer Science at OSU for 5 years
+    * Many hats have included software developer (Intel and OSL)
+
 
     Before upper-division CS classes, I thought there was some kind of secret
     sauce and complexity was super scary
@@ -36,7 +47,8 @@ Why this talk?
 
 .. figure:: pics/greek.jpg
     :align: center
-    :alt: "greek texture" by Randen Pederson on Flickr https://www.flickr.com/photos/chefranden/3183416126/
+
+    https://www.flickr.com/photos/chefranden/3183416126/
 
 .. note:: 
 
@@ -53,22 +65,49 @@ Why this talk?
         * A better set of basic questions to ask when analyzing program
           performance
 
-Recap
------
+Agenda
+------
 
-TODO: picture of "real computer scientists", wizards?
+In Theory
+* Motivations for complexity analysis
+* Meaning of the notation
+* Techniques for analyzing complexity
+* Examples
 
-.. note::
+In Practice
+* What problem are you solving?
+* Alternate Tools
 
-    recap what they'll get
+In Theory
+=========
 
+Coursera:
+    * `Stanford <https://www.coursera.org/course/algo>`_
+    * `Princeton <https://www.coursera.org/course/aofa>`_
+
+Syllabi:
+    * http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms
+
+.. figure:: pics/mountains.jpg
+    :align: center
+
+    http://commons.wikimedia.org/wiki/File:Swiss_Jungfrau_mountains.jpg
+
+.. note:: 
+
+    scope of this talk will be small though available knowledge is vast
+
+    jumping into the graduate level stuff here would be like a talk on getting
+    started with recreational hiking focusing on what to take for a month in
+    the Alps, rather than focusing on what to pack for a picnic in a nearby park
 
 What's complexity?
 ==================
 
 .. figure:: pics/compiling.png
     :align: center
-    :alt: Image from XKCD https://imgs.xkcd.com/comics/compiling.png
+    
+    https://imgs.xkcd.com/comics/compiling.png
 
 .. note:: 
 
@@ -113,6 +152,12 @@ Graph of why it's "usually ok to omit the constant" (more on that later)
 (Math Words)
 ------------
 
+.. figure:: pics/mathblackboard.jpg
+    :align: right
+
+    http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Pure-mathematics-formul%C3%A6-blackboard.jpg/220px-Pure-mathematics-formul%C3%A6-blackboard.jpg
+
+
 .. note::
 
     http://www.cs.cmu.edu/~adamchik/15-121/lectures/Algorithmic%20Complexity/complexity.html
@@ -129,6 +174,12 @@ and n[0] > 0 such that::
 How do you find how many times it runs?
 ---------------------------------------
 
+.. figure:: pics/runners.jpg
+    :align: center
+
+    https://www.flickr.com/photos/dalager/14110369/
+
+
 Simplify into psuedo-code till you just have loops
 
 Examine them
@@ -141,12 +192,16 @@ There are also tools for this, which we'll get to later
 Example with an O(n) algo
 -------------------------
 
+.. TODO
+
 * Starter code
 * Simplify into psuedocode
 * Count the loops
 
 Example with O(log(n))
 ----------------------
+
+.. TODO
 
 * Starter code
 * Simplify into psuedocode
@@ -155,6 +210,8 @@ Example with O(log(n))
 
 Example with O(n^2)
 -------------------
+
+.. TODO
 
 * Starter code
 * Simplify into psuedocode
@@ -500,5 +557,17 @@ Tools are great, in their place
     * Profilers watch where it spends its time
     * Test suite can check how long it takes on every change to find
       regressions
+
+Thanks!
+=======
+
+* Emily Dunham
+* edunham on Freenode
+* edunham@edunham.net
+* No Twitter
+
+These slides are online at:
+
+http://talks.edunham.net/linuxfestnorthwest2015/complexity/
 
 
