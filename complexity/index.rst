@@ -229,36 +229,30 @@ P vs NP
 How do you find how many times it runs?
 ---------------------------------------
 
+|
+
 .. figure:: pics/runners.jpg
     :align: center
 
     https://www.flickr.com/photos/dalager/14110369/
 
+.. note::
+    First find n
 
-Simplify into psuedo-code till you just have loops
+    Simplify into psuedo-code till you just have loops
 
-Examine them
+    Examine them
 
-(Basic test of fluency and understanding of your language of choice, like
-fizzbuzz)
+    (Basic test of fluency and understanding of your language of choice, like
+    fizzbuzz)
 
-There are also tools for this, which we'll get to later
-
-Example: Finding Repeated Words
--------------------------------
-
-Disclaimer: If you use this technique in an interview, you will not get the
-job.
-
-.. code-block:: python
-
-    words = ['linux',  ]
-    for w in words:
-
-
+    There are also tools for this, which we'll get to later
 
 Example: Linear Search
 ----------------------
+
+Disclaimer: If you use this implementation in an interview, you will not get
+the job.
 
 .. code-block:: python
 
@@ -266,50 +260,221 @@ Example: Linear Search
     haystack = [2, 8, 23, 5, 4, 7, 42]
 
     idx = 0
-    while haystack[idx] <= len(haystack):    
+    while haystack[idx] < len(haystack):    
         if haystack[idx] == needle:
             print "Found it at index " + str(idx)
         idx += 1
 
 .. note::
-    Let's say we're looking 
+    Let's say we're looking for "needle" in "haystack" 
 
-* Starter code
-* Simplify into psuedocode
-* Count the loops
+Find n
+------
 
-Example with O(log(n))
-----------------------
+.. code-block:: python
 
-.. TODO
+    needle = '4'
+    haystack = [2, 8, 23, 5, 4, 7, 42]
 
-* Starter code
-* Simplify into psuedocode
-* Count the loops
+    idx = 0
+    while haystack[idx] < len(haystack):    
+        if haystack[idx] == needle:
+            print "Found it at index " + str(idx)
+        idx += 1
+
+Count the Loops
+---------------
+
+n is len(haystack)
+
+.. code-block:: python
+
+    needle = '4'
+    haystack = [2, 8, 23, 5, 4, 7, 42]
+
+    idx = 0
+    while haystack[idx] < len(haystack):    
+        if haystack[idx] == needle:
+            print "Found it at index " + str(idx)
+        idx += 1
+
+There's the complexity!
+-----------------------
+
+* loop once over n items
+
+* Contents is constant time
+
+* Complexity is O(n)
 
 
-Example with O(n^2)
+Example: Finding Repeated Words
+-------------------------------
+
+Same disclaimer as before. 
+
+.. code-block:: python
+
+    words = ['linux', 'washington', 'linux', 'festival']
+    idx = 0
+    while idx < len(words):
+        check = 0
+        while check < len(words):
+            if idx != check and words[check] == words[idx]:
+                print "found a repeated word!"
+
+First find n
+------------
+
+|
+
+.. code-block:: python
+
+    words = ['linux', 'washington', 'linux', 'festival']
+    idx = 0
+    while idx < len(words):
+        check = 0
+        while check < len(words):
+            if idx != check and words[check] == words[idx]:
+                print "found a repeated word!"
+
+Then count loops
+----------------
+
+n is len(words)
+
+.. code-block:: python
+
+    words = ['linux', 'washington', 'linux', 'festival']
+    idx = 0
+    while idx < len(words):
+        check = 0
+        while check < len(words):
+            if idx != check and words[check] == words[idx]:
+                print "found a repeated word!"
+
+There's the complexity!
+-----------------------
+
+* Outer loop goes **n** times
+* inner loop goes **n** times
+
+* Inner loop runs every time the outer does
+
+* Complexity is n*n, or n^2
+
+Tangent: If that was an interview...
+------------------------------------
+
+.. code-block:: python
+
+    words = ['linux', 'washington', 'linux', 'festival']
+    idx = 0
+    while idx < len(words):
+        check = 0
+        while check < len(words):
+            if idx != check and words[check] == words[idx]:
+                print "found a repeated word!"
+
+.. note:: faster to sort the list (sorts can go very fast) then traverse once,
+    comparing each item to the previous
+
+
+What's the Difference?
+======================
+
+.. figure:: pics/graph_withexponential.png
+    :align: center
+
+.. note:: 
+
+    This graphs a bunch of complexities: 
+
+    Exponential is red (constant raised to the n)
+
+    Quadratic is black
+
+    Linear is cyan
+
+    nlogn is green
+
+    logarithmic is blue
+
+Without exponential
 -------------------
 
-.. TODO
+.. figure:: pics/graph_noexponeitial.png
+    :align: center
 
-* Starter code
-* Simplify into psuedocode
-* Count the loops
+.. note:: 
 
-Which is fastest? Slowest?
---------------------------
+    Quadratic is black
 
-Graphs! And more graphs!
+    Linear is cyan
+
+    nlogn is green
+
+    logarithmic is blue
+
 
 Now you Try It
 --------------
 
-Example of an nlog(n) algo, walk through the steps
+.. code-block:: python
 
-* Starter code
-* Simplify into psuedocode
-* Count the loops
+    def binary_search(l, value):
+        low = 0
+        high = len(l)-1
+        while low <= high: 
+            mid = (low+high)//2
+            if l[mid] > value: high = mid-1
+            elif l[mid] < value: low = mid+1
+            else: return mid
+        return -1
+
+
+First find n
+------------
+
+.. code-block:: python
+
+    def binary_search(l, value):
+        low = 0
+        high = len(l)-1
+        while low <= high: 
+            mid = (low+high)//2
+            if l[mid] > value: high = mid-1
+            elif l[mid] < value: low = mid+1
+            else: return mid
+        return -1
+
+
+Count the loops
+---------------
+
+.. code-block:: python
+
+    def binary_search(l, value):
+        low = 0
+        high = len(l)-1
+        while low <= high: 
+            mid = (low+high)//2
+            if l[mid] > value: high = mid-1
+            elif l[mid] < value: low = mid+1
+            else: return mid
+        return -1
+
+There's the complexity
+----------------------
+
+|
+
+Binary search is log(n)
+
+|
+
+"In mathematics, the logarithm of a number is the exponent to which another
+fixed value, the base, must be raised to produce that number."
 
 Some Details
 ------------
@@ -340,39 +505,26 @@ Amortized Complexity
 If a slow operation is done infrequently, we can spread its cost over all the
 times it didn't happen...
 
-
-Example: Searching a sorted array
----------------------------------
-
-.. #TODO: This slide goes away?
-
-Brute Force
+How about recursive?
+--------------------
 
 .. code-block:: python
 
-    def brute_force_search(l, value):
-        for i in range(len(l)):
-            if l[i] == value:
-                return i
-        return -1 
-    
+    def binary_search(l, value, low = 0, high = -1):
+        if not l: 
+            return -1
+        if(high == -1): high = len(l)-1
+        if low == high:
+            if l[low] == value: return low
+            else: 
+                return -1
+        mid = (low+high)//2
+        if l[mid] > value: 
+            return binary_search(l, value, low, mid-1)
+        elif l[mid] < value: 
+            return binary_search(l, value, mid+1, high)
+        else: return mid
 
-Binary Search
--------------
-
-.. code-block:: python
-
-    def binary_search(l, value):
-        low = 0
-        high = len(l)-1
-        while low <= high: 
-            mid = (low+high)//2
-            if l[mid] > value: high = mid-1
-            elif l[mid] < value: low = mid+1
-            else: return mid
-        return -1
-
-(from `rosettacode <http://rosettacode.org/wiki/Binary_search#Python>`_)
 
 
 Space Complexity
@@ -412,39 +564,18 @@ vs in-place::
             a[i] := a[n − 1 − i]
             a[n − 1 − i] := tmp 
 
-
-What about recursive functions?
--------------------------------
-
-* time complexity: expected number of calls * time in call
-* space complexity: risk running out of stack
-
-.. note::
-
-    TODO: example where you halve the complexity by reusing results of a call;
-    fibonnacci?
-
 Feeling like a Real Computer Scientist yet?
 ===========================================
 
-.. #TODO picture of grace hoppper era switchboard operators
+.. figure:: pics/lovelace.jpg
+    :align: center
 
-
-Comparing Algorithms
---------------------
-
-Graph of "slow" with small C vs "fast" with huge C
-
-Which one is better?
-
-<wait for answers>
-
-Yeah so it turns out real life is complicated and difficult. 
+    http://en.wikipedia.org/wiki/File:Ada_lovelace.jpg
 
 That Constant
 -------------
 
-IRL, constant times differ by several orders of magnitude. 
+Constant times differ by several orders of magnitude. 
 
 * Processor memory vs L1 cache
 * Cache vs RAM
@@ -458,17 +589,7 @@ IRL, constant times differ by several orders of magnitude.
     Grace Hopper and the Nanoseconds
     TODO: bring nanoseconds?
 
-metaphor: going to the fridge vs going to the store vs going to the moon
-
-Throwing out that constant...
------------------------------
-
-.. #TODO maybe ditch this slide?
-
-.. note:: 
-
-    TODO graphs again of big constant and log time vs tiny constant and linear
-    time
+    metaphor: going to the fridge vs going to the store vs going to the moon
 
 In The Real World
 =================
@@ -513,18 +634,27 @@ what will real-world conditions look like?
 Is my program *too* slow?
 -------------------------
 
-Is speed the worst problem that it has right now?
-What's the minimum that'll make your users happy?
-What's the maximum past which your users won't notice improvements?
-How long will it take the team to make the next big speedup...
-* And would fixing any of the intermediat issues decrease that time
-  substantially? (ie refactor to remove old cruft)
+.. figure:: pics/turtle.jpg
+    :align: center
+
+    http://en.wikipedia.org/wiki/File:Ada_lovelace.jpg
+
+.. note:: 
+
+    Is speed the worst problem that it has right now?
+    
+    What's the minimum that'll make your users happy?
+    
+    What's the maximum past which your users won't notice improvements?
+    
+    How long will it take the team to make the next big speedup...
+    
+    * And would fixing any of the intermediat issues decrease that time
+      substantially? (ie refactor to remove old cruft)
 
 
 Why is my program slow?
 -----------------------
-
-<picture representing bad news>
 
 It's probably not how you structured your algorithm. Or you fix the obvious
 algorithmic stupidity and it's still bad. 
@@ -539,13 +669,9 @@ Remember the orders of magnitude thing?
     * maybe it's slow in the real world because reality is different from your
       test cases
 
-Why's my program slow? 
-----------------------
 
-<screenshot of size of a gh repo for a decent sized project>
-
-* it's hard to see where an algorithm spends its time
-* working from a wrong guess about where the bottleneck is will waste yours
+* Hard to see where an algorithm spends its time
+* Working from a wrong guess about where the bottleneck is will waste yours
 
 .. note::
 
@@ -559,11 +685,14 @@ Algorithmic complexity in real code
 * "the pros" can look at a section of code and tell you its best, worst, and
   average-case performance -- kind of like how we practiced earlier
 
-* they do this by recognizing patterns from having read a lot of other code
+* Recognizing patterns from having read a lot of other code
 
-* if the patterns aren't clear to you, write out what your code is doing --
-  psuedo-code -- simplify it till all you have are bits that'll take constant
-  time, and loops
+
+.. note::
+
+    * If the patterns aren't clear to you, write out what your code is doing
+    -- psuedo-code -- simplify it till all you have are bits that'll take constant
+    time, and loops
 
 Expected Use Case
 -----------------
@@ -599,27 +728,40 @@ http://en.wikipedia.org/wiki/Instrumentation_%28computer_programming%29
 
 http://commons.wikimedia.org/wiki/File:Pork_thermometer.jpg
 
-Python
-------
+Call Profilers
+--------------
 
-https://docs.python.org/2/library/profile.html
+.. figure:: pics/phone.jpg
+    :align: center
 
+    http://en.wikipedia.org/wiki/File:Alt_Telefon.jpg
+
+.. note:: 
+
+    Examine call stack, cprofile python in stdlib
+
+    https://docs.python.org/2/library/profile.html
 
 Testing
 -------
 
-.. note:: TODO
+* Language or shell timing utilities
 
-    examples of frameworks and stuff being applied
+* Test on different sizes of input
 
-Continuous Integration Is Awesome (duh)
+* Write a test suite to catch preformance changes
 
-Example of how easy it is to introduce a regression
+When to test?
+-------------
 
-Troubleshooting
----------------
+* Always! (Continuous Integration)
+* Deeper analysis for debugging, refactors
 
-.. TODO why is this section even here
+|
+
+* How hard is it to introduce a complexity change?
+
+accidentallyquadratic.tumblr.com
 
 Recap
 -----
