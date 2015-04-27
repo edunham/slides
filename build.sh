@@ -20,4 +20,7 @@ cd ../handoff
 cd ../resume_lightningtalk
     rm -rf _build
     make slides
+cd ../complexity
+    rm -rf _build
+    make slides
 deactivate
