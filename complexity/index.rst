@@ -68,12 +68,14 @@ Agenda
 ------
 
 In Theory
+
 * Motivations for complexity analysis
 * Meaning of the notation
 * Techniques for analyzing complexity
 * Examples
 
 In Practice
+
 * What problem are you solving?
 * Alternate Tools
 
@@ -403,7 +405,7 @@ What's the Difference?
 Without exponential
 -------------------
 
-.. figure:: pics/graph_noexponeitial.png
+.. figure:: pics/graph_noexponential.png
     :align: center
 
 .. note:: 
@@ -616,11 +618,11 @@ Good Code
 Is my program slow?
 -------------------
 
-Expected input size?
-How's it do in tests?
-(you are testing it, right?)
-How much of test suite time is setup/teardown?
-what will real-world conditions look like?
+* Expected input size?
+* How's it do in tests?
+    * (you are testing it, right?)
+* How much of test suite time is setup/teardown?
+* What will real-world conditions look like?
     * and under heavy load? (CACHING CACHING CACHING)
 
 .. note:: 
@@ -717,9 +719,9 @@ Analysis Tools
     * automated vs manual
     * language-specific vs platform-agnostic
 
-Languages
+Each language has its own
 
-Python: Run Snake Run <pictures>
+Python: Run Snake Run
 
 C: GDB/`gprof <https://sourceware.org/binutils/docs/gprof/>`_
 
@@ -728,7 +730,10 @@ Instrumentation
 
 http://en.wikipedia.org/wiki/Instrumentation_%28computer_programming%29
 
-http://commons.wikimedia.org/wiki/File:Pork_thermometer.jpg
+.. figure:: pics/thermometer.jpg
+    :align: center
+
+    http://commons.wikimedia.org/wiki/File:Pork_thermometer.jpg
 
 Call Profilers
 --------------
