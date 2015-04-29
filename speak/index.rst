@@ -1,3 +1,4 @@
+===========================
 Doing the Conferences Thing
 ===========================
 
@@ -31,25 +32,178 @@ Doing the Conferences Thing
     These tricks will be helpful for experienced presenters looking to learn
     new skills, as well as novice speakers who need some help getting started.
 
-(public speaking with open source tools?)
+Hi
+==
 
-Who am I?
+* edunham@edunham.net
+* edunham on Freenode
+* no Twitter
 
-Why listen to me?
+These slides are at http://talks.edunham.net/osbridge2015/speak/
 
-Why would you want to present? 
+About Me
+--------
 
-* fame and glory
-* share cool toys
-* teaching & giving back
-* all of the above
+* 5 years at OSU
+* LUG, DOBC
+* Current Job
 
-But I can't...
+About You
+---------
 
-* afford it? pick confs with scholarships or local
-* Scared of public speaking? this is how you learn; audiences are supportive
-* don't have skills? get into the market of newbietalks; your recent ignorance 
-  is an ADVANTAGE
+* Who's spoken before but wants to improve?
+* Who's never spoken but wants to?
+* Never spoken and don't think you want to?
+
+About This
+----------
+
+* What I wish someone had told me
+* Why we need more talks (the why)
+* Logistical details (the how)
+
+Why do talks matter?
+====================
+
+* Different learning styles
+    * Recordings are documentation
+* Exposure to new ideas
+* Being an Expert
+
+Why do talks from *you* matter?
+-------------------------------
+
+* Others benefit: 
+    * More perspectives
+    * Better tools
+* You benefit:
+    * Fame & Glory
+    * New contributors / feedback
+    * Make friends
+
+But I Can't
+===========
+
+Can't afford travel?
+--------------------
+
+* Local conferences
+* Some reimburse
+
+Can't take the time?
+--------------------
+
+* Show those constraining you how the conf benefits them
+* Find a less abusive job?
+
+Scared of public speaking?
+--------------------------
+
+* Audience is on your side
+* What's the worst that could happen? (what would you do if you weren't
+  afraid?)
+* Practice is good
+* It gets better
+
+Nothing to talk about?
+----------------------
+
+* Pick topic for conf in far future then do a toy project to gain the skill
+* Cross-disciplinary talks are sometimes super well recieved
+* Write the talk you want to hear
+* For newbietalks, recent lack of skills is ADVANTAGEOUS
+
+Ok, but how do I start?
+=======================
+
+* Topic
+* Conference
+* Project
+* Slides
+
+Finding Conferences
+-------------------
+
+* Call To Speakers
+* CFP Wiki
+* Technically Speaking list
+* Most benefit from attending conferences you enjoy; meet people with similar
+  interests (especially those to mentor or be mentored by)
+
+Finding a Topic
+---------------
+
+* Own interests
+* Recent projects
+* Problems you've solved
+* Docs that were missing
+* "listicle" talks (presented well)
+* Examine past successes at this conference
+
+How To Slides
+=============
+
+Outline ASAP
+------------
+
+* Dump everything you can think of, even the irrelevant stuff, into a document
+* Capture inspiration and why you want this talk; it may flee
+
+Maximize content
+----------------
+
+* Review frequently (habitrpg)
+* Brain-dump important ideas
+
+Organize Sensibly
+-----------------
+
+* Core concepts one per index card, munge them around
+    * Don't print+rearrange slides; need bigger shuffle
+* REPETITION (lack of it was among my biggest noob mistakes)
+* When attending talks, pay attention to what you remember from them
+* Shortlist of key takeaways should appear at least 3 times
+
+Practice
+--------
+
+* First record it by yourself (TOOL: Audacity)
+* Then listen (I'm so sorry) and take notes
+* Then present it to a friend who's near your target audience
+* Then get their feedback (especially on how you fixed what bugged you)
+* Then present it to a noob (or someone who can pass as one)
+* Get their feedback about what's not explained
+
+Repeat as necessary
+-------------------
+
+* Feature freeze slides at T minus 1 week or so (TOOL: calendar with fake
+  deadlines, tricks to force you to follow-through... pull allnighter early)
+* Rehearse once after feature freeze; TRUST YOUR SLIDES
+
+Slides Technology
+=================
+
+Necessary Features
+------------------
+
+* Portable (what if your computer dies 5mins before talk?)
+* Version-controllable
+  * collaborate w/ others
+  * reverse history
+  * magic backup to reduce impact of deletion
+* Presenter console
+* Ideally web version + single-file version in sane format (PDF)
+* Control image size, location, attribution
+
+Hieroglyph
+----------
+
+* What it does
+* How to host slides on a DO droplet
+* 
+
+
 
 .. note:: 
 
