@@ -1,3 +1,7 @@
 *.swp
 *.swo
 _build/
+humanhacking/_drawn/*
+*.pdf
+*.odg
+*.mp3
