@@ -7,7 +7,7 @@ Human Hacking
     Are you trying to herd cats as a project leader, or simply wondering how
     to evaluate a project's culture from the outside before getting involved?
     This talk explains some basic models of human motivation and behavior and
-    include examples of applying them in the world of open­source software.
+    include examples of applying them in the world of opensource software.
     As engineers, we use simple heuristics and algorithms for solving computer
     problems every day, although we rarely use those models to understand
     human interaction.
