@@ -888,6 +888,10 @@ Questions?
 * edunham@edunham.net
 * no Twitter
 
+Go to Ben Loveridge's talk at 9am Saturday: Git with the flow: maintainable
+branch strategies using Git[Hub] Flow
+
+
 Permanent link to these slides:
 
 http://talks.edunham.net/linuxfestnorthwest2014/git
