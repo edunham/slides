@@ -27,7 +27,7 @@ Introduction
 
 |
 
-talks.edunham.net/scale13x
+talks.edunham.net/openwest2015/humans
 
 edunham@edunham.net
 
@@ -942,7 +942,7 @@ Q&A
 
 |
 
-talks.edunham.net/scale13x
+talks.edunham.net/openwest2015/humans
 
 edunham@edunham.net
 
@@ -950,7 +950,6 @@ github.com/edunham
 
 Hieroglyph
 
-Vote? osl.io/voteforemily 
 
 The Anecdote Graveyard
 ----------------------
