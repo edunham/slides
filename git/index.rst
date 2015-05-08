@@ -23,7 +23,7 @@ Hi
 
 Permanent link to these slides:
 
-http://talks.edunham.net/linuxfestnorthwest2014/git
+http://talks.edunham.net/openwest2015/git
 
 .. note:: 
 
@@ -894,7 +894,7 @@ branch strategies using Git[Hub] Flow
 
 Permanent link to these slides:
 
-http://talks.edunham.net/linuxfestnorthwest2014/git
+http://talks.edunham.net/openwest2015/git
 
 Other Stuff
 ===========
