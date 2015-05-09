@@ -2,6 +2,29 @@
 Teaching DevOps to University Students
 ======================================
 
+.. slide:: 
+
+    |
+    |
+
+    Emily Dunham
+
+    edunham@edunham.net
+
+    edunham on IRC, no Twitter
+
+    talks.edunham.net/openwest2015/devops
+
+Agenda
+------
+
+* Storytime
+
+* Analysis
+
+* Recommendations
+
+
 .. slide::
 
     .. figure:: /_static/corvallis.png
@@ -275,20 +298,264 @@ Teaching DevOps to University Students
     .. note:: What do YOU want out of this? Why are you here? What do you want
         to learn from me? What are you trying to build? How can I help you?
 
-.. slide::
+Analysis
+--------
+
+* Diverse group
+
+* Impact tough to measure
+
+* Currently in 2nd year
+
+* DevOps Daycamp kickoff
+
+===========  
+Application
+===========
+
+======================
+Identify your Audience
+======================
+
+.. note:: 
+
+    Best target a group that an organizer remembers being in
+
+    Identify their goals and resources
+
+====================
+Find your Supporters
+====================
+
+.. note:: 
+
+    Community members, groups, businesses with an interest in achieving your
+    goal
+
+    * Hiring?
+
+    * Formed for diversity? 
+
+    * Academic institutions?
+
+    Assess their resources and goals
+
+===================
+Goals and Resources
+===================
+
+.. note:: 
+
+    Yours, Students', Supporters
+
+=============    
+Naming Things
+=============    
+
+.. note:: 
+
+    Googleable
+
+    Unique for the space
+
+    Not A Jerk (puPHPet, vm building wizard)
+
+    Pronounceable (consistently, at least... XKCD vs gif)
+
+===================
+Define Expectations
+===================
+
+https://www.recurse.com/manual
+
+https://adainitiative.org/2014/02/howto-design-a-code-of-conduct-for-your-community/
+
+.. note:: 
+
+    CODE OF CONDUCT BEFORE YOU HAVE USERS
+
+    Somebody will hate your name (bootcamp thing)
+
+    Best fix: "Here's how to make it better"
+
+    Figure out how finances will work (make them SEP)
+
+===============
+Find your Users
+===============
+
+.. note:: 
+    
+    This is a good time to make sure they exist and want what you think
+
+    Talk to some
+
+    Ask them how they find out about programs, how much time they have, etc.
+
+==================
+Writing Curriculum
+==================
+
+.. note:: 
+
+    Identify what they'll need to know; draw pictures
+
+    Circular dependencies
 
 
-    Me: 
+================================
+Break into Circular Dependencies
+================================
 
-    * github.com/edunham
-    * edunham@osuosl.org (work email) or dunhame@onid.orst.edu (school)
-    * irc: edunham on Freenode
-    * The accent is from New Zealand
-    * The slides are made with Hieroglyph (a Sphinx extension)
+.. note:: 
 
-    Bootcamp: 
+    Online docs will cross-link sections into a circle
 
-    * devopsbootcamp.osuosl.org
-    * devopsbootcamp@osuosl.org -- email all the organizers
+    You can't do this in real time; where would they "click"?
 
+    Best course: Minimum summary on first introduction ("link")
+
+    Better docs later on
+
+==================
+Leverage Resources
+==================
+
+.. note:: 
+
+    Volunteers from your supporting organizations -- what do they love? Teach?
+
+    Times, places, sponsors for pizza?
+
+=====================
+Pick a Time and Place
+=====================
+
+.. note:: 
+
+    Based on your target users' commitments and availability
+
+    Bring food if it's at a mealtime -- understand special reqs
+
+    Be careful not to exclude (ASSUMPTIONS: car, no kids?)
+
+=========
+Advertise
+=========
+
+.. note:: 
+
+    Maybe some of this before picking time/place
+
+    Back to when you identified your audience, how they find things to do
+
+    User groups, meetups, posters IRL (engineering buildings, restaraunts near
+    campus, meeting places  like kids' schools or places of worship?)
+
+    Tell people to tell their friends; be clear about requirements
+
+
+========
+Practice
+========
+
+.. note:: 
+
+    Write the slides, test the demos, fight the projector, check links
+
+    Speaker can be volunteer or you
+
+
+=====    
+Teach
+=====
+
+.. note:: 
+
+    First lesson give roadmap and reassurance
+
+    Be clear on if it's ok to join partway through
+
+    Keep it interactive, solicit feedback
+
+
+======
+Refine
+======
+
+.. note:: 
+
+    Assess after every lesson, keep notes for later
+
+    Meetings among organizers on regular basis help lots
+
+    Review days will be needed
+
+    Check expectations for time outside class
+
+
+======    
+Repeat
+======
+
+.. note::
+
+    Every month or two, assess whether the work is sustainable for YOU
+    
+    Check in with supporters
+
+    Constantly refine your checklists
+
+====
+Brag
+====
+
+.. note:: 
+
+    Starting or working a lot on this kind of thing makes you An Expert
+
+    Want job offers, consulting gigs? Brag lots. 
+
+    Super humble? Brag anyway; find more supporters, find more routes to
+    students
+
+======    
+Retire
+======
+
+.. note:: 
+
+    I found this a burnout-prone job (also school)
+
+    Don't keep going once it stops making you happy
+
+    Don't keep going if you're becoming a curmudgeonly jerk
+
+    Hand it off to someone newer and more enthusiastic
+
+    * They benefit from leading it, too
+
+
+==========    
+Good Luck!    
+==========
+
+.. note:: Questions? Advice? 
+
+.. slide:: 
+
+    |
+    |
+
+    Emily Dunham
+
+    edunham@edunham.net
+
+    edunham on IRC, no Twitter
+
+    talks.edunham.net/openwest2015/devops
+
+    devopsbootcamp.osuosl.org
+
+    devopsbootcamp@osuosl.org (organizers list)
 
