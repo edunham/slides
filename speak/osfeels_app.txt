@@ -1,0 +1,73 @@
+
+Talk Information
+Talk Title
+
+You Should Speak
+How long is your presentation (in minutes; 10-40 is average)?
+
+45-60 minutes
+Talk Abstract
+
+Have you ever thought about speaking at a conference, then come up with some
+excuse like "I don't know enough", "I'm scared of public speaking", or "I
+don't know where to apply"? Come to this talk to learn how to combine the open
+source tools and technolgies which solve all of those problems and more!
+
+This talk will share solutions, often in the form of open-source tools, to
+many of the problems which aspiring speakers encounter, including:
+
+Overcoming fear of public speaking
+Choosing a topic to talk about
+Finding the right conference for your topic
+Marketing a talk proposal with a convincing abstract
+Finding open-source presentation software that fits your needs
+Designing powerful slides
+
+These tricks will be helpful for experienced presenters looking to learn new
+skills, as well as novice speakers who need some help getting started.
+Who's your ideal audience?
+
+Anyone who's considered the idea of doing some public speaking, regardless of
+whether or not they followed through.
+Why are you excited to talk about this at Open Source & Feelings?
+
+This is a talk I prepared for OSBridge but I was unable to attend this year.
+It deals directly with my own experiences overcoming impostor syndrome in the
+open source community, and I think that sharing what I've learned along the
+way will be helpful to other people in similar situaitons to my own.
+Balancing Information
+Previous Speaking Experience
+
+I've given technical, teaching, and psychology talks at a variety of
+conferences including OSCON, OpenWest, SeaGL, LinuxFest Northwest, and some
+local meetups and barcamps.
+Have you presented on this topic at other events? If so, where and when?
+
+I got this talk accepted into OSBridge this year, but was unable to attend
+because of a scheduling conflict with travel for the new job I accepted after
+getting into OSBridge. So the talk is basically ready, but OSFeels would be
+its first time at a conference.
+Tell us about your experience with open source.
+
+I got started using Linux in 2008, and started learning about open source
+culture and giving back when I joined a Linux Users Group in 2010. Since then
+I've served as president of that LUG for 2 years, founded a DevOps training
+program, spoken at a lot of different conferences, and contributed to a wide
+variety of projects.
+Tell us about your involvement with your communities.
+
+I'm a maintainer on several small open source projects (2-20 users). I choose
+re-using code over re-inventing it whenever possible, and contribute
+documentation fixes to almost every project whose docs I read for any reason.
+One of my hobbies is encouraging projects that're missing licensing
+information to publish it, and I've built a small tool that scans a given user
+or organization's GitHub repos and points out those which are missing
+licensing information. Oh yeah, and I founded a DevOps training program at my
+university, ran it for a year, and mentored the next cohort of leaders during
+my final year there.
+Speaker Accomodations
+Will travel and lodging make attending Open Source & Feelings financially
+difficult?
+
+no
+
