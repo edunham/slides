@@ -1,0 +1,61 @@
+
+Talk Information
+How long is your presentation (in minutes; 10-40 is average)?
+
+I can make it fit any 30-50 minute slot
+Talk Abstract
+
+"That service doesn't like being restarted". "You have to rotate the logs to
+keep it happy". "That packet confused the application".
+
+Developement and operations teams personify computers every day, but rarely
+stop to think about the impact of these habits. This talk will examine how
+personification fits into the tech industry's culture and workflows, and
+techniques for using these habits to your advantage.
+Who's your ideal audience?
+
+People with some tech industry background will learn about personification,
+whereas people whose experience is solely academic or hobby-based will learn
+things about what it's like in the tech industry.
+Why are you excited to talk about this at Open Source & Feelings?
+
+I'm excited to share these ideas with and get feedback on them from a room
+full of people who enjoy examining the open source world at a more meta level,
+rather than focusing primarily on the technical implementation specifics like
+many of the people I ordinarily work with.
+Talk Title
+
+Server Happiness: DevOps through personification
+Balancing Information
+Previous Speaking Experience
+
+I've given technical, teaching, and psychology talks at a variety of
+conferences including OSCON, OpenWest, SeaGL, LinuxFest Northwest, and some
+local meetups and barcamps.
+Have you presented on this topic at other events? If so, where and when?
+
+Not this particular topic, because it hasn't fit into a conference that I've
+been available for yet.
+Tell us about your experience with open source.
+
+I got started using Linux in 2008, and started learning about open source
+culture and giving back when I joined a Linux Users Group in 2010. Since then
+I've served as president of that LUG for 2 years, founded a DevOps training
+program, spoken at a lot of different conferences, and contributed to a wide
+variety of projects.
+Tell us about your involvement with your communities.
+
+I'm a maintainer on several small open source projects (2-20 users). I choose
+re-using code over re-inventing it whenever possible, and contribute
+documentation fixes to almost every project whose docs I read for any reason.
+One of my hobbies is encouraging projects that're missing licensing
+information to publish it, and I've built a small tool that scans a given user
+or organization's GitHub repos and points out those which are missing
+licensing information. Oh yeah, and I founded a DevOps training program at my
+university, ran it for a year, and mentored the next cohort of leaders during
+my final year there.
+Speaker Accomodations
+Will travel and lodging make attending Open Source & Feelings financially
+difficult?
+
+no
