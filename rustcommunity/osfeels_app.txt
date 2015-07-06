@@ -1,0 +1,67 @@
+
+Talk Information
+Talk Title
+
+Rust Gets It Right
+How long is your presentation (in minutes; 10-40 is average)?
+
+I can make it fit any 30-50 minute slot
+Talk Abstract
+
+The web site says that Rust is a systems programming language that runs
+blazingly fast, prevents nearly all segfaults, and guarantees thread safety.
+Behind the scenes, Rust is also a community that welcomes new contributors,
+consistently enforces its code of conduct, and maintains a high-quality
+codebase.
+
+I've recently joined the Rust community, and can provide a technical
+perspective on how their automatic systems encourage good code and good
+behavior. As someone who doesn't look like the average tech person, I've also
+noticed the pitfalls of many communities' problematic attempts encourage
+diversity, and the ways that Rust avoids them.
+Who's your ideal audience?
+
+People interested in the Rust language or curious about what any open source
+project can do to cultivate a healthy community.
+Why are you excited to talk about this at Open Source & Feelings?
+
+Many of the techniques that Rust uses to cultivate a welcoming environment are
+automated with open source tools, and I suspect that they'll be particularly
+useful to the audience at OSFeels.
+Balancing Information
+Tell us about your involvement with your communities.
+
+I'm a maintainer on several small open source projects (2-20 users). I choose
+re-using code over re-inventing it whenever possible, and contribute
+documentation fixes to almost every project whose docs I read for any reason.
+One of my hobbies is encouraging projects that're missing licensing
+information to publish it, and I've built a small tool that scans a given user
+or organization's GitHub repos and points out those which are missing
+licensing information. Oh yeah, and I founded a DevOps training program at my
+university, ran it for a year, and mentored the next cohort of leaders during
+my final year there.
+Previous Speaking Experience
+
+I've given technical, teaching, and psychology talks at a variety of
+conferences including OSCON, OpenWest, SeaGL, LinuxFest Northwest, and some
+local meetups and barcamps.
+Have you presented on this topic at other events? If so, where and when?
+
+I've given a talk relating psychology to open source at SCALE and LinuxFest
+Northwest, but this is the first CFP to which this talk is relevant since I've
+joined the Rust community
+Tell us about your experience with open source.
+
+I got started using Linux in 2008, and started learning about open source
+culture and giving back when I joined a Linux Users Group in 2010. Since then
+I've served as president of that LUG for 2 years, founded a DevOps training
+program, spoken at a lot of different conferences, and contributed to a wide
+variety of projects. My job title would uniquely identify me, but let's just
+say that I'm employed in a role where I get a lot of experience with the Rust
+community.
+Speaker Accomodations
+Will travel and lodging make attending Open Source & Feelings financially
+difficult?
+
+no
+
