@@ -1,0 +1,25 @@
+ Automated Community Management
+Lessons from the Rust Programming Language
+
+Rust's web site says that it's a systems programming language which runs
+blazingly fast, prevents nearly all segfaults, and guarantees thread safety.
+Behind the scenes, Rust is also a thriving community that welcomes new
+contributors, consistently enforces its code of conduct, and maintains a
+high-quality codebase.
+
+I've recently joined the Rust community, and can provide a technical
+perspective on how their automatic systems encourage good code and good
+behavior. As someone who doesn't look like the average tech person, I've also
+noticed the pitfalls of many communities' problematic attempts encourage
+diversity, and have quantified the ways that Rust's community avoids these
+hazards.
+
+Date:
+Duration:
+    50 min
+Room:
+Conference:
+    SeaGL 2015
+Language:
+Track:
+Difficulty:
