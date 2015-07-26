@@ -1,0 +1,42 @@
+http://opensourcebridge.org/proposals/1677
+
+Excerpt
+
+Have you ever thought about speaking at a conference, then come up with some
+excuse like "I don't know enough", "I'm scared of public speaking", or "I
+don't know where to apply"? Come to this talk to learn how to combine the open
+source tools and technolgies which solve all of those problems and more!
+
+Description
+
+Have you ever wanted to speak at a conference, but not known whether you’re
+good enough or how to start? I was in the same situation 2 years ago, but
+since then I’ve given over a dozen talks at a variety of different tech
+conferences. As well as testing and refining my own solutions to the
+challenges that face new speakers, I’ve learned what works and doesn’t work
+for others.
+
+This talk will share solutions, often in the form of open-source tools, to
+many of the problems which aspiring speakers encounter, including:
+
+    Overcoming fear of public speaking
+    Choosing a topic to talk about
+    Finding the right conference for your topic
+    Marketing a talk proposal with a convincing abstract
+    Finding open-source presentation software that fits your needs
+    Designing powerful slides
+
+These tricks will be helpful for experienced presenters looking to learn new
+skills, as well as novice speakers who need some help getting started.
+
+
+Tags
+
+speaking, conferences, slides, presentations, tutorial
+Speaking experience
+
+I've spoken at SCALE, OSCON, SeaGL, and LinuxFest Northwest, and more. A full
+list of my talks, with links to recordings and slides where available, is at
+http://edunham.net/pages/02talks.html .
+
+This particular talk will be brand new for OSBridge :)
