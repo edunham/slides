@@ -1,0 +1,12 @@
+Year: Conf:     Talk:                                       Accept:     Attend:
+2015  SCALE     humanhacking                                yes         yes
+2015  OSCON     leadership handoff                          no          yes
+2015  OSCON     Ignite: First Impressions                   yes         yes
+2015  OSBridge  speak                                       yes         no
+2015  OSFeels   server_happiness                            no          no
+2015  OSFeels   rustcommunity                               no          no
+2016  LCA       rustcommunity                               yes         yes
+2015  SeaGL     rustcommunity                               no          yes
+2015  SeaGL     speak                                       yes         yes
+2016  SCALE     ???
+
