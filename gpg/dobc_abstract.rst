@@ -1,0 +1,147 @@
+DOBC
+
+30-min talk with 30-min demo
+
+GPG in the Real World
+
+On a distributed DevOps team, securely communicating secret information is
+essential. GPG keys have two primary uses: Signing files to verify the
+identity of the person or machine who created them, and encrypting
+communication so that files can only be decrypted by their intended recipient.
+Although it sounds simple, GPG's implementations are notorious for being
+difficult to use and understand. 
+
+This talk will refresh your memory about GPG without delving too deeply into
+the underlying mathematics, then focus mainly on common practical applications
+beyond the scope of your average key-signing party: 
+
+* Best practices for keeping your keys safe, without losing them
+* Revoking compromised keys (and ensuring that you don't trust any key that
+  has been compromised)
+* Sharing the use of a signing key between team members
+* And more!
+
+---------------------------
+
+What's GPG? 
+===========
+
+Disclaimer
+----------
+
+GPG is part of a healthy security diet. 
+
+* Mossad vs Not Mossad
+* All encryption will break in 3-5 years
+* Threat models
+  * Opportunists
+        * full-disk encryption
+        * careful backups
+  * Meanie-faces
+        * identify adversaries' goals + knowledge + resources
+
+The Dream
+----------
+
+figure: how the pieces fit together. Mathematical principle, keyservers.
+World has your pubkey, only you have your privkey. Emphasize that "you" means
+"the person holding the private key". 
+
+Anatomy of a GPG/PGP key
+------------------------
+
+* Public key
+* private key
+* ID
+* fingerprint
+
+How Signing Works
+-----------------
+
+Use PRIVATE key to create a code that can be VERIFIED by the public key
+
+compare to checksums
+
+signature proves that HOLDER OF PRIVATE KEY signed it
+
+How Encryption Works
+--------------------
+
+Use pubkey to transform message into something indistinguishable from
+gibberish to anyone without the private key
+
+HOLDER OF PRIVATE KEY can reverse the transformation and get the message out
+
+Recap
+-----
+
+Signing tells you something about where a message came from, encryption tells
+you something about who can read a message. 
+
+2mins about the Trustweb
+------------------------
+
+(getting someone's key, internet utopia edition)
+
+If I trust Alice, and Alice trust Bob, and Bob trusts Eve, then I trust Eve...
+right?
+
+Go to a keysigning party.
+
+
+Getting someone's key, real life edition
+----------------------------------------
+
+Remember all the bits about how GPG only proves things about *whoever holds
+the key*? We want to map "person holding key" onto "human in real life". 
+
+Good: Use email. Send them your public key.
+    * Think about the threat model.. if someone is already in your email
+      account, you are probably some kind of screwed.
+Better: use email and IRC/Slack/Hipchat. 
+    * Threat model to email: Ernest intercepts my message to Brian, subs a key
+      in and forwards it along, decrypts what Brian sends me then re-encrypts
+      it with the key I originally sent. Very quickly. 
+    * Now how much harder is it to do that on email and IRC/Slack/Hipchat
+      synchronously and consistently? 1 compromised mail server no longer cuts
+      it.
+Best: use voice/video chat to confirm key fingerprint. 
+    * Brian knows what I look/sound like because he interviewed me, and vice
+      versa. Confirm identities (usually just by looking at the person +
+      exchanging pleasantries) then read key fingerprint out loud.
+    * Only way to sabotage this would be if one of us was a bad actor from the
+      beginning, which is far outside the scope of GPG... or really, REALLY
+      good fast 3D rendering + natural language processing + speech generation
+      (basically strong AI)
+
+Optimal: Exchange keys in meatspace. 
+    * This would require not only strong AI but perfect robotics to intercept.
+      Not gonna happen.
+
+(let's all have a meeting together where Alice introduces me to Bob and Bob
+introduces me to Eve and now I know Eve and social pleasantries have proven
+that the introductions were real and not somebody hacking Bob's laptop. If
+you're scared that the Mossad is pointing a gun at any of the participants,
+you have gotten yourself into some deep shit that I am not qualified to advise
+you on.)
+
+What do we use GPG for?
+=======================
+
+Signing packages
+-----------------
+
+* Signing automation concerns
+* Keyservers+revocation matter somewhat
+* Keys are supposed to go to humans; should an org hold a key?
+    * sign members' keys? But what about when Dylan the Disgruntled Departer
+      quits with malice?
+    * subkeys? But what about when everything's broken and only one person is
+      awake?
+* How not to lose keys (sane backups)
+
+Sharing secrets
+---------------
+
+* Key management concerns
+* Proper treatment of decrypted information
