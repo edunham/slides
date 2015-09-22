@@ -47,7 +47,8 @@ encounter, including:
       mention all fields you claim relevance in.
 
 * Aside: Speaker Bios
-    - Typically 3rd-person blurb
+    - Typically 3rd-person blurb, though you can pull off genderless (see my
+      LCA one)
     - Achievement, achievement, fun humanizing fact <use one of Corey's>
     - These often show up in the program
     - Several purposes: Credibility to organizers, credibility to audience
@@ -74,6 +75,41 @@ encounter, including:
 
 * Finding open-source presentation software that fits your needs
 * Designing powerful slides
+
+* Getting It Done
+    - Self-reflection: When have you completed a task that seemed daunting at
+      first? WHY did you succeed? When have you undertaken a task that seemed
+      daunting but failed it? WHY did you fail? OK, how can you apply the
+      things that infuence your failure/success to this talk? 
+      
+      Examples: feel more motivated in the spring? pick a conference in early
+      summer. get overwhelmed by household responsibilities? work with others
+      to help alleviate them. More productive during finals week due to
+      procrastination? time things accordingly!
+
+    - Brain hack: False Deadlines. When you tell a friend, partner, etc. about
+      how nervous you are to give this talk and they ask what they can do,
+      here's your answer: you're going to have an appointment with them to run
+      through your talk and get their feedback. You'll have your slides done.
+      They're to accept no excuses. Do this on a person you respect and fear
+      disappointing, and you'll pull your all-nighter before the rehersal
+      rather than before the real thing. A Saturday morning is great for this
+      -- it's okay for you to be kinda dead the rest of the weekend, and you
+      can capitalize on the energy you get from the adrenaline + their
+      feedback to make some progress after the rehersal. 
+
+      Really any kind of appointment for feedback is great for this, including
+      doing your talk at a local users group. It's okay to suck the first few
+      times. 
+
+    - Brain hack: gamification. Using GitHub's commit graph or a similar
+      "streak tracker", make some progress (however small) to your talk every
+      day. Remember to note necessary improvements (use a tag like TODO or
+      FIXME that you can easily grep for) -- on one day you might have an
+      easier time coming up with tasks that need to be done but a tough time
+      completing them, and on another day you just want a straightforward task
+      to complete without having to get inspired. That's okay; both are forms
+      of progress. 
 
 These tricks will be helpful for experienced presenters looking to learn new
 skills, as well as novice speakers who need some help getting started.
