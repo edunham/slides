@@ -78,6 +78,36 @@ Recap
 Signing tells you something about where a message came from, encryption tells
 you something about who can read a message. 
 
+Making your key
+---------------
+
+TODO
+
+
+Managing your keys
+------------------
+
+* Correct permissions -- no rwx for group or other, and chown to you:you
+* This means you can miss your keys in a backup of the entire filesystem
+* Back up your keys and TEST YOUR BACKUPS. To be really secure, put them on
+  redundant media in case one fails (ie 2 USB sticks from the career fair) and
+  store them somewhere physically safe (ie a relative's family keepsake or
+  lockbox)
+* Back up your PASSPHRASE as well. This is easier if you choose a passphrase
+  that's extremely memorable to you but relatively meaningless to others --
+  emotionally charged events from middle school / high school are good for
+  this, or in-jokes you shared with less-technical friends, or song lyrics you
+  embarrassingly mis-heard, etc.  If there's an image that will jog your
+  memory of the passphrase, store it with your backups. Or draw a picture on a
+  piece of paper, or write down the nth letter of each word in the
+  passphrase... the *act of making* the hint will make the passphrase more
+  memorable to you. 
+* Optionally set a Google alert on your key fingerprint, just to know where
+  it's showing up
+* Use full-disk encryption on your laptop
+
+
+
 2mins about the Trustweb
 ------------------------
 
