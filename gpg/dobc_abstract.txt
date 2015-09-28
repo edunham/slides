@@ -88,6 +88,17 @@ right?
 
 Go to a keysigning party.
 
+keybase.io
+----------
+
+* let's link peoples' GPG keys (mathematical proofs of identity) with their
+  social media accounts (real-life trustweb)! 
+* can be a very nice addendum, or a very bad one
+    * Nice; use it from command line; additional verification of key
+    * Nasty: What if you give keybase your private key and they get hacked?
+* Bottom line: Still don't ever hand out your private keys, and personally
+  confirm you have the right key with the human you're talking to.
+
 
 Getting someone's key, real life edition
 ----------------------------------------
