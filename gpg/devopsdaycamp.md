@@ -48,11 +48,11 @@
 
 ---
 
-# What's GPG? 
+# Acronyms
 
 <section>
 
-# OpenPGP
+## OpenPGP
 
 - RFC4880
 
@@ -66,7 +66,9 @@
 
 </div>
 
-# PGP
+---
+
+## PGP
 
 - OpenPGP-compatible
 
@@ -91,8 +93,9 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 </div>
 
+---
 
-# GnuPG
+## GnuPG
 
 - OpenPGP-compatible
 
@@ -112,7 +115,7 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 ---
 
-# "Best" Practices
+# Best Practices
  
 <section>
 
@@ -136,12 +139,10 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 ---
 
-## "Security Through Obscurity"
+## Security Through Obscurity
 
 - If you could eavesdrop on everything, which messages would interest you
   most?
-
----
 
 </section>
 
@@ -190,12 +191,19 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 </div>
 
-
 <section>
 
-* RSA
-* Elgamal
-* DSA
+---
+
+## RSA
+
+---
+
+## Elgamal
+
+---
+
+## DSA
 
 ---
 
@@ -223,7 +231,7 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 ---
 
-    $ gpg --gen-key
+`gpg --gen-key`
 
 --- 
 
@@ -237,25 +245,25 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 <section>
 
-    $ gpg --list-keys
-    $ gpg --edit-key ABCD1234
+`gpg --list-keys`
+`gpg --edit-key ABCD1234`
 
 ---
 
-    gpg> list
+`gpg> list`
 
 `usage: E` means "editing this key"
 
 ---
 
-    gpg> expire
-    gpg> 1y
+`gpg> expire`
+`gpg> 1y`
 
 --- 
 
 ## Maybe
 
-    $ gpg --keyserver pgp.mit.edu --send-keys ABCD1234
+`gpg --keyserver pgp.mit.edu --send-keys ABCD1234`
 
 </section>
 
@@ -265,7 +273,7 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 ---
 
-    $ gpg -o revoke.asc --gen-revoke <key specifier>
+`gpg -o revoke.asc --gen-revoke <key specifier>`
 
 --- 
 
