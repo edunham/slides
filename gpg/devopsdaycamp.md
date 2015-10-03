@@ -6,6 +6,7 @@
 
 # Me 
 
+> - Not fond of mathematics
 > - "DevOps Engineer", Mozilla Reasearch 
 > - Routinely need to share secret information with international colleagues
 > - Still have to Google this stuff a lot.
@@ -140,6 +141,8 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 - If you could eavesdrop on everything, which messages would interest you
   most?
 
+---
+
 </section>
 
 -------------------------------------------------------------------------------
@@ -163,8 +166,11 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 # Key ID
 
+    4513F798
+
 # Fingerprint
 
+    909F 5042 991A 3A32 7BE1  0F7C 4DA5 9C93 4513 F798
 
 </section>
 
@@ -306,24 +312,56 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 </div>
 
 
-# Recap
+# Quiz 
 
-Signing tells you something about where a message came from, encryption tells
-you something about who can read a message. 
+<section>
+---
 
-# Common Mistakes
+What does a signature (on a message) tell you?
 
-* Failing to set an expiration date (you can always extend it! always!)
-* Failing to make revocation certs
-* Losing passphrases
-* Messing up backups
+---
 
-# Making your key
+What does encryption tell you?
 
-TODO
+---
 
+What does encryption tell everyone else?
 
-# Managing your keys
+--- 
+
+What does a signature (on a key) tell you?
+
+--- 
+
+What does a key's ID tell you?
+
+----
+</section>
+
+# Newbie Mistakes
+
+<section>
+---
+
+## Expiration date
+
+---
+
+## Revocation?
+
+--- 
+
+## Passphrases
+
+---
+
+## Backups
+
+</section>
+
+# Now don't lose them
+
+<div class="notes">
 
 * Correct permissions -- no rwx for group or other, and chown to you:you
 * This means you can miss your keys in a backup of the entire filesystem
@@ -343,44 +381,115 @@ TODO
 * Optionally set a Google alert on your key fingerprint, just to know where
   it's showing up
 * Use full-disk encryption on your laptop
+</div>
 
+<section>
+---
+## File permissions
 
+    ls -al ~/.gnupg
 
-# 2mins about the Trustweb
+---
 
-(getting someone's key, internet utopia edition)
+## Test your backups
 
-If I trust Alice, and Alice trust Bob, and Bob trusts Eve, then I trust Eve...
-right?
+---
 
-Go to a keysigning party.
+## Back up your passphrase
+
+---
+
+## Secure your laptop
+
+</section>
+
+# The Goal
+
+* Each key goes to at most one user
+* Each user maps to a Real Person
+
+# The Trustweb
+
+<section>
+> - I trust Amanda
+> - Amanda trusts Bob.
+> - Bob trusts Cat.
+> - So I trust Cat, right?
+
+---
+
+ - Go to a keysigning party.
+
+---
+
+Do you trust the keyservers?
+
+</section>
+
+-------------------------------------------------------------------------------
 
 # keybase.io
 
-* let's link peoples' GPG keys (mathematical proofs of identity) with their
-  social media accounts (real-life trustweb)! 
-* can be a very nice addendum, or a very bad one
-    * Nice; use it from command line; additional verification of key
-    * Nasty: What if you give keybase your private key and they get hacked?
-* Bottom line: Still don't ever hand out your private keys, and personally
-  confirm you have the right key with the human you're talking to.
+Links cryptographic identity to online communities
 
-# Getting someone's key, real life edition
+<section>
 
-Remember all the bits about how GPG only proves things about *whoever holds
-the key*? We want to map "person holding key" onto "human in real life". 
+---
 
+## it's convenient
+
+--- 
+
+## and poblematic
+
+---
+
+## and people use it.
+
+---
+</section>
+
+# Getting someone's key
+
+<section>
+
+---
+
+Threat model
+
+---
+
+OK: Email them your public key
+
+<div id="notes">
 Good: Use email. Send them your public key.
     * Think about the threat model.. if someone is already in your email
       account, you are probably some kind of screwed.
-Better: use email and IRC/Slack/Hipchat. 
+</div>
+
+---
+
+Better: Email and IRC
+
+<div id="notes">
+
+    Better: use email and IRC/Slack/Hipchat. 
     * Threat model to email: Ernest intercepts my message to Brian, subs a key
       in and forwards it along, decrypts what Brian sends me then re-encrypts
       it with the key I originally sent. Very quickly. 
     * Now how much harder is it to do that on email and IRC/Slack/Hipchat
       synchronously and consistently? 1 compromised mail server no longer cuts
       it.
-Best: use voice/video chat to confirm key fingerprint. 
+
+</div>
+
+---
+
+Good: Voice/video chat to confirm key fingerprints
+
+<div id="notes">
+
+    Best: use voice/video chat to confirm key fingerprint. 
     * Brian knows what I look/sound like because he interviewed me, and vice
       versa. Confirm identities (usually just by looking at the person +
       exchanging pleasantries) then read key fingerprint out loud.
@@ -389,16 +498,28 @@ Best: use voice/video chat to confirm key fingerprint.
       good fast 3D rendering + natural language processing + speech generation
       (basically strong AI)
 
-Optimal: Exchange keys in meatspace. 
-    * This would require not only strong AI but perfect robotics to intercept.
-      Not gonna happen.
+</div>
 
-(let's all have a meeting together where Alice introduces me to Bob and Bob
-introduces me to Eve and now I know Eve and social pleasantries have proven
-that the introductions were real and not somebody hacking Bob's laptop. If
-you're scared that the Mossad is pointing a gun at any of the participants,
-you have gotten yourself into some deep shit that I am not qualified to advise
-you on.)
+--- 
+
+Best: Exchange keys in person
+
+<div id="notes">
+
+    Optimal: Exchange keys in meatspace. 
+        * This would require not only strong AI but perfect robotics to intercept.
+          Not gonna happen.
+
+    (let's all have a meeting together where Alice introduces me to Bob and Bob
+    introduces me to Eve and now I know Eve and social pleasantries have proven
+    that the introductions were real and not somebody hacking Bob's laptop. If
+    you're scared that the Mossad is pointing a gun at any of the participants,
+    you have gotten yourself into some deep shit that I am not qualified to advise
+    you on.)
+
+</div>
+
+</section>
 
 # Subkeys!
 
