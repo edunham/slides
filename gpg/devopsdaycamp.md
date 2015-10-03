@@ -52,6 +52,8 @@
 
 <section>
 
+---
+
 ## OpenPGP
 
 - RFC4880
@@ -121,14 +123,10 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 ---
 
-!["Vankahvalti" by Tanyel - Own work. Licensed under CC BY-SA 3.0 via Commons
-- https://commons.wikimedia.org/wiki/File:Vankahvalti.jpg#/media/File:Vankahvalti.jpg](pics/breakfast.jpg)
-
----
-
 ## 3-5 years
 
-- RSA-2048 lasts till ~2030 (https://www.gnupg.org/faq/gnupg-faq.html)
+- RSA-2048 lasts till ~2030 
+- (https://www.gnupg.org/faq/gnupg-faq.html)
 
 ---
 
@@ -139,10 +137,7 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 ---
 
-## Security Through Obscurity
-
-- If you could eavesdrop on everything, which messages would interest you
-  most?
+If you could eavesdrop on everything, which messages would interest you most?
 
 </section>
 
@@ -197,17 +192,24 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 ## RSA
 
+* Rivest, Shamir, Adleman
+* 1977
+* Patented till 2010
+
 ---
 
 ## Elgamal
+
+* 1985
+* Encrypt-only
 
 ---
 
 ## DSA
 
----
-
-## What's the best?
+* Digital Signature Algorithm
+* 1993
+* Sign-only
 
 --- 
 
@@ -246,6 +248,7 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 <section>
 
 `gpg --list-keys`
+
 `gpg --edit-key ABCD1234`
 
 ---
@@ -257,6 +260,7 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 ---
 
 `gpg> expire`
+
 `gpg> 1y`
 
 --- 
@@ -293,6 +297,43 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 </section>
 
+# Working with keys
+
+<section>
+
+`~/.gnupg`
+
+---
+
+## <key identifier>
+
+* Name, email, key ID
+
+---
+
+## Export a public key
+
+`gpg --export <key identifier>` for binary
+
+`gpg --armor --export <key identifier>` for ascii
+
+---
+
+## Import someone else's public key
+
+`gpg --import thing.gpg`
+
+---
+
+## Signing and examining their key
+
+`gpg --edit-key <key identifier>`
+
+* `gpg> sign`
+* `gpg> check`
+
+</section>
+
 # Signing
 
 <div class="notes">
@@ -305,6 +346,35 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 </div>
 
+<section>
+
+---
+
+## Sign a document
+
+`gpg --clearsign doc.txt`
+
+---
+
+    -----BEGIN PGP SIGNED MESSAGE-----
+    Hash: SHA1
+
+    [...]
+    -----BEGIN PGP SIGNATURE-----
+    Version: GnuPG v0.9.7 (GNU/Linux)
+    Comment: For info see http://www.gnupg.org
+
+    iEYEARECAAYFAjdYCQoACgkQJ9S6ULt1dqz6IwCfQ7wP6i/i8HhbcOSKF4ELyQB1
+    oCoAoOuqpRqEzr4kOkQqHRLE/b8/Rw2k
+    =y6kj
+    -----END PGP SIGNATURE-----
+
+---
+
+`gpg --verify doc.txt`
+
+</section>
+
 
 # Encryption
 
@@ -315,12 +385,43 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 </div>
 
+<section>
+
+---
+
+## First, get their key. 
+
+---
+
+`gpg --output file.gpg --encrypt`
+`--recipient <key identifier> file`
+
+</section>
+
+
 # Decryption
 
 <div class="notes">
     HOLDER OF PRIVATE KEY can reverse the transformation and get the message out
 </div>
 
+<section>
+
+`gpg --decrypt thing.gpg`
+
+---
+
+## `--output unencrypted.txt`
+
+---
+
+## `rm unencrypted.txt`
+
+---
+
+## `extundelete`
+
+</section>
 
 # Quiz 
 
@@ -350,6 +451,9 @@ What does a key's ID tell you?
 # Newbie Mistakes
 
 <section>
+
+What could go wrong?
+
 ---
 
 ## Expiration date
@@ -368,7 +472,7 @@ What does a key's ID tell you?
 
 </section>
 
-# Now don't lose them
+# Don't lose your key
 
 <div class="notes">
 
@@ -396,6 +500,10 @@ What does a key's ID tell you?
 
 ---
 
+## What does 'lose' mean?
+
+---
+
 ## File permissions
 
     ls -al ~/.gnupg
@@ -414,9 +522,11 @@ What does a key's ID tell you?
 
 </section>
 
-# The Goal
+# Applications
 
-* Each key goes to at most one user
+# The Dream
+
+* Each key maps to at most one user
 * Each user maps to a Real Person
 
 # The Trustweb
@@ -520,25 +630,72 @@ Good: Use email. Send them your public key.
 
 </section>
 
+# GPG In the Wild
+
+<section>
+
+---
+
+# Proving Identity of...
+
+* Individuals
+* Teams
+* Companies
+
+---
+
+# Proving file origin
+
+---
+
+# Sharing Secrets
+
+* Team collaboration
+* Security/CVE reporting
+
+</section>
+
+---
+
+# Teams?!
+
+<section>
+
+---
+
+## Let's just share one key!
+
+---
+
+## What happens when someone leaves?
+
+--- 
+
+## Servers sign files too. Do you trust them?
+
+</section>
+
 # Subkeys!
 
 <section>
 
 ---
 
+https://wiki.debian.org/Subkeys
+
+---
+
 ## Delegate some of your key's powers
 
+`gpg --edit-key <key identifier>`
+`gpg> addkey`
+
 --- 
 
-## Which of my devices signed that?
+## Why?
 
---- 
-
-## Back when RSA was patented
-
-* Elgamal for encryption
-
-* DSA for signing
+- Which of my devices signed that?
+- RSA used to be patented
 
 ---
 
@@ -562,46 +719,11 @@ Good: Use email. Send them your public key.
 
 ---
 
+## How?
+
 * `gfshare`
 *  ssss/ssss-combine (for passphrases)
 
 </section>
 
-# In the Wild
-
-<section>
-
----
-
-# Proving Identity
-
----
-
-# Proving file origin
-
----
-
-# Sharing Secrets
-
-</section>
-
-<div class="notes">
-# What do we use GPG for?
-
-# Signing packages
-
-* Signing automation concerns
-* Keyservers+revocation matter somewhat
-* Keys are supposed to go to humans; should an org hold a key?
-    * sign members' keys? But what about when Dylan the Disgruntled Departer
-      quits with malice?
-    * subkeys? But what about when everything's broken and only one person is
-      awake?
-* How not to lose keys (sane backups)
-
-# Sharing secrets
-
-* Key management concerns
-* Proper treatment of decrypted information
-</div>
 
