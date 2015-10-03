@@ -1,8 +1,8 @@
-DOBC
+% GPG in the Real World 
+% edunham 
+% October 3, 2015
 
-30-min talk with 30-min demo
-
-GPG in the Real World
+# GPG in the Real World
 
 On a distributed DevOps team, securely communicating secret information is
 essential. GPG keys have two primary uses: Signing files to verify the
@@ -11,9 +11,17 @@ communication so that files can only be decrypted by their intended recipient.
 Although it sounds simple, GPG's implementations are notorious for being
 difficult to use and understand. 
 
+---
+
+#
+
 This talk will refresh your memory about GPG without delving too deeply into
 the underlying mathematics, then focus mainly on common practical applications
 beyond the scope of your average key-signing party: 
+
+---
+
+#
 
 * Best practices for keeping your keys safe, without losing them
 * Revoking compromised keys (and ensuring that you don't trust any key that
@@ -21,20 +29,17 @@ beyond the scope of your average key-signing party:
 * Sharing the use of a signing key between team members
 * And more!
 
----------------------------
+---
 
-What's GPG? 
-===========
+# What's GPG? 
 
-Abbreviation Disambiguation
----------------------------
+## Abbreviation Disambiguation
 
 OpenPGP is the "proposed standard" implemented by both PGP and GPG
 
 https://tools.ietf.org/html/rfc4880
 
-PGP
----
+# PGP
 
 A specific data encryption and decryption program, authored by Phil Zimmerman
 and originally released in 1991, for singing and encrypting/decrypting files.
@@ -50,16 +55,14 @@ https://en.wikipedia.org/wiki/Bernstein_v._United_States and
 https://en.wikipedia.org/wiki/Junger_v._Daley have ruled that source code to
 encryption software is "speech"
 
-GnuPG
------
+# GnuPG
 
 GPG is a software package that's also compliant with the OpenPGP standard, but
 doesn't use any patented or non-free algorithms. (PGP uses IDEA, whose
 patent expired in 2012)
 
 
-Disclaimer
-----------
+# Disclaimer
 
 GPG is part of a healthy security diet. 
 
@@ -76,16 +79,14 @@ GPG is part of a healthy security diet.
         * keyloggers, network monitoring... go to Pono's talk
 * encrypting only certain messages makes them MORE interesting to an eavesdropper
 
-Anatomy of a GPG/PGP key
-------------------------
+# Anatomy of a GPG/PGP key
 
 * Public key
 * private key
 * ID
 * fingerprint
 
-Different kinds of keys
------------------------
+# Different kinds of keys
 
 A key is still basically some magic numbers. There are different ways to get
 these numbers. 
@@ -94,8 +95,7 @@ these numbers.
 * Elgamal
 * DSA
 
-How Signing Works
------------------
+# How Signing Works
 
 Use PRIVATE key to create a code that can be VERIFIED by the public key
 
@@ -103,36 +103,31 @@ compare to checksums
 
 signature proves that HOLDER OF PRIVATE KEY signed it
 
-How Encryption Works
---------------------
+# How Encryption Works
 
 Use pubkey to transform message into something indistinguishable from
 gibberish to anyone without the private key
 
 HOLDER OF PRIVATE KEY can reverse the transformation and get the message out
 
-Recap
------
+# Recap
 
 Signing tells you something about where a message came from, encryption tells
 you something about who can read a message. 
 
-Common Mistakes
----------------
+# Common Mistakes
 
 * Failing to set an expiration date (you can always extend it! always!)
 * Failing to make revocation certs
 * Losing passphrases
 * Messing up backups
 
-Making your key
----------------
+# Making your key
 
 TODO
 
 
-Managing your keys
-------------------
+# Managing your keys
 
 * Correct permissions -- no rwx for group or other, and chown to you:you
 * This means you can miss your keys in a backup of the entire filesystem
@@ -155,8 +150,7 @@ Managing your keys
 
 
 
-2mins about the Trustweb
-------------------------
+# 2mins about the Trustweb
 
 (getting someone's key, internet utopia edition)
 
@@ -165,8 +159,7 @@ right?
 
 Go to a keysigning party.
 
-keybase.io
-----------
+# keybase.io
 
 * let's link peoples' GPG keys (mathematical proofs of identity) with their
   social media accounts (real-life trustweb)! 
@@ -176,9 +169,7 @@ keybase.io
 * Bottom line: Still don't ever hand out your private keys, and personally
   confirm you have the right key with the human you're talking to.
 
-
-Getting someone's key, real life edition
-----------------------------------------
+# Getting someone's key, real life edition
 
 Remember all the bits about how GPG only proves things about *whoever holds
 the key*? We want to map "person holding key" onto "human in real life". 
@@ -213,8 +204,7 @@ you're scared that the Mossad is pointing a gun at any of the participants,
 you have gotten yourself into some deep shit that I am not qualified to advise
 you on.)
 
-Subkeys!
-========
+# Subkeys!
 
 * elgamal is encrypt-only, dsa is sign-only, rsa was patented for a long time
 
@@ -225,19 +215,16 @@ Subkeys!
   subkey, but if they encrypt it for your main key, your subkey can't decrypt
   it (?)
 
-Secret Sharing Schemes!
-=======================
+# Secret Sharing Schemes!
 
 * gfshare, ssss/ssss-combine (for passphrases)
 
 * Mathematically force x of the y keyholders to get together to sign or
   decrypt a file
 
-What do we use GPG for?
-=======================
+# What do we use GPG for?
 
-Signing packages
------------------
+# Signing packages
 
 * Signing automation concerns
 * Keyservers+revocation matter somewhat
@@ -248,8 +235,7 @@ Signing packages
       awake?
 * How not to lose keys (sane backups)
 
-Sharing secrets
----------------
+# Sharing secrets
 
 * Key management concerns
 * Proper treatment of decrypted information
