@@ -522,22 +522,70 @@ Good: Use email. Send them your public key.
 
 # Subkeys!
 
-* elgamal is encrypt-only, dsa is sign-only, rsa was patented for a long time
+<section>
 
-* If you make a subkey, you can sign stuff with it and someone who trusts your
-  main key can figure out to trust the signature
+---
 
-* if someone encrypts stuff for your subkey, you can decrypt it with that
-  subkey, but if they encrypt it for your main key, your subkey can't decrypt
-  it (?)
+## Delegate some of your key's powers
+
+--- 
+
+## Which of my devices signed that?
+
+--- 
+
+## Back when RSA was patented
+
+* Elgamal for encryption
+
+* DSA for signing
+
+---
+
+## Works great for signing!
+
+---
+
+## Less great for getting encrypted messages
+
+</section>
 
 # Secret Sharing Schemes!
 
-* gfshare, ssss/ssss-combine (for passphrases)
+<section>
 
-* Mathematically force x of the y keyholders to get together to sign or
-  decrypt a file
+## Let any X of Y keyholders decrypt a secret
 
+---
+
+## Why?
+
+---
+
+* `gfshare`
+*  ssss/ssss-combine (for passphrases)
+
+</section>
+
+# In the Wild
+
+<section>
+
+---
+
+# Proving Identity
+
+---
+
+# Proving file origin
+
+---
+
+# Sharing Secrets
+
+</section>
+
+<div class="notes">
 # What do we use GPG for?
 
 # Signing packages
@@ -555,3 +603,5 @@ Good: Use email. Send them your public key.
 
 * Key management concerns
 * Proper treatment of decrypted information
+</div>
+
