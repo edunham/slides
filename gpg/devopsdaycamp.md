@@ -2,82 +2,134 @@
 % edunham 
 % October 3, 2015
 
-# GPG in the Real World
+---
 
-On a distributed DevOps team, securely communicating secret information is
-essential. GPG keys have two primary uses: Signing files to verify the
-identity of the person or machine who created them, and encrypting
-communication so that files can only be decrypted by their intended recipient.
-Although it sounds simple, GPG's implementations are notorious for being
-difficult to use and understand. 
+# I
+
+> - Work as a "DevOps Engineer" for Mozilla's Reasearch team (Rust, Servo)
+> - Routinely need to share secret information with international colleagues
+> - Still have to Google this stuff a lot.
+
+<div class="notes">
+
+    On a distributed DevOps team, securely communicating secret information is
+    essential. GPG keys have two primary uses: Signing files to verify the
+    identity of the person or machine who created them, and encrypting
+    communication so that files can only be decrypted by their intended 
+    recipient.  Although it sounds simple, GPG's implementations are notorious 
+    for being difficult to use and understand. 
+
+</div>
+
 
 ---
 
-#
+# You
 
-This talk will refresh your memory about GPG without delving too deeply into
-the underlying mathematics, then focus mainly on common practical applications
-beyond the scope of your average key-signing party: 
+> - Heard of GPG?
+> - Been to a key signing party?
+> - Have a keybase.io account?
+> - Feel like you understand these tools?
 
----
+<div class="notes">
 
-#
+    This talk will refresh your memory about GPG without delving too deeply into
+    the underlying mathematics, then focus mainly on common practical applications
+    beyond the scope of your average key-signing party: 
 
-* Best practices for keeping your keys safe, without losing them
-* Revoking compromised keys (and ensuring that you don't trust any key that
-  has been compromised)
-* Sharing the use of a signing key between team members
-* And more!
+    * Best practices for keeping your keys safe, without losing them
+    * Revoking compromised keys (and ensuring that you don't trust any key that
+      has been compromised)
+    * Sharing the use of a signing key between team members
+    * And more!
+
+</div>
 
 ---
 
 # What's GPG? 
 
-## Abbreviation Disambiguation
+<section>
 
-OpenPGP is the "proposed standard" implemented by both PGP and GPG
+# OpenPGP
 
-https://tools.ietf.org/html/rfc4880
+- RFC4880
 
 # PGP
 
-A specific data encryption and decryption program, authored by Phil Zimmerman
-and originally released in 1991, for singing and encrypting/decrypting files.
-
-Originally meant to develop a "decentralized, fault-tolerant" web of trust,
-now supports "trust signatures" to allow creation of certificate authorities
-
-Source was published as Zimmermann, Philip (1995). PGP Source Code and
-Internals. MIT Press. ISBN 0-262-24039-4. -- you could scan the book, OCR it,
-and have PGP, because book export is legal under 1st amendment
-
-https://en.wikipedia.org/wiki/Bernstein_v._United_States and
-https://en.wikipedia.org/wiki/Junger_v._Daley have ruled that source code to
-encryption software is "speech"
+Zimmermann, Philip (1995). PGP Source Code and
+Internals. MIT Press. ISBN 0-262-24039-4.
 
 # GnuPG
 
-GPG is a software package that's also compliant with the OpenPGP standard, but
-doesn't use any patented or non-free algorithms. (PGP uses IDEA, whose
-patent expired in 2012)
+- No proprietary algorithms
 
+<div class="notes">
 
-# Disclaimer
+    OpenPGP is the "proposed standard" implemented by both PGP and GPG
 
-GPG is part of a healthy security diet. 
+    https://tools.ietf.org/html/rfc4880
 
-* Mossad vs Not Mossad
-* Assume all encryption will break in 3-5 years
-* RSA-2048 is expected to hold till 2030 or so, according to https://www.gnupg.org/faq/gnupg-faq.html
+    # PGP
 
-* Threat models
-  * Opportunists
-        * full-disk encryption
-        * careful backups
-  * Jerks
-        * identify adversaries' goals + knowledge + resources
-        * keyloggers, network monitoring... go to Pono's talk
-* encrypting only certain messages makes them MORE interesting to an eavesdropper
+    A specific data encryption and decryption program, authored by Phil Zimmerman
+    and originally released in 1991, for singing and encrypting/decrypting files.
+
+    Originally meant to develop a "decentralized, fault-tolerant" web of trust,
+    now supports "trust signatures" to allow creation of certificate authorities
+
+    Source was published as Zimmermann, Philip (1995). PGP Source Code and
+    Internals. MIT Press. ISBN 0-262-24039-4. -- you could scan the book, OCR it,
+    and have PGP, because book export is legal under 1st amendment
+
+    https://en.wikipedia.org/wiki/Bernstein_v._United_States and
+    https://en.wikipedia.org/wiki/Junger_v._Daley have ruled that source code to
+    encryption software is "speech"
+
+    # GnuPG
+
+    GPG is a software package that's also compliant with the OpenPGP standard, but
+    doesn't use any patented or non-free algorithms. (PGP uses IDEA, whose
+    patent expired in 2012)
+
+</div>
+
+</section>
+
+---
+
+# "Best" Practices
+ 
+<section>
+
+---
+
+!["Vankahvalti" by Tanyel - Own work. Licensed under CC BY-SA 3.0 via Commons
+- https://commons.wikimedia.org/wiki/File:Vankahvalti.jpg#/media/File:Vankahvalti.jpg](pics/breakfast.jpg)
+
+---
+
+## 3-5 years
+
+- RSA-2048 lasts till ~2030 (https://www.gnupg.org/faq/gnupg-faq.html)
+
+---
+
+## Threat model
+
+- Mossad vs Not Mossad
+- https://www.usenix.org/system/files/1401_08-12_mickens.pdf
+
+---
+
+## "Security Through Obscurity"
+
+- If you could eavesdrop on everything, which messages would interest you
+  most?
+
+</section>
+
+-------------------------------------------------------------------------------
 
 # Anatomy of a GPG/PGP key
 
