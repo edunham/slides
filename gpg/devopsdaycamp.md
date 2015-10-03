@@ -176,18 +176,6 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 # Different kinds of keys
 
-<section>
-
-* RSA
-* Elgamal
-* DSA
-
----
-
-## What's the best?
-
-</section>
-
 <div class="notes">
 
     See page 64 of http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf
@@ -202,6 +190,21 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 </div>
 
+
+<section>
+
+* RSA
+* Elgamal
+* DSA
+
+---
+
+## What's the best?
+
+--- 
+
+</section>
+
 # Creating a Key
 
 <section>
@@ -214,7 +217,7 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 ## Choose your Passphrase
 
--- 
+--- 
 
 ## Mark your Calendar
 
@@ -224,10 +227,9 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 --- 
 
-    Not enough random bytes available.  Please do some other work to give
-    the OS a chance to collect more entropy!
-
----
+    Not enough random bytes available.  Please do some 
+    other work to give the OS a chance to collect 
+    more entropy!
 
 </section>
 
@@ -298,7 +300,7 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 # Encryption
 
-<div class="notes>
+<div class="notes">
 
     Use pubkey to transform message into something indistinguishable from
     gibberish to anyone without the private key
@@ -335,7 +337,6 @@ What does a signature (on a key) tell you?
 
 What does a key's ID tell you?
 
-----
 </section>
 
 # Newbie Mistakes
@@ -384,7 +385,9 @@ What does a key's ID tell you?
 </div>
 
 <section>
+
 ---
+
 ## File permissions
 
     ls -al ~/.gnupg
@@ -432,46 +435,30 @@ Do you trust the keyservers?
 
 Links cryptographic identity to online communities
 
-<section>
-
 ---
+
+<section>
 
 ## it's convenient
 
 --- 
 
-## and poblematic
+## and problematic
 
 ---
 
 ## and people use it.
 
 ---
+
 </section>
 
 # Getting someone's key
 
-<section>
-
----
-
-Threat model
-
----
-
-OK: Email them your public key
-
-<div id="notes">
+<div class="notes">
 Good: Use email. Send them your public key.
     * Think about the threat model.. if someone is already in your email
       account, you are probably some kind of screwed.
-</div>
-
----
-
-Better: Email and IRC
-
-<div id="notes">
 
     Better: use email and IRC/Slack/Hipchat. 
     * Threat model to email: Ernest intercepts my message to Brian, subs a key
@@ -481,14 +468,6 @@ Better: Email and IRC
       synchronously and consistently? 1 compromised mail server no longer cuts
       it.
 
-</div>
-
----
-
-Good: Voice/video chat to confirm key fingerprints
-
-<div id="notes">
-
     Best: use voice/video chat to confirm key fingerprint. 
     * Brian knows what I look/sound like because he interviewed me, and vice
       versa. Confirm identities (usually just by looking at the person +
@@ -497,14 +476,6 @@ Good: Voice/video chat to confirm key fingerprints
       beginning, which is far outside the scope of GPG... or really, REALLY
       good fast 3D rendering + natural language processing + speech generation
       (basically strong AI)
-
-</div>
-
---- 
-
-Best: Exchange keys in person
-
-<div id="notes">
 
     Optimal: Exchange keys in meatspace. 
         * This would require not only strong AI but perfect robotics to intercept.
@@ -518,6 +489,26 @@ Best: Exchange keys in person
     you on.)
 
 </div>
+
+<section>
+
+## Threat model
+
+---
+
+## Email them your public key
+
+---
+
+## Email and IRC
+
+---
+
+## Voice/video chat to confirm key fingerprints
+
+--- 
+
+## Exchange keys in person
 
 </section>
 
