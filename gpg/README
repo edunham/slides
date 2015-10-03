@@ -1,0 +1,5 @@
+assuming there's a clone of https://github.com/hakimel/reveal.js/ sitting in
+this directory. hax.
+
+$ pandoc -t revealjs devopsdaycamp.md -o reveal --self-contained --css reveal.js/css/theme/black.css 
+
