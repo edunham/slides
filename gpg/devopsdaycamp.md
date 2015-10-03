@@ -4,9 +4,9 @@
 
 ---
 
-# I
+# Me 
 
-> - Work as a "DevOps Engineer" for Mozilla's Reasearch team (Rust, Servo)
+> - "DevOps Engineer", Mozilla Reasearch 
 > - Routinely need to share secret information with international colleagues
 > - Still have to Google this stuff a lot.
 
@@ -55,22 +55,24 @@
 
 - RFC4880
 
-# PGP
-
-Zimmermann, Philip (1995). PGP Source Code and
-Internals. MIT Press. ISBN 0-262-24039-4.
-
-# GnuPG
-
-- No proprietary algorithms
-
 <div class="notes">
 
     OpenPGP is the "proposed standard" implemented by both PGP and GPG
 
+    standard, not a program
+
     https://tools.ietf.org/html/rfc4880
 
-    # PGP
+</div>
+
+# PGP
+
+- OpenPGP-compatible
+
+Zimmermann, Philip (1995). PGP Source Code and
+Internals. MIT Press. ISBN 0-262-24039-4.
+
+<div class="notes">
 
     A specific data encryption and decryption program, authored by Phil Zimmerman
     and originally released in 1991, for singing and encrypting/decrypting files.
@@ -85,6 +87,17 @@ Internals. MIT Press. ISBN 0-262-24039-4.
     https://en.wikipedia.org/wiki/Bernstein_v._United_States and
     https://en.wikipedia.org/wiki/Junger_v._Daley have ruled that source code to
     encryption software is "speech"
+
+</div>
+
+
+# GnuPG
+
+- OpenPGP-compatible
+
+- No proprietary algorithms
+
+<div class="notes">
 
     # GnuPG
 
@@ -131,36 +144,167 @@ Internals. MIT Press. ISBN 0-262-24039-4.
 
 -------------------------------------------------------------------------------
 
-# Anatomy of a GPG/PGP key
+# Anatomy of a GPG key
 
-* Public key
-* private key
-* ID
-* fingerprint
+<div class="notes">
+
+    * Public key
+    * private key
+    * ID
+    * fingerprint
+
+</div>
+
+<section>
+
+# Public Key
+
+# Private Key
+
+# Key ID
+
+# Fingerprint
+
+
+</section>
 
 # Different kinds of keys
 
-A key is still basically some magic numbers. There are different ways to get
-these numbers. 
+<section>
 
 * RSA
 * Elgamal
 * DSA
 
-# How Signing Works
+---
 
-Use PRIVATE key to create a code that can be VERIFIED by the public key
+## What's the best?
 
-compare to checksums
+</section>
 
-signature proves that HOLDER OF PRIVATE KEY signed it
+<div class="notes">
 
-# How Encryption Works
+    See page 64 of http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf
 
-Use pubkey to transform message into something indistinguishable from
-gibberish to anyone without the private key
+    RSA: both encrypt and decrypt
 
-HOLDER OF PRIVATE KEY can reverse the transformation and get the message out
+    DSA: Signing only
+
+    Elgamal: Encryption only
+
+    This is why you have the RSA vs DSA/ElGamal choice
+
+</div>
+
+# Creating a Key
+
+<section>
+
+---
+
+## Why?
+
+---
+
+## Choose your Passphrase
+
+-- 
+
+## Mark your Calendar
+
+---
+
+    $ gpg --gen-key
+
+--- 
+
+    Not enough random bytes available.  Please do some other work to give
+    the OS a chance to collect more entropy!
+
+---
+
+</section>
+
+# Expiration
+
+<section>
+
+    $ gpg --list-keys
+    $ gpg --edit-key ABCD1234
+
+---
+
+    gpg> list
+
+`usage: E` means "editing this key"
+
+---
+
+    gpg> expire
+    gpg> 1y
+
+--- 
+
+## Maybe
+
+    $ gpg --keyserver pgp.mit.edu --send-keys ABCD1234
+
+</section>
+
+# Revocation
+
+<section>
+
+---
+
+    $ gpg -o revoke.asc --gen-revoke <key specifier>
+
+--- 
+
+    Please select the reason for the revocation:
+      0 = No reason specified
+      1 = Key has been compromised
+      2 = Key is superseded
+      3 = Key is no longer used
+      Q = Cancel
+    (Probably you want to select 1 here)
+
+---
+
+## Back up that cert.
+
+---
+
+</section>
+
+# Signing
+
+<div class="notes">
+
+    Use PRIVATE key to create a code that can be VERIFIED by the public key
+
+    compare to checksums
+
+    signature proves that HOLDER OF PRIVATE KEY signed it
+
+</div>
+
+
+# Encryption
+
+<div class="notes>
+
+    Use pubkey to transform message into something indistinguishable from
+    gibberish to anyone without the private key
+
+</div>
+
+# Decryption
+
+<div class="notes">
+    HOLDER OF PRIVATE KEY can reverse the transformation and get the message out
+</div>
+
 
 # Recap
 
