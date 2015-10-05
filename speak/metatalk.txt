@@ -73,8 +73,67 @@ encounter, including:
       polish it to sound as good as possible. Be careful making technical
       promises; you'll be stuck with them. 
 
-* Finding open-source presentation software that fits your needs
 * Designing powerful slides
+    - What are *your* favorite slides? 
+    - What happens when an audience gets bored? (tweeting during talks)
+    - Be aware of different learning styles, how your learning style biases
+      your preferences, how you can accomodate those who learn differently
+      from how you teach
+    - The "Don't"s:
+        * Unreadable stuff when it should be readable
+            * walls of text
+            * poor contrast
+            * tiny or terrible fonts
+        * Distractions / unwanted diversions
+        * Excessive dependence on slides (have a backup plan if the
+          projector's illegible to those in the back)
+        * Talk too fast
+            * Too many slides -> pressure to hurry
+            * Well paced or evenly timed -> reminder to stretch content when
+              needed
+            * Too few -> chaos and disasters, unless you've practiced a LOT
+        * Don't bikeshed too hard about tools.
+    - What's left? (the "Do"s)
+        * One slide per 1-5min topic (depending on your style)
+        * Slide focuses the chunk of information they need
+        * Slide augments words with a key term, image, or number
+        * If transitions are important, stick them in your speaker console
+
+* Finding open-source presentation software that fits your needs
+    - First, identify your needs. 
+        * Speaker console?
+        * Printable?
+        * Web-able?
+            * mobile?
+        * Single-file-able?
+    - How's your relationship with technology? Will fancy typesetting entice
+      you to work on your slides, or scare you away from them?
+    - What kind of graphic design will make you feel most confident on stage?
+      Globally agreeable but generic, or customized to show off your skills?
+    - How will you distribute the slides after the talk?
+
+    - There are many tools. For example: 
+
+        I sometimes need a speaker console. Some confs want me to reduce the
+        slides to a single, "printable" file. I like keeping all my old talks
+        online, as mementoes and reference material. 
+
+        I like writing a text file that describes my slides, then typing a
+        magic incantation which emits a visually pleasing file. My slides tend
+        to have big letters and full-screen photos. 
+
+        I started out with Hieroglyph, for an education project where the
+        slides were also built as Sphinx docs. I wrote .rst slides, had many
+        directories per presentation, and often ended up in Pandoc hell.
+        Recently I've been playing with reveal.js, since it's more featureful
+        than dzslides, snazzier than Hieroglyph, etc.
+
+    - LibreOffice Impress
+    - Hieroglyph
+    - dzslides
+    - Beamer
+    - reveal.js
+    - buid your own
 
 * Getting It Done
     - Self-reflection: When have you completed a task that seemed daunting at
