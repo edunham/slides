@@ -27,6 +27,9 @@ encounter, including:
     - have you wished for the definitive guide to <thing>? wished badly enough
       to make you willing to write it? (this was my Git talk. people loved
       it.)
+
+    OPEN TOOLS: notes and reminder applications
+
     - Budget. Will work pay to send you exotic places if you talk about
       something work-related? Are you limited to conferences that reimburse
       travel, or offer stipends? Might have to craft talk to fit such a CFP.
@@ -37,6 +40,8 @@ encounter, including:
     - experts tend to forget what parts are confusing as a noob. this means
       if you're JUST BARELY DE-NOOBED, you're in the BEST place to bootstrap
       others.
+
+    OPEN TOOLS: aggregate existing docs and teach it with your own spin
  
 * Finding the right conference for your topic
     - travel budget...
@@ -45,6 +50,8 @@ encounter, including:
     - Super keen on getting in? For many confs, it's ok to offer a couple
       *disparate* ideas. Differentiate them clearly, and craft your bio to
       mention all fields you claim relevance in.
+
+    OPEN TOOLS: stalk other speakers' portfolios; oreilly list; my calendar?
 
 * Aside: Speaker Bios
     - Typically 3rd-person blurb, though you can pull off genderless (see my
@@ -56,6 +63,8 @@ encounter, including:
       imagine your talk as an unpleasant experience with a
       too-thick-to-understand accent. This would totally happen to me if I
       tried to present in my own second language. 
+
+    OPEN TOOLS: that job description analyzer thing; also hemingway app
 
 * Marketing a talk proposal with a convincing abstract
     - Know your audience? Serve your audience. Bring value to your audience.
@@ -73,6 +82,7 @@ encounter, including:
       polish it to sound as good as possible. Be careful making technical
       promises; you'll be stuck with them. 
 
+<<<<<<< HEAD
 * Designing powerful slides
     - What are *your* favorite slides? 
     - What happens when an audience gets bored? (tweeting during talks)
@@ -134,6 +144,11 @@ encounter, including:
     - Beamer
     - reveal.js
     - buid your own
+
+* Designing powerful slides
+    - minimalism
+    - complementary art
+    - consisten theme
 
 * Getting It Done
     - Self-reflection: When have you completed a task that seemed daunting at
