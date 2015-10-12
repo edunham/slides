@@ -6,6 +6,10 @@ good enough or how to start? I was in the same situation 2 years ago, but
 since then I've given over a dozen talks at a variety of different tech
 conferences.
 
+These tricks will be helpful for experienced presenters looking to learn new
+skills, as well as novice speakers who need some help getting started.
+
+
 This talk will share solutions to many of the problems which aspiring speakers
 encounter, including:
 
@@ -82,7 +86,6 @@ encounter, including:
       polish it to sound as good as possible. Be careful making technical
       promises; you'll be stuck with them. 
 
-<<<<<<< HEAD
 * Designing powerful slides
     - What are *your* favorite slides? 
     - What happens when an audience gets bored? (tweeting during talks)
@@ -108,6 +111,9 @@ encounter, including:
         * Slide focuses the chunk of information they need
         * Slide augments words with a key term, image, or number
         * If transitions are important, stick them in your speaker console
+    - minimalism
+    - consistent theme
+    OPEN TOOLS: hemingwrite
 
 * Finding open-source presentation software that fits your needs
     - First, identify your needs. 
@@ -145,10 +151,21 @@ encounter, including:
     - reveal.js
     - buid your own
 
-* Designing powerful slides
-    - minimalism
-    - complementary art
-    - consisten theme
+    - your presentation is not "done" until you can give it from 90% of the
+      computers in the room, at 5mins notice, without internet connectivity
+      during the talk.
+
+* Taunting the Demo Gods
+    - Live demonstrations will probably fail. This is accepted as a fact of
+      life. Are you okay with failing awkwardly in public?
+    - if not, there are options:
+        * record the demo as a series of gifs
+            * ffcast
+            * http://unix.stackexchange.com/questions/113695/gif-screencasting-the-unix-way
+        * terminal-only? 
+            * https://asciinema.org/
+    - have a backup option anyway. Laptops like to die and lose local files on
+      the night before a big presentation.
 
 * Getting It Done
     - Self-reflection: When have you completed a task that seemed daunting at
@@ -185,14 +202,90 @@ encounter, including:
       to complete without having to get inspired. That's okay; both are forms
       of progress. 
 
-These tricks will be helpful for experienced presenters looking to learn new
-skills, as well as novice speakers who need some help getting started.
+* Boilerplate slides:
+    - First slide: Talk title, your name, the date, perhaps conf name
+        * It'll sit there on the screen while people file in. Reassure them
+          that they have the right room.
+    - Post-intro: Link to the slides online so folks can follow along. 
+    - Last slide: Contact info, link to where the slides are published online.
+      Yes, publish your slides BEFORE the talk. 
+
+
+* Common Sense
+    - Make progress when you have energy/inspiration. Putting a TODO into your
+      slides, or a "hey go find that thing", is totally progress. Get in the
+      habit of fiddling with your slides when procrastinating something else,
+      but *check on overall progress regularly*. 
+    - Back up all the things. Every time you make any progress, save the file.
+      Every time you remember (at least end of every session of work)
+      duplicate the changes to a trustworthy offsite backup (yes, GitHub
+      counts)
+    - Rehearse a bunch. The first recording is terrible and awkward, and you
+      will have to listen to at least one recording of your talk. It's less
+      cringey to do this in private than to have it be the official
+      conference-provided version
+    - Run it by non-experts for a sanity check on whether your content's
+      organization makes sense... but feature freeze at least 2 rehersals
+      before the real talk. Better oddly organized and well presented than
+      perfect slides and a talk that falls apart around them.
+    - Seriously, this is the advice that you'd make up if you were coaching a
+      friend on giving a talk and *just making it up*.
+    
+
+* Conference logistics
+    - make sure you know when, how travel/transit will work, where you're
+      staying, how commitments at home will be handled in your absence, etc.
+    - ask speaker liason w/ any questions; know who/how will help you with
+      technical difficulties at the conf
+    - do you have to register? register.
+    - figure out travel, housing, food, and caffeine logistics well in
+      advance. Don't make assumptions about what the conference provides. I've
+      been to a conf that provided coffee+breakfast on the first 2 days but
+      not the 3rd, and didn't publish this fact.
+    - Get what you need to be confident and energetic on stage. This might
+      include sufficient sleep, breakfast, lunch, remembering to take a
+      prescription reliably for the week before, caffeine at a certain time...
+      figure out what you need, plan for it, have a backup plan.
+    - Practice making your laptop talk to the projectors in advance. Have a
+      backup plan (borrow a computer from the conf or a colleague in the
+      audience?) for if something goes catastrophically wrong. 
+
+* At the Conference
+    - Find the speaker lounge, figure out what the staff and tech support
+      folks look like (often matching tshirts, sometimes special badges)
+    - Bring the stuff you need on the day of your talk. Laptop, charger,
+      phone, water bottle, favorite hat...
+    - If possible, practice setting up with the actual projector on the day of
+      your talk.  
+    - Skip the session before yours, or attend the session in the same room.
+      Go up right after the presenter finishes, plug in, etc. Silence your
+      phone and onscreen notifications, or friends in the audience will ping
+      you. Close windows and log out of accounts that you wouldn't want to
+      show the whole world.
+    - Reread the abstract in the program describing the talk in the room at
+      the time that you're speaking. Remember that that's what the audience
+      has shown up for!
+    - Relax, keep an eye on the time
+
+* Handling Q&A
+
+    - Scoping the talk clearly and managing expectations
+    - It's ok to say "I don't know", especially with "but I'd find out by ___"
+        * Promise to test something? get their email/IRC and follow up.
+          seriously.
+    - Repeat the question for the audience
+    - can't understand their accent? it's ok to say "I'm sorry, I'm having a
+      hard time understanding you" and attempt to rephrase question based on
+      the words you could pick out. 
+    - It's ok to cut off somebody telling their life story and ask them to get
+      to the point
+    - It's ok to ask people to contact you "offline" if time runs out. Bonus
+      points for blogging the discussions/answers, though.
 
 http://edunham.net/2015/04/15/the_life_cycle_of_a_conference_talk.html
 
 https://calltospeakers.com/
 http://wikicfp.com/cfp/
-
 http://coreylatislaw.com/conference-speaking-101/
 http://trainingintheopen.com/speakers-checklist.html
 http://blogs.balsamiq.com/team/2015/09/11/public-speaking/
