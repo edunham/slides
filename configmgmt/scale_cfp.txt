@@ -1,0 +1,28 @@
+Title: Intro to Configuration Management
+
+Audience: Beginner
+
+Topic: DevOps
+
+Tags: puppet, chef, saltstack, ansible, infrastructure as code, devops
+
+Brief description: The basic principles of config management and how they're
+expressed by Puppet, Chef, SaltStack, and Ansible. 
+
+Short abstract: Do you manage several servers and wish you could keep track of
+who made what change, when? Would you like to simplify the process of setting
+up a new machine? Have you worked with one configuration management tool and
+wondered how it compares to others? 
+
+This talk will cover the basic principles of and challenges faced by
+configuration management, with examples from several widespread and growing
+open source configuration management tools.
+
+Message to reviewers: I've worked with Chef and Puppet at the OSU Open Source
+Lab, Chef at Urban Airship, and SaltStack and Ansible as the lead DevOps
+engineer for Mozilla Research. 
+
+I've written up some similar work to this talk earlier this year at
+http://edunham.net/2015/06/05/configuration_management_comparison.html , and
+since that post I've refined my understanding of both Salt and Ansible
+significantly. 

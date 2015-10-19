@@ -1,0 +1,17 @@
+Title: Where's The Cloud?
+Topic: UpSCALE
+Tags: cloud, devops, aws
+Brief description: Congratulations, your server is "in the cloud"! Let's look
+at where it actually went.
+
+Short Abstract: You've already heard the news: "There is no cloud, only
+somebody else's computer". But whose computer is it? Where? How did your data
+or VM get there? And the scary part; Which components of this glorious Rube
+Goldberg machine can malfunction in a way that destroys your uptime or your
+imaginary server forever? 
+
+Long Abstract: Maps of the the internet's core infrastructure are cool. Maps of
+where major cloud hosting providers' datacenters live are also cool,
+especially when combined with an explanation of why they're there! Prepare to
+leave this talk feeling even less confident in the stability of the Internet
+than you did at the beginning.
