@@ -13,7 +13,7 @@ good enough or how to start?
 
 ---
 
-`talks.edunham.net/seagl2015`
+## `talks.edunham.net/seagl2015`
 
 ---
 
@@ -47,12 +47,9 @@ good enough or how to start?
 > - Tech conferences
 > - Sharing information
 
-
-# Why Speak?
+# Why not?
 
 <section>
-
-## Why not?
 
 > - Uninterested?
 > - Afraid?
@@ -81,31 +78,34 @@ good enough or how to start?
 
 </section>
 
-# Can't Afford It
+# Money
 
 <section>
 
 ---
 
-Speakers get free admission
+## Free admission
 
 ---
 
-Conferences, employers cover travel
+## Travel budget
+
+* Conference? 
+* Employer?
 
 --- 
 
-Local conferences
+## Go Local
 
 ---
 
 <!-- FIXME: Tool -->
 
-https://tinyletter.com/techspeak
+## `tinyletter.com/techspeak`
 
 </section>
 
-# Don't Have Time
+# Time
 
 <section>
 
@@ -113,33 +113,30 @@ https://tinyletter.com/techspeak
 
 <!-- FIXME: Technique -->
 
-Track where your time goes.
+## Where does it go?
 
 ---
 
-Who's using your time?
+# Who's using it?
 
 ---
 
-Does this benefit them?
+## Speaking benefits...
+
+> - Employer
+> - Family
 
 ---
 
-Employer
-
----
-
-Family
-
----
-
-Communicate!
+## Communicate!
 
 </section>
 
 # Fear
 
 <section>
+
+---
 
 <!-- FIXME: Technique -->
 
@@ -153,11 +150,11 @@ Communicate!
 
 ---
 
-> - They'll ask a question I can't answer!
-> - What if my claims are wrong?
-> - I might bore them and put them to sleep!
-> - What if they knew it already?
-> - My talk might not make sense!
+> - Ignorance 
+> - Inaccuracy
+> - Disapproval
+> - Redundancy
+> - Confusion
 
 ----
 
@@ -169,14 +166,6 @@ Communicate!
 
 <section>
 
-The audience wants you to succeed.
-
-</section>
-
-# The (useful) Secret
-
-<section>
-
 ---
 
 ## Get the right people in the room.
@@ -185,17 +174,23 @@ The audience wants you to succeed.
 
 ## Say something that interests them.
 
+---
+
+## They want you to succeed.
+
 </section>
 
 # Managing Expectations
 
 <section>
 
+---
+
 ### "They might not get what they want"
 
 --- 
 
-## You control what they want.
+## You have control
 
 ---
 
@@ -211,29 +206,29 @@ The audience wants you to succeed.
 
 ---
 
-What's your favorite talk? Why?
+### What's your favorite talk? Why?
 
 ---
 
-How can your experiences help others?
+### How can your experiences help others?
 
 --- 
 
-What do you spend your time on?
+### What do you spend your time on?
 
 ---
 
-What do others ask you for help with?
+### What do others ask you for help with?
 
 --- 
 
 <!-- FIXME: Technique -->
 
-Cross Disciplines
+### Cross Disciplines
 
 ---
 
-The Missing Tutorial?
+### The Missing Tutorial
 
 --- 
 
@@ -249,15 +244,15 @@ The Missing Tutorial?
 
 ---
 
-Experts forget what was confusing at first.
+## Experts forget...
 
 ---
 
-Recent novices can bootstrap others.
+## Bootstrapping
 
 ---
 
-Run your talk by a mentor for corrections.
+## Run it by a mentor.
 
 </section>
 
@@ -267,51 +262,45 @@ Run your talk by a mentor for corrections.
 
 ---
 
-Who's your audience?
+## Who's your audience?
 
 ---
 
-Travel budget
+## Travel budget
 
 ---
 
-Theme
+## Theme
 
 ---
 
-Location
-
----
-
-<!-- FIXME: Tool -->
-
-wikicfp.com
+## Location
 
 ---
 
 <!-- FIXME: Tool -->
 
-calltospeakers.com
+## `wikicfp.com`
 
 ---
 
 <!-- FIXME: Tool -->
 
-eventbrite
+## `calltospeakers.com`
 
 ---
 
 <!-- FIXME: Tool -->
 
-tinyletter.com/fossCFPs
+## `tinyletter.com/fossCFPs`
 
 ---
 
-Talk to people!
+## Talk to people!
 
 </section> 
 
-# Get into a conference
+# Getting In
 
 <section>
 
@@ -347,7 +336,7 @@ Talk to people!
 
 <!-- FIXME: Tool -->
 
-archive.org
+## `archive.org`
 
 ---
 
@@ -359,7 +348,7 @@ archive.org
 
 <!-- FIXME: Technique -->
 
-Lie to yourself about deadlines
+## Lie to yourself about deadlines
 
 ---
 
@@ -393,7 +382,7 @@ Lie to yourself about deadlines
 
 <!-- FIXME: Activity -->
 
-Summarize one of your topics in 5 words or less.
+## Summarize one of your topics in 5 words or less.
 
 </section>
 
@@ -403,11 +392,11 @@ Summarize one of your topics in 5 words or less.
 
 ---
 
-## This is the promise that your talk fulfills
+## The promise your talk fulfills
 
 ---
 
-## Show that you know your audience
+## Show you know your audience
 
 ---
 
@@ -432,8 +421,9 @@ help you ___! I used ___ to ___ at ___ to accomplish ____, and you can too!
 
 ## Activity
 
-Write a one-sentence summary of one of your topics. Then answer the question
-"How has knowing this changed my life?". 
+### Write a one-sentence summary of your topic. 
+
+### "How has knowing this changed my life?"
 
 </section>
 
@@ -455,11 +445,11 @@ Write a one-sentence summary of one of your topics. Then answer the question
 
 ---
 
-## The Formula
+## Formula
 
-* Achievement
-* Achievement
-* Fun fact
+> - Achievement
+> - Achievement
+> - Fun fact
 
 ---
 
@@ -467,8 +457,7 @@ Write a one-sentence summary of one of your topics. Then answer the question
 
 ## Activity
 
-Write 2 achievements relevant to your topic, and 1 relatable fact about
-yourself, in 3rd person.
+### Write 2 achievements + 1 relatable fact in 3rd person.
 
 </section>
 
@@ -480,13 +469,13 @@ yourself, in 3rd person.
 
 <!-- FIXME: Tool -->
 
-hemingwayapp.com
+## `hemingwayapp.com`
 
 ---
 
 <!-- FIXME: Tool -->
 
-textio.com
+## `textio.com`
 
 </section>
 
@@ -494,29 +483,36 @@ textio.com
 
 <section>
 
+---
+
 <!-- FIXME: Technique -->
 
-Make progress every day.
+## Improve every day
 
 ---
 
-Expanding your notes? Progress!
+### Expanding your notes? 
+
+### Progress!
 
 ---
 
-Organizing content? Progress!
+### Organizing content? 
+
+
+### Progress!
 
 ---
 
 <!-- FIXME: Tool -->
 
-habitica.com
+## `habitica.com`
 
 ---
 
 <!-- FIXME: Technique -->
 
-Organize topics on index cards
+### Organize topics on index cards
 
 ---
 
@@ -526,76 +522,88 @@ Organize topics on index cards
 
 <!-- FIXME: Activity -->
 
-List key points; count their occurrences.
+### List key points
+
+### Count occurrences
 
 </section>
 
-## Slide Problems
+# Bad Slides
 
 <section>
 
 ---
 
-Wall of text
+## Wall of text
 
 ---
 
-Bad contrast
+## Bad contrast
 
 ---
 
-Tiny fonts
+## Tiny fonts
 
 ---
 
-Distractions
+## Distractions
 
 ---
 
-Unlabeled Graphs
+## Unlabeled Graphs
 
 ---
 
-Too few slides
+## Too few slides
 
 ---
 
-Too many slides (oops!)
+## Too many slides (oops!)
 
 ---
 
-Bikeshedding over tools
+## Bikeshedding over tools
 
 </section>
 
-## What's left?
+# Good Slides
 
 <section>
 
 ---
 
-Minimalism
+## Minimalism
 
 ---
 
-Consistent Theme
+## Consistency
 
 ---
 
-augment + focus
+## augment + focus
+
+---
+
+## Core Content
+
+---
+
+> - Title + name + date
+> - Link to slides online
+> - Deliver on abstract's promises
+> - Contact info
 
 </section>
 
-## Slides Tools
+# Slides Tools
 
 <section>
 
 ---
 
 > - Portable
-> - Version-controllable
+> - Version control
 > - Speaker console 
-> - Web-friendly
 > - Printable
 > - Images?
 
@@ -603,80 +611,76 @@ augment + focus
 
 <!-- FIXME: Tool -->
 
-github.com/nyergler/hieroglyph
+## `github.com/`
+## `nyergler/hieroglyph`
 
 ---
 
 <!-- FIXME: Tool -->
 
-github.com/hakimel/reveal.js
+## `github.com/`
+
+## `hakimel/reveal.js`
 
 ---
 
 <!-- FIXME: Tool -->
 
-Pandoc + Beamer
+## Pandoc + Beamer
 
 ---
 
 <!-- FIXME: Tool -->
 
-LibreOffice Impress
-
----
-
-Minimum Viable Slideshow
-
----
-
-> - Title + name + date
-> - Link to slides online
-> - Deliver on abstract's promises
-> - Contact info + link
+## LibreOffice Impress
 
 </section>
 
-# Taunting the Demo Gods
+# Demos 
 
 <section>
 
 ---
 
-Expect live demos to fail
+## Live demos fail.
 
 ---
 
 <!-- FIXME: Tool -->
 
-ffcast (screen as gifs)
+## `ffcast` 
+
+* Gif of screen
 
 ---
 
 <!-- FIXME: Tool -->
 
-asciinema.org
+## asciinema.org
+
+* Play back terminal
 
 </section>
 
-# Get It Done
+# Write that talk!
 
 <section>
 
 ---
 
-Make progress every day.
+## Daily progress
 
 ---
 
-Alternate: Quantity vs Quality
+## Quantity vs Quality
 
 ---
 
-Back up all the things!
+## Back it up!
 
 ---
 
-Practice.
+## Practice.
 
 </section>
 
@@ -688,17 +692,17 @@ Practice.
 
 <!-- FIXME: Tool -->
 
-Audacity
+## Audacity
 
 ---
 
-Feature Freeze
+## Feature Freeze
 
 ---
 
 <!-- FIXME: Technique -->
 
-Rehearse for a friend
+## Rehearse for a friend
 
 </section>
 
@@ -708,31 +712,31 @@ Rehearse for a friend
 
 ---
 
-Date + Time
+## Date + Time
 
 ---
 
-Other deadlines?
+## Other deadlines?
 
 ---
 
-Speaker Liason
+## Speaker Liason
 
 ---
 
-Registration
+## Registration
 
 ---
 
-Travel + Lodging
+## Travel + Lodging
 
 ---
 
-Food? Caffeine?
+## Food? Caffeine?
 
 --- 
 
-Lucky socks?
+## Lucky socks?
 
 ---
 
@@ -750,27 +754,27 @@ arandr
 
 ---
 
-Speaker lounge?
+## Speaker lounge?
 
 ---
 
-Laptop, power, etc.
+## Laptop, power, etc.
 
 ---
 
-Silence notifications
+## Silence notifications
 
 ---
 
-Read the schedule
+## Read the schedule
 
 ---
 
-What's the audience here for?
+## Why are all these people here?
 
 ---
 
-Relax, but watch the time
+## Relax, but watch the time
 
 </section>
 
@@ -782,29 +786,32 @@ Relax, but watch the time
 
 <!-- FIXME: Technique -->
 
-"I don't know, but I'd find out by ___"
+### "I don't know, but I'd find out by ___"
 
 ---
 
-Cut off storytellers
+### Cut off storytellers
 
 ---
 
-"Let's discuss that offline"
+### "Let's discuss that offline"
 
 ---
 
-Blog the answers
+### Blog the answers
 
 ---
 
-Follow up on promises!
+### Follow up!
 
 ---
 
 <!-- FIXME: Technique -->
 
-Track promises in a notes app
+### Track promises in a notes app
 
 </section>
 
+## Q & A
+
+`talks.edunham.net/seagl2015`
