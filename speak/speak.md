@@ -8,26 +8,36 @@
 
 <section>
 
----
-
 Have you ever wanted to speak at a conference, but not known whether you're
 good enough or how to start?
 
 ---
 
-## `talks.edunham.net/seagl2015`
+`talks.edunham.net/seagl2015`
 
 ---
+
+## Me
 
 * "DevOps Engineer", Mozilla Research
 * Founded DevOps Bootcamp at Oregon State
 * edunham.net/pages/talks.html
 
+---
+
+## You
+
+> - Given a talk or two?
+> - Never spoken, might want to?
+> - Don't want to yet?
+
 --- 
 
-* Why speak? 
-* Logistics
-* Q&A
+## This
+
+> - Why speak? 
+> - Tools & Techniques
+> - Q&A
 
 </section>
 
@@ -37,43 +47,111 @@ good enough or how to start?
 > - Tech conferences
 > - Sharing information
 
+
 # Why Speak?
 
 <section>
-
----
 
 ## Why not?
 
 > - Uninterested?
 > - Afraid?
+> - $$$ / Time?
 
 ---
 
-## The Benefits
+## You Benefit
+
+---
 
 > - Expertise
 > - Confidence
 > - Prestige
 > - Networking
 
+---
+
+## Others Benefit
+
+---
+
+> - Talks are Documentation
+> - New perspectives
+> - Networking, inspiration
+
 </section>
 
-# Why are you scared?
+# Can't Afford It
 
 <section>
 
+---
+
+Speakers get free admission
+
+---
+
+Conferences, employers cover travel
+
 --- 
 
-### What would happen if you tried?
+Local conferences
 
---- 
+---
 
-### Why is that bad?
+<!-- FIXME: Tool -->
+
+https://tinyletter.com/techspeak
+
+</section>
+
+# Don't Have Time
+
+<section>
+
+---
+
+<!-- FIXME: Technique -->
+
+Track where your time goes.
+
+---
+
+Who's using your time?
+
+---
+
+Does this benefit them?
+
+---
+
+Employer
+
+---
+
+Family
+
+---
+
+Communicate!
+
+</section>
+
+# Fear
+
+<section>
+
+<!-- FIXME: Technique -->
+
+### What would happen?
+
+### Why's that bad?
 
 ---
 
 ## Disappointing the audience?
+
+---
 
 > - They'll ask a question I can't answer!
 > - What if my claims are wrong?
@@ -91,6 +169,14 @@ good enough or how to start?
 
 <section>
 
+The audience wants you to succeed.
+
+</section>
+
+# The (useful) Secret
+
+<section>
+
 ---
 
 ## Get the right people in the room.
@@ -99,31 +185,25 @@ good enough or how to start?
 
 ## Say something that interests them.
 
---- 
-
-## How?
-
 </section>
 
 # Managing Expectations
 
 <section>
 
----
-
-### "They won't get what they wanted"?
+### "They might not get what they want"
 
 --- 
 
 ## You control what they want.
 
-> - Which conference
-> - Talk title
+---
+
+> - Title
 > - Abstract 
+> - Conference
 
 </section>
-
-## How do you manage expectations?
 
 # Choosing a Topic
 
@@ -147,15 +227,23 @@ What do others ask you for help with?
 
 --- 
 
+<!-- FIXME: Technique -->
+
+Cross Disciplines
+
+---
+
 The Missing Tutorial?
 
 --- 
+
+<!-- FIXME: Activity -->
 
 ## List all your topics.
 
 </section>
 
-# Value of the Noob
+# It's OK to be new 
 
 <section>
 
@@ -195,19 +283,27 @@ Location
 
 ---
 
+<!-- FIXME: Tool -->
+
 wikicfp.com
 
 ---
+
+<!-- FIXME: Tool -->
 
 calltospeakers.com
 
 ---
 
+<!-- FIXME: Tool -->
+
 eventbrite
 
 ---
 
-reddit
+<!-- FIXME: Tool -->
+
+tinyletter.com/fossCFPs
 
 ---
 
@@ -232,7 +328,7 @@ Talk to people!
 
 ---
 
-## Get the right people into the room
+## You want the right people into the room
 
 </section>
 
@@ -244,13 +340,26 @@ Talk to people!
 
 ## Mark your calendar
 
+> - Expected CFP dates
+> - Actual deadline
+
 ---
+
+<!-- FIXME: Tool -->
+
+archive.org
+
+---
+
+<!-- FIXME: Tool -->
 
 ## Get email from calendar
 
 --- 
 
-## Submit a week early
+<!-- FIXME: Technique -->
+
+Lie to yourself about deadlines
 
 ---
 
@@ -282,6 +391,8 @@ Talk to people!
 
 ## Activity
 
+<!-- FIXME: Activity -->
+
 Summarize one of your topics in 5 words or less.
 
 </section>
@@ -308,12 +419,16 @@ Summarize one of your topics in 5 words or less.
 
 ---
 
+<!-- FIXME: Technique -->
+
 ## Mad Libs
 
 Are you new to ___? Have you struggled with ___? Come learn about how ____ can
 help you ___! I used ___ to ___ at ___ to accomplish ____, and you can too!
 
 ---
+
+<!-- FIXME: Activity -->
 
 ## Activity
 
@@ -348,6 +463,8 @@ Write a one-sentence summary of one of your topics. Then answer the question
 
 ---
 
+<!-- FIXME: Activity -->
+
 ## Activity
 
 Write 2 achievements relevant to your topic, and 1 relatable fact about
@@ -355,4 +472,339 @@ yourself, in 3rd person.
 
 </section>
 
+# So much writing!
+
+<section>
+
+---
+
+<!-- FIXME: Tool -->
+
+hemingwayapp.com
+
+---
+
+<!-- FIXME: Tool -->
+
+textio.com
+
+</section>
+
+# How To Slides
+
+<section>
+
+<!-- FIXME: Technique -->
+
+Make progress every day.
+
+---
+
+Expanding your notes? Progress!
+
+---
+
+Organizing content? Progress!
+
+---
+
+<!-- FIXME: Tool -->
+
+habitica.com
+
+---
+
+<!-- FIXME: Technique -->
+
+Organize topics on index cards
+
+---
+
+## Repetition!
+
+---
+
+<!-- FIXME: Activity -->
+
+List key points; count their occurrences.
+
+</section>
+
+## Slide Problems
+
+<section>
+
+---
+
+Wall of text
+
+---
+
+Bad contrast
+
+---
+
+Tiny fonts
+
+---
+
+Distractions
+
+---
+
+Unlabeled Graphs
+
+---
+
+Too few slides
+
+---
+
+Too many slides (oops!)
+
+---
+
+Bikeshedding over tools
+
+</section>
+
+## What's left?
+
+<section>
+
+---
+
+Minimalism
+
+---
+
+Consistent Theme
+
+---
+
+augment + focus
+
+</section>
+
+## Slides Tools
+
+<section>
+
+---
+
+> - Portable
+> - Version-controllable
+> - Speaker console 
+> - Web-friendly
+> - Printable
+> - Images?
+
+--- 
+
+<!-- FIXME: Tool -->
+
+github.com/nyergler/hieroglyph
+
+---
+
+<!-- FIXME: Tool -->
+
+github.com/hakimel/reveal.js
+
+---
+
+<!-- FIXME: Tool -->
+
+Pandoc + Beamer
+
+---
+
+<!-- FIXME: Tool -->
+
+LibreOffice Impress
+
+---
+
+Minimum Viable Slideshow
+
+---
+
+> - Title + name + date
+> - Link to slides online
+> - Deliver on abstract's promises
+> - Contact info + link
+
+</section>
+
+# Taunting the Demo Gods
+
+<section>
+
+---
+
+Expect live demos to fail
+
+---
+
+<!-- FIXME: Tool -->
+
+ffcast (screen as gifs)
+
+---
+
+<!-- FIXME: Tool -->
+
+asciinema.org
+
+</section>
+
+# Get It Done
+
+<section>
+
+---
+
+Make progress every day.
+
+---
+
+Alternate: Quantity vs Quality
+
+---
+
+Back up all the things!
+
+---
+
+Practice.
+
+</section>
+
+# Practice?!
+
+<section>
+
+---
+
+<!-- FIXME: Tool -->
+
+Audacity
+
+---
+
+Feature Freeze
+
+---
+
+<!-- FIXME: Technique -->
+
+Rehearse for a friend
+
+</section>
+
+# Before the Conference
+
+<section>
+
+---
+
+Date + Time
+
+---
+
+Other deadlines?
+
+---
+
+Speaker Liason
+
+---
+
+Registration
+
+---
+
+Travel + Lodging
+
+---
+
+Food? Caffeine?
+
+--- 
+
+Lucky socks?
+
+---
+
+<!-- FIXME: Tool -->
+
+arandr
+
+---
+
+</section>
+
+# At the Conference
+
+<section>
+
+---
+
+Speaker lounge?
+
+---
+
+Laptop, power, etc.
+
+---
+
+Silence notifications
+
+---
+
+Read the schedule
+
+---
+
+What's the audience here for?
+
+---
+
+Relax, but watch the time
+
+</section>
+
+# Handling Q & A
+
+<section>
+
+---
+
+<!-- FIXME: Technique -->
+
+"I don't know, but I'd find out by ___"
+
+---
+
+Cut off storytellers
+
+---
+
+"Let's discuss that offline"
+
+---
+
+Blog the answers
+
+---
+
+Follow up on promises!
+
+---
+
+<!-- FIXME: Technique -->
+
+Track promises in a notes app
+
+</section>
 
