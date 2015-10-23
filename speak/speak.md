@@ -13,14 +13,16 @@ good enough or how to start?
 
 ---
 
-## `talks.edunham.net/seagl2015`
+## `talks.edunham.net`
+
+## `/seagl2015`
 
 ---
 
 ## Me
 
 * "DevOps Engineer", Mozilla Research
-* Founded DevOps Bootcamp at Oregon State
+* DevOps Bootcamp
 * edunham.net/pages/talks.html
 
 ---
@@ -33,8 +35,6 @@ good enough or how to start?
 
 --- 
 
-## This
-
 > - Why speak? 
 > - Tools & Techniques
 > - Q&A
@@ -43,17 +43,13 @@ good enough or how to start?
 
 # What's Speaking?
 
-> - Hallway track
-> - Tech conferences
-> - Sharing information
-
 # Why not?
 
 <section>
 
-> - Uninterested?
-> - Afraid?
-> - $$$ / Time?
+> - Fear 
+> - Time
+> - Money
 
 ---
 
@@ -72,9 +68,9 @@ good enough or how to start?
 
 ---
 
-> - Talks are Documentation
-> - New perspectives
-> - Networking, inspiration
+> - Documentation
+> - Perspectives
+> - Networking
 
 </section>
 
@@ -121,10 +117,7 @@ good enough or how to start?
 
 ---
 
-## Speaking benefits...
-
-> - Employer
-> - Family
+## They benefit
 
 ---
 
@@ -168,11 +161,15 @@ good enough or how to start?
 
 ---
 
-## Get the right people in the room.
+## Pick something to say
 
 ---
 
-## Say something that interests them.
+## Tell people who want to hear it
+
+---
+
+## Get the right people in the room
 
 ---
 
@@ -186,17 +183,18 @@ good enough or how to start?
 
 ---
 
-### "They might not get what they want"
+### Afraid to disappoint?
 
 --- 
 
-## You have control
+## You control...
 
 ---
 
 > - Title
 > - Abstract 
 > - Conference
+> - Content
 
 </section>
 
@@ -313,15 +311,29 @@ good enough or how to start?
 
 ---
 
-## Selection commitee wants a happy audience
+## Selection Committee
+
+<div class="notes">
+    * The people who choose which talks get in
+    * For CFP, they're your audience
+    * Pick which abstracts look like their content will be best for the conf
+</div>
 
 ---
 
-## You want the right people into the room
+### wants happy attendees
+
+<div class="notes">
+    * Which is the SAME AS YOUR GOAL
+</div>
+
+---
+
+## You want the right audience
 
 </section>
 
-# CFP Deadline
+# CFP
 
 <section>
 
@@ -329,8 +341,13 @@ good enough or how to start?
 
 ## Mark your calendar
 
-> - Expected CFP dates
-> - Actual deadline
+<div class="notes">
+    * Expected CFP dates based on past years
+    * Actual CFP dates once you know them
+    * CFPs open anywhere from 1-12 months before the event
+        * Example: LCA closed in August, conf happens Feb. SCALE still open,
+          conf in Jan.
+</div>
 
 ---
 
@@ -342,13 +359,18 @@ good enough or how to start?
 
 <!-- FIXME: Tool -->
 
-## Get email from calendar
+## Calendar emails
 
 --- 
 
 <!-- FIXME: Technique -->
 
 ## Lie to yourself about deadlines
+
+<div class="notes">
+* Put it a week early on your calendar.
+* It's kind to the organizers to submit before the last minute
+</div>
 
 ---
 
@@ -357,6 +379,11 @@ good enough or how to start?
 </section>
 
 # Talk Title
+
+<div class="notes">
+* You have a topic and a conference and you're prepping at the right time. 
+* 2 worst problems in CS: Caching, naming things, and off-by-one errors
+</div>
 
 <section>
 
@@ -370,13 +397,23 @@ good enough or how to start?
 
 ---
 
-## Programs will snip long titles
+## Programs will snip lo...
+
+<div class="notes">
+* Programs will sometimes snip long titles to x characters
+* Worse, they'll shrink the font till it all fits in a little box
+</div>
 
 --- 
 
 ## Don't be too fancy
 
----
+<div class="notes">
+* A witty joke in your specialty might go over the committee's heads
+* Newbies to a topic attend talks anyway, need to know which ones
+</div>
+
+`---
 
 ## Activity
 
@@ -412,16 +449,15 @@ good enough or how to start?
 
 ## Mad Libs
 
-Are you new to ___? Have you struggled with ___? Come learn about how ____ can
-help you ___! I used ___ to ___ at ___ to accomplish ____, and you can too!
+Are you new to `___`? Have you struggled with `___`? Come learn about how
+`____` can help you `___`! I used `___` to `___` at `___` to accomplish
+`____`, and you can too!
 
 ---
 
 <!-- FIXME: Activity -->
 
-## Activity
-
-### Write a one-sentence summary of your topic. 
+### Summarize topic in one sentence. 
 
 ### "How has knowing this changed my life?"
 
@@ -454,8 +490,6 @@ help you ___! I used ___ to ___ at ___ to accomplish ____, and you can too!
 ---
 
 <!-- FIXME: Activity -->
-
-## Activity
 
 ### Write 2 achievements + 1 relatable fact in 3rd person.
 
@@ -601,6 +635,10 @@ help you ___! I used ___ to ___ at ___ to accomplish ____, and you can too!
 
 ---
 
+## Requirements
+
+----
+
 > - Portable
 > - Version control
 > - Speaker console 
@@ -672,6 +710,10 @@ help you ___! I used ___ to ___ at ___ to accomplish ____, and you can too!
 
 ---
 
+## Analyze procrastination
+
+---
+
 ## Quantity vs Quality
 
 ---
@@ -696,13 +738,13 @@ help you ___! I used ___ to ___ at ___ to accomplish ____, and you can too!
 
 ---
 
-## Feature Freeze
-
----
-
 <!-- FIXME: Technique -->
 
 ## Rehearse for a friend
+
+---
+
+## Feature Freeze
 
 </section>
 
@@ -744,8 +786,6 @@ help you ___! I used ___ to ___ at ___ to accomplish ____, and you can too!
 
 arandr
 
----
-
 </section>
 
 # At the Conference
@@ -781,6 +821,10 @@ arandr
 # Handling Q & A
 
 <section>
+
+---
+
+## Repeat Questions
 
 ---
 
