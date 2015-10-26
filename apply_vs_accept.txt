@@ -8,5 +8,6 @@ Year: Conf:     Talk:                                       Accept:     Attend:
 2016  LCA       rustcommunity                               yes         yes
 2015  SeaGL     rustcommunity                               no          yes
 2015  SeaGL     speak                                       yes         yes
-2016  SCALE     ???
+2016  SCALE     configmgmt  
+2016  SCALE     nocloud 
 
