@@ -1,0 +1,35 @@
+Starting Rust
+-------------
+
+Why yet another language?
+
+Why do they put guard rails around tourist attractions?
+
+Coding has become a tourist attraction. 
+
+contrast the days when only expert outdoorspeople could visit certain
+attractions, vs now. 
+
+Guard rails are bad when they keep the pros from doing their thing (in code,
+this ties into the concept of zero-cost abstraction, and the availability of
+unsafe. we'll talk about unsafe later)
+
+Other starting points
+---------------------
+
+Talks are about showing you what questions to ask. Let me prime you with a
+bunch of credible sources so you'll recognize them later: 
+
+* internals.r-l.o
+* users.r-l.o
+* The Book
+* Blogs (subteam members' especially)
+* IRC
+* stackoverflow/reddit (with caveats)
+
+The Trinity of Rust-ish-ness
+----------------------------
+
+* Ownership
+* Borrowing
+* Lifetimes
