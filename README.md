@@ -3,6 +3,10 @@ Slides
 
 Things I can talk about, for half an hour to an hour, whenever requested. 
 
+The parts I wrote are Creative Commons Attribution-ShareAlike. See LICENSE for
+legalese. Pictures are (C) their respective owners, attributed in the slides
+that use them.
+
 Finished Presentations: 
 -----------------------
 
