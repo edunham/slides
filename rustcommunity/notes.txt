@@ -1,0 +1,57 @@
+"Life is better with Rust's community automation" 
+
+What have we automated?
+
+Starting with the obvious, some of our practices "automate" sorting new
+contributors so that more mentoring time can go to people who're motivated to
+succeed. 
+
+* Code of conduct present from the beginning drives away people who value
+  their right to be jerks over others' right to have a welcoming environment
+
+* Presence on diverse platforms -- Reddit, appreciation of blogs through HN,
+  stackoverflow, forums, IRC -- funnels in the social media savvy. especially
+  relevant is how widely core team members use Reddit, and are around to help
+  answer questions
+
+Not Rocket Science Rule
+
+(doesn't this mean we have to say no to a lot of people and make them feel
+bad?)
+
+Being told no by a person hurts. Being told your code is wrong doesn't feel
+good. Telling a passionate newbie that their code is bad is unpleasant, and
+having to do it a lot can make you grumpy. We address this problem with
+robots!
+
+* Homu/Bors https://github.com/graydon/bors https://github.com/barosl/homu
+
+TODO: How bors works
+
+Welcoming newbies, and remembering to say hi on pull requests from new
+contributors, is hard. Remembering who's brand new and who's gotten code in
+before can get difficult as a project grows, but the way you treat someone on
+their first contribution will be different from on their second because
+there's stuff you should or shouldn't expect them to know. Mixing it up causes
+confusion and condescention, respectively, neither of which is good. 
+
+Enter Highfive! https://github.com/nrc/highfive
+
+TODO: How highfive works
+
+Getting existing open source contributors onto the issues that matter and can
+be done by someone new to the project is tricky. We're lucky to have jdm,
+who's built a bunch of neat tooling around this for Mozilla and pointed stuff
+out in some slides... links in
+http://edunham.net/2015/11/04/beyond_openhatch.html
+
+Getting people to behave like humans on a mailing list is absurdly difficult.
+(also maintianing a mailserver is deeply unfun especially without a dedicated
+sysadmin). Addressed with Discourse (https://users.rust-lang.org/,
+https://internals.rust-lang.org/) which allows nagging people to be nice on
+their first 2 posts, and deletion of abusive content. Plus it's a big
+reasonably-well-behaved archive, less work required to link into a
+modern-looking post than a classic mailing list. 
+
+
+
