@@ -1,0 +1,12 @@
+Hidden Wonders of the Unix Filesystem
+
+Sometimes you come across an esoteric line like 
+
+echo 255 | sudo tee /sys/devices/platform/i8042/serio1/serio2/speed
+
+, which magically fixes some perfectly human problem like an uncooperatively
+slow mouse. Everything about your computer is a file in Unix, and you can read
+and write those files to gain better understanding and control of your systems
+than ever before. This power requires knowing what's available and where to
+look for it, and we'll take a whirlwind hour-long tour of those facts right
+here. 
