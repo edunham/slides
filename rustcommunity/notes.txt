@@ -27,6 +27,9 @@ robots!
 * Homu/Bors https://github.com/graydon/bors https://github.com/barosl/homu
 
 TODO: How bors works
+    * How to set up Homu on a repo
+    * How to run Homu with a buildbot
+    * Where to start integrating other CI systems
 
 Welcoming newbies, and remembering to say hi on pull requests from new
 contributors, is hard. Remembering who's brand new and who's gotten code in
@@ -38,6 +41,8 @@ confusion and condescention, respectively, neither of which is good.
 Enter Highfive! https://github.com/nrc/highfive
 
 TODO: How highfive works
+    * How to set up a highfive on a repo
+    * How highfive decides who to assign as a reviewer
 
 Getting existing open source contributors onto the issues that matter and can
 be done by someone new to the project is tricky. We're lucky to have jdm,
@@ -53,5 +58,50 @@ their first 2 posts, and deletion of abusive content. Plus it's a big
 reasonably-well-behaved archive, less work required to link into a
 modern-looking post than a classic mailing list. 
 
+The Usual Chatops Stuff
+-----------------------
+
+Rust infra is not as good at this as many other places; team of 1 fulltime
+infra person has been slowly trying to deploy it through 9 months so far of
+also putting out fires and meeting quarterly goal improvements. 
+
+Tbh, we don't even have a mature/robust monitoring solution. Why not? Worse
+fires. 
+
+Shockingly easy improvements: 
+
+* Bots channel for each project
+* Buildbot reporting into the channel 
+* IRC client highlights on the important messages (slave lost exceptions, etc)
+
+The Soft-Skills Stuff
+---------------------
+
+I've noticed that these teams are composed of people who cultivate the skill
+of expressing gratitude. Priorities/values include having a good experience
+for contributors. 
+
+*habits are a form of brain automation*. The *habits* of clearly explaining
+reasons for a decision, having conversations publicly/openly,
+welcoming/respecting relevant feedback from contributors of all levels, being
+polite, reqiuring civil conduct in our shared spaces, and automating
+everything we can are what make all the computer automation successful.
+Without a habit of using it, all the computer automation in the world is
+pretty useless -- people don't have a chance to be nagged by your
+contributing.md on a PR if they're in the habit of pushing straight to master
+and skipping the PR in the first place. 
 
 
+
+The motivational part: 
+---------------------
+
+
+I spend most of my time in a physical or virtual room
+full of compiler wizards whose topics of casual chitchat are often NP-hard.
+Thir knowledge is a stark contrast against my "I have most of a CS degree and
+one time I took a class where I wrote some nasty python to turn a toy Lisp
+into a toy Forth". And yet I'm still useful to them, because servers. 
+
+Parting Trick: Never underestimate the power of the constructive criticism
+you'll get from publicly claiming something incorrect. 
