@@ -105,3 +105,11 @@ into a toy Forth". And yet I'm still useful to them, because servers.
 
 Parting Trick: Never underestimate the power of the constructive criticism
 you'll get from publicly claiming something incorrect. 
+
+
+Include...
+==============================================================================
+
+https://github.com/rust-lang-nursery/
+https://github.com/rust-lang-deprecated/
+(why do we have these?)
