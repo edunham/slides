@@ -1,0 +1,55 @@
+What was wrong: New contributors often go days or weeks without a response to
+their PR. 
+
+What we did: Use highfive robot to assign a reviewer, post a welcome message,
+and nag the reviewer until they comment on the bug.
+
+What you can learn: Use a highfive or similar system.
+
+------------------------------------------------------------------------------
+
+What was wrong: Platform support is often at the whim of the core developers,
+or resource-constrained
+
+What we did: Invite community builders and include them as non-gated platforms
+in our Buildbot
+
+What you can learn: Channel peoples' passion about their esoteric OS of
+choice. 
+
+------------------------------------------------------------------------------
+
+What was wrong:
+
+What we did: 
+
+What you can learn:
+
+
+------------------------------------------------------------------------------
+
+What was wrong:
+
+What we did: 
+
+What you can learn:
+
+
+------------------------------------------------------------------------------
+
+What was wrong:
+
+What we did: 
+
+What you can learn:
+
+
+
+------------------------------------------------------------------------------
+
+What was wrong:
+
+What we did: 
+
+What you can learn:
+
