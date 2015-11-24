@@ -1,20 +1,10 @@
 Converting Enthusiasm to Code
 
-Although most open source projects struggle to find
-contributors, a lucky few are swamped by curious newcomers who want to get
-involved. Thanks to their prestige, these high-profile projects have a unique
-opportunity to cultivate newcomers' interest in open source and help them
-develop into long-term contributors. The Servo browser engine project at
-Mozilla is in exactly this situation. 
 
-This talk will share what I've learned about converting the enthusiasm of a
-flood of new contributors into code that's useful for the project in my time
-as the Servo project's DevOps Engineer. I've helped build the tools which save
-core contributors' time by automating how we support and mentor the new
-contributors, and walked many newcomers through their first commits to the
-Servo organization's repositories. 
+Although most open source projects struggle to find contributors, a lucky few are swamped by curious newcomers who want to get involved. These high-profile projects have a unique opportunity to cultivate newcomers' interest in open source and help them develop into long-term contributors. The Servo browser engine project at Mozilla is in exactly this situation.
 
-Learning about this small team's success in leveraging community contributions
-will help you be prepared to scale gracefully if a project of your own gets a
-similar influx of interest, and might even inspire you to automate yourself
-out of a boring part of your job!
+
+As the Servo project's DevOps Engineer, I've helped build the tools which save core contributors' time by automating how we support and mentor the new contributors, and walked many newcomers through their first commits to the Servo organization's repositories.
+
+
+Learning about this small team's success in leveraging community contributions will help you be prepared to scale gracefully if a project of your own gets a similar influx of interest, and might even inspire you to automate yourself out of a boring part of your job!
