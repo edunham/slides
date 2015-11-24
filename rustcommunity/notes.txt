@@ -114,3 +114,4 @@ https://github.com/rust-lang-nursery/
 https://github.com/rust-lang-deprecated/
 (why do we have these?)
 https://github.com/carols10cents/rustlings
+https://doc.rust-lang.org/stable/book/bibliography.html
