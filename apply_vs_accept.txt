@@ -10,4 +10,7 @@ Year: Conf:     Talk:                                       Accept:     Attend:
 2015  SeaGL     speak                                       yes         yes
 2016  SCALE     configmgmt  
 2016  SCALE     nocloud 
-
+2016  OSCON     servo community tools
+2016  OSCON     learn rust
+2016  POSSCON   learn rust
+2016  POSSCON   thinking in git
