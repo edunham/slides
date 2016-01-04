@@ -1,3 +1,5 @@
 http://www.standardista.com/speaking-at-conferences/
 
 http://weareallaweso.me/
+
+https://github.com/matteofigus/awesome-speaking
