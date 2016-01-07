@@ -1,5 +1,29 @@
+cloud
+noun
+1.  a visible mass of condensed water vapor floating in the atmosphere, typically
+high above the ground.
+2.  a state or cause of gloom, suspicion, trouble, or worry.
+verb
+1.  (of the sky) become overcast with clouds.
+2.  make or become less clear or transparent.
+
+------------------------------------------------------------------------------
+
+The cloud makes it less clear where your servers are. 
+
+If you're doing it right, this won't matter. 
+
+If you're doing it right, any one of your servers can go down at any time and
+nobody will notice. 
+
+Really though, are you?
+
+
+
 http://www.theshulers.com/whitepapers/internet_whitepaper/index.html#net_infra
 
 http://www.theshulers.com/whitepapers/internet_whitepaper/index.html#int_infra
 
 http://maps.level3.com/default/
+
+http://www.nthelp.com/maps.htm
