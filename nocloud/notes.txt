@@ -9,6 +9,8 @@ verb
 
 ------------------------------------------------------------------------------
 
+
+
 The cloud makes it less clear where your servers are. 
 
 If you're doing it right, this won't matter. 
@@ -18,7 +20,9 @@ nobody will notice.
 
 Really though, are you?
 
+osimodel.jpg: https://sq.wikipedia.org/wiki/Modelet_e_studimit_t%C3%AB_rrjetave#/media/File:Wwww2.jpg
 
+thecloud.png: https://commons.wikimedia.org/wiki/File:Cloud_computing_icon.svg
 
 http://www.theshulers.com/whitepapers/internet_whitepaper/index.html#net_infra
 
