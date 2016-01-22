@@ -1,0 +1,111 @@
+Hi! I'm edunham everywhere that matters, and qedunham in some places that
+don't, and I'm here to talk to you about... The Cloud!
+
+-------------------------------------------------------------------------------
+
+First, as Vicky and Josh pointed out in speaker training yesterday, it's
+important to know your audience. 
+
+Raise your hand if you identify as a Real Sysadmin. Cool, you'll spend the
+next 5 minutes patting yourself on the back for having load balancing,
+disaster recovery practices, and generally doing it right. 
+
+-------------------------------------------------------------------------------
+
+Ok, now who here just wears a sysadmin hat sometimes? You manage one or two
+servers, but you don't need any of that old-fashioned redunancy, because
+they're in.... 
+
+-------------------------------------------------------------------------------
+
+The Cloud! The Cloud, for those new to this decade's trends and jargon, is
+often represented as a technological panacea. But what does it mean?
+
+-------------------------------------------------------------------------------
+
+Using “The Public Cloud” refers to renting a subset of someone else's server's
+resources. Someone Else, in this case, is usually a Cloud Hosting Company. 
+
+-------------------------------------------------------------------------------
+
+The Private Cloud is what you get when you run Virtual (aka imaginary) servers
+in servers that you own. You like servers, so you put servers in your servers,
+and if the servers break, the servers can fix it!
+
+-------------------------------------------------------------------------------
+
+But it's not turtles all the way down. At some point, your computation gets
+done on transistors. Transistors live in servers, and servers live in.... 
+
+-------------------------------------------------------------------------------
+
+Datacenters! Having a useful cloud requires a bunch of different datacenters
+to talk to each other. We call this the internet, and the internet is held
+together by...
+
+-------------------------------------------------------------------------------
+
+Fiber optic cables! There are a bunch of different organizations that control
+the cables, and the continued usefulness of the Internet as we know it depends
+on the politics between those organizations, but it's better than the
+alternative.
+
+-------------------------------------------------------------------------------
+
+While you can get decent bandwidth with a box of hard drives in the mail or an
+SD card on a pigeon or some copper wire, it's generally accepted that the
+latency doesn't compete with sending your packets at the speed of light.  
+
+-------------------------------------------------------------------------------
+
+So, about those packets that we care about, where do they come from? Have you
+got one server in any of these big popular “clouds” that you care about not
+losing? 
+
+-------------------------------------------------------------------------------
+
+Your AWS instance or Heroku app lives in a datacenter in one of these
+locations. US-West regions are a popular choice for developers in North
+America, and are conveniently located in a region that professional geologists
+identify as “overdue” for a catastrophic earthquake!  
+
+-------------------------------------------------------------------------------
+
+Microsoft's Azure data centers draw a beautiful line along the Pacific Rim, a
+region poetically described as the Ring of Fire for its prevalence of
+earthquakes and volcanic activity. Maybe you should put your server in Europe
+instead... 
+
+-------------------------------------------------------------------------------
+
+When your computations are done on hardware located in the EU and you involve
+users' personal data, you could be legally required to remove all traces of a
+user who invokes their right to be forgotten. 
+
+-------------------------------------------------------------------------------
+
+There are also laws in many jurisdictions requiring data retention, but think
+twice before blindly instructing your Cloud to copy your data everywhere, if
+your data includes secrets that you'd rather keep away from state actors in
+certain regions.  
+
+-------------------------------------------------------------------------------
+
+There can be all kinds of problems with locating your “cloud” servers
+overseas! Let's just stick to the safety of datacenters in the midwestern
+United States, where government surveillance is a known unknown and you're
+unlikely to get earthquakes or tsunamis.  
+
+-------------------------------------------------------------------------------
+
+The region featuring Linode's Atlanta and Dallas Datacenters and Rackspace's
+Virginia, Dallas, and Chicago locations is popularly known as Tornado Alley,
+and is fraught by a variety of seasonal storms. 
+
+-------------------------------------------------------------------------------
+
+Datacenters usually have backup generators with enough fuel to keep them
+powered for a while, and redundant networking. Everything might be okay, but
+now you know why the world of “real” ops places such value on backups and
+redundancy.  Thank you!
+
