@@ -116,3 +116,15 @@ https://github.com/rust-lang-deprecated/
 https://github.com/carols10cents/rustlings
 https://doc.rust-lang.org/stable/book/bibliography.html
 http://www.snarky.ca/how-i-stay-happy-making-open-source-software
+
+The part about other cool projects
+----------------------------------
+
+Openhatch &co automate away a problem that we didn't have: dead IRC channel
+means people aren't always noticed right away. Rust IRC is highly active but
+if you have a ghost town you might want a welcomebot
+https://github.com/shaunagm/welcomebot kind of thing
+
+on the infra side, we're not there yet but some others are, notably openstack
+http://princessleia.com/open_source_infra/
+
