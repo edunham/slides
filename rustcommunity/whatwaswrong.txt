@@ -19,20 +19,22 @@ choice.
 
 ------------------------------------------------------------------------------
 
-What was wrong:
+What was wrong: You build a feature, then you PR the feature, then everybody
+yells at each other about whether that was a feature we should've built
 
-What we did: 
+What we did: Implement RFC process. 
 
-What you can learn:
+What you can learn: 
 
 
 ------------------------------------------------------------------------------
 
-What was wrong:
+What was wrong: Experts reviewing code have to say no a lot, which makes them
+grumpy. 
 
-What we did: 
+What we did: Make robots say no instead.  
 
-What you can learn:
+What you can learn: Automate yourself out of a job. Really. 
 
 
 ------------------------------------------------------------------------------

@@ -1,0 +1,39 @@
+You Will Get Caught
+
+Hey you. Yes, I'm talking to you. Nobody else notices that you're faking it,
+and when you try to tell them they picked the wrong person for your job, they
+say a bunch of nice things that you're sure are only to make you feel better
+and get back to work. 
+
+It's all een a hilarious comedy of errors so far, and somehow nobody has
+realized that you have no clue what you're doing. But you don't know how long
+it'll continue. 
+
+I was in the same place for a bit. My productivity was kinda shitty; because
+I'm lucky enough to work on a totally open project, every task I'd consider at
+work would be a huge opportunity to get caught. So I didn't take on nearly as
+much as everybody around me said I was capable of. 
+
+But then this thing happened. Part of what I think makes me so unqualified for
+my role is the way I'm kinda bad at saying no -- I go about under the
+impression that if I admit I can't do something or give a time estimate that's
+too long, everybody will realize and fire me. And getting fired would be
+massively inconvenient, though there's times when I wonder if it'd be better
+for the team. 
+
+So here's how it got me. 
+
+* took on a project that I thought should've been easy
+* nearly had it, which confirms it should be easy, and then scope crept in a
+  way that broke my algorithm
+* this should be easy, so failure is scary
+* boss calls a meeting w/ him and a senior team member
+* oh shit i'm getting fired
+* at this point the code is like 6 months overdue and idk how to fix it and
+  idk how to ask for help
+* we talk about it and boss says he feels responsible for not mentoring better
+* says it's like what he ran into in grad school
+* figure out plan for offloading it onto another team member who's better
+  qualified then developing my coding skills
+* holy shit i'm not fired
+

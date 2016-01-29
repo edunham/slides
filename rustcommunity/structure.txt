@@ -7,3 +7,5 @@ Overview of how OSS is terrible, then point-by-point what we did
 Overview of how OSS is terrible, pipe dreams of how a good project would look,
 what Rust does to get closer to that, how you can use what we've done, what's
 left
+
+What was wrong, what we did, what you can use. 
