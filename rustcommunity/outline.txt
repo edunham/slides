@@ -1,0 +1,74 @@
+Hi. This is going to be kind of a storytime talk. I want to share what I've
+learned recently about automating all the things, and hopefully give you some
+tools and ideas for making your own FOSS projects more enjoyable for everyone
+and less exhausting for their maintainers. 
+
+
+
+I'm edunham. For as long as I can remember, I've been fascinated by
+machines that do people-things for us. 
+
+I got into programming by participating in FIRST robotics in high school,
+wherein a bunch of kids got 6 weeks to build a machine which played that
+year's game against other machines. It was all the fun of sports, without
+people throwing things at me! (well, at least not very often). 
+
+This landed me in a computer science program at Oregon State University, where
+classes like analysis of algorithms taught me a new framework for observing
+structured patterns in the behaviors of systems around me. The language of
+computer science helped me think more clearly about feedback loops and levels
+of abstraction in other areas, like psychology, as well. 
+
+So I worked at the OSL for awhile, and at Intel, and at Urban Airship, and
+along the way was involved in various capacities with open source projects of
+all different sizes and all different levels of disfunctionality. 
+
+As well as learning about opensource at all these jobs, I learned about
+*automating* things. The dictionary definitions of automation are kind of a
+decade out of date -- they all talk about using a physical mechanism to reduce
+the human effort required in a manufacturing process. 
+
+While opsing and devopsing around on the various teams, I learned to see
+automation at a slightly higher level of abstraction: If you anthropomorphize
+a system, as I'm wont to do, automation is cutting humans out of a loop,
+teaching the machines a new habit. The definition of 'habit' actually comes
+closer to what 'automation' means in a software context -- for a system to
+have a "habit" of doing something means that a certain set of stimuli or
+circumstances predictably produce the same result. Synonyms include pattern,
+convention, tradition, routine. 
+
+Automation is causing a reaction to a given stimulus to occur automatically.
+
+
+
+When I left school to take a job as DevOps Engineer for Mozilla Research, I
+thought I was only getting into an excellent personal development opportunity:
+I was excited to jump in the deep end of infrastructure work by adopting a
+pair of medium-sized projects and bringing them up to the state of the art. 
+
+(To me, that "state of the art" means a human never does a task manually more
+than about 3 times, but I'm not there yet and it'll be a whole other talk when
+I start getting close)
+
+So, I've been interacting with FOSS projects and contributors in various
+capacities for the better part of a decade, and I heard a certain set of
+complaints so often that I assumed they were inevitable. This is why I was
+shocked to discover that the Rust and Servo projects seems to be missing some
+of the standard dysfunctions! 
+
+So, that's me. Let's meet Rust. 
+
+TODO: Intro Rust with dates and stats.
+
+Rust is a cool language with a community full of incredibly nice humans, and
+that's no accident. As I've met and talked with its founders, I've learned the
+ways that they automated a lot of the hard parts of running an open source
+community. 
+
+OK, this sounds like a strange way to use my words at first. Automation is for
+machines, not people!
+
+So, remember that automation is causing a response to a given stimulus or
+situation to happen without human effort. 
+
+One of the biggest  
