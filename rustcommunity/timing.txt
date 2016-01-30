@@ -1,0 +1,33 @@
+Target: 40mins total
+
+
+10mins: Intro...
+----------------
+
+2mins: Intro self
+3mins: Intro Rust
+5mins: Intro automation
+
+
+This is about making automation that *people want to use*. 
+
+5mins: Non-technical automation
+-------------------------------
+
+The 2 things which aren't really software but make Rust a less angry place
+* CoC and self-selection
+* RFC process 
+
+* Us vs Bots
+
+22mins:
+-------
+* Monotone -> Bors -> Homu (10min)
+* Highfive et al (10min)
+* Starters (2min)
+
+3mins: 
+------
+
+* Crater
+
