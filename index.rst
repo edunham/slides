@@ -11,6 +11,8 @@ http://sphinx-doc.org/latest/index.html
 
 http://hieroglyph.readthedocs.org/en/latest/
 
+Some of them are also made with a horrible pile of reveal.js and Pandoc.
+
 Source?
 -------
 
@@ -30,7 +32,7 @@ Feedback?
 ---------
 
 If you've seen one of my talks in person or online and have an opinion about
-it, please let me know! Email dunhame@onid.orst.edu or IRC edunham on
+it, please let me know! Email slides.edunham.net@edunham.net or IRC edunham on
 freenode.net with your thoughts. 
 
 I'm especially interested in suggestions for improving the abstracts and
@@ -52,11 +54,13 @@ from that conference.
 Will you speak about $TOPIC?
 ----------------------------
 
-Maybe! Email me (dunhame@onid.orst.edu) or ping me (edunham on
+Maybe! Email me (slides.edunham.net@edunham.net) or ping me (edunham on
 irc.freenode.net) with your request!
 
-Will you speak at $CONFERENCE?
-------------------------------
+Will you speak at $EVENT?
+-------------------------
 
-Probably! If it's outside the Pacific Northwest, I might need travel and
-housing assistance, since I'm still a student.
+Probably! If access to the event is restricted based on something about the
+attendees (where they work, how they look, etc), we'll need to discuss
+appropriate compensation. However, I often donate talks to events which make
+them available to everyone!
