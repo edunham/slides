@@ -3,8 +3,6 @@
    hieroglyph-quickstart on Sun Jan 31 18:41:53 2016.
 
 
-Life is better with 
-
 ===========================
 Rust's Community Automation
 ===========================
@@ -14,14 +12,14 @@ edunham
 Feb 5, 2016
 
 
-Hi!
-===
+talks.edunham.net/lca2016
+=========================
 
 * lca2016@edunham.net
 * @qedunham
 
 Rust
-====
+----
 
 .. figure:: /hieroglyph-static/rustlogo.jpg
     :align: right
@@ -44,13 +42,12 @@ How?
     that makes Haskellers happy, etc
 
 Automation
-==========
+----------
 
 .. note:: 
 
     define automation
 
-==============
 Life Is Better
 ==============
 
@@ -63,11 +60,8 @@ Life Is Better
     the brains of the core team members about how things got this way, and I'm
     here to share what I wish I'd known earlier. 
 
-Problems & Solutions
-====================
-
 Diversity
----------
+=========
 
 .. note:: 
 
@@ -100,8 +94,8 @@ Code of Conduct
     see trial by combat as the best solution makes the community a much more
     enjoyable place for the rest of us.     
 
-Unappreciated Code
-------------------
+Unappreciated Contributions
+===========================
 
 .. note::
 
@@ -115,6 +109,11 @@ Unappreciated Code
     possible anyway, so please leave me alone", and you get people feeling
     rejected a lot.
 
+.. slide::
+
+TODO graph up and to the right of time invested vs pain of rejection
+
+
 RFC process
 -----------
 
@@ -122,11 +121,14 @@ RFC process
     You don't get as attached to a written proposal that's explicitly only a
     suggestion. 
 
+Recognition
+-----------
 
+* Weekly newsletter names "friend of the tree"
+* First commits recognized in TWIR
+* Community members built http://edunham.github.io/rust-org-stats/
 
-.. figure:: /path/to/figure.jpg
-    :scale: 50%
-    :align: center
+Broken Tree
+===========
 
-.. note:: 
-        asdf jkl;
+.. note:: Why's it bad when the tree breaks? 
