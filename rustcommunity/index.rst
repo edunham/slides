@@ -3,20 +3,17 @@
    hieroglyph-quickstart on Sun Jan 31 18:41:53 2016.
 
 
-===========================
-Rust's Community Automation
-===========================
-
-edunham
-
-Feb 5, 2016
-
-
+=========================
 talks.edunham.net/lca2016
 =========================
 
-* lca2016@edunham.net
-* @qedunham
+.. note::
+    .. figure:: /hieroglyph-static/titleslide.png
+        :class: fill
+
+
+    * lca2016@edunham.net
+    * @qedunham
 
 Rust
 ----
@@ -111,7 +108,7 @@ Unappreciated Contributions
 
 .. slide::
 
-TODO graph up and to the right of time invested vs pain of rejection
+    TODO graph up and to the right of time invested vs pain of rejection
 
 
 RFC process
@@ -132,3 +129,29 @@ Broken Tree
 ===========
 
 .. note:: Why's it bad when the tree breaks? 
+
+The Not Rocket Science Rule Of Software Engineering:
+----------------------------------------------------
+
+.. slide::
+
+    .. figure:: /hieroglyph-static/rocketscience.png
+        :class: fill
+
+.. note:: 
+    http://graydon.livejournal.com/186550.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
