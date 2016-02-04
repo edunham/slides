@@ -27,6 +27,14 @@ lca2016@edunham.net
     .. figure:: /hieroglyph-static/first-rust-commit.png
         :align: center
 
+    .. note::
+
+        Rust development started in earnest in 2010, and picked up speed till
+        Rust 1.0 was released on May 15, 2015. Since then we've rolled a Rust
+        Stable minor version every 6 weeks -- 1.6 just came out on January 21. 
+
+        What's Rust?
+
 .. slide:: 
 
     .. figure:: /hieroglyph-static/safe-concurrent-fast.png
@@ -34,6 +42,8 @@ lca2016@edunham.net
     
     .. note:: 
         
+        Rust is a systems programming language 
+
         How?
 
         * Ownership
@@ -47,20 +57,52 @@ lca2016@edunham.net
 
 .. slide:: 
 
+    .. figure:: /hieroglyph-static/nested-boxes.png
+        :class: fill
+
+    .. note:: 
+
+        We could spend all day on language details, but basically it's set up
+        to guarantee that no program written in safe Rust code can leak
+        memory, suffer overflow errors, or hit a type error during execution.
+    
+        This does mean that occasionally there'll be a valid program which the
+        compiler does not accept. In this case, you can use Unsafe and maybe
+        file a bug.
+
+.. slide:: 
+
     .. figure:: /hieroglyph-static/not-so-secret.png
         :class: fill
 
+
+    .. note:: 
+
+        But building an amazing language isn't the only thing we're known for. 
 
 .. slide::
 
     .. figure:: /hieroglyph-static/humans-quote.png
         :class: fill
 
+    .. note:: 
+
+        I've met them. It's true. They're kind of amazing. Actually very
+        amazing. 
+
+
+        But I lured all *you* amazing humans here with promises that I'd talk
+        about... 
 
 .. slide:: 
 
     .. figure:: /hieroglyph-static/automate.png
         :class: scale
+
+    .. note:: 
+
+        Automation! I think of automation as offloading a human task onto a
+        machine, in other words, teaching a system a habit. 
 
 
 .. slide:: 
@@ -84,6 +126,17 @@ lca2016@edunham.net
 
         I think these work so well because *it's always been that way*. 
 
+        
+.. slide:: 
+
+    .. figure:: /hieroglyph-static/define-diverse.png
+        :class: scale
+
+    .. note:: 
+
+        Do a root cause analysis on pretty much any conflict. If you keep
+        asking "why", you will land on... 
+
 .. slide::
 
     .. figure:: /hieroglyph-static/diversity.png
@@ -100,6 +153,20 @@ lca2016@edunham.net
         genuinely think it's horribly uncool and harrassing, and it doesn't matter
         who's right or wrong but most communities end up resolving "right" and
         "wrong" with trial by verbal combat. 
+
+.. slide:: 
+
+    .. figure:: /hieroglyph-static/trial-by-combat.jpg
+        :class: fill
+
+    .. note:: 
+
+        https://en.wikipedia.org/wiki/German_school_of_fencing#/media/File:Augsburg_Cod.I.6.4%C2%BA.2_%28Codex_Wallerstein%29_107v.jpg
+
+        Disagreements in some other communities that I've been part of have
+        been resolved by trial by verbal combat. This does not happen nearly
+        as much in the Rust community, because we have...
+
 
 .. slide:: 
 
@@ -223,10 +290,34 @@ RFC process
     :class: scale
 
 .. note:: 
+
     You don't get as attached to a written proposal that's explicitly only a
     suggestion. 
 
-    But 
+    Another way that I've seen other communities be unappreciative is to take
+    good contributions and contributors for granted. 
+
+    And in a big, distributed community, it's easy to feel left out. There's
+    no totally automatic fix, but a good newsletter really helps:
+
+This Week In Rust
+-----------------
+
+* News & Blog Posts
+* Notable New Crates & Project Updates
+* Updates from Rust Core
+* New Contributors
+* Approved RFCs
+* Final Comment Period
+* New RFCs
+* Upcoming Events
+* fn work(on: RustProject) -> Money
+* Crate of the Week
+* Quote of the Week
+
+.. note:: 
+
+    There're always these main sections, and sometimes also...
 
 .. slide::
 
@@ -247,7 +338,17 @@ RFC process
     .. figure:: /hieroglyph-static/broken-tree.png
         :class: fill
 
-    .. note:: Why's it bad when the tree breaks? 
+    .. note:: 
+
+        Why's it bad when the tree breaks?
+
+        Our friends of the tree are super important, because it hurts everyone
+        when the tree gets broken. 
+
+        * Developers
+        * Users
+        * Public image
+        * Confidence in project
 
 .. slide:: 
 
@@ -259,7 +360,8 @@ RFC process
 
     .. note:: 
 
-        The Not Rocket Science Rule of Software Engineering
+        The Not Rocket Science Rule of Software Engineering. It sounds
+        obvious, but *actually doing it* can sound almost impossible. 
 
 
 .. slide::
@@ -273,6 +375,8 @@ RFC process
         and diligence to adhere to. 
 
         That's why the AUTOMATICALLY.
+
+        But when you try to keep your build green all the time, what happens? 
 
 .. slide:: 
 
@@ -288,36 +392,39 @@ RFC process
         How does telling a really enthusiastic, passionate new contriutor that
         their code isn't good enough make you feel?
 
+        One easy tweak reduces this stress...
+
 .. slide:: 
 
     .. figure:: /hieroglyph-static/humans-vs-robots.png
         :class: fill
 
-.. slide:: 
-
-    .. figure:: /hieroglyph-static/buildbot-nut.png
-        :class: scale
-
     .. note:: 
 
-        Buildbot allows us to run community builders for platforms that aren't
-        officially supported. It helps turn "no" into "PRs welcome". Of course
-        we have to be choosy about who if anyone we take snaps from, and
-        communicate endorsement or lack thereof to the community. 
+        When you want code into the tree and something says no, there's still
+        a conflict. Still an Us Vs Them. But we can change who's in the 'us'
+        and who's in the 'them'.
 
-        And as you may have noticed, we have a *lot* of comunity
-        buzz/hype/popularity at the moment. This means a lot of newbies. More
-        on  that later.
+        So yeah, who's Us?
 
 .. slide:: 
 
     .. figure:: /hieroglyph-static/borscommits.png
         :class: scale
 
+    .. note:: 
+
+        Who's this Bors guy? He sure seems to be doing a lot of work.
+
 .. slide::
 
     .. figure:: /hieroglyph-static/bors-commits.png
         :class: scale
+
+    .. note:: 
+
+        Yep, he's doing a lot of the work. Does that name ring a bell from
+        somewhere?
 
 Bors
 ====
@@ -400,8 +507,31 @@ https://github.com/barosl/homu
 
 .. note:: 
 
+    The Bors account is actually running on a Homu instance, and Homu's
+    probably the guy you should be using if you're rolling this out.
+
     Homu is an incremental improvement on Bors; carries state, allows try
     builds, listens for pushes from Git hooks rather than polling the repo
+
+.. slide:: 
+
+    .. figure:: /hieroglyph-static/buildbot-nut.png
+        :class: scale
+
+    .. note:: 
+
+        Starting at the bottom of the stack, we have a comprehensive test
+        suite run by a Buildbot instance.
+
+        Buildbot allows us to run community builders for platforms that aren't
+        officially supported. It helps turn "no" into "PRs welcome". Of course
+        we have to be choosy about who if anyone we take snaps from, and
+        communicate endorsement or lack thereof to the community. 
+
+        And as you may have noticed, we have a *lot* of comunity
+        buzz/hype/popularity at the moment. This means a lot of newbies. More
+        on  that later.
+
 
 Solved Problems
 ===============
@@ -493,10 +623,26 @@ Starters
 
 
         http://www.joshmatthews.net/fsoss15/contribution.html
+        
 
+
+.. slide:: 
+
+    .. figure:: /hieroglyph-static/starters.png
+        :class: fill
+
+    .. note:: 
+
+        https://starters.servo.org/
+
+        Martin Feckie wrote the first Starters; I use Servo's as an example
+        because they've been rolling it out first
 
 Crater
 ======
+
+.. figure:: /hieroglyph-static/crates.png
+    :class: fill
 
 .. note:: 
 
@@ -516,19 +662,11 @@ https://doc.rust-lang.org/stable/book/bibliography.html
 https://github.com/carols10cents/rustlings
 http://www.rustbyexample.com/
 
-Further Reading: Community Automation
--------------------------------------
+talks.edunham.net/lca2016
+=========================
 
+lca2016@edunham.net
 
+@qedunham
 
-
-
-Summary
-=======
-
-
-* Good practices are a viral meme
-* You can automate community
-
-
-
+Rust-lang BoF downstairs after this!
