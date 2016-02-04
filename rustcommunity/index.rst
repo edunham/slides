@@ -481,10 +481,19 @@ Highfive Configuration
 Starters
 ========
 
-.. note:: 
+.. slide::
 
-    Problem: Newbies are lost and confused. They want to get involved but
-    don't necessarily know how to start. 
+    .. figure:: /hieroglyph-static/confused-newbie.png
+        :class: fill
+
+    .. note:: 
+
+        Problem: Newbies are lost and confused. They want to get involved but
+        don't necessarily know how to start. 
+
+
+        http://www.joshmatthews.net/fsoss15/contribution.html
+
 
 Crater
 ======
@@ -498,6 +507,21 @@ Crater
 
     brson is a wizard and y'all should ping him and ask him to come give a
     talk on it. 
+
+Further Reading: Rust
+---------------------
+
+https://doc.rust-lang.org/stable/book
+https://doc.rust-lang.org/stable/book/bibliography.html
+https://github.com/carols10cents/rustlings
+http://www.rustbyexample.com/
+
+Further Reading: Community Automation
+-------------------------------------
+
+
+
+
 
 Summary
 =======
