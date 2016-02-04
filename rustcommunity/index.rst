@@ -635,29 +635,28 @@ Highfive Configuration
         Martin Feckie wrote the first Starters; I use Servo's as an example
         because they've been rolling it out first
 
-Crater
-======
+.. slide::
 
-.. figure:: /hieroglyph-static/crates.png
-    :class: fill
+    .. figure:: /hieroglyph-static/crates.png
+        :class: fill
 
-.. note:: 
+    .. note:: 
 
-    Here's a place where the Not Rocket Science Rule kind of went viral. It's
-    all very well to make the code pass all its tests, but there's another
-    definition of "broken" as well: A new stable release that regresses
-    someone's code that worked on the old stable release. 
+        Here's a place where the Not Rocket Science Rule kind of went viral. It's
+        all very well to make the code pass all its tests, but there's another
+        definition of "broken" as well: A new stable release that regresses
+        someone's code that worked on the old stable release. 
 
-    brson is a wizard and y'all should ping him and ask him to come give a
-    talk on it. 
+        brson is a wizard and y'all should ping him and ask him to come give a
+        talk on it. 
 
 Further Reading: Rust
 ---------------------
 
-https://doc.rust-lang.org/stable/book
-https://doc.rust-lang.org/stable/book/bibliography.html
-https://github.com/carols10cents/rustlings
-http://www.rustbyexample.com/
+* https://doc.rust-lang.org/stable/book
+* https://doc.rust-lang.org/stable/book/bibliography.html
+* https://github.com/carols10cents/rustlings
+* http://www.rustbyexample.com/
 
 talks.edunham.net/lca2016
 =========================
