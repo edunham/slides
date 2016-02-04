@@ -109,11 +109,12 @@ Rust
 .. slide:: 
 
     .. figure:: /hieroglyph-static/CoC.png
-        :class: scale
+        :class: fill
 
-    https://www.rust-lang.org/conduct.html
 
     .. note::
+
+        https://www.rust-lang.org/conduct.html
 
         Setting a CoC differentiates 2 kinds of people: Those who'll follow it and
         those who won't. "I'll just be nice" -> what about when your definition of
@@ -133,7 +134,7 @@ Rust
 .. slide:: 
 
     .. figure:: /hieroglyph-static/conduct-everywhere.png
-        :class: scale
+        :class: fill
 
     .. note:: 
 
@@ -147,12 +148,9 @@ Rust
 
 .. slide:: 
 
-    .. epigraph:: 
+    .. figure:: /hieroglyph-static/attacksquad.png
 
-        tyrannical about enforcing their code of conduct ... moderation
-        attack squad ...
-
-        -- http://developers.slashdot.org/comments.pl?sid=8652809&cid=51352141
+    -- http://developers.slashdot.org/comments.pl?sid=8652809&cid=51352141
 
     .. note:: 
 
@@ -227,25 +225,19 @@ RFC process
 
     But 
 
-Friends Of The Tree
--------------------
+.. slide::
 
-.. epigraph:: 
+    .. figure:: hieroglyph-static/friends-of-the-tree.png
+        :class: fill
 
-    The Rust Team likes to occassionally recognize people who have made
-    outstanding contributions to The Rust Project, its ecosystem, and its
-    community. 
-    
-    -- https://this-week-in-rust.org
+    .. note:: 
+        The This Week In Rust newsletter names the project's new contributors and
+        often thanks a Friend Of The Tree
 
-.. note:: 
-    The This Week In Rust newsletter names the project's new contributors and
-    often thanks a Friend Of The Tree
+        * Community members built http://edunham.github.io/rust-org-stats/
 
-    * Community members built http://edunham.github.io/rust-org-stats/
-
-    The Tree is important to us. Because the next huge problem that open
-    source projects face is.... broken tree!
+        The Tree is important to us. Because the next huge problem that open
+        source projects face is.... broken tree!
 
 Broken Tree
 ===========
@@ -428,34 +420,35 @@ Highfive
     welcoming newbie, and providing useful information on appropriate repos. 
 
 
-.. slide:: 
+Highfive Configuration
+======================
 
-    .. code-block:: json
+.. code-block:: json
 
-        {
-        "groups": {
-            "all": ["core"],
-            "compiler": ["@pnkfelix", "@nrc", "@Aatch", "@jroesch", "@arielb1"],
-            "syntax": ["@pnkfelix", "@nrc", "@sfackler"],
-            "libs": ["@aturon"]
-        },
-        "dirs": {
-            "doc":              ["doc", "@manishearth"],
-            "liballoc":         ["libs"],
-            "libarena":         ["libs"],
-            "libbacktrace":     [],
-            "libcollections":   ["libs", "@Gankro"],
-        ...
+    {
+    "groups": {
+        "all": ["core"],
+        "compiler": ["@pnkfelix", "@nrc", "@Aatch", "@jroesch", "@arielb1"],
+        "syntax": ["@pnkfelix", "@nrc", "@sfackler"],
+        "libs": ["@aturon"]
+    },
+    "dirs": {
+        "doc":              ["doc", "@manishearth"],
+        "liballoc":         ["libs"],
+        "libarena":         ["libs"],
+        "libbacktrace":     [],
+        "libcollections":   ["libs", "@Gankro"],
+    ...
 
-    .. note:: 
+.. note:: 
 
-        Rust's highfive knows there's separate teams for each repository, and
-        knows what teams+individuals should be assigned to review changes in
-        each directory of the tree. 
+    Rust's highfive knows there's separate teams for each repository, and
+    knows what teams+individuals should be assigned to review changes in
+    each directory of the tree. 
 
-        Servo has a highfive too, which we've diverged from a bit, who handles
-        things differently. This is another case of VIRALITY -- we actually
-        inherited the highfive idea from servo
+    Servo has a highfive too, which we've diverged from a bit, who handles
+    things differently. This is another case of VIRALITY -- we actually
+    inherited the highfive idea from servo
 
 Starters
 ========
