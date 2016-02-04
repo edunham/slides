@@ -13,6 +13,7 @@ talks.edunham.net/lca2016
 =========================
 
 lca2016@edunham.net
+
 @qedunham
 
 .. slide::
@@ -46,18 +47,14 @@ lca2016@edunham.net
 
 .. slide:: 
 
-    "Fortunately, perhaps the most impressive aspect of Rust is the welcoming
-    community that supports it. This community could become Rust’s not-so-secret
-    weapon."
+    .. figure:: /hieroglyph-static/not-so-secret.png
+        :class: fill
 
-    - http://www.infoworld.com/article/2947214/open-source-tools/two-reasons-the-rust-language-will-succeed.html
 
 .. slide::
 
     .. figure:: /hieroglyph-static/humans-quote.png
-        :align: center
-
-    http://scattered-thoughts.net/blog/2015/06/04/three-months-of-rust/
+        :class: fill
 
 
 .. slide:: 
@@ -181,7 +178,7 @@ lca2016@edunham.net
 
 .. slide::
 
-    .. figure: /hieroglyph-static/agreement.png
+    .. figure:: /hieroglyph-static/agreement.png
         :class: fill
  
     .. note::
@@ -309,7 +306,8 @@ RFC process
         communicate endorsement or lack thereof to the community. 
 
         And as you may have noticed, we have a *lot* of comunity
-        buzz/hype/popularity at the moment. This means a lot of newbies. 
+        buzz/hype/popularity at the moment. This means a lot of newbies. More
+        on  that later.
 
 .. slide:: 
 
@@ -398,6 +396,7 @@ https://github.com/barosl/homu
     * Keeps state
     * Runs when triggered by GitHub hooks
     * Supports `rollup` and `try`
+    * Account is named Bors
 
 .. note:: 
 
@@ -417,23 +416,23 @@ Solved Problems
     Next problem... things are awesome and we're building a cool product and
     now EVERYBODY wants to get involved!
 
-Too Many Contributors?!
-=======================
+.. slide::
 
-.. figure:: hieroglyph-static/crowd-of-newbies.png
-    :class: scale
+    .. figure:: hieroglyph-static/crowd-of-newbies.png
+        :class: fill
 
-.. note:: 
+    .. note:: 
 
-    Ok, there's really no such thing. But in other communities, I've seen core
-    contributors become more and more grumpy the more times they have to say
-    the same thing over and over again to a stream of newcomers. 
+        Ok, there's really no such thing as too many contributors. 
+        
+        But in other communities, I've seen core
+        contributors become more and more grumpy the more times they have to say
+        the same thing over and over again to a stream of newcomers. 
 
-    I've even experienced it myself, and realized it's called burnout. 
+        I've even experienced it myself, and realized it's called burnout. 
 
-    But the Rust community has some automation to reduce the overhead that
-    these new contributors place on core team folks. 
-
+        But the Rust community has some automation to reduce the overhead that
+        these new contributors place on core team folks. 
 
 Highfive
 ========
@@ -482,11 +481,23 @@ Highfive Configuration
 Starters
 ========
 
+.. note:: 
 
+    Problem: Newbies are lost and confused. They want to get involved but
+    don't necessarily know how to start. 
 
 Crater
 ======
 
+.. note:: 
+
+    Here's a place where the Not Rocket Science Rule kind of went viral. It's
+    all very well to make the code pass all its tests, but there's another
+    definition of "broken" as well: A new stable release that regresses
+    someone's code that worked on the old stable release. 
+
+    brson is a wizard and y'all should ping him and ask him to come give a
+    talk on it. 
 
 Summary
 =======
