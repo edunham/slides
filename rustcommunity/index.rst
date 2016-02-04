@@ -608,9 +608,6 @@ Highfive Configuration
     things differently. This is another case of VIRALITY -- we actually
     inherited the highfive idea from servo
 
-Starters
-========
-
 .. slide::
 
     .. figure:: /hieroglyph-static/confused-newbie.png
