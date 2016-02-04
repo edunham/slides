@@ -318,7 +318,7 @@ Bors
 Bors Logic
 ==========
 
-.. code-block:: 
+.. code-block:: shell 
 
     if state==UNREVIEWED or DISCUSSING, look for r+ or r-:
         if r+, set APPROVED
@@ -417,7 +417,7 @@ Too Many Contributors?!
 Highfive
 ========
 
-.. figure:: /hieroglyph-static/rust-highive.png
+.. figure:: /hieroglyph-static/rust-highfive.png
     :class: scale
 
 .. note:: 
@@ -430,7 +430,7 @@ Highfive
 
 .. slide:: 
 
-    .. code-block:: 
+    .. code-block:: json
 
         {
         "groups": {
