@@ -353,8 +353,7 @@ This Week In Rust
 .. slide:: 
 
     .. figure:: /hieroglyph-static/not-rocket-science.png
-        :align: center
-        :scale: 80%
+        :class: fill
 
     http://graydon.livejournal.com/186550.html
 
