@@ -26,25 +26,23 @@ lca2016@edunham.net
     .. figure:: /hieroglyph-static/first-rust-commit.png
         :align: center
 
+.. slide:: 
 
-Rust
-----
-
-* Safe
-* Concurrent
-* Fast
-
-.. note:: 
+    .. figure:: /hieroglyph-static/safe-concurrent-fast.png
+        :class: fill
     
-    How?
+    .. note:: 
+        
+        How?
 
-    * Ownership
-    * Borrowing
-    * Lifetimes
+        * Ownership
+        * Borrowing
+        * Lifetimes
 
+        Oh, and that little guy is Ferris. He's a Rustacean. 
 
-    Out of these requirements fall zero-cost abstraction, a type system
-    that makes Haskellers happy, etc
+        Out of these requirements fall zero-cost abstraction, a type system
+        that makes Haskellers happy, etc
 
 .. slide:: 
 
@@ -165,42 +163,50 @@ Rust
         participating in the Rust community. We think that this is okay.
 
 
-Disclaimer
-----------
+.. slide::
 
-.. note:: 
+    .. figure:: /hieroglyph-static/disclaimer.png
+        :class: fill
 
-    This works for Rust because everyone in the current community either
-    wanted the CoC or joined after it was enstated (thus is ok with it). I
-    know somebody's going to ask me how you get a CoC *in*. That's a really
-    huge, difficult problem that I'm not going to talk about here. 
+    .. note:: 
 
-    The moral of the story is to get everyone on the same page about the
-    community's values ASAP, preferably before the project gets big. 
+        This works for Rust because everyone in the current community either
+        wanted the CoC or joined after it was enstated (thus is ok with it). I
+        know somebody's going to ask me how you get a CoC *in*. That's a really
+        huge, difficult problem that I'm not going to talk about here. 
+
+        The moral of the story is to get everyone on the same page about the
+        community's values ASAP, preferably before the project gets big. 
 
 
 .. slide::
+
+    .. figure: /hieroglyph-static/agreement.png
+        :class: fill
  
-    Now we have people who agree on *how* they want to build code. *what* do they
-    build?
+    .. note::
 
-    In other communities, people guess. Then they put lots of time into
-    something, and then the rest of the community doesn't want it, and then
-    they're sad.
+        Now we have people who agree on *how* they want to build code. *what* do they
+        build?
 
+        In other communities, people guess. Then they put lots of time into
+        something, and then the rest of the community doesn't want it, and then
+        they're sad.
 
-Unappreciated Contributions
-===========================
+.. slide:: 
 
-.. note::
+    .. figure:: /hieroglyph-static/rubbish.png
+        :class: fill
 
-    People get sad and angry when they put a bunch of their life into a new
-    feature only to be told it's not what the project wants or needs. 
+    .. note::
 
-    Combine that with "pull requests welcome" as a synonym for "I don't want
-    to explain all the things I dislike about that, but I don't think it's
-    possible anyway, so please leave me alone", and you get people feeling
-    rejected a lot.
+        People get sad and angry when they put a bunch of their life into a new
+        feature only to be told it's not what the project wants or needs. 
+
+        Combine that with "pull requests welcome" as a synonym for "I don't want
+        to explain all the things I dislike about that, but I don't think it's
+        possible anyway, so please leave me alone", and you get people feeling
+        rejected a lot.
 
 .. slide::
 
@@ -239,10 +245,12 @@ RFC process
         The Tree is important to us. Because the next huge problem that open
         source projects face is.... broken tree!
 
-Broken Tree
-===========
+.. slide:: 
 
-.. note:: Why's it bad when the tree breaks? 
+    .. figure:: /hieroglyph-static/broken-tree.png
+        :class: fill
+
+    .. note:: Why's it bad when the tree breaks? 
 
 .. slide:: 
 
@@ -262,30 +270,26 @@ Broken Tree
     .. figure:: /hieroglyph-static/rocketscience.png
         :class: fill
 
-.. slide::
+    .. note:: 
 
-    .. figure:: /hieroglyph-static/bors-commits.png
-        :class: scale
+        This sounds simple, but it actually takes a huge amount of code review
+        and diligence to adhere to. 
+
+        That's why the AUTOMATICALLY.
 
 .. slide:: 
 
-    .. figure:: /hieroglyph-static/borscommits.png
-        :class: scale
+    .. figure:: /hieroglyph-static/humans-vs-humans.png
+        :class: fill
 
-Bors
-====
+    .. note:: 
 
-.. figure:: /hieroglyph-static/bors-book.jpg
-    :class: scale
-    :align: center
+        Typical code review pits person against person. This is problematic
+        because forcing a nice person to say no to other nice people makes
+        them feel kind of bad. 
 
-.. note:: 
-
-    I'm used to a paradigm where it's newbie vs maintainer
-
-    Bors changes the conversation. By personifying the testing system, we
-    shift away from newbies maintainers... <slide>
-
+        How does telling a really enthusiastic, passionate new contriutor that
+        their code isn't good enough make you feel?
 
 .. slide:: 
 
@@ -306,6 +310,30 @@ Bors
 
         And as you may have noticed, we have a *lot* of comunity
         buzz/hype/popularity at the moment. This means a lot of newbies. 
+
+.. slide:: 
+
+    .. figure:: /hieroglyph-static/borscommits.png
+        :class: scale
+
+.. slide::
+
+    .. figure:: /hieroglyph-static/bors-commits.png
+        :class: scale
+
+Bors
+====
+
+.. figure:: /hieroglyph-static/bors-book.jpg
+    :class: scale
+    :align: center
+
+.. note:: 
+
+    I'm used to a paradigm where it's newbie vs maintainer
+
+    Bors changes the conversation. By personifying the testing system, we
+    shift away from newbies maintainers... <slide>
 
 Bors Logic
 ==========
@@ -379,9 +407,10 @@ https://github.com/barosl/homu
 Solved Problems
 ===============
 
-* Nice people
-* Appreciated contributions
-* Tree "can't" break
+* Get nice humans
+* Show that we appreciate them
+* Keep the tree from breaking
+
 
 .. note:: 
 
