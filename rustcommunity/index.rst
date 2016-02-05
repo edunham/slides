@@ -55,6 +55,10 @@ lca2016@edunham.net
         Out of these requirements fall zero-cost abstraction, a type system
         that makes Haskellers happy, etc
 
+        There is *much* more than 40mins worth of things to say about how Rust
+        works. Here are the main changes. 
+
+
 .. slide:: 
 
     .. figure:: /hieroglyph-static/nested-boxes.png
@@ -69,6 +73,83 @@ lca2016@edunham.net
         This does mean that occasionally there'll be a valid program which the
         compiler does not accept. In this case, you can use Unsafe and maybe
         file a bug.
+
+
+        The cost of zero-cost abstraction is the learning curve. 
+
+
+Ownership, Borrowing, Lifetimes
+-------------------------------
+
+* Prevent use-after-free (at compile time)
+* Memory safety prevents data races
+
+.. code-block:: rust
+
+    fn annotated_input<'a>(x: &'a i32) {
+        println!("Annotated input result is {}", x)
+    }
+    fn elide_input(x: &i32) {
+        println!("Elided input is also {}", x)
+    }
+    fn main() {
+        let x = 3;
+        elide_input(&x);
+        annotated_input(&x);
+    }
+
+
+.. note::
+
+    The most important thing to know about lifetimes on day 1 of Rust use is
+    that the compiler is very smart and can often figure them out for you.
+   
+    Variable bindings own their values. When the binding goes out of scope,
+    the compiler knows it's ok to free the memory. 
+
+    You'll soon learn that a reference can be mutable or shared, never both.
+
+    Doing lifetimes at compile time eliminates the need for GC. Compiler knows
+    when to free memory. 
+
+    The borrow checker is like a curmudgeonly mentor who enforces best
+    practices.
+
+Getting Rust
+------------
+
+* https://github.com/brson/multirust
+
+* https://play.rust-lang.org/
+
+
+Nightly, Beta, Stable
+---------------------
+
+.. figure:: /hieroglyph-static/stable.png
+    :class: scale
+
+.. note:: 
+
+    Committing to stability
+
+
+    In the process of developing Rust, we’ve encountered a lot of dead ends, and so it’s been
+    essential to have the freedom to change the language as needed.
+
+    But Rust has matured, and core aspects of the language have been steady for a
+    long time. The design feels right. And there is a huge amount of pent up
+    interest in Rust, waiting for 1.0 to ship so that there is a stable foundation
+    to build on.
+
+    It’s important to be clear about what we mean by stable. We don’t mean that
+    Rust will stop evolving. We will release new versions of Rust on a regular,
+    frequent basis, and we hope that people will upgrade just as regularly. But
+    for that to happen, those upgrades need to be painless.
+
+    To put it simply, our responsibility is to ensure that you never dread
+    upgrading Rust. If your code compiles on Rust stable 1.0, it should compile
+    with Rust stable 1.x with a minimum of hassle.
 
 .. slide:: 
 
@@ -641,21 +722,33 @@ Highfive Configuration
 
     .. note:: 
 
-        Here's a place where the Not Rocket Science Rule kind of went viral. It's
-        all very well to make the code pass all its tests, but there's another
+        We have an awesome collection of community code. 
+
+        Here's a place where the Not Rocket Science Rule kind of went viral. 
+
+        We're applying it to testing the compiler itself. 
+
+        It's all very well to make the code pass all its tests, but there's another
         definition of "broken" as well: A new stable release that regresses
         someone's code that worked on the old stable release. 
 
         brson is a wizard and y'all should ping him and ask him to come give a
         talk on it. 
 
-Further Reading: Rust
----------------------
+Crater: Testing The Compiler
+----------------------------
 
-* https://doc.rust-lang.org/stable/book
-* https://doc.rust-lang.org/stable/book/bibliography.html
-* https://github.com/carols10cents/rustlings
-* http://www.rustbyexample.com/
+* https://github.com/brson/taskcluster-crater
+
+.. figure:: /hieroglyph-static/crater-concept.png
+    :class: scale
+
+
+.. slide::
+
+    .. figure:: /hieroglyph-static/rocketscience.png
+        :class: fill
+
 
 talks.edunham.net/lca2016
 =========================
