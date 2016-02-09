@@ -1,0 +1,32 @@
+The Meme of Best Practices
+
+
+In its original meaning, a "meme" is "an element of a culture or system of
+behaviour passed from one individual to another by imitation or other
+non-genetic means.", though online it's taken on a much broader definition.
+Similarly, the term "DevOps" is rapidly expanding to encompass everyone who
+runs a server and wants to automate themself out a job. And yet, no institute
+of higher education offers a formal curriculum for DevOps!
+
+Founding one of the world's first university-level DevOps training programs
+caused the presenter to examine how DevOps engineers have traditionally been
+trained. Although systems administration and DevOps are historically
+apprenticeship-based and often self-taught out of necessity, the internet
+facilitiates  distributed mentorship in the form of anecdotes, popular images,
+and sometimes captioned cats.
+
+This talk will explore the engineering best practices and warnings with which
+DevOps engineers mentor their colleagues, even when everyone involved thinks
+they're just goofing off. 
+
+
+Speaking Experience:
+
+I've given 21 talks at various events over the past 3 years, listed at
+http://edunham.net/pages/talks.html with their slides and recordings. 
+
+I'd recommend the slide deck
+http://talks.edunham.net/linuxfestnorthwest2015/git/#1 for a look into how I
+teach technical concepts, and the recording at
+https://www.youtube.com/watch?feature=player_detailpage&v=LPqqoOm8y5s#t=1381
+for 5 minutes of me engaging with an audience. 
