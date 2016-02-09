@@ -1,0 +1,91 @@
+Okay, this is fun. Ok, I can hear me, my mic's working. That's awesome. 
+
+I'm edunham on most of the media that matter, qedunham on some of the ones
+that don't, these talks are available at that URL, this same slide will be the
+last one in the presentation too. 
+
+So, before we get going, by a quick show of hands, who here identifies as a
+Real Systems Administrator? A few of you, cool. The rest of you, look around,
+see whose hands are up, you might want to ask them some questions later. Now,
+who here isn't really a Real sysadmin, but just has to wear the hat sometimes? 
+
+Ok, that's cool. It probably seems pretty easy. You don't really have to worry
+about too many backups, about too much disaster recovery, because all of your
+stuff is being done in The Cloud. 
+
+Now, The Cloud is this big buzzword that seems to mean a technological
+panacea. Put it in the cloud, that'll fix the problem! But what does Cloud
+really mean?
+
+So, <audience laughter>, There's a bunch of different kinds of clouds out
+there. We've got cirrus clouds, altocumulus, cumulonimbus, there's a wide
+variety for every use case. 
+
+No, okay, actually, there's the Public Cloud, where you basically rent some
+subset of somebody else's server functionality to do your computations. If
+you'd rather not do it on someone else's servers, you could use your own. 
+
+You could have a Private Cloud, which is where you tell your servers to
+virtualize other servers. You like servers! You put servers in your servers,
+and then when the servers break, the other servers will fix them! Sounds
+awesome, on paper. 
+
+But, it isn't turtles all the way down. Your computations are actually getting
+done on transistors. Transistors live in chips. Chips live in servers. And
+servers... live... in datacenters! 
+
+So, the internet as we know it is comprised of a bunch of computations that
+are done in these big old buildings, those need power, they need air
+conditioning, otherwise the servers will literally melt and/or catch fire, and
+most importantly, they need to be tied together by this network of fiber optic
+cables. 
+
+The cables are owned by a variety of different interests and the functionality
+of the internet depends on cooperation between those interests, which is only
+a little less scary than ship anchors and bulldozers when you're talking about
+a bunch of wires. 
+
+But, it beats the alternative. You can get decent bandwidth out of a box of
+hard drives in the mail or an SD card taped to a pigeon, but you know, the
+latency just cannot compete with throwing your packets around at the speed of
+light. 
+
+So, now that we know what the cloud is, let's talk about where it is. I'd like
+you to think to yourselves whether you have one server, in one datacenter, in
+any of these cloud hosting providers. I'm not going to ask you to raise your
+hands, that'd be embarrassing. 
+
+Here, in AWS or equivalently Heroku, US West 1 and 2 are popular regions to
+deploy your servers into for developers in North America. They are also in an
+area that geologists identify as overdue for a massive, catastrophic
+earthquake. 
+
+If you're using Windows Azure, look at that line that the datacenters make
+around the Pacific Rim. It's an area poetically described as the Ring of Fire,
+based on the volcanoes and earthquakes that it tends to get. 
+
+Ok, the Pacific Ocean is scary. Let's not put our servers there. Maybe we
+should put them in Europe. If you're doing your computation in the EU, you
+*may*, I am not a lawyer, you *may* be legally exposing yourself to a variety
+of data retention laws. 
+
+Let's just copy all the data! Put it in all the different datacenters! Umm,
+there's this problem where you also have to be able to delete an individual
+user, everything about them, because of their Right To Be Forgotten. 
+
+Maybe putting our servers overseas isn't the best idea. Let's come right back
+here into the good old US, where the unknowns of national spying are basically
+known. 
+
+Let's put them in someplace like Linode's Atlanta or Dallas datacenters, or
+Rackspace's Virginia, Dallas, or Chicago datacenters! These actually map out
+the area known as Tornado Alley, because of how often it gets massive storms
+that take out the power for awhile. 
+
+It may not be that bad. Datacenters have backup generators, they have
+redundant networking, they have enough fuel to last them awhile. 
+
+But at the end of the day, your computations are being done in a building, on
+the ground. I hope after this quick tour around the world, your judgement
+about whether to tolerate a single point of failure in your infrastructure
+might be a little less.... clouded. 
