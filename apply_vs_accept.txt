@@ -8,9 +8,12 @@ Year: Conf:     Talk:                                       Accept:     Attend:
 2016  LCA       rustcommunity                               yes         yes
 2015  SeaGL     rustcommunity                               no          yes
 2015  SeaGL     speak                                       yes         yes
-2016  SCALE     configmgmt  
-2016  SCALE     nocloud 
-2016  OSCON     servo community tools
-2016  OSCON     learn rust
-2016  POSSCON   learn rust
-2016  POSSCON   thinking in git
+2016  SCALE     configmgmt                                  no          yes 
+2016  UpSCALE   nocloud                                     yes         yes
+2016  OSCON     servo community tools                       no 
+2016  OSCON     learn rust                                  yes
+2016  POSSCON   learn rust                                  no 
+2016  POSSCON   thinking in git                             yes
+2016  LFNW      rustcommunity
+2016  LFNW      intro irc
+2016  LFNW      server happiness
