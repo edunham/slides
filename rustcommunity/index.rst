@@ -225,6 +225,9 @@ Nightly, Beta, Stable
 
     .. note:: 
 
+        TODO FIXME: nuke one of these slides in favor of words about selecting
+        for willingness to have moderated discussion
+
         Diversity of thought causes problems. Yes, you heard that correctly. A
         community who all thinks the same is not diverse. 
 
@@ -644,6 +647,7 @@ Solved Problems
         But the Rust community has some automation to reduce the overhead that
         these new contributors place on core team folks. 
 
+
 Highfive
 ========
 
@@ -702,7 +706,6 @@ Highfive Configuration
         http://www.joshmatthews.net/fsoss15/contribution.html
         
 
-
 .. slide:: 
 
     .. figure:: /hieroglyph-static/starters.png
@@ -714,6 +717,13 @@ Highfive Configuration
 
         Martin Feckie wrote the first Starters; I use Servo's as an example
         because they've been rolling it out first
+
+.. slide:: 
+
+    TODO FIXME: So the newbie has made a PR. Sometimes PRs get abandoned, but
+    we have triage!
+
+    https://mail.mozilla.org/pipermail/rust-dev/2013-April/003668.html
 
 .. slide::
 
