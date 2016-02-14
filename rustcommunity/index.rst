@@ -291,6 +291,17 @@ Nightly, Beta, Stable
 
         Is that kinda scary? Some poeple think so. 
 
+.. slide:: 
+
+    TODO FIXME: 
+
+    What's missing there? No mailing lists. We use Discourse forums instead of
+    mailing lists because: 
+
+    a) Easier to read/search archives
+    b) A posting that violates the CoC can be made to look like it never
+       happened
+
 
 .. slide:: 
 
