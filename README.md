@@ -7,36 +7,32 @@ The parts I wrote are Creative Commons Attribution-ShareAlike. See LICENSE for
 legalese. Pictures are (C) their respective owners, attributed in the slides
 that use them.
 
-Finished Presentations: 
------------------------
+You can find all the talks that I've given at events, with links to recordings
+and archived copies of the slides as they stood then, at
+http://edunham.net/pages/talks.html
 
-* Intro to Git and GitHub (~1hr)
-    * OSU Linux Users Group, April 2014(?)
-    * DevOps Bootcamp, 2013
 
-* IRC (with Screen and Irssi) (~1hr)
-    * OSU Linux Users Group, 2013
-    * Seattle GNU/Linux Conference, 2014
+Useful tools if you want to make slides too:
+--------------------------------------------
 
-* DevOps Bootcamp history + organization (30-min)
-    * LinuxFest Northwest 2014
+Things with which I make slides:
 
-* Basic security principles (30-min)
-    * OSU Linux Users Group in April 2014
+* http://github.com/nyergler/hieroglyph
+* https://github.com/hakimel/reveal.js/
+* https://www.libreoffice.org/discover/impress/ (for ignite talks)
 
-* Thinking in Git (1hr of brain pain)
-    * Portland State University ACM, Spring 2014
-    * Seattle GNU/Linux Conference, 2014
+Things with which other cool people make slides: 
 
-Unfinished, or still just ideas:
---------------------------------
+* https://wiki.gnome.org/action/show/Apps/Pinpoint
+* https://en.wikibooks.org/wiki/LaTeX/Presentations
 
-Licenses and OSS legal stuff
+Things that put demos into slides: 
 
-History of OSS
+* http://showterm.io/
+* https://asciinema.org/
+* https://wiki.ubuntu.com/CreatingScreencasts
 
-Vim
+Things I use for making pictures: 
 
-Linux For Humans (non-computer people)
-
-Social engineering tactics vs psychological research
+* http://pinta-project.com/
+* https://www.libreoffice.org/discover/draw/
