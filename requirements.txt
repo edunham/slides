@@ -2,7 +2,6 @@ docutils
 hieroglyph
 Jinja2
 MarkupSafe
-pandoc
 pdfrw
 Pillow
 Pygments
