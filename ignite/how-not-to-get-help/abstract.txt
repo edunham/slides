@@ -1,0 +1,46 @@
+Part 1 of "how to have a miserable time in open source" will teach the
+techniques which leave bugs unfixed and questions unanswered. 
+
+How to avoid getting answers on IRC: 
+
+* Ask in a channel where nobody knows the answer, or where your question is
+  offtopic. 
+        CAUTION: If you ask in a relevant channel, it's likely that an expert
+        will here your complaints and suggest a solution!
+* Quit the channel immediately after asking
+        CAUTION: If you wait around for a couple hours, or use a persistent
+        client, someone might come along and help you out!
+* Scare people
+    * Vague call for experts
+        CAUTION: If you specify what your problem is, people will ask you for
+        details and then suggest solutions!
+    * Argumentative nickname
+        CAUTION: If you pick an unermarkable or even friendly nickname, people
+        will think you want to have an ordinary discussion with them!
+* Withhold information (if they know what's wrong, they might fix it!)
+        CAUTION: If you tell people what error you got or what you were trying
+        to do, they might recognize it from their own experiences and suggest
+        a solution!
+
+How to avoid getting help online: 
+
+* Don't tell anyone that anything is frustrating; just silently leave. They'll
+  never know.
+* Ask somewhere the experts won't see it. Is the whole community on
+  stackoverflow? Go ask in a comment on a YouTube video!
+* Make personal attacks against the language or people who use it. 
+
+How to make sure a bug never gets fixed: 
+
+* Don't file it!
+* File it in a place unlrelated to your setup. Address issues to your hosting
+  provider, their hosting provider, even the IRC network ops where they host
+  their channel! 
+* Avoid including the information that would be required to reproduce the bug
+* Don't answer any requests for more information
+
+How to avoid getting help at a conference or meetup: 
+
+* Don't even go!
+* Don't talk to anybody. Convince yourself that you're too cool, or not cool
+  enough, to mingle with this crowd. 
