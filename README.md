@@ -25,6 +25,7 @@ Things with which other cool people make slides:
 
 * https://wiki.gnome.org/action/show/Apps/Pinpoint
 * https://en.wikibooks.org/wiki/LaTeX/Presentations
+* https://github.com/shower/shower
 
 Things that put demos into slides: 
 
