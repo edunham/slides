@@ -31,6 +31,7 @@ Things that put demos into slides:
 * http://showterm.io/
 * https://asciinema.org/
 * https://wiki.ubuntu.com/CreatingScreencasts
+* https://github.com/lolilolicon/FFcast
 
 Things I use for making pictures: 
 
