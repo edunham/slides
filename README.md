@@ -37,3 +37,8 @@ Things I use for making pictures:
 
 * http://pinta-project.com/
 * https://www.libreoffice.org/discover/draw/
+
+Speaking Resources
+------------------
+
+* https://wiki.mozilla.org/TechSpeakers
