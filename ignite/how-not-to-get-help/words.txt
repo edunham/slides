@@ -1,0 +1,38 @@
+<slidE: "how to get help>
+
+There's a lot of great information out there about getting started in open
+source. You can find plenty of blogs, wikis, and articles detailing the steps
+to take to have a fun, successful time.
+
+
+<slide: how NOT to get help>
+But what if you *don't* want to get help? I'm here to fill an unmet need for
+advice on what behaviors will practically guarantee that you get to struggle
+with your open source problems all by yourself instead of quickly overcoming
+them.
+
+<IRC: screenshot of webchat.freenode.net>
+
+Now, internet relay chat or IRC is a dangerous place. It's just full of
+experts, willing to offer their advice on overcoming problems. The best way to
+keep from getting help on IRC is to never join it at all.
+
+<IRC: Ask in wrong channel>
+
+If you just can't resist the temptation to connect, a good way to keep from
+getting useful answers to your question is to ask in a channel unrelated to
+the problem at hand. Having an issue with Ruby? You probably won't get a
+helpful answer from the Python folks!
+
+<IRC: Solicit expertise>
+
+Now, the next level of challenge in the game of not getting useful help is to
+ask in a relevant channel for the project. On-topic channels are where most of
+the useful answers come from, after all! So if you're asking in an on-topic
+channel, one way to avoid getting an answer is to scare people away with a
+vague request for experts. "I get an error when I try to compile the kernel"
+is much more likely to solicit state
+
+<IRC: Quit after asking>
+
+
