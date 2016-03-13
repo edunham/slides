@@ -11,6 +11,7 @@ Thinking in Git
     http://githut.info/ for finding repos by language on gh
     https://github.com/tomheon/git_by_a_bus cool analytics
     http://visualize-your-git.herokuapp.com/
+    http://tom.preston-werner.com/2009/05/19/the-git-parable.html
 
 Hi
 ==
@@ -18,16 +19,12 @@ Hi
 * Emily Dunham
 * edunham on irc.freenode.net
 * edunham@edunham.net
-* no Twitter
+* @qedunham
 
 
-Permanent link to these slides:
+.. note::
 
-http://talks.edunham.net/openwest2015/git
-
-.. note:: 
-
-    Why listen to me? 
+    Why listen to me?
 
     * 5 years at OSL
     * ran bootcamp, LUG
@@ -55,7 +52,7 @@ Agenda
 * Essential Git concepts & commands
 * GitHub
 
-.. note:: 
+.. note::
 
     You won't memorize all the commands in an hour but this will help you ask
     the right questions
@@ -142,13 +139,13 @@ Using Git
 
     http://www.craftychild.com/finger-painting.html
 
-.. note:: 
+.. note::
 
-    We're going to talk about a lot of commands now. 
+    We're going to talk about a lot of commands now.
 
-    Don't be afraid. Don't expect to know everything at first. 
+    Don't be afraid. Don't expect to know everything at first.
 
-    These slides will be online; the link will show up again at the end. 
+    These slides will be online; the link will show up again at the end.
 
 Setting Up
 ----------
@@ -405,7 +402,7 @@ Or undo the whole commit
     :scale: 50%
     :align: center
 
-.. note:: 
+.. note::
 
     next: remotes
     Reverting makes a revert commit.
@@ -588,7 +585,7 @@ Looking at branches
 .. figure:: _static/branchgraph.png
     :align: center
 
-.. note:: 
+.. note::
 
     GitHub's "network" graph and gitk are good for this
 
@@ -745,7 +742,7 @@ Looking at the rebase
     #
     # If you remove a line here THAT COMMIT WILL BE LOST.
 
-.. note:: 
+.. note::
 
     Make sure you have your git editor set!
 
@@ -886,15 +883,8 @@ Questions?
 * Emily Dunham
 * edunham on irc.freenode.net
 * edunham@edunham.net
-* no Twitter
+* @qedunham
 
-Go to Ben Loveridge's talk at 9am Saturday: Git with the flow: maintainable
-branch strategies using Git[Hub] Flow
-
-
-Permanent link to these slides:
-
-http://talks.edunham.net/openwest2015/git
 
 Other Stuff
 ===========
@@ -907,9 +897,9 @@ checkout
 .. code-block:: bash
 
     $ git checkout branch
-    
+
 point HEAD at the tip of the specified branch
-    
+
 .. code-block:: bash
 
     $ git checkout <revision> file
@@ -931,13 +921,13 @@ gitrevisions
    * ``branchname~n`` is nth generation ancestor of that branch
 * Regex on commit message
   * ``:/broken``
-* ``revision``:``path`` 
+* ``revision``:``path``
 
 
 git bisect
 ----------
 
-Binary Search: 
+Binary Search:
 
 ::
 
@@ -952,7 +942,7 @@ git cherry-pick
 
 .. figure:: _static/cherry.jpg
     :align: center
-    
+
     http://pixabay.com/en/cherry-sweet-cherry-red-fruit-167341/
 
 
