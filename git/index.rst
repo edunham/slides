@@ -73,8 +73,6 @@ Thinking about Software Development
 Why version control?
 ====================
 
-.. note:: TODO: pic of directory listing here instead
-
 .. figure:: _static/phdcomic.gif
     :align: center
     :scale: 75%
@@ -171,6 +169,18 @@ Setting Up
 
     * GitHub can handle ECDSA, GitLab only does RSA as of 5.1.0
 
+What if...
+==========
+
+    You could time travel through the history of any project
+
+.. note::
+
+    This assumes that you have some number of projects you work on, each one
+    has a history of changes, and those histories are tracked separately. A
+    *repository* is the basic unit of a directory whose changes we want to
+    track.
+
 What's a **repository**?
 ========================
 
@@ -211,8 +221,8 @@ Looking at a repo
 
     $ git log
 
-Undo?
------
+Undo repository creation
+------------------------
 
 .. warning::
     This deletes your history. Only do it if you really want to stop
@@ -224,6 +234,20 @@ Undo?
 
 .. figure:: _static/kaboom.jpg
     :align: center
+
+What if...
+----------
+
+    You decide exactly where time travelers are allowed to land
+
+.. note::
+
+    It would be simpler to understand the system if we only let you commit one
+    file at a time, but it's more important to have total control of what
+    changes go into what commit.
+
+    Git gives you a staging area where you can get a set of changes just
+    right, before setting them in stone.
 
 What're **staged changes**?
 ===========================
@@ -284,6 +308,17 @@ Undo?
     $ git reset HEAD foo
 
 .. note:: next, snapshots
+
+What if...
+----------
+
+    Some useful information is available to time travelers when they arrive
+
+.. note::
+
+    Staging changes is all about deciding exactly what state it should be easy
+    to go back to. Creating a commit adds some useful metadata to a snapshot
+    of your repository.
 
 Thinking about snapshots
 ========================
@@ -407,6 +442,18 @@ Or undo the whole commit
     next: remotes
     Reverting makes a revert commit.
     Reversability > hiding mistakes
+
+What if...
+----------
+
+    Someone else could work on the same repo in a parallel universe
+
+.. note::
+
+    Whenever you get multiple people working on the same project, they'll want
+    to make different changes and then bring them back together. To do this,
+    Git needs to let history continue in two different directions and then
+    bring the changes from each back together.
 
 What's a **remote**?
 ====================
