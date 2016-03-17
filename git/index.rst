@@ -2,11 +2,13 @@
 Thinking in Git
 ===============
 
-.. note:: probably ought to encorporate https://github.com/github/training-kit
+.. note::
+
+    Additional Resources:
+
+    https://github.com/github/training-kit
     http://justinhileman.info/article/git-pretty/git-pretty.png
     http://www.ndpsoftware.com/git-cheatsheet.html
-    mention bisect when talking about advanced undoing
-    ... eventually.
     https://github.com/k88hudson/git-flight-rules
     http://githut.info/ for finding repos by language on gh
     https://github.com/tomheon/git_by_a_bus cool analytics
@@ -24,20 +26,13 @@ Hi
 
 .. note::
 
-    Why listen to me?
-
-    * 5 years at OSL
-    * ran bootcamp, LUG
-    * Taught a lot of newbies this stuff
-
-    "Git is the most popular source code management and version control system
-    in the open source community. Its complexity and power make it the best
-    choice for most projects, while simultaneously giving it a daunting
-    learning curve for newcomers. This talk will assume no background
-    knowledge of version control, and will teach the basics of Git in order to
-    give you an accurate mental model of what the tool does, and help you fix
-    mistakes then ask the right questions if you run into problems using it
-    later."
+    Git is the most popular source code management and version control system in
+    the open source community. Its complexity and power make it the best choice
+    for most projects, while simultaneously giving it a daunting learning curve
+    for newcomers. This talk will assume no background knowledge of version
+    control, and will teach the basics of Git and GitHub in order to give you an
+    accurate mental model of what the tool does, and help you fix mistakes then
+    ask the right questions if you run into problems using it later.
 
 Agenda
 ======
@@ -46,16 +41,15 @@ Agenda
     :align: right
 
 * How to look at software development
-* What's Git
-* How to learn it
-    * Real life vs. tutorials
+* What's Git?
 * Essential Git concepts & commands
 * GitHub
+* Demo!
 
 .. note::
 
-    You won't memorize all the commands in an hour but this will help you ask
-    the right questions
+    You won't memorize all the commands in 2 hours but this will help you ask
+    the right questions.
 
 Thinking about Software Development
 ===================================
@@ -77,14 +71,8 @@ Why version control?
     :align: center
     :scale: 75%
 
-Types of version control
-========================
-
-* Formal vs. impromptu
-* Scalable vs. too much work
-* Centralized vs. decentralized
-* Concurrent vs. locking
-* Diffs/patches vs. snapshots
+How do you track changes?
+=========================
 
 .. figure:: _static/deskdisaster.jpg
     :align: center
@@ -97,37 +85,10 @@ Goals of Distributed Version Control
     :align: right
     :scale: 60%
 
-* Reliability
-* No SPOF
-* Eliminate network dependencies
-
-.. note:: reliability means put one file in, get same file out again,
-    guaranteed. spell out Single Point of Failure.
-
-Git's buzzwords
-===============
-
-* Decentralized
-* Distributed
-* Data assurance
-* Porcelain vs Plumbing
-* FOSS (GPLv2)
-
-.. figure:: _static/oaktree.jpg
-    :align: center
-    :scale: 75%
-
-.. note:: We'll get to branches later... but you've noticed people saying
-    oddly horticultural things like branches and trunks
-
-How Git sees your project
-=========================
-
-.. note:: Unstaged | Staged | Committed
-
-.. figure:: _static/staging.png
-    :align: center
-
+* Get the same file out that you put in
+* Work in parallel with others
+* Recombine individual work into one project
+* Track and quantify changes over time
 
 Using Git
 =========
@@ -143,7 +104,7 @@ Using Git
 
     Don't be afraid. Don't expect to know everything at first.
 
-    These slides will be online; the link will show up again at the end.
+    These slides are online; the link will show up again at the end.
 
 Setting Up
 ----------
@@ -164,15 +125,20 @@ Setting Up
 
 * Pick a project to work on
 
-.. note:: ECDSA is the new hotness -- elliptic-curve digital signature
-    algorithm -- much smaller keys have comparable security
+.. note::
 
-    * GitHub can handle ECDSA, GitLab only does RSA as of 5.1.0
+    The name and email you tell Git will be visible to everyone you share your
+    commits with. If you use a public GitHub repo, that's the entire world.
 
-What if...
+    ECDSA -- elliptic-curve digital signature
+    algorithm -- gives much smaller keys with comparable security
+
+    GitHub can handle ECDSA, GitLab only does RSA as of 5.1.0
+
+Imagine...
 ==========
 
-    You could time travel through the history of any project
+    You can time travel through the history of any project
 
 .. note::
 
@@ -189,26 +155,30 @@ What's a **repository**?
 
 Database of snapshots of your code
 
-.. code-block:: bash
-
-    $ ls .git/
+Universe whose history you can travel through
 
 Getting a repo
 --------------
 
 .. code-block:: bash
 
-    $ git init
+    $ git init # Make a brand new repo
 
-    $ git clone <git clone url>
+    $ git clone <git clone url> # Start with a copy of another
 
     # git@github.com:organization/reponame.git
     # https://github.com/organization/reponame.git
+
+.. figure:: _static/slides-repo-clone-url.png
+    :align: center
+    :scale: 50%
 
 Looking at a repo
 -----------------
 
 .. code-block:: bash
+
+    $ ls .git/
 
     $ git show
     fatal: bad default revision 'HEAD'
@@ -228,17 +198,25 @@ Undo repository creation
     This deletes your history. Only do it if you really want to stop
     having a Git repo here.
 
- .. code-block:: bash
+.. code-block:: bash
 
     $ rm -rf .git
 
 .. figure:: _static/kaboom.jpg
     :align: center
 
-What if...
-----------
+Imagine...
+==========
 
-    You decide exactly where time travelers are allowed to land
+    You had to share every change as soon as you made it
+
+How Git sees your project
+=========================
+
+    Unstaged | Staged | Committed
+
+.. figure:: _static/staging.png
+    :align: center
 
 .. note::
 
@@ -249,6 +227,11 @@ What if...
     Git gives you a staging area where you can get a set of changes just
     right, before setting them in stone.
 
+Imagine...
+----------
+
+    You decide exactly where time travelers are allowed to land
+
 What're **staged changes**?
 ===========================
 
@@ -256,7 +239,7 @@ What're **staged changes**?
     :align: center
     :scale: 75%
 
-* Staging area is like backstage -- decide what changes go into your snapshot
+* Think "backstage", changes "waiting in the wings"
 
 * Files or parts of files can be added or removed
 
@@ -268,7 +251,7 @@ Staging changes
 
 .. code-block:: bash
 
-    $ touch foo
+    $ echo "hello Great Wide Open" > foo
     $ git add foo
 
 Looking at staged changes
@@ -309,10 +292,10 @@ Undo?
 
 .. note:: next, snapshots
 
-What if...
+Imagine...
 ----------
 
-    Some useful information is available to time travelers when they arrive
+    Time travelers get some signs and instructions when they arrive
 
 .. note::
 
@@ -327,23 +310,18 @@ Thinking about snapshots
     :align: right
     :scale: 50%
 
-* Represented as changes to a file plus pointers to unchanged files
-* Not a diff (tracks all files)
-* Not a duplicate of everything (points to unchanged files)
+* Changes to a file plus pointers to unchanged files
+* Each snapshot knows the state of all tracked files
+* More efficient than just copying
 
 .. figure:: _static/snapshots_model.png
     :align: center
     :scale: 70%
 
-.. note:: next, commits
-
 What's a **commit**?
 ====================
 
-Snapshot of changes
-
-Includes snapshot (with pointers to unchanged files), author, date, committer
-(can differ from author), parent commit
+snapshot of changes, author, date, committer (can differ from author), parent commit
 
 .. figure:: _static/snapshots_model.png
     :align: center
@@ -443,94 +421,10 @@ Or undo the whole commit
     Reverting makes a revert commit.
     Reversability > hiding mistakes
 
-What if...
-----------
+Imagine...
+==========
 
-    Someone else could work on the same repo in a parallel universe
-
-.. note::
-
-    Whenever you get multiple people working on the same project, they'll want
-    to make different changes and then bring them back together. To do this,
-    Git needs to let history continue in two different directions and then
-    bring the changes from each back together.
-
-What's a **remote**?
-====================
-
-|
-
-.. figure:: _static/remotes.png
-    :scale: 75%
-    :align: right
-
-Another *clone* of more or less the same repo
-
-(remember when we cloned to get a copy?)
-
-|
-
-.. figure:: _static/sheepclones.jpg
-    :scale: 75%
-
-Adding a Remote
----------------
-
-|
-
-.. code-block:: bash
-
-    $ man git-remote
-
-    $ git remote add <name> <url>
-
-|
-
-.. figure:: _static/remotes.jpg
-    :align: center
-
-Looking at Remotes
-------------------
-
-.. code-block:: bash
-
-    $ git config -e
-
-    # OR
-
-    $ git remote show <name>
-
-From one of my git configs...
-
-.. code-block:: shell
-
-    [remote "origin"]
-      url = git@github.com:monte-language/monte.git
-      fetch = +refs/heads/*:refs/remotes/origin/*
-    [remote "ed"]
-      url = git@github.com:edunham/monte.git
-      fetch = +refs/heads/*:refs/remotes/ed/*
-
-Undo?
------
-
-Do you prefer text editor...
-
-.. code-block:: bash
-
-    $ git config -e
-    # delete or change remote
-
-... or commands?
-
-.. code-block:: bash
-
-    $ man git-remote
-    $ git remote rename <old> <new>
-    $ git remote remove <name>
-
-.. note:: "Undoing" push to remote is... trickier
-    next: tags
+    Time travelers get a list of especially interesting locations to visit
 
 What's a **tag**?
 =================
@@ -589,7 +483,11 @@ Undo?
     # And remove it from a remote repo
     $ git push origin :refs/tags/<tagname>
 
-.. next:: branches
+
+Imagine...
+==========
+
+    You can work on separate sets of changes that don't affect each other
 
 What's a **branch**?
 ====================
@@ -654,11 +552,100 @@ Undo?
     :align: center
     :scale: 80%
 
+Imagine...
+==========
+
+    Someone else could work on the same repo in a parallel universe
+
+.. note::
+
+    Whenever you get multiple people working on the same project, they'll want
+    to make different changes and then bring them back together. To do this,
+    Git needs to let history continue in two different directions and then
+    bring the changes from each back together.
+
+What's a **remote**?
+====================
+
+|
+
+.. figure:: _static/remotes.png
+    :scale: 75%
+    :align: right
+
+Another *clone* of more or less the same repo
+
+(remember when we cloned to get a copy?)
+
+|
+
+.. figure:: _static/sheepclones.jpg
+    :scale: 75%
+
+Adding a Remote
+---------------
+
+|
+
+.. code-block:: bash
+
+    $ man git-remote
+
+    $ git remote add <name> <url>
+
+|
+
+.. figure:: _static/remotes.jpg
+    :align: center
+
+Looking at Remotes
+------------------
+
+.. code-block:: bash
+
+    $ git config -e
+
+    # OR
+
+    $ git remote show <name>
+
+From one of my git configs...
+
+.. code-block:: shell
+
+    [remote "origin"]
+      url = git@github.com:monte-language/monte.git
+      fetch = +refs/heads/*:refs/remotes/origin/*
+    [remote "edunham"]
+      url = git@github.com:edunham/monte.git
+      fetch = +refs/heads/*:refs/remotes/edunham/*
+
+Undo?
+-----
+
+Do you prefer text editor...
+
+.. code-block:: bash
+
+    $ git config -e
+    # delete or change remote
+
+... or commands?
+
+.. code-block:: bash
+
+    $ man git-remote
+    $ git remote rename <old> <new>
+    $ git remote remove <name>
+
+.. note:: "Undoing" push to remote is... trickier
+    next: tags
+
+
 What's a **merge**?
 ===================
 
-* Converges the divergent branches
-* One branch gets updated, one branch stays unchanged
+* Brings changes from one branch to another
 
 .. figure:: _static/pdx.jpe
     :align: center
@@ -666,7 +653,7 @@ What's a **merge**?
 
 .. note::
 
-    that joke about how a group of developers is called a merge conflict
+    "a group of developers is called a merge conflict"
 
 Making a Merge
 --------------
@@ -703,13 +690,13 @@ Merge Conflicts
     This content was in master but not mywork
     >>>>>>> master
 
-Replace all that stuff with what the content *should* be.
+* Replace all that stuff with what the content *should* be.
 
-``git add`` the file.
+* ``git add`` the file.
 
-Check that you've got everything with ``git status``, then commit.
+* Check that you've got everything with ``git status``, then commit.
 
-Or consider ``git mergetool`` for an interactive option.
+* Or consider ``git mergetool`` for an interactive option.
 
 Looking at Merges
 -----------------
@@ -812,8 +799,8 @@ I'm stuck in a broken rebase, get me out
 
     $ git rebase --abort
 
-GitHub Stuff
-============
+GitHub
+======
 
 .. figure:: _static/github.png
     :align: center
@@ -833,6 +820,13 @@ Not Exactly Git
 * Git doesn't care who you are
 
 Watch `Linus's talk <https://www.youtube.com/watch?v=4XpnKHJAok8>`_ for more detail
+
+Getting Started
+---------------
+
+    https://github.com/join
+
+* Use the same email as your git config
 
 HTTP vs SSH Clones
 ------------------
@@ -892,8 +886,25 @@ Extra Features
 * Wiki
 * Gist
 * Issue trackers
-* Cool graphs
+* Graphs
 * Repo descriptions and automatic README display
+
+Additional GitHub tricks
+------------------------
+
+* ``.github/CONTRIBUTING.md``
+* ``.github/ISSUE_TEMPLATE.md``
+* ``.github/PULL_REQUEST_TEMPLATE.md``
+* ``README``
+* Display test results on PRs
+
+.. note::
+
+    https://github.com/blog/2111-issue-and-pull-request-templates
+    https://docs.travis-ci.com/user/pull-requests
+    https://circleci.com/docs/fork-pr-builds
+    http://help.appveyor.com/discussions/questions/203-auto-run-tests-on-pull-requests
+    https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin
 
 Continuous Integration
 ======================
@@ -998,4 +1009,22 @@ git cherry-pick
     $ git checkout <branch that needs special commit>
     $ git cherry-pick <special commit from another branch>
 
+git format-patch
+----------------
 
+.. code-block:: bash
+
+    $ git format-patch origin/master
+    0001-first-commit.patch
+    0002-second-commit.patch
+
+.. code-block:: bash
+
+    # I wonder what this patch does
+    $ git apply --stat 0001-first-commit.patch
+
+    # Let's merge!
+    $ git apply 0001-first-commit.patch
+
+    # Does your project use signed-off-by?
+    $ git am --signoff < 0001-first-commit.patch
