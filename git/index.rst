@@ -61,15 +61,15 @@ Thinking about Software Development
         * Sometimes have several reasons at once, want changes separate
 
 .. figure:: _static/compiling.png
-    :align: center
-    :scale: 60%
+    :align: right
+    :scale: 50%
 
 Why version control?
 ====================
 
 .. figure:: _static/phdcomic.gif
     :align: center
-    :scale: 75%
+    :scale: 50%
 
 How do you track changes?
 =========================
@@ -83,7 +83,7 @@ Goals of Distributed Version Control
 
 .. figure:: _static/dvcs.gif
     :align: right
-    :scale: 60%
+    :scale: 30%
 
 * Get the same file out that you put in
 * Work in parallel with others
@@ -138,7 +138,7 @@ Setting Up
 Imagine...
 ==========
 
-    You can time travel through the history of any project
+    You can time travel through the history of any project!
 
 .. note::
 
@@ -208,12 +208,12 @@ Undo repository creation
 Imagine...
 ==========
 
-    You had to share every change as soon as you made it
+    What if you had to publish every change as soon as you made it?
 
 How Git sees your project
 =========================
 
-    Unstaged | Staged | Committed
+Unstaged | Staged | Committed
 
 .. figure:: _static/staging.png
     :align: center
@@ -230,7 +230,7 @@ How Git sees your project
 Imagine...
 ----------
 
-    You decide exactly where time travelers are allowed to land
+    You decide exactly where time travelers are allowed to land.
 
 What're **staged changes**?
 ===========================
@@ -290,8 +290,6 @@ Undo?
 
     $ git reset HEAD foo
 
-.. note:: next, snapshots
-
 Imagine...
 ----------
 
@@ -308,7 +306,7 @@ Thinking about snapshots
 
 .. figure:: _static/polaroid.jpeg
     :align: right
-    :scale: 50%
+    :scale: 30%
 
 * Changes to a file plus pointers to unchanged files
 * Each snapshot knows the state of all tracked files
@@ -331,6 +329,7 @@ Making a commit
 
 .. figure:: _static/tardis.jpg
     :align: right
+    :scale: 50%
 
 .. code-block:: bash
 
@@ -537,6 +536,10 @@ Looking at branches
 Undo?
 -----
 
+.. figure:: _static/pruning_bonsai.jpg
+    :align: right
+    :scale: 80%
+
 .. code-block:: bash
 
     # delete only if fully merged
@@ -547,10 +550,6 @@ Undo?
 
     # delete remote branch
     $ git push <remotename> :<branchname>
-
-.. figure:: _static/pruning_bonsai.jpg
-    :align: center
-    :scale: 80%
 
 Imagine...
 ==========
@@ -570,7 +569,7 @@ What's a **remote**?
 |
 
 .. figure:: _static/remotes.png
-    :scale: 75%
+    :scale: 50%
     :align: right
 
 Another *clone* of more or less the same repo
@@ -658,10 +657,6 @@ What's a **merge**?
 Making a Merge
 --------------
 
-.. figure:: _static/merge.png
-    :align: center
-    :scale: 75%
-
 .. code-block:: bash
 
     # Branch you're changing
@@ -674,6 +669,11 @@ Making a Merge
         On branch mywork
         You have unmerged paths.
           (fix conflicts and run "git commit")
+
+.. figure:: _static/merge.png
+    :align: center
+    :scale: 50%
+
 
 .. note:: COMMIT OR STASH CHANGES FIRST
 
@@ -811,7 +811,7 @@ Not Exactly Git
 
 .. figure:: _static/github.png
     :align: right
-    :scale: 80%
+    :scale: 20%
 
 |
 
@@ -824,13 +824,15 @@ Watch `Linus's talk <https://www.youtube.com/watch?v=4XpnKHJAok8>`_ for more det
 Getting Started
 ---------------
 
-    https://github.com/join
+https://github.com/join
 
 * Use the same email as your git config
 
 HTTP vs SSH Clones
 ------------------
+
 |
+
 .. code-block:: bash
 
     Permission denied (publickey).
@@ -853,7 +855,6 @@ Forking
     :scale: 150%
 
 * Parallel repos (or possibly divergent)
-* Act like the "center" of the centralized VCS
 
 Pull Requests
 -------------
@@ -913,7 +914,7 @@ Continuous Integration
 
 .. figure:: _static/jenkins.png
     :align: right
-    :scale: 25%
+    :scale: 20%
 
 .. figure:: _static/travis.png
     :align: left
@@ -999,7 +1000,8 @@ git cherry-pick
 ---------------
 
 .. figure:: _static/cherry.jpg
-    :align: center
+    :align: right
+    :scale: 40%
 
     http://pixabay.com/en/cherry-sweet-cherry-red-fruit-167341/
 
