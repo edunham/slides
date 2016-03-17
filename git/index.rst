@@ -23,6 +23,7 @@ Hi
 * edunham@edunham.net
 * @qedunham
 
+* talks.edunham.net/gwo2016/git
 
 .. note::
 
@@ -944,6 +945,7 @@ Questions?
 * edunham@edunham.net
 * @qedunham
 
+* talks.edunham.net/gwo2016/git
 
 Other Stuff
 ===========
