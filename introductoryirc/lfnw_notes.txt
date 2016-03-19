@@ -1,0 +1,22 @@
+If you've never been on IRC before or are confused by the many networks,
+channels, and clients available, this talk is for you!
+
+* What IRC is
+    * Internet Relay Chat
+    * More real-time than emails; less synchronous than voice (DRAW THE SPECTRUM)
+    * Networks, channels, PMs
+    * Social functions:
+        * Gathering place
+        * Water cooler
+        * See & be seen
+        * Informal chat channels to build friendships by finding shared experiences
+        * Professional networking, show off problemsolving and communication skills
+        * Establish social hierarchy within project, demonstrate judgement + knowledge
+    * Open protocol
+    * https://xkcd.com/1357/
+
+* How to access it (Linux/Windows/Mac)
+    * Local vs hosted client
+
+* How to find the right channel
+* Cultural knowledge for getting answers
