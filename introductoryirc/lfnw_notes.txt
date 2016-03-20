@@ -17,6 +17,15 @@ channels, and clients available, this talk is for you!
 
 * How to access it (Linux/Windows/Mac)
     * Local vs hosted client
+    * GUI vs terminal
+    * Local options
+        * https://www.reddit.com/r/windows/comments/1eezw4/good_irc_clients/
+        * https://www.reddit.com/r/irc/comments/30vblf/best_irc_client_for_mac_users/
+        * https://www.reddit.com/r/linux/comments/1ade43/good_irc_client/
+        * Phone: glowingbear, juicessh
+    * Hosted options
+        * https://matrix.org/blog/project/matrix-org-irc-bridge/
+
 
 * How to find the right channel
 * Cultural knowledge for getting answers
