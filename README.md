@@ -42,5 +42,6 @@ Things I use for making pictures:
 Speaking Resources
 ------------------
 
-* https://wiki.mozilla.org/TechSpeakers
+* https://wiki.mozilla.org/TechSpeakers/Curriculum
 * http://technicalcommunicationuk.com/index.php/archives/3707
+* https://edunham.net/2015/04/15/the_life_cycle_of_a_conference_talk.html
