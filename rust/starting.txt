@@ -1,0 +1,21 @@
+How To Learn Rust
+
+As a technology professional, you know that it's important to keep up with the latest tools and languages available in your field. But it can be overwhelming to try to figure out how which tools to focus on, let alone how to study them!
+
+This talk will walk you through the best practices for how to choose a new language, find resources, and engage with its community. If your interests include systems or embedded programming in a state-of-the-art language, you're likely to find Rust high on your wishlist, so the second half of this talk will use it as an example! We'll discuss the essential questions you need to ask when taking up a new language or project, and what their answers are for
+Rust.
+
+You'll leave this talk fully prepared to start working on your first Rust project and take full advantage of the language's famously welcoming community.
+
+
+Choosing the next thing:
+
+* Ask yourself where you want to be in 2-5 years. How do you want your job
+  responsibilities and skills to be different?
+
+* Ask yourself why you love/hate the languages you use now. Community?
+  Flexibility? Cross-platform support? Performance? Chances are, other
+  languages are as good or better at the same things!
+
+Links:
+exercism.io
