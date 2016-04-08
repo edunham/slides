@@ -25,7 +25,66 @@ channels, and clients available, this talk is for you!
         * Phone: glowingbear, juicessh
     * Hosted options
         * https://matrix.org/blog/project/matrix-org-irc-bridge/
+* Choosing a nickname
 
+Naming things is hard. You should probably pick a name and stick to it
+throughout your involvement, because it will cause others to recognize the
+time you've invested. Plus, community trust requires a certain critical mass
+of being involved without being a jerk.
+
+If you're doing this semi-professionally or want to include it on your resume,
+it's boring but safe to throw together a mashup of your "real" name or
+initials. Ideally you should find something that's available as a github
+handle and as a twitter handle and as a url (bonus points for having the last
+few characters be a TLD that you can register it under), but that's optional.
+A nick available on Freenode will usually be available on smaller networks as
+well.
+
+Nonsensical but pronounceable nicks are ok too (nobody's sure where ms2ger got
+his, but it's memorable, available, and not offensive)
+
+Steer clear of culturally provocative (seahawksfan, therepublican). Flaunting
+traits irrelevant to your technical skills will make others think you think
+they're relevant and invite criticism; "PhysicallyAdvangagedGentleman" or
+"NerdiestGirlEver" aren't great.
+
+Uniqueness: Try not to have mroe than 4 characters in common with the start of
+a community leader's nick. Tab completion.
 
 * How to find the right channel
 * Cultural knowledge for getting answers
+
+* Third person singular "they" IS OKAY
+
+* Major Don'ts:
+    * Impatience. It's kinda asynchronous, and everyone is volunteers.
+      Nobody's obligated to help you improve your question if you ask it
+      poorly.
+    * Assumptions. Channel ops aren't necessarily project leads. IRC tells you
+      nothing about someone's...
+        * age
+        * wealth or lack thereof
+        * location
+        * time zone / subjective time of day (not necessarily as tied to
+          location as you'd hope)
+        * Gender, appearance, preferred pronouns (it's ok to say 'they')
+        * Mental health conditions or lack thereof
+        * Religious or political affiliations
+
+    * Exercise for handling assumptions: Picture the person in your head.
+      Would you say the thing you're about to if all those assumptions were
+      wrong? ie in #linuxchix I expect that I'm speaking with someone age 20-60,
+      probably female, probably from the US or India, probably involved in a tech
+      career. But I shouldn't say anything that would offend someone male, 12 or 80
+      from Russia or Brazil who works as a pilot or doctor or waiter.
+
+    * Flooding. Gotta paste something? Use a pastebin. Beware of PuTTY for it
+      pastes on right-click.
+
+    * Exercise to prevent flooding: Join into an empty channel
+      (#edunhams-test-channel or w/e your nick is) and try to paste 20 lines.
+      See if your client stops you. Learn how to make it stop you, then test
+      again.
+
+    * Don't lie in your nick. ceo_of_google might technically be available,
+      but it will not make any positive impressions on anyone.
