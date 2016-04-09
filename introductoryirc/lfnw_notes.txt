@@ -51,8 +51,16 @@ they're relevant and invite criticism; "PhysicallyAdvangagedGentleman" or
 Uniqueness: Try not to have mroe than 4 characters in common with the start of
 a community leader's nick. Tab completion.
 
+* Registering your nick
+
 * How to find the right channel
 * Cultural knowledge for getting answers
+    * Golden rule: People cannot solve your problem without reproducing it
+    * Match tone & word choice to channel norms ("lurk more")
+    * Anatomy of IRC permissions
+        * Voices, ops
+        * Channel modes
+
 
 * Third person singular "they" IS OKAY
 
