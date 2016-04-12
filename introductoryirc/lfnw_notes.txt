@@ -61,6 +61,9 @@ a community leader's nick. Tab completion.
         * Voices, ops
         * Channel modes
 
+* Speech vs action
+    * /me does the thing
+    * I'm doing the thing
 
 * Third person singular "they" IS OKAY
 
