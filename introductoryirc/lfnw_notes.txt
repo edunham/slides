@@ -99,3 +99,18 @@ a community leader's nick. Tab completion.
 
     * Don't lie in your nick. ceo_of_google might technically be available,
       but it will not make any positive impressions on anyone.
+
+* Psychology...
+    * What do you want to get out of this conversation?
+        - technical solution?
+        - advice?
+        - confirmation of exisitng belief / win an argument?
+        - share anger/sadness/frustration?
+    * What do they want to get out of it?
+        - respect/admiration?
+        - success for the project, in form of new users or wider adoption or
+          good press?
+        - distraction/procrastination from something else?
+    * Identify how helping you gets them what they want. Bonus points for
+      following up with an action that helps them after they help you -- ie
+      tweet, blog, tell someone else, thank them
