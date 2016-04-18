@@ -1,10 +1,10 @@
-"Life is better with Rust's community automation" 
+"Life is better with Rust's community automation"
 
 What have we automated?
 
 Starting with the obvious, some of our practices "automate" sorting new
 contributors so that more mentoring time can go to people who're motivated to
-succeed. 
+succeed.
 
 * Code of conduct present from the beginning drives away people who value
   their right to be jerks over others' right to have a welcoming environment
@@ -36,7 +36,7 @@ contributors, is hard. Remembering who's brand new and who's gotten code in
 before can get difficult as a project grows, but the way you treat someone on
 their first contribution will be different from on their second because
 there's stuff you should or shouldn't expect them to know. Mixing it up causes
-confusion and condescention, respectively, neither of which is good. 
+confusion and condescention, respectively, neither of which is good.
 
 Enter Highfive! https://github.com/nrc/highfive
 
@@ -56,22 +56,22 @@ sysadmin). Addressed with Discourse (https://users.rust-lang.org/,
 https://internals.rust-lang.org/) which allows nagging people to be nice on
 their first 2 posts, and deletion of abusive content. Plus it's a big
 reasonably-well-behaved archive, less work required to link into a
-modern-looking post than a classic mailing list. 
+modern-looking post than a classic mailing list.
 
 The Usual Chatops Stuff
 -----------------------
 
 Rust infra is not as good at this as many other places; team of 1 fulltime
 infra person has been slowly trying to deploy it through 9 months so far of
-also putting out fires and meeting quarterly goal improvements. 
+also putting out fires and meeting quarterly goal improvements.
 
 Tbh, we don't even have a mature/robust monitoring solution. Why not? Worse
-fires. 
+fires.
 
-Shockingly easy improvements: 
+Shockingly easy improvements:
 
 * Bots channel for each project
-* Buildbot reporting into the channel 
+* Buildbot reporting into the channel
 * IRC client highlights on the important messages (slave lost exceptions, etc)
 
 The Soft-Skills Stuff
@@ -79,7 +79,7 @@ The Soft-Skills Stuff
 
 I've noticed that these teams are composed of people who cultivate the skill
 of expressing gratitude. Priorities/values include having a good experience
-for contributors. 
+for contributors.
 
 *habits are a form of brain automation*. The *habits* of clearly explaining
 reasons for a decision, having conversations publicly/openly,
@@ -89,11 +89,11 @@ everything we can are what make all the computer automation successful.
 Without a habit of using it, all the computer automation in the world is
 pretty useless -- people don't have a chance to be nagged by your
 contributing.md on a PR if they're in the habit of pushing straight to master
-and skipping the PR in the first place. 
+and skipping the PR in the first place.
 
 
 
-The motivational part: 
+The motivational part:
 ---------------------
 
 
@@ -101,10 +101,10 @@ I spend most of my time in a physical or virtual room
 full of compiler wizards whose topics of casual chitchat are often NP-hard.
 Thir knowledge is a stark contrast against my "I have most of a CS degree and
 one time I took a class where I wrote some nasty python to turn a toy Lisp
-into a toy Forth". And yet I'm still useful to them, because servers. 
+into a toy Forth". And yet I'm still useful to them, because servers.
 
 Parting Trick: Never underestimate the power of the constructive criticism
-you'll get from publicly claiming something incorrect. 
+you'll get from publicly claiming something incorrect.
 
 
 Include...
@@ -116,6 +116,8 @@ https://github.com/rust-lang-deprecated/
 https://github.com/carols10cents/rustlings
 https://doc.rust-lang.org/stable/book/bibliography.html
 http://www.snarky.ca/how-i-stay-happy-making-open-source-software
+https://github.com/facebook/mention-bot (kinda like highfive)
+
 
 The part about other cool projects
 ----------------------------------
