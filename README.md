@@ -46,3 +46,4 @@ Speaking Resources
 * http://technicalcommunicationuk.com/index.php/archives/3707
 * https://edunham.net/2015/04/15/the_life_cycle_of_a_conference_talk.html
 * http://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/
+* http://alicebartlett.co.uk/blog/how-to-do-ok-at-slides
