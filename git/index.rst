@@ -14,6 +14,7 @@ Thinking in Git
     https://github.com/tomheon/git_by_a_bus cool analytics
     http://visualize-your-git.herokuapp.com/
     http://tom.preston-werner.com/2009/05/19/the-git-parable.html
+    http://www.alexkras.com/19-git-tips-for-everyday-use/
 
 Hi
 ==
