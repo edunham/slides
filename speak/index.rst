@@ -39,14 +39,16 @@ Hi
 * edunham on Freenode
 * no Twitter
 
-These slides are at http://talks.edunham.net/osbridge2015/speak/
+http://talks.edunham.net/osbridge2015/speak/
 
-About Me
---------
+.. rst-class:: invert
+
+Me
+--
 
 * 5 years at OSU
 * LUG, DOBC
-* Current Job
+* 18 talks, ~3 years
 
 About You
 ---------
@@ -59,11 +61,11 @@ About This
 ----------
 
 * What I wish someone had told me
-* Why we need more talks (the why)
-* Logistical details (the how)
+* Why we need more talks 
+* Logistical details
 
-Why do talks matter?
-====================
+Talks Matter
+============
 
 * Different learning styles
     * Recordings are documentation

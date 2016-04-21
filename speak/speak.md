@@ -2,8 +2,6 @@
 % edunham
 % October 23, 2015
 
----
-
 # Welcome!
 
 <section>
@@ -27,17 +25,15 @@ good enough or how to start?
 
 ---
 
-## You
-
 > - Given a talk or two?
 > - Never spoken, might want to?
 > - Don't want to yet?
 
 --- 
 
-> - Why speak? 
-> - Tools & Techniques
-> - Q&A
+### Tools + Techniques
+
+#### Activities
 
 </section>
 
@@ -97,7 +93,8 @@ good enough or how to start?
 
 <!-- FIXME: Tool -->
 
-## `tinyletter.com/techspeak`
+### `tinyletter.com/`
+###`techspeak`
 
 </section>
 
@@ -109,7 +106,7 @@ good enough or how to start?
 
 <!-- FIXME: Technique -->
 
-## Where does it go?
+### Where does it go?
 
 ---
 
@@ -147,7 +144,6 @@ good enough or how to start?
 > - Inaccuracy
 > - Disapproval
 > - Redundancy
-> - Confusion
 
 ----
 
@@ -165,15 +161,11 @@ good enough or how to start?
 
 ---
 
-## Tell people who want to hear it
+## Find people who want to hear it 
 
 ---
 
-## Get the right people in the room
-
----
-
-## They want you to succeed.
+## Tell them.
 
 </section>
 
@@ -183,7 +175,7 @@ good enough or how to start?
 
 ---
 
-### Afraid to disappoint?
+## What do they want?
 
 --- 
 
@@ -204,19 +196,19 @@ good enough or how to start?
 
 ---
 
-### What's your favorite talk? Why?
+## What's your favorite talk? Why?
 
 ---
 
-### How can your experiences help others?
+## How can your experiences help others?
 
 --- 
 
-### What do you spend your time on?
+## What do you spend your time on?
 
 ---
 
-### What do others ask you for help with?
+## What do others ask you for help with?
 
 --- 
 
@@ -226,13 +218,13 @@ good enough or how to start?
 
 ---
 
-### The Missing Tutorial
+## The Missing Tutorial
 
 --- 
 
 <!-- FIXME: Activity -->
 
-## List all your topics.
+#### List all your topics.
 
 </section>
 
@@ -278,19 +270,20 @@ good enough or how to start?
 
 <!-- FIXME: Tool -->
 
-## `wikicfp.com`
+### `wikicfp.com`
 
 ---
 
 <!-- FIXME: Tool -->
 
-## `calltospeakers.com`
+### `calltospeakers.com`
 
 ---
 
 <!-- FIXME: Tool -->
 
-## `tinyletter.com/fossCFPs`
+### `tinyletter.com/`
+###` fossCFPs`
 
 ---
 
@@ -321,7 +314,7 @@ good enough or how to start?
 
 ---
 
-### wants happy attendees
+## wants happy attendees
 
 <div class="notes">
     * Which is the SAME AS YOUR GOAL
@@ -330,6 +323,10 @@ good enough or how to start?
 ---
 
 ## You want the right audience
+
+---
+
+## Communicate!
 
 </section>
 
@@ -353,19 +350,19 @@ good enough or how to start?
 
 <!-- FIXME: Tool -->
 
-## `archive.org`
+### `archive.org`
 
 ---
 
 <!-- FIXME: Tool -->
 
-## Calendar emails
+### Calendar emails
 
 --- 
 
 <!-- FIXME: Technique -->
 
-## Lie to yourself about deadlines
+### Lie to yourself about deadlines
 
 <div class="notes">
 * Put it a week early on your calendar.
@@ -419,7 +416,7 @@ good enough or how to start?
 
 <!-- FIXME: Activity -->
 
-## Summarize one of your topics in 5 words or less.
+#### Summarize one of your topics in 5 words or less.
 
 </section>
 
@@ -447,7 +444,7 @@ good enough or how to start?
 
 <!-- FIXME: Technique -->
 
-## Mad Libs
+### Mad Libs
 
 Are you new to `___`? Have you struggled with `___`? Come learn about how
 `____` can help you `___`! I used `___` to `___` at `___` to accomplish
@@ -457,9 +454,9 @@ Are you new to `___`? Have you struggled with `___`? Come learn about how
 
 <!-- FIXME: Activity -->
 
-### Summarize topic in one sentence. 
+#### Summarize topic in one sentence. 
 
-### "How has knowing this changed my life?"
+#### "How has knowing this changed my life?"
 
 </section>
 
@@ -491,7 +488,7 @@ Are you new to `___`? Have you struggled with `___`? Come learn about how
 
 <!-- FIXME: Activity -->
 
-### Write 2 achievements + 1 relatable fact in 3rd person.
+#### Write 2 achievements + 1 relatable fact in 3rd person.
 
 </section>
 
@@ -503,13 +500,13 @@ Are you new to `___`? Have you struggled with `___`? Come learn about how
 
 <!-- FIXME: Tool -->
 
-## `hemingwayapp.com`
+### `hemingwayapp.com`
 
 ---
 
 <!-- FIXME: Tool -->
 
-## `textio.com`
+### `textio.com`
 
 </section>
 
@@ -521,26 +518,26 @@ Are you new to `___`? Have you struggled with `___`? Come learn about how
 
 <!-- FIXME: Technique -->
 
-## Improve every day
+### Improve every day
 
 ---
 
-### Expanding your notes? 
+## Expanding your notes? 
 
-### Progress!
+## Progress!
 
 ---
 
-### Organizing content? 
+## Organizing content? 
 
 
-### Progress!
+## Progress!
 
 ---
 
 <!-- FIXME: Tool -->
 
-## `habitica.com`
+### `habitica.com`
 
 ---
 
@@ -556,9 +553,9 @@ Are you new to `___`? Have you struggled with `___`? Come learn about how
 
 <!-- FIXME: Activity -->
 
-### List key points
+#### List key points
 
-### Count occurrences
+#### Count occurrences
 
 </section>
 
@@ -649,28 +646,28 @@ Are you new to `___`? Have you struggled with `___`? Come learn about how
 
 <!-- FIXME: Tool -->
 
-## `github.com/`
-## `nyergler/hieroglyph`
+### `github.com/`
+### `nyergler/hieroglyph`
 
 ---
 
 <!-- FIXME: Tool -->
 
-## `github.com/`
+### `github.com/`
 
-## `hakimel/reveal.js`
-
----
-
-<!-- FIXME: Tool -->
-
-## Pandoc + Beamer
+### `hakimel/reveal.js`
 
 ---
 
 <!-- FIXME: Tool -->
 
-## LibreOffice Impress
+### Pandoc + Beamer
+
+---
+
+<!-- FIXME: Tool -->
+
+### LibreOffice Impress
 
 </section>
 
@@ -686,7 +683,7 @@ Are you new to `___`? Have you struggled with `___`? Come learn about how
 
 <!-- FIXME: Tool -->
 
-## `ffcast` 
+### `ffcast` 
 
 * Gif of screen
 
@@ -694,7 +691,7 @@ Are you new to `___`? Have you struggled with `___`? Come learn about how
 
 <!-- FIXME: Tool -->
 
-## asciinema.org
+### `asciinema.org`
 
 * Play back terminal
 
@@ -734,13 +731,13 @@ Are you new to `___`? Have you struggled with `___`? Come learn about how
 
 <!-- FIXME: Tool -->
 
-## Audacity
+### Audacity
 
 ---
 
 <!-- FIXME: Technique -->
 
-## Rehearse for a friend
+### Rehearse for a friend
 
 ---
 
@@ -784,7 +781,7 @@ Are you new to `___`? Have you struggled with `___`? Come learn about how
 
 <!-- FIXME: Tool -->
 
-arandr
+### `arandr`
 
 </section>
 
@@ -834,19 +831,19 @@ arandr
 
 ---
 
-### Cut off storytellers
+## Cut off storytellers
 
 ---
 
-### "Let's discuss that offline"
+## "Let's discuss that offline"
 
 ---
 
-### Blog the answers
+## Blog the answers
 
 ---
 
-### Follow up!
+## Follow up!
 
 ---
 
