@@ -14,12 +14,12 @@ Hi
 
 .. figure:: static/e-with-penguins.jpg
     :align: right
+    :scale: 50%
 
 @qedunham
 edunham on irc.freenode.net
 lfnw@edunham.net
 
-=========
 This Talk
 =========
 
@@ -151,7 +151,7 @@ Matrix
 
 
 Which Client?
--------------
+=============
 
 * webchat.freenode.net
 * Irssi
@@ -165,6 +165,7 @@ Irssi
 
 .. figure:: static/irssi.png
     :align: right
+    :scale: 50%
 
 * Command-line
 * Written in perl, extend with perl
@@ -177,16 +178,10 @@ Weechat
 
 .. figure:: static/weechat.png
     :align: right
+    :scale: 50%
 
 * Command-line
-* written in C, extend with
-    * python
-    * perl
-    * ruby
-    * lua
-    * tcl
-    * guile (scheme)
-    * javascript
+* written in C, extend with python, perl, ruby, lua, tcl, guile (scheme), javascript
 * Linux, BSDs, and OSX
 
 ZNC
@@ -205,6 +200,7 @@ Colloquy
 
 .. figure:: static/colloquy.png
     :align: right
+    :scale: 30%
 
 * Written in objective-C, works on WebKit, extend with HTML/CSS/JS
 * OSX & iOS
@@ -214,8 +210,9 @@ Colloquy
 Quassel
 -------
 
-.. figure:: static/quassel-on-windows.png
+.. figure:: static/quassel-on-windows.jpg
     :align: right
+    :scale: 30%
 
 * Written in C++ w/ QT4 framework
 * Cross-platform
@@ -227,6 +224,7 @@ Matrix
 
 .. figure:: static/matrix-vector.png
     :align: right
+    :scale: 50%
 
 * http://matrix.org
 * https://vector.im/beta/
@@ -258,7 +256,6 @@ Choosing a Name
     * Professionalism
     * Anonymity
     * Don't change too often
-* Networks help you protect your nick
 
 First Impressions
 -----------------
@@ -271,6 +268,7 @@ First Impressions
 
 .. figure:: static/e-washing-a-chicken.jpg
     :align: center
+    :scale: 75%
 
 
 .. note::
