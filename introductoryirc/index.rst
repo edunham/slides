@@ -153,12 +153,12 @@ Matrix
 Which Client?
 =============
 
-* webchat.freenode.net
 * Irssi
 * Weechat
 * Colloquy
 * Quassel
 * Matrix
+* webchat.freenode.net
 
 Irssi
 -----
@@ -231,6 +231,16 @@ Matrix
 * Actually a spec; implementations Apache2
 * XMPP replacement
 
+webchat.freenode.net
+--------------------
+
+.. figure:: static/freenode-webchat.png
+    :align: right
+
+* uses http://www.qwebirc.org/, GPL2
+* freenode-only, last resort
+* mibbit similar but nonfree
+
 Review
 ======
 
@@ -243,10 +253,9 @@ Review
     * Persistent client
     * Bouncer
 * Client options
-    * Freenode webchat
     * Irssi/Weechat
     * Colloquy/Quassel
-    * Matrix
+    * Matrix/webchat
 
 Choosing a Name
 ===============
