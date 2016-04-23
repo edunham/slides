@@ -483,6 +483,10 @@ Respect others' time
 Compare Goals
 -------------
 
+* What do you want to get from the conversation?
+* Why are they helping you?
+
+
 .. figure:: static/soccer-goal.jpg
     :align: right
 
@@ -492,9 +496,6 @@ Compare Goals
     :align: left
 
     https://upload.wikimedia.org/wikipedia/commons/6/64/Ice_hockey_goal_2014_01.JPG
-
-* What do you want to get from the conversation?
-* Why are they helping you?
 
 .. note::
 
@@ -513,6 +514,20 @@ Compare Goals
       following up with an action that helps them after they help you -- ie
       tweet, blog, tell someone else, thank them
 
+What if they don't answer?
+--------------------------
+
+* Connect to channel from 2nd client, see if your messages show
+
+* Clarify or reduce question
+    * "Where would you start looking if this happened to you?"
+
+* Wait till others are getting help
+    * Help out with simpler questions
+    * Bring up problem in discussion
+
+* Try asking elsewere
+
 To Recap
 --------
 
@@ -521,6 +536,55 @@ To Recap
 * Ask at the right time in the right place
 * Be polite and patient
 
+Additional IRC Skills
+=====================
+
+* Use SSL
+* Starting a channel
+* Recognizing network problems
+* Identifying "hats"
+* Using Services
+
+Using SSL
+---------
+
+* Encrypt messages to the network
+* Port 6697 usually
+* Also 7000 and 7070 on Freenode
+* See https://freenode.net/kb/answer/chat
+* ``/connect chat.freenode.net:6697``
+
+Starting a channel
+------------------
+
+* ``/join mychannel``
+* ``/msg chanserv help register``
+* ``/msg chanserv register mychannel``
+* Tell friends about it (but don't spam)
+
+Network Problems
+----------------
+
+.. figure:: static/netsplit.png
+    :align: center
+
+Hats
+----
+
+* Use ``/names`` to list people
+* ``@`` means operator
+* ``+`` means voiced
+* Some networks have more
+
+Services
+--------
+
+* ``/msg nickserv help``
+* ``/msg chanserv help``
+
+Freenode:
+
+* ``/msg alis help``
 
 Questions?
 ----------
