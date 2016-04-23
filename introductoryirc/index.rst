@@ -18,7 +18,7 @@ Hi
 * @qedunham
 * edunham on irc.freenode.net
 * lfnw@edunham.net
-* ``talks.edunham.net/lfnw2016/irc``
+* ``talks.edunham.net/linuxfestnorthwest2016/irc``
 
 This Talk
 =========
@@ -528,6 +528,6 @@ Questions?
 * @qedunham
 * edunham on irc.freenode.net
 * lfnw@edunham.net
-* Slides at ``talks.edunham.net/lfnw2016/irc``
+* Slides at ``talks.edunham.net/linuxfestnorthwest2016/irc``
 
 
