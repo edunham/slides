@@ -251,7 +251,7 @@ extensions += [
 slide_theme = 'single-level'
 slide_levels = 3
 slide_theme_options = {'custom_css': 'custom.css'}
-
+slide_footer = "@qedunham     talks.edunham.net/lfnw2016/irc"
 # Place custom static assets in the _static directory and uncomment
 # the following lines to include them
 

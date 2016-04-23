@@ -18,7 +18,7 @@ Hi
 * @qedunham
 * edunham on irc.freenode.net
 * lfnw@edunham.net
-* talks.edunham.net/lfnw2016/irc
+* ``talks.edunham.net/lfnw2016/irc``
 
 This Talk
 =========
@@ -261,17 +261,13 @@ Review
 .. rst-class:: build
 
 * How IRC works
-    * Network of servers
-    * Network has channels
+    * Network of servers, has channels
     * Talk in channels or private messages
 * Ways to connect
     * Directly from a client
-    * Persistent client
-    * Bouncer
+    * Persistent client or bouncer
 * Client options
-    * Irssi/Weechat
-    * Colloquy/Quassel
-    * Matrix/webchat
+    * Irssi, Weechat, Colloquy, Quassel, Matrix, webchat
 
 Choosing Your IRC Name
 ======================
@@ -532,6 +528,6 @@ Questions?
 * @qedunham
 * edunham on irc.freenode.net
 * lfnw@edunham.net
-* Slides at talks.edunham.net/lfnw2016/irc
+* Slides at ``talks.edunham.net/lfnw2016/irc``
 
 
