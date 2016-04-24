@@ -301,6 +301,8 @@ extensions += [
 slide_title = 'Life is better with Rust\'s Community Automation'
 slide_theme = 'single-level'
 slide_levels = 3
+slide_footer = "@qedunham   | talks.edunham.net/linuxfestnorthwest2016/rust"
+
 
 # Place custom static assets in the hieroglyph-static directory and uncomment
 # the following lines to include them
