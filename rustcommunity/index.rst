@@ -126,6 +126,8 @@ Getting Rust
 Nightly, Beta, Stable
 ---------------------
 
+|
+
 .. figure:: /hieroglyph-static/stable.png
     :class: scale
 
