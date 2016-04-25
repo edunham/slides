@@ -33,6 +33,7 @@ Things that put demos into slides:
 * https://asciinema.org/
 * https://wiki.ubuntu.com/CreatingScreencasts
 * https://github.com/lolilolicon/FFcast
+* http://0xcc.net/ttyrec/index.html.en
 
 Things I use for making pictures:
 
