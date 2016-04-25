@@ -371,6 +371,8 @@ Define The Problem
 .. figure:: static/good-question-madlibs.png
     :align: center
 
+* Or use http://www.askmebetter.com/
+
 Recognize XY Problems
 ---------------------
 
