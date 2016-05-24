@@ -8,12 +8,19 @@ Year: Conf:     Talk:                                       Accept:     Attend:
 2016  LCA       rustcommunity                               yes         yes
 2015  SeaGL     rustcommunity                               no          yes
 2015  SeaGL     speak                                       yes         yes
-2016  SCALE     configmgmt                                  no          yes 
+2016  SCALE     configmgmt                                  no          yes
 2016  UpSCALE   nocloud                                     yes         yes
-2016  OSCON     servo community tools                       no 
+2016  OSCON     servo community tools                       no
 2016  OSCON     learn rust                                  yes
-2016  POSSCON   learn rust                                  no 
+2016  POSSCON   learn rust                                  no
 2016  POSSCON   thinking in git                             yes
-2016  LFNW      rustcommunity
-2016  LFNW      intro irc
-2016  LFNW      server happiness
+2016  LFNW      rustcommunity                               yes
+2016  LFNW      intro irc                                   yes
+2016  LFNW      server happiness                            no
+2016  CodeConf  starting rust                               yes
+2016  CodeConf  rust community automation                   no
+2016  oscon webcast                                         INVITED
+2016  devopsPDX where's the cloud
+2016  devopsPDX emergent devops in open source
+2016  devopsPDX you should speak
+2016  devopsPDX devopsing your resume
