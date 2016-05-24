@@ -1,0 +1,47 @@
+Rust is a systems programming language that runs blazingly fast, prevents
+segfaults, and guarantees thread safety. Behind the scenes, Rust is also a
+community that nurtures new contributors, consistently enforces its code of
+conduct, and maintains a high-quality codebase.
+
+This talk will discuss the implementation details, as well as the social
+motivations and effects, of the customized infrastructure and workflow
+practices which allow the small core team to have such a significant impact.
+Come learn about bots which integrate with GitHub to identify and assist new
+contributors, the "Not Rocket Science" process for holding a project's code to
+high standards without being mean to anyone, and more!
+
+
+Learn about the bots: 
+
+    * Monotone -> Bors -> Homu
+    * Highfive
+    * Playbot / Playpen
+    * Buildbot community slaves ("PRs welcome")
+
+What's Rust? 
+
+What's Community? 
+What makes a community "healthy"? 
+
+
+What's Automation? 
+
+Two types of automation: *tools*, anything that takes an input and gives an
+output. *memes*, cultural values/ideas that're propagated through the
+community. One could argue that desire to cooperate with a tool is one of the
+memes. 
+
+
+
+
+How we nurture new contributors: 
+
+How we consistently enforce our code of conduct: 
+
+How we maintain a high-quality code base:
+
+
+Newbie-herding
+Life cycle of where the newbies go / where the work is needed
+
+
