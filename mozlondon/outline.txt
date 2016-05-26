@@ -1,0 +1,10 @@
+5-10-minute Platform Lightning Talk on Rust's Automation
+
+Things To Mention:
+
+* Not Rocket Science Rule
+* Teatime, Lunchtime, Bedtime (from paul mckenney's barcamp talk)
+* Role of non-Moz contributors -- empowered to help write automation
+* Community engagement (author stats & graphs)
+* optimizations for accessible workflow when possible get us more, better(?) code
+* Rust language design's role in code quality
