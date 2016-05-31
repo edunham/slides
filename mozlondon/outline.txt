@@ -3,8 +3,33 @@
 Things To Mention:
 
 * Not Rocket Science Rule
-* Teatime, Lunchtime, Bedtime (from paul mckenney's barcamp talk)
+* ~~Teatime, Lunchtime, Bedtime (from paul mckenney's barcamp talk)~~
 * Role of non-Moz contributors -- empowered to help write automation
 * Community engagement (author stats & graphs)
 * optimizations for accessible workflow when possible get us more, better(?) code
-* Rust language design's role in code quality
+* ~~Rust language design's role in code quality~~
+
+"If you move your infra out of the walled garden, other people can contribute
+to it"
+
+Servo side: Pieces contributed by community members are higher quality than
+the pieces developed in-house (ie aneesh and salt) "our contributors hold us
+to a higher standard than we do"
+
+cast not rocket science rule as things in moz that aren't here -- no sherrifs,
+no backouts, no human push to master
+
+test times: test automation is way better in servo; webdriver in central is
+slow whereas servo uses special modes that allow consecutive test runs without
+engine restart
+
+when you're willing to have sherrifs, you can tolerate all-day automation. not
+rocket science forces test improvement, parallelization
+
+engine devs prioritize fixing tests being slow -- compile is the only part we
+can't fan out yet. better incremental compilation may fix that.
+
+intermittents are the worst... gecko's auto-star, auto-retry, chrome's
+intermittent rate noticing are good on this
+
+* does central use config management?
