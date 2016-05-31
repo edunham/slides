@@ -8,10 +8,26 @@ In this quick tour of how to apply some DevOps best practices to your resume
 or CV, we'll disucuss:
 
 * Choosing the right tools for the job
+	what criteria do you consider when you're about to devops for an application? 
+		* is it maintained?
+		* does it work?
+		* when it breaks, how's that happen? does it break at bad times?
+	hazards of vendor lock-in -- will you always have a copy of m$ fancything? will $startup always be around?
+	expertise available to you -- what have you used in the past, or are your peers using now?
+
 * The importance of version control
+	tailoring resume to various hats you wear / types of opening you apply to could be a textbook example of branching + merging
+	it should be easy to know what it looked like on a given date
 * Organization and formatting to meet the users' needs
+	who's your target audience -- recruiters? HR? the engineer interviewing you?
+	what information do they need? (buzzwords, skills listing, quick and easy to read)
 * Continuous delivery
+	also a social engineering trick around the "you updated your resume! are you leaving?" thing
+	easier to update bit by bit than all at once
 * Where & how to reuse content
+	in your bio on your website, stackoverflow, company intranet social thingy -- summary of the highlights
+	on your LinkedIn -- every point should be mirrored, and often more verbose there
+	
 
 Recognizing that your resume is just another piece of code can reduce the
 uncertainty of job hunting, free up time for the projects you care about, and

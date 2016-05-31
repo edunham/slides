@@ -1,6 +1,5 @@
 % You Should Speak 
 % edunham
-% October 23, 2015
 
 # Welcome!
 
@@ -13,17 +12,17 @@ good enough or how to start?
 
 ## `talks.edunham.net`
 
-## `/seagl2015`
 
 ---
 
 ## Me
 
 * "DevOps Engineer", Mozilla Research
-* DevOps Bootcamp
 * edunham.net/pages/talks.html
 
 ---
+
+## You
 
 > - Given a talk or two?
 > - Never spoken, might want to?
