@@ -9,6 +9,9 @@ Things To Mention:
 * optimizations for accessible workflow when possible get us more, better(?) code
 * ~~Rust language design's role in code quality~~
 
+Lars's comments
+===============
+
 "If you move your infra out of the walled garden, other people can contribute
 to it"
 
@@ -31,5 +34,12 @@ can't fan out yet. better incremental compilation may fix that.
 
 intermittents are the worst... gecko's auto-star, auto-retry, chrome's
 intermittent rate noticing are good on this
+
+
+Metrics Stuff
+=============
+
+Community-contributed, http://rusty-dash.com/
+built from community tools, http://edunham.github.io/rust-org-stats/
 
 * does central use config management?
