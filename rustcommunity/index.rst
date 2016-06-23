@@ -1,18 +1,8 @@
-
-.. Life is better with Rust's Community Automation slides file, created by
-   hieroglyph-quickstart on Sun Jan 31 18:41:53 2016.
-
-.. slide::
-
-    .. figure:: /hieroglyph-static/lfnw-preface.png
-        :class: fill
-
-
 =================
 talks.edunham.net
 =================
 
-lfnw@edunham.net
+codeconf@edunham.net
 
 @qedunham
 
@@ -797,10 +787,6 @@ Crater: Testing The Compiler
 talks.edunham.net
 =================
 
-lfnw@edunham.net
+codeconf@edunham.net
 
 @qedunham
-
-.. figure:: /hieroglyph-static/lfnw-evaluate.png
-    :align: center
-
