@@ -130,3 +130,5 @@ https://github.com/shaunagm/welcomebot kind of thing
 on the infra side, we're not there yet but some others are, notably openstack
 http://princessleia.com/open_source_infra/
 
+
+https://tech.slashdot.org/story/16/07/01/1634238/mozilla-releases-first-build-of-servo-its-next-generation-browser-engine#comments
