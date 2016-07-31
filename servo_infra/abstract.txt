@@ -1,0 +1,62 @@
+GitHub Universe 2016
+
+Servo's Infrastructure: Building Tomorrow's Browser Engine
+
+Abstract:
+
+The Servo browser engine is a Mozilla initiative to test novel approaches to
+rendering the web and build components to improve Firefox. Servo's zealously
+open community contribution model is a glimpse into the future of how
+corporate projects can work symbiotically with volunteers.
+
+However, the mix of Servo's uncompromisingly open workflow and Mozilla's
+strict security requirements for Firefox components creates infrastructure
+challenges. This talk will follow Servo's quest to get the best of both
+worlds, highlighting the tools and techniques that other projects can use on
+similar challenges.
+
+Details for committee:
+
+As Mozilla Research's only  DevOps engineer, I've had a front-row seat to the
+process of moving Servo components into Firefox, as well as personally
+building integration tooling for the projects.
+
+There are two major components to this talk, corresponding to the two general
+lessons that I feel will be of greatest value to an audience who values open
+source but might struggle to integrate it with their employers' or companies'
+needs:
+
+First, we'll examine the tooling which allows a small team of under a dozen
+full-time Mozilla engineers to  effectively manage and direct a community of
+over 500 volunteers, while still getting their own work done. These open
+source tools, and the "automate everything that you can" ethos behind their
+development, are valuable to any audience members who struggles to balance the
+demands of open source community management with finding the time to work on
+their code.
+
+Second, I'll tell the story of the recent challenges we've encountered in
+streamlining the workflow for landing Servo code in Firefox itself. It's a
+gruesome tale of multiple testing platforms, technical debt, and chimera
+monsters made of robots piled upon robots, which serves to both caution
+against allowing bad ideas to fester in a system and lend hope that even the
+worst tire fires can be extinguished eventually.
+
+
+Pitch:
+
+Backend engineers love learning about Servo because it's one of the flagship
+applications of the Rust programming language, which blends safety,
+concurrency, and speed into a unique and interesting tool. Web developers love
+getting acquainted with Servo because it's on the bleeding edge of rendering
+the web, and the welcoming community offers them a chance to examine and
+contribute to what happens under the hood when a user visits their pages. And
+business leaders who value open contribution but aren't sure how it fits with
+their products can learn a lot from the relationship between the Mozilla
+corporation and Servo's community.
+
+Presented by the only full-time infrastructure engineer on the Servo project,
+this talk offers a unique perspective into a challenge which characterizes the
+growing pains of integrating a business's interests with those of a community.
+I'll focus on the technical and community challenges that we've overcome on
+this journey, since the tools that have worked for us are fully open source
+and can help other projects in the future.
