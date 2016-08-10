@@ -1,0 +1,56 @@
+How To Learn Rust
+Title
+How To Learn Rust
+Abstract
+
+As a technology professional, you know that it’s important to keep up with the
+latest tools and languages available in your field. But it can be overwhelming
+to try to figure out which tools to focus on, let alone how to study them.
+
+E. Dunham walks attendees through the best practices for choosing a new
+language, finding resources, and engaging with its community, using the
+popular, new systems programming language Rust as an example. If your
+interests include systems or embedded programming in a state-of-the-art
+language, Rust should be high on your wishlist. E. discusses the essential
+questions you need to ask when taking up a new language or project and what
+the answers are for Rust. You’ll leave this talk fully prepared to start
+working on your first Rust project and take full advantage of the language’s
+famously welcoming community
+Details
+
+People who've only worked with one or two languages often hear about the
+promises of Rust but feel at a loss for where to start. I surveyed developers
+to identify the most popular learning techniques for picking up new languages,
+and share the resources for applying them to Rust. Those techniques are:
+
+    Read the language's documentation
+    Identify similarities to familiar languages
+    Utilize community support
+    Write a project
+    Read books on the language
+    Consult example code
+    Find the best supporting tools for the language, such as lints and IDEs
+    Read production code
+    Write tiny programs to practice new techniques
+    Search for blog posts and answers
+    Watch recorded lectures and courses
+
+Fortunately, Rust offers great resources for every learning style, which the
+talk thoroughly catalogs.
+
+This talk was well-recieved at OSCON, despite being switched from a 60-minute
+to 30-minute slot with minimal notice!
+conferences.oreilly.com/oscon/open-source-us/public/schedule/detail/49024. The
+slides will look like http://talks.edunham.net/oscon2016/how-to-learn-rust.pdf
+with appropriate updates.
+Pitch
+
+When you talk to people about emerging languages like Rust, they often lament
+"I'd love to try it, but I just don't know where to start". Many introductory
+talks jump straight into syntax and code at people for an hour, or remain so
+vague as to leave the audience without an actionable next step. This talk
+covers the "how", "what", and "why" of learning Rust in a way that's carefully
+calibrated to destroy excuses and insecurities that prevent developers from
+giving the language a try, and its basic takeaways can be applied to learning
+any other language as well!
+

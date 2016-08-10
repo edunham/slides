@@ -1,0 +1,165 @@
+Hi! I’m Emily Dunham, and I’m here to talk about those pieces of paper you
+have to submit when you’re following up with a company who’s hiring.
+
+My current job, which I <3, is infra for Rust+Servo.
+
+------------------------------------------------------------------------------
+
+My resume is a piece of code that helped me find a role I love.
+
+We’re fortunate to work in a field that often has more jobs than qualified
+candidates to fill them, but who here has ever had a DevOps role that you
+disliked?
+
+------------------------------------------------------------------------------
+
+When you find yourself in a job you’d rather get out of, the best solution is
+to ask your friends who’s hiring, but sometimes you just have to throw a
+resume into a pile.
+
+------------------------------------------------------------------------------
+
+Who here hates having to update your resume?
+
+A one-off document that’s rarely useful is like an unmaintained server or code
+base – but fortunately, we know some things about fixing that!
+
+------------------------------------------------------------------------------
+
+So to talk about DevOpsing your Resume, we should start with defining what
+DevOps actually means.
+
+On the technical side, DevOps is about automation. DevOps emerged as we
+started to build and reuse tools that make life easier.
+
+------------------------------------------------------------------------------
+
+Socially, DevOps is about charging past the sometimes-crippling bureacracy of
+silos to work with whoever you need to and get stuff done.
+
+What’s this got to do with your resume?
+
+------------------------------------------------------------------------------
+
+The first goal of treating your resume as code is to let you use the same
+tools that help you maintain code quality.
+
+------------------------------------------------------------------------------
+
+But a resume isn’t judged on the same metrics as code. Readability and content
+matter, but the aesthetics of its typesetting also contribute to the first
+impression that it makes on your behalf.
+
+------------------------------------------------------------------------------
+
+My favorite tool for treating a resume as a single code file is LaTeX. You
+control everything about the typesetting, and can write macros to ensure style
+consistency between sections.
+
+------------------------------------------------------------------------------
+
+Once your resume is a text file that you can compile into a beautifully
+typeset PDF, you can use your favorite version control tooling to manage its
+source!
+
+Use separate branches to track the variants of your resume that correspond to
+different hats you wear, or emphasize certain skills.
+
+------------------------------------------------------------------------------
+
+As well as letting you develop features in parallel with each other, version
+control is a time travel technology.
+
+Want to know what your resume looked like on a certain date, or undo removing
+a section?
+
+Just `git checkout` the right commit!
+
+------------------------------------------------------------------------------
+
+When your resume is a file of code that’s kept in version control, you can
+think about testing it.
+
+You can automatically spell check every change, or verify that it still
+renders without errors into a single page.
+
+------------------------------------------------------------------------------
+
+And once you’re automatically catching obvious errors like spelling issues,
+the tools you already use to get feedback on your code can accelerate the
+process of having a peer or mentor review changes to your resume’s content!
+
+------------------------------------------------------------------------------
+
+You should use whatever tools you’re comfortable with, but I’d suggest
+preferring Free/Libre technologies for a long-lived project like your resume.
+
+Otherwise, you’re in for a lot of work if a vendor discontinues their
+proprietary offering!
+
+------------------------------------------------------------------------------
+
+That’s how to DevOps your resume, but what do you put in it?
+
+One of a DevOp’s most important tasks is to identify their projects’ end users
+and communicate with them about what they need.
+
+You can use this skill to make your resume more useful to its readers.
+
+------------------------------------------------------------------------------
+
+Consider that your resume’s readers will often be pressed for time.
+
+Meet their needs by prioritizing the most relevant content, keeping sentences
+short or replacing them entirely with bulleted lists, and only including
+information that tells them something they need to know about you.
+
+------------------------------------------------------------------------------
+
+Scrutinize your resume from its reader’s perspective and see what kind of
+prospective colleague it makes you look like.
+
+And if you have too much content, remove any technology that it would make you
+sad to work with every day.
+
+------------------------------------------------------------------------------
+
+Once you’ve put all this work into developing your resume’s content, the last
+step is to recycle it!
+
+ Fill out a LinkedIn profile if you like getting contacted by recruiters, and
+use your resume’s content to keep the “about me” page of your personal web
+site up to date.
+
+------------------------------------------------------------------------------
+
+Maintaining your resume like any other piece of code can help it benefit from
+the very skills that it showcases.
+
+Your reward for investing care and attention in this process is a resume
+that’s ready when you need it, instead of an out-of-date document whose
+mountain of overdue updates deter you from pursuing great career
+opportunities.
+
+------------------------------------------------------------------------------
+
+But remember, talking to other humans is still the best way to make sure
+you’re applying for a role that’ll meet your goals.
+
+When you tell people that you’re job hunting, let them know what you’ve loved
+about your best jobs and hated about your worst.
+
+Reach out to me if you have resume questions or just want to chat!
+
+------------------------------------------------------------------------------
+
+My own resume and a bunch of resources are available at
+https://github.com/edunham/resume
+
+Want to work at Mozilla? Check out https://careers.mozilla.org/listings/ and
+reach out, edunham@mozilla.com.
+
+
+
+
+
