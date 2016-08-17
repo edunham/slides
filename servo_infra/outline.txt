@@ -1,0 +1,14 @@
+* What's Rust
+    * Trifecta
+    * Not Rocket Science
+* What's Servo
+    * Short history of development
+    * N.R.S. rule tricke-down
+    * Infra automation
+* Oxidation
+* Quantum
+* What's Gecko
+    * MUCH longer older history
+* Vendoring
+* Autolanding
+* ???
