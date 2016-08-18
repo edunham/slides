@@ -5,6 +5,9 @@
     * Short history of development
     * N.R.S. rule tricke-down
     * Infra automation
+        * Highfive/Starters
+        * Borsing
+        * Buildbot/TC for platform matrix
 * Oxidation
 * Quantum
 * What's Gecko
@@ -12,3 +15,8 @@
 * Vendoring
 * Autolanding
 * ???
+
+The Future
+* Teams are getting more distributed -> we've built tools for multi-TZ &
+  multi-commitment-level group
+* Products more complex -> more code reuse -> open tooling
