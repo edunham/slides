@@ -20,3 +20,10 @@ The Future
 * Teams are getting more distributed -> we've built tools for multi-TZ &
   multi-commitment-level group
 * Products more complex -> more code reuse -> open tooling
+
+What you can use:
+
+    Not Rocket Science Rule
+    Sell other teams on your tools by demonstrating value
+    Justify time investment by building generic tooling to address everyone's problems
+
