@@ -13,6 +13,20 @@ E. Dunham, 9/27/2016, Automacon 2.0
 
 automacon@edunham.net
 
+# 10 minutes
+
+* No tutorials
+* Examples & Inspiration
+
+
+<!--
+That's too fast to teach you enough Rust to do anything with, or even make a
+really well reasoned case for why it might be the best tool for your use case.
+That's not what I'm here for. Right now I want to take you on a whirlwind tour
+of the tools and processes that've helped Rust's tiny core team grow and
+cultivate a thriving community.
+-->
+
 
 # Rust
 
@@ -26,32 +40,32 @@ meetup.com/pdxrust
 
 # Community
 
+# Community
+
 Human interaction work necessary to an open source project's success.
+
+# Automation
 
 # Automation
 
 Making a computer do your work for you.
 
-
-# 10 minutes
-
-* No tutorials
-* Examples & Inspiration
-
-
 <!--
-That's too fast to teach you enough Rust to do anything with, or even make a
-really well reasoned case for why it might be the best tool for your use case.
-That's not what I'm here for. Right now I want to take you on a whirlwind tour
-of the tools and processes that've helped Rust's tiny core team grow and
-cultivate a thriving community.
-
-
 So, not all tasks are easy or even possible to automate. The first step of
 building any system is scoping the problem, so I'd like to start by showing
 you a couple of the filters that help decide what kinds of people and code
 ever interact with our day-to-day tools.
 -->
+
+# Automating Community
+
+Build tools that do people things.
+
+# We control
+
+* Who uses the tools
+* What they're used on
+
 
 # Moderation
 
@@ -61,19 +75,20 @@ how the mod team enforces them.
 
 It has diversity-promoting side effects, but perhaps the most important policy
 is "Please keep unstructured critique to a minimum". It's gently but thoroughly
-enforced by our amazing mod team. I think that training people to behave
-civilly and constructively in official Rust spaces helps decrease the amount
-of someone's-being-a-jerk drama. Having a clear escalation path also all but
-eliminates the generalized anger that people start expressing when they feel
-both wronged and helpless.
+enforced by our amazing mod team.
+
+I think that training people to behave civilly and constructively in official
+Rust spaces helps decrease the amount of someone's-being-a-jerk drama. Having
+a clear escalation path also all but eliminates the generalized anger that
+people start expressing when they feel both wronged and helpless.
 
 The process of moderation cannot and should not be left to a computer, but we
 can use technology to make our mods' work as easy as possible - make humans do
 the things that require a human, but let the bots do the rest.
 -->
 
-<div style="text-align: center; margin-top: 10px">
-<img src="http://www.rust-lang.org/logos/rust-logo-256x256-blk.png">
+<div class="pic">
+<img src="CoC.png">
 </div>
 
 
@@ -91,8 +106,8 @@ foolish that nobody with much vanity would try it, thus saving our mods from
 having to manually educate everyone.
 -->
 
-<div style="text-align: center; margin-top: 10px">
-<img src="http://www.rust-lang.org/logos/rust-logo-256x256-blk.png">
+<div>
+<img src="conduct-everywhere.png">
 </div>
 
 
@@ -110,8 +125,13 @@ filtered out, because by definition they aren't there.... But AC on slashdot
 here is an example of someone whom our CoC policies exclude.
 -->
 
-<div style="text-align: center; margin-top: 10px">
-<img src="http://www.rust-lang.org/logos/rust-logo-256x256-blk.png">
+<div class="quote">
+“The Rust community gives me a particularly bad feeling. They're rather
+tyrannical about enforcing their code of conduct. They even have a moderation
+attack squad to go after anyone they deem to be an enemy! ... This sets off
+warning alarms for me.”
+<br>
+-- https://developers.slashdot.org/comments.pl?sid=8652809&cid=51352141
 </div>
 
 

@@ -66,6 +66,19 @@ body, h1, h2, h3, h4, h5, h6, nav {
     font-family: sans-serif;
 }
 
+.quote {
+    font-size: 1em;
+}
+
+.pic {
+    text-align: right;
+    margin-top: -8em;
+}
+.scale-down{
+  object-fit: scale-down;
+}
+
+
 pre, code {
     font-family: monospace;
 }
