@@ -1,0 +1,79 @@
+html {
+  height: 100vh;
+}
+
+body {
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    background-color: #fffff4;
+    position:absolute;
+
+top:0; bottom:0; right:0; left:0; }
+p {
+    font-size: 2em;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+:link, :visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+body, h5 {
+    font-size: 35px;
+}
+
+pre {
+    font-size: 1.5em;
+}
+
+section {
+    display: none;
+}
+
+section.current {
+    display: block;
+}
+
+section.title-slide h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+section.title-slide p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+code.language-text {
+    /* Servo doesn't support pre-wrap yet */
+    white-space: normal;
+}
+
+body, h1, h2, h3, h4, h5, h6, nav {
+    font-family: sans-serif;
+}
+
+pre, code {
+    font-family: monospace;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "\2022\A0";
+}
