@@ -4,30 +4,17 @@
 <img src="titleslide.png">
 </div>
 
-Behind the Scenes
-E. Dunham, 10/01/2016, PyDX
-
 # talks.edunham.net/pydx
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="intro-outro.png">
 </div>
 
-@QEDunham
-
-pydx@edunham.net
-
 # 40 minutes
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="outline.png">
 </div>
-
-. What's Rust, what's Servo?
-. Life cycle of a change to Servo
-. Look at the Python
-. We'd ♥ your help
-. Q & A
 
 # What's Rust?
 
@@ -41,20 +28,13 @@ pydx@edunham.net
 <img src="rlo.png">
 </div>
 
-
-. Safe, concurrent, fast
-. Systems programming
-. Types, lifetimes, memory safety
-
 # What's Servo?
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="servodotorg.png">
 </div>
 
-. https://github.com/servo/servo/wiki/Videos-and-presentations
-. Highly parallel
-. Safe
+https://github.com/servo/servo/wiki/Videos-and-presentations
 
 # Servo Doge
 
@@ -76,7 +56,7 @@ pydx@edunham.net
 <img src="servo-further-reading.png">
 </div>
 
-. https://github.com/servo/servo/wiki/Design
+https://github.com/servo/servo/wiki/Design
 
 # Infrastructure Philosophy
 
@@ -92,15 +72,16 @@ Automatically maintain a repository of code that always passes all the tests.
 <img src="lifecycle.png">
 </div>
 
-. Highfive
-. Homu (aka Bors)
-. Mach
-. Nightly
-
 # Greetings, human
 
 <div style="text-align: center; margin-top: 10px">
 <img src="highfive-in-action.png">
+</div>
+
+# Travis kicks off tests
+
+<div style="text-align: center; margin-top: 10px">
+<img src="travis.png">
 </div>
 
 # Human reviews code
@@ -109,17 +90,11 @@ Automatically maintain a repository of code that always passes all the tests.
 <img src="rplus.png">
 </div>
 
-@bors-servo r+
-
 # Homu
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="borsservo.png">
 </div>
-
-
-. @bors-servo
-. "Will the tests pass after merging this?"
 
 # The Queue
 
@@ -133,8 +108,6 @@ Automatically maintain a repository of code that always passes all the tests.
 <img src="http://buildbot.net/img/nut.png">
 </div>
 
-. Runs tests
-
 # The Waterfall
 
 <div style="text-align: center; margin-top: 10px">
@@ -142,8 +115,6 @@ Automatically maintain a repository of code that always passes all the tests.
 </div>
 
 # Homu
-
-. Reports test status
 
 <div style="text-align: center; margin-top: 10px">
 <img src="homu-on-github.png">
@@ -154,8 +125,6 @@ Automatically maintain a repository of code that always passes all the tests.
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="linux-nightly.png">
 </div>
-
-. Makes nightly with the changes!
 
 # download.servo.org
 
@@ -193,10 +162,22 @@ Automatically maintain a repository of code that always passes all the tests.
 <img src="buildbot-dot-net.png">
 </div>
 
+# Nightlies live in S3
+
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="boto.png">
+</div>
+
 # Mach
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="servo-mach-python.png">
+</div>
+
+# Upstream Mach
+
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="moz-mach.png">
 </div>
 
 # More on Mach
@@ -205,10 +186,10 @@ Automatically maintain a repository of code that always passes all the tests.
 <img src="mach-vcs.png">
 </div>
 
-# Upstream Mach
+# Mercurial
 
 <div class="elide" style="text-align: center; margin-top: 10px">
-<img src="moz-mach.png">
+<img src="hg-upstream.png">
 </div>
 
 # Salt Configs
@@ -223,7 +204,19 @@ Automatically maintain a repository of code that always passes all the tests.
 <img src="salt-upstream.png">
 </div>
 
-# Getting Started
+# Questions?
+
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="questions.png">
+</div>
+
+# Getting Started with Rust
+
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="rust-resources.png">
+</div>
+
+# Getting Started with Servo
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="starters.png">
@@ -234,10 +227,5 @@ Automatically maintain a repository of code that always passes all the tests.
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="intro-outro.png">
 </div>
-
-
-@QEDunham
-
-pydx@edunham.net
 
 
