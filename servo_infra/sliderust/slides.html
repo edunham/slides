@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <title>Servo Infrastructure</title>
+
+    
+    <link rel="stylesheet" href="//doc.rust-lang.org/rust.css">
+<link rel="stylesheet" href="sliderust.css">
+<script src="sliderust.js"></script>
+
+
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+    <h1 class="title">Servo Infrastructure</h1>
+    <div class="elide" style="text-align: center; margin-top: 10px">
+<img src="titleslide.png">
+</div>
+
+<p>Behind the Scenes
+E. Dunham, 10/01/2016, PyDX</p>
+
+<h1 id='talksedunhamnetpydx' class='section-header'><a href='#talksedunhamnetpydx'>talks.edunham.net/pydx</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="intro-outro.png">
+</div>
+
+<p>@QEDunham</p>
+
+<p><a href="mailto:pydx@edunham.net">pydx@edunham.net</a></p>
+
+<h1 id='40-minutes' class='section-header'><a href='#40-minutes'>40 minutes</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="outline.png">
+</div>
+
+<p>. What&#39;s Rust, what&#39;s Servo?
+. Life cycle of a change to Servo
+. Look at the Python
+. We&#39;d ♥ your help
+. Q &amp; A</p>
+
+<h1 id='whats-rust' class='section-header'><a href='#whats-rust'>What&#39;s Rust?</a></h1>
+<div style="text-align: center; margin-top: 10px">
+<img src="http://www.rust-lang.org/logos/rust-logo-256x256-blk.png">
+</div>
+
+<h1 id='whats-rust-1' class='section-header'><a href='#whats-rust-1'>What&#39;s Rust?</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="rlo.png">
+</div>
+
+<p>. Safe, concurrent, fast
+. Systems programming
+. Types, lifetimes, memory safety</p>
+
+<h1 id='whats-servo' class='section-header'><a href='#whats-servo'>What&#39;s Servo?</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="servodotorg.png">
+</div>
+
+<p>. <a href="https://github.com/servo/servo/wiki/Videos-and-presentations">https://github.com/servo/servo/wiki/Videos-and-presentations</a>
+. Highly parallel
+. Safe</p>
+
+<h1 id='servo-doge' class='section-header'><a href='#servo-doge'>Servo Doge</a></h1>
+<div style="text-align: center; margin-top: 10px">
+<img src="https://avatars1.githubusercontent.com/u/4368172?v=3&s=400">
+</div>
+
+<h1 id='architecture' class='section-header'><a href='#architecture'>Architecture</a></h1>
+<div style="text-align: center; margin-top: 10px">
+<img src="https://github.com/mozilla/servo/wiki/tasks-sup.png">
+</div>
+
+<h1 id='further-reading' class='section-header'><a href='#further-reading'>Further Reading</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="servo-further-reading.png">
+</div>
+
+<p>. <a href="https://github.com/servo/servo/wiki/Design">https://github.com/servo/servo/wiki/Design</a></p>
+
+<h1 id='infrastructure-philosophy' class='section-header'><a href='#infrastructure-philosophy'>Infrastructure Philosophy</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="rocketscience.png">
+</div>
+
+<p>Automatically maintain a repository of code that always passes all the tests.</p>
+
+<h1 id='a-servo-change' class='section-header'><a href='#a-servo-change'>A Servo Change</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="lifecycle.png">
+</div>
+
+<p>. Highfive
+. Homu (aka Bors)
+. Mach
+. Nightly</p>
+
+<h1 id='greetings-human' class='section-header'><a href='#greetings-human'>Greetings, human</a></h1>
+<div style="text-align: center; margin-top: 10px">
+<img src="highfive-in-action.png">
+</div>
+
+<h1 id='human-reviews-code' class='section-header'><a href='#human-reviews-code'>Human reviews code</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="rplus.png">
+</div>
+
+<p>@bors-servo r+</p>
+
+<h1 id='homu' class='section-header'><a href='#homu'>Homu</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="borsservo.png">
+</div>
+
+<p>. @bors-servo
+. &quot;Will the tests pass after merging this?&quot;</p>
+
+<h1 id='the-queue' class='section-header'><a href='#the-queue'>The Queue</a></h1>
+<div style="text-align: center; margin-top: 10px">
+<img src="homu-queue.png">
+</div>
+
+<h1 id='buildbot' class='section-header'><a href='#buildbot'>Buildbot</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="http://buildbot.net/img/nut.png">
+</div>
+
+<p>. Runs tests</p>
+
+<h1 id='the-waterfall' class='section-header'><a href='#the-waterfall'>The Waterfall</a></h1>
+<div style="text-align: center; margin-top: 10px">
+<img src="servo-build-waterfall.png">
+</div>
+
+<h1 id='homu-1' class='section-header'><a href='#homu-1'>Homu</a></h1>
+<p>. Reports test status</p>
+
+<div style="text-align: center; margin-top: 10px">
+<img src="homu-on-github.png">
+</div>
+
+<h1 id='buildbot-1' class='section-header'><a href='#buildbot-1'>Buildbot</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="linux-nightly.png">
+</div>
+
+<p>. Makes nightly with the changes!</p>
+
+<h1 id='downloadservoorg' class='section-header'><a href='#downloadservoorg'>download.servo.org</a></h1>
+<div style="text-align: center; margin-top: 10px">
+<img src="dl-dot-servo.png">
+</div>
+
+<h1 id='the-python' class='section-header'><a href='#the-python'>The Python</a></h1>
+<div style="text-align: center; margin-top: 10px">
+<img src="http://python.net/~goodger/projects/graphics/python/newlogo-repro.png">
+</div>
+
+<h1 id='highfive' class='section-header'><a href='#highfive'>Highfive</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="servo-highfive-python.png">
+</div>
+
+<h1 id='homu-2' class='section-header'><a href='#homu-2'>Homu</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="servo-homu-python.png">
+</div>
+
+<h1 id='buildbot-2' class='section-header'><a href='#buildbot-2'>Buildbot</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="servo-buildbot-python.png">
+</div>
+
+<h1 id='upstream-buildbot' class='section-header'><a href='#upstream-buildbot'>Upstream Buildbot</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="buildbot-dot-net.png">
+</div>
+
+<h1 id='mach' class='section-header'><a href='#mach'>Mach</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="servo-mach-python.png">
+</div>
+
+<h1 id='more-on-mach' class='section-header'><a href='#more-on-mach'>More on Mach</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="mach-vcs.png">
+</div>
+
+<h1 id='upstream-mach' class='section-header'><a href='#upstream-mach'>Upstream Mach</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="moz-mach.png">
+</div>
+
+<h1 id='salt-configs' class='section-header'><a href='#salt-configs'>Salt Configs</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="servo-saltfs-python.png">
+</div>
+
+<h1 id='upstream-salt' class='section-header'><a href='#upstream-salt'>Upstream Salt</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="salt-upstream.png">
+</div>
+
+<h1 id='getting-started' class='section-header'><a href='#getting-started'>Getting Started</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="starters.png">
+</div>
+
+<h1 id='talksedunhamnetpydx-1' class='section-header'><a href='#talksedunhamnetpydx-1'>talks.edunham.net/pydx</a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="intro-outro.png">
+</div>
+
+<p>@QEDunham</p>
+
+<p><a href="mailto:pydx@edunham.net">pydx@edunham.net</a></p>
+
+    <script type="text/javascript">
+        window.playgroundUrl = "";
+    </script>
+    
+</body>
+</html>
