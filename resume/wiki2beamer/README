@@ -1,0 +1,2 @@
+ wiki2beamer slides.txt > slides.tex && pdflatex slides.tex && evince slides.pdf
+
