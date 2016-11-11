@@ -1,0 +1,329 @@
+
+\documentclass{beamer}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{wasysym}
+\date{\today}
+\lstdefinestyle{basic}{
+    captionpos=t,%
+    basicstyle=\footnotesize\ttfamily,%
+    numberstyle=\tiny,%
+    numbers=left,%
+    stepnumber=1,%
+    frame=single,%
+    showspaces=false,%
+    showstringspaces=false,%
+    showtabs=false,%
+    %
+    keywordstyle=\color{blue},%
+    identifierstyle=,%
+    commentstyle=\color{gray},%
+    stringstyle=\color{magenta}%
+}
+\title{Your Resume Is Code}
+\author{E. Dunham}
+\date{2016-11-11}
+
+\begin{document}
+
+
+\frame{\titlepage}
+
+
+
+
+
+\begin{frame}
+ \frametitle{About Me}
+
+
+
+\begin{itemize}
+  \item DevOps Engineer at Mozilla Research
+\begin{itemize}
+  \item First "real job"
+\end{itemize}
+  \item Open source nerd
+  \item Oregonian (currently PDX)
+\end{itemize}
+
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{About You}
+
+
+
+\begin{itemize}
+  \item Student?
+  \item Professional in your field of choice?
+  \item Other?
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Your resume...}
+
+
+
+\begin{columns}
+\column{0.4\textwidth}
+
+\textbf{IS}
+\begin{itemize}
+  \item 1-2 pages
+  \item First impression
+  \item SEO tool
+\end{itemize}
+
+\column{0.5\textwidth}
+
+is \textbf{NOT}
+\begin{itemize}
+  \item Everything you've ever done
+  \item Personal details (in US)
+  \item Substiute for networking
+\end{itemize}
+\end{columns}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{A job hunt...}
+
+
+
+\begin{itemize}
+  \item Network
+\begin{itemize}
+  \item Where would you want to work?
+  \item Where would you not work again?
+  \item Why?
+\end{itemize}
+  \item Share your goals and preferences
+\begin{itemize}
+  \item Phrase complaints positively
+\end{itemize}
+  \item Understand referral bonuses
+  \item Solicit recruiters
+\begin{itemize}
+  \item Interview practice makes perfect!
+\end{itemize}
+  \item Have resume ready
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Your Resume's Audiences}
+
+
+
+\begin{itemize}
+  \item You
+  \item Robots
+  \item HR
+  \item Interviewers
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Build a resume like code}
+
+
+
+\begin{itemize}
+  \item Identify users' needs
+  \item Interfaces to other systems
+  \item Continuous delivery
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Resume users' needs}
+
+
+
+\begin{itemize}
+  \item You
+\begin{itemize}
+  \item "Where was I in 2010?"
+  \item "What are all the technologies I used there?"
+\end{itemize}
+  \item Robots
+\begin{itemize}
+  \item "Does this document contain that buzzword?"
+\end{itemize}
+  \item HR
+\begin{itemize}
+  \item "Is this person educated?"
+  \item "Do they have the skills the job req says?"
+  \item "How can I get in contact with them?"
+\end{itemize}
+  \item Interviewer
+\begin{itemize}
+  \item "What has this person built?"
+  \item "What kind of questions should I ask them?"
+  \item "What technical interests or experiences do we have in common?"
+\end{itemize}
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Resume's Interfaces}
+
+
+
+\begin{itemize}
+  \item Use buzzwords from job postings
+  \item Reuse content in professional profiles
+  \item Accept feedback
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Contiuous Delivery}
+
+
+
+\begin{itemize}
+  \item Resume is living snapshot of career
+  \item Resume is finished when career is
+  \item Ship it!
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Tools you use on code}
+
+
+
+\begin{itemize}
+  \item Backups!
+  \item Version control
+  \item Compile/render source into final product that's...
+\begin{itemize}
+  \item Aesthetically pleasing
+  \item Single file
+  \item Looks right across platforms
+\end{itemize}
+  \item Peer review
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Version Control}
+
+
+
+\begin{itemize}
+  \item Backups + searchable history + easily switch between versions
+\begin{itemize}
+  \item Git, Hg, etc
+  \item GitHub, BitBucket, GitLab, whatever
+\end{itemize}
+  \item Version Control <3 text files
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Text File -> PDF}
+
+
+
+\begin{itemize}
+  \item LibreOffice document?
+\begin{itemize}
+  \item Hard to version
+\end{itemize}
+  \item HTML page?
+\begin{itemize}
+  \item Hard to render nice PDF consistently
+\end{itemize}
+  \item Write your own typesetting tool
+\begin{itemize}
+  \item Good experience
+  \item Giant rabbit hole
+  \item Might never finish your resume
+\end{itemize}
+  \item Use LaTeX
+\begin{itemize}
+  \item Useful skill
+  \item It has ALL THE FEATURES\footnote{which you find by Googling a lot}
+\end{itemize}
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{LaTeX}
+
+
+
+\begin{itemize}
+  \item This one time in computer history...
+\begin{itemize}
+  \item 1969, Donald Knuth write TAOCP
+  \item 1976, 2nd edition, phototypesetting
+  \item 1978, Knuth publishes TeX
+\end{itemize}
+  \item Turing-complete language
+\begin{itemize}
+  \item Expand macros then execute tokens
+\end{itemize}
+  \item LaTeX == "TeX-based language"
+\begin{itemize}
+  \item http://www.tug.org/levels.html
+\end{itemize}
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Learning Most Languages}
+
+
+
+\begin{enumerate}
+  \item Write some code
+  \item Try to run it
+  \item Watch it crash
+  \item Google a lot
+  \item Make it ugly but working
+  \item Refine and refactor
+\end{enumerate}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Principles of Resume}
+
+
+
+\begin{itemize}
+  \item Consistency
+  \item Empathy for users' needs
+\end{itemize}
+
+
+\end{frame}
+\begin{frame}
+ \frametitle{Let's write!}
+
+
+
+
+\end{frame}
+
+
+\end{document}
+

@@ -1,0 +1,150 @@
+<[autotemplate]
+title={Your Resume Is Code}
+author={E. Dunham}
+date={2016-11-11}
+titleframe=True
+[autotemplate]>
+
+==== About Me ====
+
+* DevOps Engineer at Mozilla Research
+** First "real job"
+* Open source nerd
+* Oregonian (currently PDX)
+
+
+==== About You ====
+
+* Student?
+* Professional in your field of choice?
+* Other?
+
+==== Your resume... ====
+
+<[columns]
+[[[0.4\textwidth]]]
+
+'''IS'''
+* 1-2 pages
+* First impression
+* SEO tool
+
+[[[0.5\textwidth]]]
+
+is '''NOT'''
+* Everything you've ever done
+* Personal details (in US)
+* Substiute for networking
+[columns]>
+
+==== A job hunt... ====
+
+* Network
+** Where would you want to work?
+** Where would you not work again?
+** Why?
+* Share your goals and preferences
+** Phrase complaints positively
+* Understand referral bonuses
+* Solicit recruiters
+** Interview practice makes perfect!
+* Have resume ready
+
+==== Your Resume's Audiences ====
+
+* You
+* Robots
+* HR
+* Interviewers
+
+==== Build a resume like code ====
+
+* Identify users' needs
+* Interfaces to other systems
+* Continuous delivery
+
+==== Resume users' needs ====
+
+* You
+** "Where was I in 2010?"
+** "What are all the technologies I used there?"
+* Robots
+** "Does this document contain that buzzword?"
+* HR
+** "Is this person educated?"
+** "Do they have the skills the job req says?"
+** "How can I get in contact with them?"
+* Interviewer
+** "What has this person built?"
+** "What kind of questions should I ask them?"
+** "What technical interests or experiences do we have in common?"
+
+==== Resume's Interfaces ====
+
+* Use buzzwords from job postings
+* Reuse content in professional profiles
+* Accept feedback
+
+==== Contiuous Delivery ====
+
+* Resume is living snapshot of career
+* Resume is finished when career is
+* Ship it!
+
+==== Tools you use on code ====
+
+* Backups!
+* Version control
+* Compile/render source into final product that's...
+** Aesthetically pleasing
+** Single file
+** Looks right across platforms
+* Peer review
+
+==== Version Control ====
+
+* Backups + searchable history + easily switch between versions
+** Git, Hg, etc
+** GitHub, BitBucket, GitLab, whatever
+* Version Control <3 text files
+
+==== Text File -> PDF ====
+
+* LibreOffice document?
+** Hard to version
+* HTML page?
+** Hard to render nice PDF consistently
+* Write your own typesetting tool
+** Good experience
+** Giant rabbit hole
+** Might never finish your resume
+* Use LaTeX
+** Useful skill
+** It has ALL THE FEATURES(((which you find by Googling a lot)))
+
+==== LaTeX ====
+
+* This one time in computer history...
+** 1969, Donald Knuth write TAOCP
+** 1976, 2nd edition, phototypesetting
+** 1978, Knuth publishes TeX
+* Turing-complete language
+** Expand macros then execute tokens
+* LaTeX == "TeX-based language"
+** http://www.tug.org/levels.html
+
+==== Learning Most Languages ====
+
+# Write some code
+# Try to run it
+# Watch it crash
+# Google a lot
+# Make it ugly but working
+# Refine and refactor
+
+==== Principles of Resume ====
+
+* Consistency
+* Empathy for users' needs
+
+==== Let's write! ====
