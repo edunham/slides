@@ -23,40 +23,110 @@
 
     
     <h1 class="title">Servo Infrastructure</h1>
-    <div class="elide" style="text-align: center; margin-top: 10px">
-<img src="titleslide.png">
-</div>
+    <p>SeaGL 2016
+2016-11-12</p>
 
-<h1 id='talksedunhamnetpydx' class='section-header'><a href='#talksedunhamnetpydx'>talks.edunham.net/pydx</a></h1>
-<div class="elide" style="text-align: center; margin-top: 10px">
-<img src="intro-outro.png">
-</div>
+<h1 id='contact' class='section-header'><a href='#contact'>Contact</a></h1>
+<ul>
+<li>talks.edunham.net/seagl2016/servo</li>
+<li>@QEDunham</li>
+<li><a href="mailto:seagl@edunham.net">seagl@edunham.net</a></li>
+</ul>
 
-<h1 id='40-minutes' class='section-header'><a href='#40-minutes'>40 minutes</a></h1>
-<div class="elide" style="text-align: center; margin-top: 10px">
-<img src="outline.png">
-</div>
+<h1 id='50-minutes' class='section-header'><a href='#50-minutes'>50 minutes</a></h1>
+<ul>
+<li>What&#39;s Rust, what&#39;s Servo?</li>
+<li>Life cycle of a Servo change</li>
+<li>The Code</li>
+<li>How you can help</li>
+<li>Q&amp;A</li>
+</ul>
 
 <h1 id='whats-rust' class='section-header'><a href='#whats-rust'>What&#39;s Rust?</a></h1>
 <div style="text-align: center; margin-top: 10px">
 <img src="http://www.rust-lang.org/logos/rust-logo-256x256-blk.png">
 </div>
 
-<h1 id='whats-rust-1' class='section-header'><a href='#whats-rust-1'>What&#39;s Rust?</a></h1>
+<h1 id='a-hrefhttpwwwrust-langorgwwwrust-langorga' class='section-header'><a href='#a-hrefhttpwwwrust-langorgwwwrust-langorga'><a href="http://www.rust-lang.org">www.rust-lang.org</a></a></h1>
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="rlo.png">
 </div>
 
+<h1 id='design-goals' class='section-header'><a href='#design-goals'>Design Goals</a></h1>
+<ul>
+<li>Safe, concurrent, fast</li>
+<li>Systems programming, fewer footguns</li>
+<li>Hack Without Fear</li>
+</ul>
+
+<h1 id='rustaceans' class='section-header'><a href='#rustaceans'>Rustaceans</a></h1>
+<ul>
+<li>github.com/rust-lang/rust</li>
+<li>27 @mozilla.com contributors</li>
+<li>1528 non-mozilla.com contributors</li>
+<li>2% of contributors, 15% of commits are @mozilla.com</li>
+</ul>
+
+<h1 id='community' class='section-header'><a href='#community'>Community</a></h1>
+<p>&quot;The Rust community seems to be populated entirely by human beings.  I have no
+idea how this was done.&quot;</p>
+
+<ul>
+<li><a href="http://scattered-thoughts.net/blog/2015/06/04/three-months-of-rust/">http://scattered-thoughts.net/blog/2015/06/04/three-months-of-rust/</a></li>
+</ul>
+
+<h1 id='conduct' class='section-header'><a href='#conduct'>Conduct</a></h1>
+<ul>
+<li>&quot;Please be kind and courteous.&quot;</li>
+<li>&quot;Please keep unstructured critique to a minimum&quot;</li>
+<li>Dedicated moderation team</li>
+<li><p>&quot;We will exclude you from interaction if you insult, demean or harass anyone&quot;</p>
+
+<ul>
+<li><a href="https://www.rust-lang.org/conduct.html">https://www.rust-lang.org/conduct.html</a></li>
+</ul></li>
+</ul>
+
+<h1 id='exclusion' class='section-header'><a href='#exclusion'>Exclusion</a></h1>
+<p>&quot;The Rust community gives me a particularly bad feeling. They&#39;re rather
+tyrannical about enforcing their code of conduct. They even have a moderation
+attack squad to go after anyone they deem to be an enemy!&quot;</p>
+
+<ul>
+<li><a href="https://developers.slashdot.org/comments.pl?sid=8652809&amp;cid=51352141">https://developers.slashdot.org/comments.pl?sid=8652809&amp;cid=51352141</a></li>
+</ul>
+
+<h1 id='other-processes' class='section-header'><a href='#other-processes'>Other processes</a></h1>
+<ul>
+<li>Weekly updates (This Week In Rust, etc)</li>
+<li>Mandatory RFCs for major changes</li>
+<li>Consistent PR review process</li>
+<li>Distributed team &amp; public discussions</li>
+</ul>
+
 <h1 id='whats-servo' class='section-header'><a href='#whats-servo'>What&#39;s Servo?</a></h1>
-<div class="elide" style="text-align: center; margin-top: 10px">
-<img src="servodotorg.png">
-</div>
-
-<p><a href="https://github.com/servo/servo/wiki/Videos-and-presentations">https://github.com/servo/servo/wiki/Videos-and-presentations</a></p>
-
-<h1 id='servo-doge' class='section-header'><a href='#servo-doge'>Servo Doge</a></h1>
 <div style="text-align: center; margin-top: 10px">
 <img src="https://avatars1.githubusercontent.com/u/4368172?v=3&s=400">
+</div>
+
+<ul>
+<li>~12 full-time engineers</li>
+<li>~612 code contributors</li>
+<li>~21k commits into servo/servo</li>
+<li>~4% of contributors, ~25% of commits from @mozilla.com</li>
+</ul>
+
+<h1 id='how' class='section-header'><a href='#how'>How?</a></h1>
+<ul>
+<li>Put robots to work</li>
+<li>Rent others&#39; expertise</li>
+<li>Value volunteers</li>
+<li>Leverage free stuff</li>
+</ul>
+
+<h1 id='a-hrefhttpwwwservoorgwwwservoorga' class='section-header'><a href='#a-hrefhttpwwwservoorgwwwservoorga'><a href="http://www.servo.org">www.servo.org</a></a></h1>
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="servodotorg.png">
 </div>
 
 <h1 id='architecture' class='section-header'><a href='#architecture'>Architecture</a></h1>
@@ -65,9 +135,7 @@
 </div>
 
 <h1 id='further-reading' class='section-header'><a href='#further-reading'>Further Reading</a></h1>
-<div class="elide" style="text-align: center; margin-top: 10px">
-<img src="servo-further-reading.png">
-</div>
+<p><a href="https://github.com/servo/servo/wiki/Videos-and-presentations">https://github.com/servo/servo/wiki/Videos-and-presentations</a></p>
 
 <p><a href="https://github.com/servo/servo/wiki/Design">https://github.com/servo/servo/wiki/Design</a></p>
 
@@ -76,12 +144,13 @@
 <img src="rocketscience.png">
 </div>
 
-<p>Automatically maintain a repository of code that always passes all the tests.</p>
-
-<h1 id='a-servo-change' class='section-header'><a href='#a-servo-change'>A Servo Change</a></h1>
-<div class="elide" style="text-align: center; margin-top: 10px">
-<img src="lifecycle.png">
-</div>
+<h1 id='pr-life-cycle' class='section-header'><a href='#pr-life-cycle'>PR Life Cycle</a></h1>
+<ul>
+<li>Highfive</li>
+<li>Homu (Bors)</li>
+<li>Mach</li>
+<li>Buildbot</li>
+</ul>
 
 <h1 id='greetings-human' class='section-header'><a href='#greetings-human'>Greetings, human</a></h1>
 <div style="text-align: center; margin-top: 10px">
@@ -133,7 +202,7 @@
 <img src="dl-dot-servo.png">
 </div>
 
-<h1 id='the-python' class='section-header'><a href='#the-python'>The Python</a></h1>
+<h1 id='the-infrastructure' class='section-header'><a href='#the-infrastructure'>The Infrastructure</a></h1>
 <div style="text-align: center; margin-top: 10px">
 <img src="http://python.net/~goodger/projects/graphics/python/newlogo-repro.png">
 </div>
@@ -158,10 +227,14 @@
 <img src="buildbot-dot-net.png">
 </div>
 
-<h1 id='nightlies-live-in-s3' class='section-header'><a href='#nightlies-live-in-s3'>Nightlies live in S3</a></h1>
+<h1 id='s3' class='section-header'><a href='#s3'>S3</a></h1>
 <div class="elide" style="text-align: center; margin-top: 10px">
-<img src="boto.png">
+<img src="http://www.iperiusbackup.net/wp-content/uploads/2014/11/amazon-s3-logo-150x118.png">
 </div>
+
+<ul>
+<li>Artifact storage as Someone Else&#39;s Problem</li>
+</ul>
 
 <h1 id='mach' class='section-header'><a href='#mach'>Mach</a></h1>
 <div class="elide" style="text-align: center; margin-top: 10px">
@@ -173,14 +246,9 @@
 <img src="moz-mach.png">
 </div>
 
-<h1 id='more-on-mach' class='section-header'><a href='#more-on-mach'>More on Mach</a></h1>
+<h1 id='machs-tree' class='section-header'><a href='#machs-tree'>Mach&#39;s Tree</a></h1>
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="mach-vcs.png">
-</div>
-
-<h1 id='mercurial' class='section-header'><a href='#mercurial'>Mercurial</a></h1>
-<div class="elide" style="text-align: center; margin-top: 10px">
-<img src="hg-upstream.png">
 </div>
 
 <h1 id='salt-configs' class='section-header'><a href='#salt-configs'>Salt Configs</a></h1>
@@ -194,9 +262,13 @@
 </div>
 
 <h1 id='questions' class='section-header'><a href='#questions'>Questions?</a></h1>
-<div class="elide" style="text-align: center; margin-top: 10px">
-<img src="questions.png">
-</div>
+<ul>
+<li>Highfive</li>
+<li>Homu</li>
+<li>BuildBot</li>
+<li>Mach</li>
+<li>SaltStack</li>
+</ul>
 
 <h1 id='getting-started-with-rust' class='section-header'><a href='#getting-started-with-rust'>Getting Started with Rust</a></h1>
 <div class="elide" style="text-align: center; margin-top: 10px">
@@ -208,10 +280,12 @@
 <img src="starters.png">
 </div>
 
-<h1 id='talksedunhamnetpydx-1' class='section-header'><a href='#talksedunhamnetpydx-1'>talks.edunham.net/pydx</a></h1>
-<div class="elide" style="text-align: center; margin-top: 10px">
-<img src="intro-outro.png">
-</div>
+<h1 id='thank-you' class='section-header'><a href='#thank-you'>Thank you!</a></h1>
+<ul>
+<li>talks.edunham.net/seagl2016/servo</li>
+<li>@QEDunham</li>
+<li>Go to the conference party at the Silver Cloud!</li>
+</ul>
 
     <script type="text/javascript">
         window.playgroundUrl = "";
