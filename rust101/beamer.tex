@@ -1,0 +1,113 @@
+% Thanks to Kevin D. McGrath & Wade Cline for the presentation template.
+\documentclass[xcolor={dvipsnames,svgnames},hyperref=dvips]{beamer}
+
+% Packages.
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{url}
+\usepackage{pstricks}
+\usepackage{pst-node}
+
+% Hyperlinks.
+\def\name{Wade Cline}
+\hypersetup{
+  colorlinks = true,
+  citecolor = black,
+  linkcolor = black,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {``computer science'', lug, fs, filesystems},
+  pdftitle = {Linux Filesystems for Windows Users,},
+  pdfsubject = {Linux Filesystems Introduction},
+  pdfpagemode = UseNone
+}
+
+% ???
+\usetheme[hideothersubsections]{Hannover}
+\usecolortheme{sidebartab}
+
+% Presentation metadata.
+\title[Linux Filesystems Introduction]{An Introduction to the Linux Filesystem
+for Windows Users}
+\author{Wade Cline}
+\date{12 November 2013}
+
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+    % \transwipe
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+\title{Rust 101}
+\subtitle{Deploy, Write, and Improve Rust}
+\author{E. Dunham}
+\institute{talks.edunham.net/lca2017/rust101}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\section{Intro}
+
+    \begin{frame}
+        \frametitle{Foo}
+        \tableofcontents
+    \end{frame}
+
+
+\subsection{About Me}
+
+    \begin{frame}
+        \frametitle{Foo}
+    \end{frame}
+
+
+\subsection{About You}
+
+    \begin{frame}
+        \frametitle{Foo}
+    \end{frame}
+
+
+\subsection{About Rust}
+
+    \begin{frame}
+        \frametitle{Foo}
+    \end{frame}
+
+\section{Deploy Rust}
+
+    \begin{frame}
+        \frametitle{Foo}
+    \end{frame}
+
+
+\section{Write Rust}
+
+    \begin{frame}
+        \frametitle{Foo}
+    \end{frame}
+
+
+\section{Improve Rust}
+
+    \begin{frame}
+        \frametitle{Foo}
+    \end{frame}
+
+
+
+\end{document}
