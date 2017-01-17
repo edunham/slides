@@ -2,13 +2,14 @@
 \documentclass[xcolor={svgnames},hyperref]{beamer}
 
 % Packages.
-\usepackage{graphicx}
-\usepackage{amssymb}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{amsthm}
-\usepackage{url}
-\usepackage{pstricks}
+\usepackage{graphicx}
+\usepackage{hyperref}
 \usepackage{pst-node}
+\usepackage{pstricks}
+\usepackage{url}
 
 % Hyperlinks.
 \def\name{E. Dunham}
@@ -59,10 +60,15 @@
 \section{Intro}
 
     \begin{frame}
-        \frametitle{Foo}
-        \tableofcontents
+        Welcome!
+         \begin{itemize}
+            \item 100 minutes
+            \item Learn what Rust is \& isn't
+            \item Run Rust code
+            \item Write Rust code
+            \item Improve Rust
+        \end{itemize}
     \end{frame}
-
 
     \subsection{About Me}
 
@@ -118,11 +124,30 @@
     \end{frame}
 
     \begin{frame}
+        History
+        \begin{itemize}
+            \item Since \~2010
+            \item 1.0 Stable in May 2015
+            \item Currently \footnote{until January 26th} 1.14.0
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
         When is Rust appropriate?
         \begin{itemize}
             \item Speed + Safety essential
             \item LLVM-supported architecture
-            \item Team $\heartsuit$ new techs
+            \item Team $\heartsuit$ new technology
+        \end{itemize}
+    \end{frame}
+
+
+    \begin{frame}
+        When isn't Rust right?
+        \begin{itemize}
+            \item Timeframe prohibits new learning
+            \item Need code reuse \footnote{Corrode can translate C to unsafe Rust}
+            \item Can't handle CoC
         \end{itemize}
     \end{frame}
 
@@ -134,6 +159,7 @@
     \subsection{Understand Channels}
 
     \begin{frame}
+        Rust's channels
         \begin{itemize}
             \item Nightly: Trying neat ideas
             \item Beta: Release candidates
@@ -141,9 +167,8 @@
         \end{itemize}
     \end{frame}
 
-    \subsection{Which channel?}
-
     \begin{frame}
+        Which channel to use?
         \begin{itemize}
             \item Stable code should run anywhere
             \item Switch to nightly for dependencies
@@ -152,17 +177,48 @@
         \end{itemize}
     \end{frame}
 
+    \begin{frame}
+        FYI: Crater
+        \begin{itemize}
+            \item Compile all the Rust code we can find
+            \item Diff results from stable and candidate
+            \item \url{https://github.com/brson/taskcluster-crater}
+        \end{itemize}
+    \end{frame}
 
     \subsection{Installation Options}
 
     \begin{frame}
         \begin{itemize}
             \item Online: play.integer32.com or play.rust-lang.org
-            \item Many rusts: multirust.rs
-            \item System package manager \footnote{Or add Rust!}
+            \item Many rusts: \url{rustup.rs}
+            \item System package manager \footnote{Or add Rust to your favorite!}
             \item Tinfoil hat: Compile from source
         \end{itemize}
     \end{frame}
+
+    \begin{frame}
+        Playpens
+        \begin{itemize}
+            \item Source at \url{https://github.com/rust-lang/rust-playpen}
+            \item Choose output, LLVM IR, or ASM
+            \item Gist your progress
+            \item Config alters editor settings
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        Rustup
+        \begin{itemize}
+            \item Docs at \url{https://github.com/rust-lang-nursery/rustup.rs}
+            \item ~/.cargo/bin
+            \item rustup install nightly
+            \item rustup run nightly cargo new
+        \end{itemize}
+    \end{frame}
+
+
+
 
 
 \section{Write Rust}
@@ -178,16 +234,14 @@
         \end{itemize}
     \end{frame}
 
-
     \begin{frame}
+        What `cargo new` creates
         \begin{itemize}
             \item
             \item
             \item
         \end{itemize}
     \end{frame}
-
-
 
 
 \subsection{Libraries }
@@ -212,6 +266,14 @@
     \end{frame}
 
 
+    \begin{frame}
+        Depending on a library
+        \begin{itemize}
+            \item
+            \item
+            \item
+        \end{itemize}
+    \end{frame}
 
     \begin{frame}
         \begin{itemize}
@@ -224,7 +286,110 @@
 
 \section{Improve Rust}
 
+    \begin{frame}
+        Always...
+        \begin{itemize}
+            \item Respect others' licenses
+            \item License your own code
+            \item Document what you learn!
+        \end{itemize}
+    \end{frame}
 
+
+\subsection{Level up}
+
+    \begin{frame}
+        Read a Book
+        \begin{itemize}
+            \item \url{https://doc.rust-lang.org/stable/book/}
+            \item \url{https://doc.rust-lang.org/nomicon/}
+            \item O'Reilly Book coming soon
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        Follow the News
+        \begin{itemize}
+            \item \url{http://www.newrustacean.com/} podcast
+            \item \url{https://soundcloud.com/posix4e/sets/rustyradio} interviews
+            \item \url{https://this-week-in-rust.org/} Weekly newsletter
+            \item \url{https://blog.rust-lang.org/} Official Blog
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        Practice
+        \begin{itemize}
+            \item \url{https://github.com/carols10cents/rustlings} Exercises
+            \item \url{http://rustbyexample.com/} Examples
+        \end{itemize}
+    \end{frame}
+
+\subsection{Find a project}
+
+    \begin{frame}
+        Join a project
+        \begin{itemize}
+            \item \url{https://crates.io/} Popular crates
+            \item Search GitHub "is:issue label:easy language:rust"
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        Port something
+        \begin{itemize}
+            \item \url{https://github.com/jameysharp/corrode} C to Unsafe Rust
+            \item \url{https://linux.conf.au/schedule/presentation/51/} Friday 1:20pm
+            \item \url{https://blog.rust-lang.org/2015/04/24/Rust-Once-Run-Everywhere.html} FFI
+        \end{itemize}
+    \end{frame}
+
+
+\subsection{Get involved}
+
+    \begin{frame}
+        File issues
+        \begin{itemize}
+            \item
+            \item
+            \item
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        Chat Online
+        \begin{itemize}
+            \item
+            \item
+            \item
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        Find or join a meetup
+        \begin{itemize}
+            \item
+            \item
+            \item
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        Attend a conference
+        \begin{itemize}
+            \item
+            \item
+            \item
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        \begin{itemize}
+            \item
+            \item
+            \item
+        \end{itemize}
+    \end{frame}
 
     \begin{frame}
         \begin{itemize}
