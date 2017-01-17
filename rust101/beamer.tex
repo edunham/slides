@@ -1,5 +1,5 @@
 % Thanks to Kevin D. McGrath & Wade Cline for the presentation template.
-\documentclass[xcolor={dvipsnames,svgnames},hyperref=dvips]{beamer}
+\documentclass[xcolor={svgnames},hyperref]{beamer}
 
 % Packages.
 \usepackage{graphicx}
@@ -11,16 +11,15 @@
 \usepackage{pst-node}
 
 % Hyperlinks.
-\def\name{Wade Cline}
+\def\name{E. Dunham}
 \hypersetup{
   colorlinks = true,
   citecolor = black,
   linkcolor = black,
   urlcolor = black,
   pdfauthor = {\name},
-  pdfkeywords = {``computer science'', lug, fs, filesystems},
-  pdftitle = {Linux Filesystems for Windows Users,},
-  pdfsubject = {Linux Filesystems Introduction},
+  pdftitle = {Rust 101, Linux.Conf.Au 2017},
+  pdfsubject = {Rust 101, Linux.Conf.Au 2017},
   pdfpagemode = UseNone
 }
 
@@ -29,10 +28,9 @@
 \usecolortheme{sidebartab}
 
 % Presentation metadata.
-\title[Linux Filesystems Introduction]{An Introduction to the Linux Filesystem
-for Windows Users}
-\author{Wade Cline}
-\date{12 November 2013}
+\title[Rust 101]{Deploy, Write, and Improve Rust}
+\author{\name}
+\date{\today}
 
 \AtBeginSection[]
 {
@@ -48,11 +46,8 @@ for Windows Users}
   \end{frame}
 }
 
-\title{Rust 101}
-\subtitle{Deploy, Write, and Improve Rust}
-\author{E. Dunham}
-\institute{talks.edunham.net/lca2017/rust101}
-\date{\today}
+\addtobeamertemplate{frametitle}{
+   \let\insertframetitle\insertsectionhead\insertsubsectionhead}{}
 
 \begin{document}
 
@@ -68,46 +63,99 @@ for Windows Users}
     \end{frame}
 
 
-\subsection{About Me}
+    \subsection{About Me}
 
     \begin{frame}
-        \frametitle{Foo}
+        \begin{itemize}
+            \item DevOps for Mozilla Research
+            \item FOSS \& Robotics background
+            \item NOT a compiler wizard
+        \end{itemize}
     \end{frame}
 
 
-\subsection{About You}
+    \subsection{About You}
 
     \begin{frame}
-        \frametitle{Foo}
+        Have you...
+        \begin{itemize}
+            \item Heard of Rust?
+            \item Used Rust?
+            \item Contributed to Rust?
+        \end{itemize}
     \end{frame}
 
 
-\subsection{About Rust}
+    \subsection{About Rust}
 
     \begin{frame}
-        \frametitle{Foo}
+        \begin{itemize}
+            \item
+            \item
+            \item
+        \end{itemize}
     \end{frame}
 
 \section{Deploy Rust}
 
+
+
+    \subsection{Understand Channels}
+
     \begin{frame}
-        \frametitle{Foo}
+        \begin{itemize}
+            \item Nightly: Trying neat ideas
+            \item Beta: Release candidates
+            \item Stable: Always backwards-compatible
+        \end{itemize}
+    \end{frame}
+
+    \subsection{Which channel?}
+
+    \begin{frame}
+        \begin{itemize}
+            \item Stable code should run anywhere
+            \item Switch to nightly for dependencies
+            \item New project? Pick stable \footnote{Unless you need an
+                  unstable feature}
+        \end{itemize}
+    \end{frame}
+
+
+    \subsection{Installation Options}
+
+    \begin{frame}
+        \begin{itemize}
+            \item
+            \item
+            \item
+        \end{itemize}
     \end{frame}
 
 
 \section{Write Rust}
 
+
     \begin{frame}
-        \frametitle{Foo}
+        \begin{itemize}
+            \item
+            \item
+            \item
+        \end{itemize}
     \end{frame}
 
 
 \section{Improve Rust}
 
-    \begin{frame}
-        \frametitle{Foo}
-    \end{frame}
 
+
+    \begin{frame}
+        \begin{itemize}
+            \item
+            \item
+            \item
+        \end{itemize}
+    \end{frame}
 
 
 \end{document}
