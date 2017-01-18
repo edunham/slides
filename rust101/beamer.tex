@@ -39,7 +39,7 @@
 \AtBeginSection[]
 {
   \begin{frame}<beamer>{}
-    \tableofcontents[currentsection]
+\tableofcontents[currentsection]
   \end{frame}
 }
 
@@ -55,510 +55,549 @@
 
 \section{Intro}
 
-    \begin{frame}
-        Welcome!
-         \begin{itemize}
-            \item 100 minutes
-            \item ``101" is an intro class
-            \begin{itemize}
-                \item Learn what Rust is \& isn't
-                \item Run Rust code
-                \item Write Rust code
-                \item Improve Rust
-            \end{itemize}
-            \item Not:
-            \begin{itemize}
-                \item Hack time for you
-                \item All the docs
-                \item Exhaustive Q\&A \footnote{Come to the BoF at lunch!}
-            \end{itemize}
-        \end{itemize}
-    \end{frame}
-
-    \subsection{About Me}
-
-    \begin{frame}
+\begin{frame}
+    Welcome!
+     \begin{itemize}
+        \item 100 minutes
+        \item ``101" is an intro class
         \begin{itemize}
-            \item DevOps for Mozilla Research \footnote{Infra is mostly Python}
-            \item Rust Community Team member
-            \item FOSS \& robotics background
-            \item NOT a compiler wizard
+            \item Learn what Rust is \& isn't
+            \item Run Rust code
+            \item Write Rust code
+            \item Improve Rust
         \end{itemize}
-    \end{frame}
-
-    \subsection{About You}
-
-    \begin{frame}
-        Have you...
+        \item Not:
         \begin{itemize}
-            \item Heard of Rust?
-            \item Used Rust?
-            \item Contributed to Rust?
+            \item Hack time for you
+            \item All the docs
+            \item Exhaustive Q\&A \footnote{Come to the BoF at lunch!}
         \end{itemize}
-    \end{frame}
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Have you...
-        \begin{itemize}
-            \item Written C, C++, Assembly, etc?
-            \item Written Java, Python, Ruby, JS, etc?
-            \item Written Haskell, Erlang, Ocaml, etc?
-        \end{itemize}
-    \end{frame}
+\subsection{About Me}
 
-    \begin{frame}
-        Have you...
-        \begin{itemize}
-            \item Used version control?
-            \item Used GitHub?
-            \item Contributed to a FOSS project?
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    \begin{itemize}
+        \item DevOps for Mozilla Research \footnote{Infra is mostly Python}
+        \item Rust Community Team member
+        \item FOSS \& robotics background
+        \item NOT a compiler wizard
+    \end{itemize}
+\end{frame}
 
-    \subsection{About Rust}
+\subsection{About You}
 
-    \begin{frame}
-        What's Rust?
-        \begin{itemize}
-            \item Systems language \footnote{Contrast to Go, a language for sysadmins}
-            \item Safety + Performance
-            \item Community... (Thriving but controversial)
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Have you...
+    \begin{itemize}
+        \item Heard of Rust?
+        \item Used Rust?
+        \item Contributed to Rust?
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Rust's Buzzwords
-        \begin{itemize}
-            \item Safety, Speed, Concurrency
-            \item Memory safety without garbage collection
-            \item Zero-cost abstractions
-            \item Hack Without Fear
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Have you...
+    \begin{itemize}
+        \item Written C, C++, Assembly, etc?
+        \item Written Java, Python, Ruby, JS, etc?
+        \item Written Haskell, Erlang, Ocaml, etc?
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Aside: Safety \& GC
-        \begin{itemize}
-            \item Memory must be reused
-            \item C: ``Just follow these rules perfectly, you're smart"
-            \item Java, JS, etc: ``Wait a minute, I'll take care of it"
-            \item Rust: ``I'll prove correctness at compile time"
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Have you...
+    \begin{itemize}
+        \item Used version control?
+        \item Used GitHub?
+        \item Contributed to a FOSS project?
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        History
-        \begin{itemize}
-            \item Since \textasciitilde 2010
-            \item 1.0 Stable in May 2015
-            \item Currently \footnote{until January 26th} 1.14.0
-            \item Mozilla sponsorship \& support
-        \end{itemize}
-    \end{frame}
+\subsection{About Rust}
 
-    \begin{frame}
-        Notable Projects
-        \begin{itemize}
-            \item \url{servo.org} Browser Engine
-            \item \url{habitat.sh} Infrastructure Tooling
-            \item Dropbox (internal use)
-            \item \url{https://www.rust-lang.org/en-US/friends.html}
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    What's Rust?
+    \begin{itemize}
+        \item Systems language \footnote{Contrast to Go, a language for sysadmins}
+        \item Safety + Performance
+        \item Community... (Thriving but controversial)
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        When is Rust appropriate?
-        \begin{itemize}
-            \item Speed + Safety essential
-            \item LLVM-supported architecture
-            \item Team $\heartsuit$ new technology
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Rust's Buzzwords
+    \begin{itemize}
+        \item Safety, Speed, Concurrency
+        \item Memory safety without garbage collection
+        \item Zero-cost abstractions
+        \item Hack Without Fear
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        When isn't Rust right?
-        \begin{itemize}
-            \item Timeframe prohibits new learning
-            \item Need code reuse \footnote{Corrode can translate C to unsafe Rust}
-            \item Can't handle CoC
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Aside: Safety \& GC
+    \begin{itemize}
+        \item Memory must be reused
+        \item C: ``Just follow these rules perfectly, you're smart"
+        \item Java, JS, etc: ``Wait a minute, I'll take care of it"
+        \item Rust: ``I'll prove correctness at compile time"
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Questions?
-        \begin{itemize}
-            \item What's Rust?
-            \item When might Rust be the best tool?
-            \item When is it probably not?
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    History
+    \begin{itemize}
+        \item Since \textasciitilde 2010
+        \item 1.0 Stable in May 2015
+        \item Currently \footnote{until January 26th} 1.14.0
+        \item Mozilla sponsorship \& support
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    Notable Projects
+    \begin{itemize}
+        \item \url{servo.org} Browser Engine
+        \item \url{habitat.sh} Infrastructure Tooling
+        \item Dropbox (internal use)
+        \item \url{https://www.rust-lang.org/en-US/friends.html}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    Where is Rust a good tool?
+    \begin{itemize}
+        \item Speed + Safety essential
+        \item LLVM-supported architecture
+        \item Team $\heartsuit$ new technology
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    Where might Rust be a bad tool?
+    \begin{itemize}
+        \item Timeframe prohibits new learning
+        \item Need code reuse \footnote{Corrode can translate C to unsafe Rust}
+        \item Can't handle CoC
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    Questions?
+    \begin{itemize}
+        \item What's Rust?
+        \item When might Rust be the best tool?
+        \item When is it probably not?
+    \end{itemize}
+\end{frame}
 
 \section{Run Rust}
 
-    \subsection{Understand Channels}
+\subsection{Understand Channels}
 
-    \begin{frame}
-        Rust's channels
-        \begin{itemize}
-            \item Nightly: Trying neat ideas
-            \item Beta: Release candidates
-            \item Stable: Always backwards-compatible \footnote{\url{https://blog.rust-lang.org/2015/05/15/Rust-1.0.html}}
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Rust's channels
+    \begin{itemize}
+        \item Nightly: Trying neat ideas
+        \item Beta: Release candidates
+        \item Stable: Always backwards-compatible \footnote{\url{https://blog.rust-lang.org/2015/05/15/Rust-1.0.html}}
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Which channel to use?
-        \begin{itemize}
-            \item Stable code should run anywhere
-            \item Switch to nightly for dependencies
-            \item New project? Pick stable \footnote{Unless you need an
-                  unstable feature}
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Which channel to use?
+    \begin{itemize}
+        \item Stable code should run anywhere
+        \item Switch to nightly for dependencies
+        \item New project? Pick stable \footnote{Unless you need an
+              unstable feature}
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Aside: Crater
-        \begin{itemize}
-            \item Compile all published libraries
-            \item Diff results from stable and candidate
-            \item \url{https://github.com/brson/taskcluster-crater}
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Aside: Crater
+    \begin{itemize}
+        \item Compile all published libraries
+        \item Diff results from stable and candidate
+        \item \url{https://github.com/brson/taskcluster-crater}
+    \end{itemize}
+\end{frame}
 
-    \subsection{Installation Options}
+\subsection{Installation Options}
 
-    \begin{frame}
-        \begin{itemize}
-            \item Online: play.integer32.com or play.rust-lang.org
-            \item Many rusts: \url{rustup.rs}
-            \item System package manager \footnote{Or add Rust to your favorite!}
-            \item Tinfoil hat: Compile from source
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Installation Options
+    \begin{itemize}
+        \item Online: play.integer32.com or play.rust-lang.org
+        \item Many rusts: \url{rustup.rs}
+        \item System package manager \footnote{Or add Rust to your favorite!}
+        \item Tinfoil hat: Compile from source
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Playpens
-        \begin{itemize}
-            \item Source at \url{https://github.com/rust-lang/rust-playpen}
-            \item Choose output, LLVM IR, or ASM
-            \item Gist your progress
-            \item Config alters editor settings
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Playpens
+    \begin{itemize}
+        \item Source at \url{https://github.com/rust-lang/rust-playpen}
+        \item Choose output, LLVM IR, or ASM
+        \item Gist your progress
+        \item Config alters editor settings
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Rustup
-        \begin{itemize}
-            \item Docs at \url{https://github.com/rust-lang-nursery/rustup.rs}
-            \item \textasciitilde /.cargo/bin
-            \item rustup install nightly
-            \item rustup run nightly cargo new
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Rustup
+    \begin{itemize}
+        \item Docs at \url{https://github.com/rust-lang-nursery/rustup.rs}
+        \item \textasciitilde /.cargo/bin
+        \item rustup install nightly
+        \item rustup run nightly cargo new
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Security
-        \begin{itemize}
-            \item All releases GPG signed
-            \item Key only held by Rust Core Team members
-            \item \url{https://keybase.io/rust} identity proved by locally signing artifact
-            \item \url{https://github.com/rust-lang/rust#building-from-source}
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Security
+    \begin{itemize}
+        \item All releases GPG signed
+        \item Key only held by Rust Core Team members
+        \item \url{https://keybase.io/rust} identity proved by locally signing artifact
+        \item \url{https://github.com/rust-lang/rust\#building-from-source}
+    \end{itemize}
+\end{frame}
 
 \section{Write Rust}
 
-    \begin{frame}
-        IDE support
-        \begin{itemize}
-            \item \url{https://github.com/murarth/rusti}
-            \item \url{http://www.jonathanturner.org/2017/01/rls-alpha-release.html}
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    IDE support
+    \begin{itemize}
+        \item \url{https://github.com/murarth/rusti}
+        \item \url{http://www.jonathanturner.org/2017/01/rls-alpha-release.html}
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        REPL equivalents
-        \begin{itemize}
-            \item Use the playpen
-            \item playbot on IRC
-            \item \url{https://github.com/murarth/rusti} worked briefly on nightly
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    REPL equivalents
+    \begin{itemize}
+        \item Use the playpen
+        \item playbot on IRC
+        \item \url{https://github.com/murarth/rusti} worked briefly on nightly
+    \end{itemize}
+\end{frame}
 
 
 \subsection{Errors}
 
-    \begin{frame}
-        The compiler is your friend
-        \begin{itemize}
-            \item Rules catch things that look unsafe
-            \item ``Unsafe" directive is an override
-            \item Errors deserve helpful docs
-            \item Click error number in playpen!
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    The compiler is your friend
+    \begin{itemize}
+        \item Rules catch things that look unsafe
+        \item ``Unsafe" directive is an override
+        \item Errors deserve helpful docs
+        \item Click error number in playpen!
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Erroneous Errors
-        \begin{itemize}
-            \item Gist your code
-            \item Ask on IRC \begin{verbatim}##rust-beginners\end{verbatim}
-            \item File a bug
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Erroneous Errors
+    \begin{itemize}
+        \item Gist your code
+        \item Ask on IRC \#\#rust-beginners
+        \item File a bug
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Aside: Other helpful tools
-        \begin{itemize}
-            \item \url{https://github.com/nrc/rustfmt} standardizes style for you
-            \item \url{https://github.com/manishearth/rust-clippy} gives helpful suggestions
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Aside: Other helpful tools
+    \begin{itemize}
+        \item \url{https://github.com/nrc/rustfmt} standardizes style for you
+        \item \url{https://github.com/manishearth/rust-clippy} gives helpful suggestions
+    \end{itemize}
+\end{frame}
 
 \subsection{Syntax}
 
-    \begin{frame}
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Scopes
+    \begin{itemize}
+        \item Everything between matched \{\}
+        \item
+        \item
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
 
 
 
-\subsection{Using Libraries}
 
-    \begin{frame}
-        Package Management
-        \begin{itemize}
-            \item Package manager: Cargo
-            \item Libraries: Crates
-            \item Package index: crates.io
-            \item See ``Package Managers All The Way Down", Tasman B, 3:40pm today
-            \item See \url{http://doc.crates.io/guide.html}
-        \end{itemize}
-    \end{frame}
-
-    \begin{frame}
-        Create a binary or library
-        \begin{itemize}
-            \item ``cargo new --bin"
-                \begin{itemize}
-                    \item Binary
-                    \item You run main.rs
-                    \item cargo.lock stores state of last good build
-                \end{itemize}
-            \item ``cargo new''
-                \begin{itemize}
-                    \item Library
-                    \item src/lib.rs, no main function
-                \end{itemize}
-        \end{itemize}
-    \end{frame}
-
-    \begin{frame}
-        `cargo new' creates:
-        \begin{itemize}
-            \item Cargo.toml
-            \item src/main.rs or src/lib.rs
-            \item .git if absent
-        \end{itemize}
-    \end{frame}
-
-    \begin{frame}
-        Depending on a crate
-        \begin{itemize}
-            \item Search crates.io
-            \item Check docs, license, \& project policies
-            \item Add it to `dependencies' section of cargo.toml
-            \begin{itemize}
-                \item \begin{verbatim} name = "0.1"\end{verbatim}
-                \item \begin{verbatim} name = { git = "https://github.com/org/repo.git" rev = "123abcd" } \end{verbatim}
-            \end{itemize}
-            \item \begin{verbatim} extern crate rand; use rand::Rng;\end{verbatim}
-        \end{itemize}
-    \end{frame}
 
 \subsection{Safety}
 
-    \begin{frame}
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
 
 
-    \begin{frame}
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Ownership
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
-
+\begin{frame}
+    Ownership
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
 
 \subsection{Types \& Traits}
 
-    \begin{frame}
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
+
+\subsection{Using Libraries}
+
+\begin{frame}
+    Package Management
+    \begin{itemize}
+        \item Package manager: Cargo
+        \item Libraries: Crates
+        \item Package index: crates.io
+        \item See ``Package Managers All The Way Down", Tasman B, 3:40pm today
+        \item See \url{http://doc.crates.io/guide.html}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    Create a binary or library
+    \begin{itemize}
+        \item ``cargo new --bin"
+            \begin{itemize}
+                \item Binary
+                \item You run main.rs
+                \item cargo.lock stores state of last good build
+            \end{itemize}
+        \item ``cargo new''
+            \begin{itemize}
+                \item Library
+                \item src/lib.rs, no main function
+            \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    `cargo new' creates:
+    \begin{itemize}
+        \item Cargo.toml
+        \item src/main.rs or src/lib.rs
+        \item .git if absent
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+    Depending on a crate
+    \begin{itemize}
+        \item Search crates.io
+        \item Check docs, license, \& project policies
+        \item Add it to `dependencies' section of cargo.toml
         \begin{itemize}
-            \item
-            \item
-            \item
+
+%                \item \begin{verbatim} name = \"0.1\" \end{verbatim}
+\item name = ``0.1"
+ %               \item \begin{verbatim} name = \{ git = \"https://github.com/org/repo.git\" rev = "123abcd" \} \end{verbatim}
+
         \end{itemize}
-    \end{frame}
+        %\item \begin{verbatim} extern crate rand; use rand::Rng; \end{verbatim}
+    \end{itemize}
+\end{frame}
 
-
-    \begin{frame}
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
-
-    \begin{frame}
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
-
-
-    \begin{frame}
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
 
 \section{Improve Rust}
 
-    \begin{frame}
-        Always...
-        \begin{itemize}
-            \item Respect others' licenses
-            \item License your own code
-            \item Document what you learn!
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Always...
+    \begin{itemize}
+        \item Respect others' licenses
+        \item License your own code
+        \item Document what you learn!
+    \end{itemize}
+\end{frame}
 
 
 \subsection{Level up}
 
-    \begin{frame}
-        Read a Book
-        \begin{itemize}
-            \item \url{https://doc.rust-lang.org/stable/book/}
-            \item \url{https://doc.rust-lang.org/nomicon/}
-            \item O'Reilly Book coming soon
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Read a Book
+    \begin{itemize}
+        \item \url{https://doc.rust-lang.org/stable/book/}
+        \item \url{https://doc.rust-lang.org/nomicon/}
+        \item O'Reilly Book coming soon
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Follow the News
-        \begin{itemize}
-            \item \url{http://www.newrustacean.com/} podcast
-            \item \url{https://soundcloud.com/posix4e/sets/rustyradio} interviews
-            \item \url{https://this-week-in-rust.org/} Weekly newsletter
-            \item \url{https://blog.rust-lang.org/} Official Blog
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Follow the News
+    \begin{itemize}
+        \item \url{http://www.newrustacean.com/} podcast
+        \item \url{https://soundcloud.com/posix4e/sets/rustyradio} interviews
+        \item \url{https://this-week-in-rust.org/} Weekly newsletter
+        \item \url{https://blog.rust-lang.org/} Official Blog
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Practice
-        \begin{itemize}
-            \item \url{https://github.com/carols10cents/rustlings} Exercises
-            \item \url{http://rustbyexample.com/} Examples
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Practice
+    \begin{itemize}
+        \item \url{https://github.com/carols10cents/rustlings} Exercises
+        \item \url{http://rustbyexample.com/} Examples
+    \end{itemize}
+\end{frame}
 
 \subsection{Find a project}
 
-    \begin{frame}
-        Join a project
-        \begin{itemize}
-            \item \url{https://crates.io/} Popular crates
-            \item Search GitHub ``is:issue label:easy language:rust"
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Join a project
+    \begin{itemize}
+        \item \url{https://crates.io/} Popular crates
+        \item Search GitHub ``is:issue label:easy language:rust"
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Port something
-        \begin{itemize}
-            \item \url{https://github.com/jameysharp/corrode} C to Unsafe Rust
-            \item \url{https://linux.conf.au/schedule/presentation/51/} Friday 1:20pm
-            \item \url{https://blog.rust-lang.org/2015/04/24/Rust-Once-Run-Everywhere.html} FFI
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Port something
+    \begin{itemize}
+        \item \url{https://github.com/jameysharp/corrode} C to Unsafe Rust
+        \item \url{https://linux.conf.au/schedule/presentation/51/} Friday 1:20pm
+        \item \url{https://blog.rust-lang.org/2015/04/24/Rust-Once-Run-Everywhere.html} FFI
+    \end{itemize}
+\end{frame}
 
 
 \subsection{Get involved}
 
-    \begin{frame}
-        File issues
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    File issues
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Chat Online
-        \begin{itemize}
-            \item IRC: \#rust, \#rust-beginners on irc.mozilla.org
-            \item \url{users.rust-lang.org} Users Forum
-            \item Reddit, StackOverflow, etc.
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Chat Online
+    \begin{itemize}
+        \item IRC: \#rust, \#rust-beginners on irc.mozilla.org
+        \item \url{users.rust-lang.org} Users Forum
+        \item Reddit, StackOverflow, etc.
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Find or join a meetup
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Find or join a meetup
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        Attend a conference
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    Attend a conference
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
 
-    \begin{frame}
-        \begin{itemize}
-            \item
-            \item
-            \item
-        \end{itemize}
-    \end{frame}
+\begin{frame}
+    \begin{itemize}
+        \item
+        \item
+        \item
+    \end{itemize}
+\end{frame}
 
 
 \end{document}
