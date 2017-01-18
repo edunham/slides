@@ -11,6 +11,7 @@
 \usepackage{pstricks}
 \usepackage{url}
 \usepackage{epigraph}
+\usepackage{textcomp}
 
 % Hyperlinks.
 \def\name{E. Dunham}
@@ -351,7 +352,7 @@ LCA.}{\textit{The Abstract}}
     Functions:
     \begin{itemize}
         \item \textit{ fn myfunction \{ ... \} }
-        \item \textit{ fn myfunction \(arg: type, arg: type\) \texttt{-} \[RightAngleBracket] resulttype \{ ... \} }
+        \item \textit{ fn myfunction \(arg: type, arg: type\) \texttt{-} \textrangle{} resulttype \{ ... \} }
         \item Type signatures are like Mad Libs
         \item Function has at least name and scope
     \end{itemize}
@@ -467,7 +468,7 @@ fn main() {
     Custom types
     \begin{itemize}
         \item \url{http://rustbyexample.com/custom_types.html}
-        \item Structs & Enums
+        \item Structs \& Enums
         \item Use types from your dependencies (example in a few slides)
     \end{itemize}
 \end{frame}
