@@ -162,7 +162,7 @@ LCA.}{\textit{The Abstract}}
     \begin{itemize}
         \item Since \textasciitilde 2010
         \item 1.0 Stable in May 2015
-        \item Currently \footnote{until January 26th} 1.14.0
+        \item Currently \footnote{until January 26th} version 1.14.0
         \item Mozilla sponsorship \& support
     \end{itemize}
 \end{frame}
@@ -196,7 +196,7 @@ LCA.}{\textit{The Abstract}}
 \end{frame}
 
 \begin{frame}
-    Questions about what's going on here?
+    Questions about Rust's place in the world?
 \end{frame}
 
 \section{Run Rust}
@@ -204,7 +204,7 @@ LCA.}{\textit{The Abstract}}
 \subsection{Channels}
 
 \begin{frame}
-    Rust's channels
+    Rust's channels:
     \begin{itemize}
         \item Nightly: Trying neat ideas
         \item Beta: Release candidates
@@ -232,14 +232,14 @@ LCA.}{\textit{The Abstract}}
 \end{frame}
 
 \begin{frame}
-    Questions about channels?
+    Questions about channels \& installation?
 \end{frame}
 
 
 \subsection{Installation Options}
 
 \begin{frame}
-    Installation
+    Installation:
     \begin{itemize}
         \item Online: \url{play.integer32.com} or \url{play.rust-lang.org}
         \item Many rusts: \url{rustup.rs}
@@ -273,10 +273,28 @@ LCA.}{\textit{The Abstract}}
     \begin{itemize}
         \item All releases GPG signed
         \item Key only held by Rust Core Team members
-        \item \url{keybase.io/rust} identity proved by locally signing artifact
+        \item \url{keybase.io/rust} (proved by local signing)
+        \item Rustup checks signatures for you
         \item \url{github.com/rust-lang/rust}
     \end{itemize}
 \end{frame}
+
+\begin{frame}
+    Deployment
+    \begin{itemize}
+        \item Check README for system dependencies
+        \item \textit{git clone projecturl}
+        \item \textit{cd project}
+        \item \textit{cargo run}
+        \begin{itemize}
+            \item Downloads any dependencies
+            \item Compiles deps \& code
+            \item Executes src/main.rs
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+
 
 \begin{frame}
     Questions about installation?
@@ -286,15 +304,15 @@ LCA.}{\textit{The Abstract}}
 \section{Write Rust}
 
 \begin{frame}
-    IDE support
+    IDE support:
     \begin{itemize}
-        \item \url{https://github.com/murarth/rusti}
+        \item \url{https://areweideyet.com/}
         \item \url{http://www.jonathanturner.org/2017/01/rls-alpha-release.html}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
-    REPL equivalents
+    REPL equivalents:
     \begin{itemize}
         \item Use the playpen
         \item playbot on IRC
@@ -306,7 +324,7 @@ LCA.}{\textit{The Abstract}}
 \subsection{Errors}
 
 \begin{frame}
-    The compiler is your friend
+    Rust wants you to succeed.
     \begin{itemize}
         \item Rules catch things that look unsafe
         \item ``Unsafe" directive is an override
@@ -316,8 +334,9 @@ LCA.}{\textit{The Abstract}}
 \end{frame}
 
 \begin{frame}
-    Erroneous Errors
+    Erroneous Errors?
     \begin{itemize}
+        \item Search the web!
         \item Gist your code
         \item Ask on IRC \#rust-beginners
         \item File a bug
@@ -327,8 +346,10 @@ LCA.}{\textit{The Abstract}}
 \begin{frame}
     Aside: Other helpful tools
     \begin{itemize}
-        \item \url{https://github.com/nrc/rustfmt} standardizes style for you
-        \item \url{https://github.com/manishearth/rust-clippy} gives helpful suggestions
+        \item \url{https://github.com/nrc/rustfmt}
+        \item Rustfmt standardizes style for you
+        \item \url{https://github.com/manishearth/rust-clippy}
+        \item Clippy gives helpful suggestions
     \end{itemize}
 \end{frame}
 
@@ -340,30 +361,32 @@ LCA.}{\textit{The Abstract}}
 \subsection{Syntax}
 
 \begin{frame}
-    Scopes:
+    Scope Syntax:
     \begin{itemize}
         \item Everything between matched \{\}
         \item Scopes can nest
         \item \{Outer Scope \{Inner Scope\}\}
+        \item Pay attention to a value's scope!
     \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
-    Functions:
+    Function Syntax:
     \begin{itemize}
         \item \textit{ fn myfunction \{ ... \} }
-        \item \textit{ fn myfunction \(arg: type, arg: type\) \texttt{-} \textrangle{} resulttype \{ ... \} }
+        \item \textit{ fn myfunction (arg: type, arg: type) \texttt{-} \textrangle{} resulttype \{ ... \} }
         \item Type signatures are like Mad Libs
         \item Function has at least name and scope
     \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
-    Macros:
+    Macro Syntax:
     \begin{itemize}
         \item Shorthand for functions with variable number of arguments
         \item \textit{macroname!(foo, bar, baz)}
         \item \url{ doc.rust-lang.org/beta/book/macros.html }
+        \item You'll see ``println!"
     \end{itemize}
 \end{frame}
 
@@ -383,11 +406,11 @@ LCA.}{\textit{The Abstract}}
 \end{frame}
 
 \begin{frame}
-    Punctutation Matters:
+    Punctuation Matters:
     \begin{itemize}
         \item Expressions end with a semicolon
         \item Exception: bare expression on last line of function returns result
-        \item Spaces must separate tokens
+        \item Spaces separate tokens: \textit{i32} is not \texttt{i  32}
         \item Whitespace is mostly irrelevant
     \end{itemize}
 \end{frame}
@@ -415,9 +438,15 @@ LCA.}{\textit{The Abstract}}
 \end{frame}
 
 \begin{frame}
-    Control Flow
+    Control Flow Syntax:
     \begin{itemize}
         \item Conditionals and loops are familiar
+        \begin{itemize}
+            \item \textit{if x \{ ... \}}
+            \item \textit{loop \{ ... \}}
+            \item \textit{while x \{ ... \}}
+            \item \textit{for x in 1..100 \{ ... \}}
+        \end{itemize}
         \item Match statements combine conditionals
         \item \url{https://doc.rust-lang.org/book/if.html}
         \item \url{https://doc.rust-lang.org/book/loops.html}
@@ -441,7 +470,7 @@ fn main() {
 \end{verbatim}
 \end{frame}
 \begin{frame}
-    Questions about syntax?
+    Questions about basic syntax?
 \end{frame}
 
 
