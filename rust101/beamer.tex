@@ -10,6 +10,7 @@
 \usepackage{pst-node}
 \usepackage{pstricks}
 \usepackage{url}
+\usepackage{epigraph}
 
 % Hyperlinks.
 \def\name{E. Dunham}
@@ -63,16 +64,24 @@
         \begin{itemize}
             \item Learn what Rust is \& isn't
             \item Run Rust code
-            \item Write Rust code
+            \item Meet Rust's special features
             \item Improve Rust
         \end{itemize}
         \item Not:
         \begin{itemize}
             \item Hack time for you
-            \item All the docs
+            \item Unsafe or advanced Rust
             \item Exhaustive Q\&A \footnote{Come to the BoF at lunch!}
         \end{itemize}
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+
+\epigraph{You'll learn the key concepts necessary for successful Rust
+programming, as well as how to continue exploring the language after
+LCA.}{\textit{The Abstract}}
+
 \end{frame}
 
 \subsection{About Me}
@@ -185,17 +194,12 @@
 \end{frame}
 
 \begin{frame}
-    Questions?
-    \begin{itemize}
-        \item What's Rust?
-        \item When might Rust be the best tool?
-        \item When is it probably not?
-    \end{itemize}
+    Questions about what's going on here?
 \end{frame}
 
 \section{Run Rust}
 
-\subsection{Understand Channels}
+\subsection{Channels}
 
 \begin{frame}
     Rust's channels
@@ -225,12 +229,17 @@
     \end{itemize}
 \end{frame}
 
+\begin{frame}
+    Questions about channels?
+\end{frame}
+
+
 \subsection{Installation Options}
 
 \begin{frame}
-    Installation Options
+    Installation
     \begin{itemize}
-        \item Online: play.integer32.com or play.rust-lang.org
+        \item Online: \url{play.integer32.com} or \url{play.rust-lang.org}
         \item Many rusts: \url{rustup.rs}
         \item System package manager \footnote{Or add Rust to your favorite!}
         \item Tinfoil hat: Compile from source
@@ -238,7 +247,7 @@
 \end{frame}
 
 \begin{frame}
-    Playpens
+    Playpens:
     \begin{itemize}
         \item Source at \url{https://github.com/rust-lang/rust-playpen}
         \item Choose output, LLVM IR, or ASM
@@ -248,24 +257,29 @@
 \end{frame}
 
 \begin{frame}
-    Rustup
+    Rustup:
     \begin{itemize}
         \item Docs at \url{https://github.com/rust-lang-nursery/rustup.rs}
         \item \textasciitilde /.cargo/bin
-        \item rustup install nightly
-        \item rustup run nightly cargo new
+        \item \begin{verbatim} rustup install nightly\end{verbatim}
+        \item \begin{verbatim} rustup run nightly cargo new\end{verbatim}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
-    Security
+    Security:
     \begin{itemize}
         \item All releases GPG signed
         \item Key only held by Rust Core Team members
         \item \url{https://keybase.io/rust} identity proved by locally signing artifact
-        \item \url{https://github.com/rust-lang/rust\#building-from-source}
+        \item \url{https://github.com/rust-lang/rust#building-from-source}
     \end{itemize}
 \end{frame}
+
+\begin{frame}
+    Questions about installation?
+\end{frame}
+
 
 \section{Write Rust}
 
@@ -303,7 +317,7 @@
     Erroneous Errors
     \begin{itemize}
         \item Gist your code
-        \item Ask on IRC \#\#rust-beginners
+        \item Ask on IRC \#rust-beginners
         \item File a bug
     \end{itemize}
 \end{frame}
@@ -316,116 +330,223 @@
     \end{itemize}
 \end{frame}
 
+\begin{frame}
+    Questions about errors?
+\end{frame}
+
+
 \subsection{Syntax}
 
 \begin{frame}
-    Scopes
+    Scopes:
     \begin{itemize}
         \item Everything between matched \{\}
-        \item
-        \item
+        \item Scopes can nest
+        \item \{Outer Scope \{Inner Scope\}\}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+    Functions:
+    \begin{itemize}
+        %\item \begin{verbatim} fn myfunction { ... } \end{verbatim}
+        %\item \begin{verbatim} fn myfunction (arg: type, arg: type) -> resulttype { ... } \end{verbatim}
+        \item Type signatures are like Mad Libs
+        \item Function has at least name and scope
     \end{itemize}
 \end{frame}
 
 \begin{frame}
+    Macros:
     \begin{itemize}
-        \item
-        \item
-        \item
+        \item Shorthand for functions with variable number of arguments
+        \item \begin{verbatim} macroname!(foo, bar, baz) \end{verbatim}
+        \item \url{https://doc.rust-lang.org/beta/book/macros.html}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
+    A Function:
+
+\begin{verbatim}
+fn halve(x: i32) -> i32 {
+    return x / 2;
+}
+
+fn main(){
+    println!("{}", halve(4));
+}
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}
+    Punctutation Matters:
     \begin{itemize}
-        \item
-        \item
-        \item
+        \item Expressions end with a semicolon
+        \item Exception: bare expression on last line of function returns result
+        \item Spaces must separate tokens
+        \item Whitespace is mostly irrelevant
     \end{itemize}
 \end{frame}
 
 \begin{frame}
+    Abusing Whitespace:
+
+\begin{verbatim}
+fn halve
+(x                :
+i32)->i32
+{
+return
+x
+        /
+                  2
+; } fn main
+()
+{ println!("{}", halve
+(
+4
+));}
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}
+    Control Flow
     \begin{itemize}
-        \item
-        \item
-        \item
+        \item Conditionals and loops are familiar
+        \item Match statements combine conditionals
+        \item \url{https://doc.rust-lang.org/book/if.html}
+        \item \url{https://doc.rust-lang.org/book/loops.html}
+        \item \url{https://doc.rust-lang.org/book/match.html}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
-    \begin{itemize}
-        \item
-        \item
-        \item
-    \end{itemize}
+Matching on a variable:
+\begin{verbatim}
+fn main() {
+    let day = 19;
+    println!("January {} 2017 is:", day);
+    match day {
+        15 => println!("Travel to Hobart"),
+        16 | 17 => println!("Miniconf Time"),
+        18...20 => println!("The Conference"),
+        _ => println!("not LCA at all"),
+    }
+}
+\end{verbatim}
+\end{frame}
+\begin{frame}
+    Questions about syntax?
 \end{frame}
 
 
+\subsection{Types \& Traits}
+
+\begin{frame}
+    Why?
+    \begin{itemize}
+        \item Describe characteristics of inputs and outputs
+        \item Avoid allocating unneeded memory
+        \item Remind humans how code works \footnote{Even type signatures that the compiler could infer must be spelled out.}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    Built-in types
+    \begin{itemize}
+        \item \url{https://doc.rust-lang.org/book/primitive-types.html}
+        \item Primitives, arrays, strings, tuples
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    Custom types
+    \begin{itemize}
+        \item \url{http://rustbyexample.com/custom_types.html}
+        \item Structs & Enums
+        \item Use types from your dependencies (example in a few slides)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    Traits
+    \begin{itemize}
+        \item \url{https://doc.rust-lang.org/book/traits.html}
+        \item Traits describe a type's abilities
+        \item You can tell Rust how type has trait with ``impl''
+        \item Generalize function's input and output
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    Questions about types \& traits?
+\end{frame}
 
 
 
 \subsection{Safety}
 
 \begin{frame}
+    Ownership:
     \begin{itemize}
-        \item
-        \item
-        \item
-    \end{itemize}
-\end{frame}
-
-
-\begin{frame}
-    \begin{itemize}
-        \item
-        \item
-        \item
+        \item \begin{verbatim} let myint = 42; \end{verbatim}
+        \item ``myint" is a variable binding
+        \item ``myint" \textbf{owns} the value 42
+        \item Every value has exactly one owner
+        \item See \url{https://doc.rust-lang.org/book/ownership.html}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
-    Ownership
+    Mutability:
     \begin{itemize}
-        \item
-        \item
-        \item
-    \end{itemize}
-\end{frame}
-
-\subsection{Types \& Traits}
-
-\begin{frame}
-    \begin{itemize}
-        \item
-        \item
-        \item
-    \end{itemize}
-\end{frame}
-
-
-\begin{frame}
-    \begin{itemize}
-        \item
-        \item
-        \item
+        \item Owner can only change value if it's \textbf{mutable}
+        \item \begin{verbatim} let mut myint = 42; \end{verbatim}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
-    \begin{itemize}
-        \item
-        \item
-        \item
-    \end{itemize}
-\end{frame}
+    Changing the owner:
+\begin{verbatim}
+fn main() {
+    let first = 42;
+    println!("{}", first);
 
+    let second = first;
+    println!("{}", second);
+
+    // this would be an error:
+    // println!("{}", first);
+}
+\end{verbatim}
+
+\end{frame}
 
 \begin{frame}
+    Borrowing
     \begin{itemize}
-        \item
-        \item
-        \item
+        \item Grant temporary access to a value
+        \item 1 mutable borrow XOR unlimited immutable borrows
+        \item Syntax: \&myvar
+        \item \url{https://doc.rust-lang.org/book/references-and-borrowing.html}
     \end{itemize}
 \end{frame}
+
+\begin{frame}
+    Lifetimes
+    \begin{itemize}
+        \item Remember \{scopes\}?
+        \item Variables disappear when their scope ends!
+        \item No borrow may outlive its value's owner.
+    \end{itemize}
+\end{frame}
+\begin{frame}
+    Questions about safety?
+\end{frame}
+
 
 \subsection{Using Libraries}
 
@@ -443,13 +564,13 @@
 \begin{frame}
     Create a binary or library
     \begin{itemize}
-        \item ``cargo new --bin"
+        \item \begin{verbatim} cargo new --bin \end{verbatim}
             \begin{itemize}
                 \item Binary
                 \item You run main.rs
                 \item cargo.lock stores state of last good build
             \end{itemize}
-        \item ``cargo new''
+        \item \begin{verbatim} cargo new \end{verbatim}
             \begin{itemize}
                 \item Library
                 \item src/lib.rs, no main function
@@ -470,19 +591,20 @@
     Depending on a crate
     \begin{itemize}
         \item Search crates.io
+        \item Search the web, check recent blogs
         \item Check docs, license, \& project policies
         \item Add it to `dependencies' section of cargo.toml
         \begin{itemize}
-
-%                \item \begin{verbatim} name = \"0.1\" \end{verbatim}
-\item name = ``0.1"
- %               \item \begin{verbatim} name = \{ git = \"https://github.com/org/repo.git\" rev = "123abcd" \} \end{verbatim}
-
+            \item \begin{verbatim} name = \"0.1\" \end{verbatim}
+            \item \begin{verbatim} name = \{ git = \"https://github.com/org/repo.git\" rev = "123abcd" \} \end{verbatim}
         \end{itemize}
-        %\item \begin{verbatim} extern crate rand; use rand::Rng; \end{verbatim}
+        \item \begin{verbatim} extern crate rand; use rand::Rng; \end{verbatim}
     \end{itemize}
 \end{frame}
 
+\begin{frame}
+    Questions about libraries?
+\end{frame}
 
 \section{Improve Rust}
 
@@ -491,7 +613,7 @@
     \begin{itemize}
         \item Respect others' licenses
         \item License your own code
-        \item Document what you learn!
+        \item Document \& share what you learn!
     \end{itemize}
 \end{frame}
 
@@ -525,6 +647,11 @@
     \end{itemize}
 \end{frame}
 
+\begin{frame}
+    Questions about learning more Rust?
+\end{frame}
+
+
 \subsection{Find a project}
 
 \begin{frame}
@@ -544,15 +671,18 @@
     \end{itemize}
 \end{frame}
 
+\begin{frame}
+    Questions about finding a project?
+\end{frame}
 
 \subsection{Get involved}
 
 \begin{frame}
-    File issues
+    File or Fix issues
     \begin{itemize}
-        \item
-        \item
-        \item
+        \item \url{github.com/rust-lang/rust}
+        \item We triage regularly
+        \item If in doubt, ask on IRC first
     \end{itemize}
 \end{frame}
 
@@ -568,36 +698,40 @@
 \begin{frame}
     Find or join a meetup
     \begin{itemize}
-        \item
-        \item
-        \item
+        \item Search for your area + Rust meetup
+        \item Community Team Calendar, \url{goo.gl/EJ2iRb}
+        \item \#rust-community on Mozilla IRC
     \end{itemize}
 \end{frame}
 
 \begin{frame}
     Attend a conference
     \begin{itemize}
-        \item
-        \item
-        \item
+        \item \url{rustconf.com} Oregon, September
+        \item \url{www.rust-belt-rust.com}, Pennsylvania, October
+        \item \url{www.rustfest.eu}, Europe, September
     \end{itemize}
 \end{frame}
 
 \begin{frame}
-    \begin{itemize}
-        \item
-        \item
-        \item
-    \end{itemize}
+    Questions about getting involved?
 \end{frame}
 
 \begin{frame}
+    Attend the LCA BoF!
     \begin{itemize}
-        \item
-        \item
-        \item
+        \item Right here, lunch today
+        \item Start Hacking
     \end{itemize}
 \end{frame}
-
+%
+%\begin{frame}
+%    \begin{itemize}
+%        \item
+%        \item
+%        \item
+%    \end{itemize}
+%\end{frame}
+%
 
 \end{document}
