@@ -35,7 +35,7 @@
 \title[Rust 101]{Rust 101}
 \subtitle{Deploy, Write, and Improve Rust}
 \author{\name}
-\date{\today}
+\date{2017-01-19}
 
 \AtBeginSection[]
 {
@@ -87,6 +87,7 @@ LCA.}{\textit{The Abstract}}
 \subsection{About Me}
 
 \begin{frame}
+    About Me:
     \begin{itemize}
         \item DevOps for Mozilla Research \footnote{Infra is mostly Python}
         \item Rust Community Team member
@@ -261,8 +262,8 @@ LCA.}{\textit{The Abstract}}
     \begin{itemize}
         \item Docs at \url{https://github.com/rust-lang-nursery/rustup.rs}
         \item \textasciitilde /.cargo/bin
-        \item \begin{verbatim} rustup install nightly\end{verbatim}
-        \item \begin{verbatim} rustup run nightly cargo new\end{verbatim}
+        \item \textit{rustup install nightly}
+        \item \textit{rustup run nightly cargo new}
     \end{itemize}
 \end{frame}
 
@@ -271,8 +272,8 @@ LCA.}{\textit{The Abstract}}
     \begin{itemize}
         \item All releases GPG signed
         \item Key only held by Rust Core Team members
-        \item \url{https://keybase.io/rust} identity proved by locally signing artifact
-        \item \url{https://github.com/rust-lang/rust#building-from-source}
+        \item \url{keybase.io/rust} identity proved by locally signing artifact
+        \item \url{github.com/rust-lang/rust}
     \end{itemize}
 \end{frame}
 
@@ -349,33 +350,33 @@ LCA.}{\textit{The Abstract}}
 \begin{frame}[fragile]
     Functions:
     \begin{itemize}
-        %\item \begin{verbatim} fn myfunction { ... } \end{verbatim}
-        %\item \begin{verbatim} fn myfunction (arg: type, arg: type) -> resulttype { ... } \end{verbatim}
+        \item \textit{ fn myfunction \{ ... \} }
+        \item \textit{ fn myfunction \(arg: type, arg: type\) \texttt{-} \[RightAngleBracket] resulttype \{ ... \} }
         \item Type signatures are like Mad Libs
         \item Function has at least name and scope
     \end{itemize}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[fragile]
     Macros:
     \begin{itemize}
         \item Shorthand for functions with variable number of arguments
-        \item \begin{verbatim} macroname!(foo, bar, baz) \end{verbatim}
-        \item \url{https://doc.rust-lang.org/beta/book/macros.html}
+        \item \textit{macroname!(foo, bar, baz)}
+        \item \url{ doc.rust-lang.org/beta/book/macros.html }
     \end{itemize}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[fragile]
     A Function:
 
 \begin{verbatim}
-fn halve(x: i32) -> i32 {
-    return x / 2;
-}
+    fn halve(x: i32) -> i32 {
+        return x / 2;
+    }
 
-fn main(){
-    println!("{}", halve(4));
-}
+    fn main(){
+        println!("{}", halve(4));
+    }
 \end{verbatim}
 
 \end{frame}
@@ -390,24 +391,24 @@ fn main(){
     \end{itemize}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[fragile]
     Abusing Whitespace:
 
 \begin{verbatim}
-fn halve
-(x                :
-i32)->i32
-{
-return
-x
-        /
-                  2
-; } fn main
-()
-{ println!("{}", halve
-(
-4
-));}
+    fn halve
+    (x                :
+    i32)->i32
+    {
+    return
+    x
+            /
+                      2
+    ; } fn main
+    ()
+    { println!("{}", halve
+    (
+    4
+    ));}
 \end{verbatim}
 
 \end{frame}
@@ -423,7 +424,7 @@ x
     \end{itemize}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[fragile]
 Matching on a variable:
 \begin{verbatim}
 fn main() {
@@ -492,7 +493,7 @@ fn main() {
 \begin{frame}
     Ownership:
     \begin{itemize}
-        \item \begin{verbatim} let myint = 42; \end{verbatim}
+        \item \textit{let myint = 42;}
         \item ``myint" is a variable binding
         \item ``myint" \textbf{owns} the value 42
         \item Every value has exactly one owner
@@ -504,23 +505,25 @@ fn main() {
     Mutability:
     \begin{itemize}
         \item Owner can only change value if it's \textbf{mutable}
-        \item \begin{verbatim} let mut myint = 42; \end{verbatim}
+        \item \textit{let mut myint = 42;}
     \end{itemize}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[fragile]
     Changing the owner:
 \begin{verbatim}
-fn main() {
-    let first = 42;
-    println!("{}", first);
 
-    let second = first;
-    println!("{}", second);
+    fn main() {
+        let first = 42;
+        println!("{}", first);
 
-    // this would be an error:
-    // println!("{}", first);
-}
+        let second = first;
+        println!("{}", second);
+
+        // this would be an error:
+        // println!("{}", first);
+    }
+
 \end{verbatim}
 
 \end{frame}
@@ -564,13 +567,13 @@ fn main() {
 \begin{frame}
     Create a binary or library
     \begin{itemize}
-        \item \begin{verbatim} cargo new --bin \end{verbatim}
+        \item \textit{cargo new --bin}
             \begin{itemize}
                 \item Binary
                 \item You run main.rs
                 \item cargo.lock stores state of last good build
             \end{itemize}
-        \item \begin{verbatim} cargo new \end{verbatim}
+        \item \textit{cargo new}
             \begin{itemize}
                 \item Library
                 \item src/lib.rs, no main function
@@ -595,10 +598,10 @@ fn main() {
         \item Check docs, license, \& project policies
         \item Add it to `dependencies' section of cargo.toml
         \begin{itemize}
-            \item \begin{verbatim} name = \"0.1\" \end{verbatim}
-            \item \begin{verbatim} name = \{ git = \"https://github.com/org/repo.git\" rev = "123abcd" \} \end{verbatim}
+            \item \textit{ name = \"0.1\" }
+            \item \textit{ name = \{ git = \"https://github.com/org/repo.git\" rev = "123abcd" \} }
         \end{itemize}
-        \item \begin{verbatim} extern crate rand; use rand::Rng; \end{verbatim}
+        \item \textit{ extern crate rand; use rand::Rng; }
     \end{itemize}
 \end{frame}
 
