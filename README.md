@@ -40,6 +40,12 @@ Things I use for making pictures:
 * http://pinta-project.com/
 * https://www.libreoffice.org/discover/draw/
 
+CFP Resources
+-------------
+
+* https://dave.cheney.net/2017/02/12/how-to-write-a-successful-conference-proposal
+* http://helpmeabstract.com/
+
 Speaking Resources
 ------------------
 
