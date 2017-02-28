@@ -1,0 +1,57 @@
+Hi. I'm edunham, and I'm not sure whether I'm a Real DevOps.
+
+Years ago I was working at the OSU Open Source lab, doing a little of
+everything, and we had this problem where there weren't enough kids (I mean
+students) who had a clue what they were doing in the intersection between
+software development and systems administration.
+
+So as someone who sometimes has problems saying no to things, I volunteered to
+teach a class on the stuff we thought they weren't getting in school.
+My boss, who got the final say in such things due to being the person I was
+trying to convince to pay me to do an interesting side project, decided it
+should be named "DevOps Bootcamp". So it was just about by accident that I
+ended up with this magical "DevOps" buzzword all over my resume.
+
+
+Fast forward a year or three and the team that I'm now working with posted a
+job req for a sysadmin, someone with a clue about FOSS communities to go put
+out their infra fires. I still haven't figured out quite what happened but
+after my second phone interview I check the req to find that they've changed
+the job title to "DevOps engineer". I mention this anecdote to point out that
+nobody I work directly with or for is really all that certain precisely what a
+"devops" is. Every time I talk to someone who insists they know precisely what
+it means, I ask them to enlighten me and they confidently present an answer
+that's substantially different in some regard from what everybody else has
+told me in those circumstances.
+
+So, what can someone who might not even agree with you about what our shared
+job title means tell you about DevOps?
+
+One of the few things that most definitions of DevOps have in common is that
+you're 1 person wearing more than 1 person's worth of hats. You're supposed to
+combine the skills of several different disciplines, usually including
+something about coding and something about making servers go, and your company
+usually hopes you'll get more than 1 engineer's worth of work done thanks to
+all those different skills. And often, you can manage to do it!
+
+So, how does one person do 110% or more of what a person can do? In a word,
+delegation. We delegate keeping a VM online to Amazon or Google; we delegate
+monitoring and making pretty graphs to a startup that's good at that; we
+delegate keeping our VCS repos up to GitHub or Bitbucket or whoever. Sure, you
+could argue that *any* good technologist is a pro at delegation these days --
+it's Somebody Else's Problem As A Service -- but a DevOps is in bigger trouble
+than most if they insist on reinventing every wheel.
+
+So, how do you decide what to delegate? I think it's that subset of *things
+which eat your time* that *there are tools for*. At least, if you're spending
+a bunch of time on something that you can find or write a tool to do just as
+well, I think most of us here would agree that something is wrong with that
+picture.
+
+Now, what happens when you start handing off your technical problems to other
+people, the people who solve that one little problem as a full time job and
+are better at it than you could be without years of effort? Well, 2 things:
+First, people hand you more problems... And second, you're left with only the
+stuff you don't know how to delegate (or automate, which is really just
+delegating it to a server somewhere and taking on the overhead of keeping that
+server happy).
