@@ -1,22 +1,22 @@
 % Servo Infrastructure
 
-SeaGL 2016
-2016-11-12
+Open Infrastructure Day
+2017-03-02
+
 
 # Contact
 
-* talks.edunham.net/seagl2016/servo
+* talks.edunham.net/openinfra2017
 * @QEDunham
-* seagl@edunham.net
+* openinfraday@edunham.net
 
 
-# 50 minutes
+# 15 minutes
 
 * What's Rust, what's Servo?
 * Life cycle of a Servo change
 * The Code
 * How you can help
-* Q&A
 
 # What's Rust?
 
@@ -278,7 +278,6 @@ https://github.com/servo/servo/wiki/Design
 
 # Thank you!
 
-* talks.edunham.net/seagl2016/servo
+* talks.edunham.net/openinfra2017
 * @QEDunham
-* Go to the conference party at the Silver Cloud!
 
