@@ -1,0 +1,61 @@
+CS Skills They Don't Teach In School
+
+< Intro Slide> 1) Hi, I'm edunham,  and this is a crash course on some skills that you can use to turn technical expertise into personal and professional success.
+
+Show of hands, who prefers computers over people?
+
+<COMMUNICATING WITH HUMANS> 2) Don't be shy, I can't be the only one who started out in tech to get away from too much human interaction?
+
+The first key skill that'll help you succeed is communication.
+
+If you haven't noticed already, software is a thing that people make for other people to use.
+
+<TWEETS> 3) Writing code is an exercise in communication with your users. They might be people, or APIs... Which are written by people!
+
+And if there's a miscommunication in a project's specs, you can end up writing the wrong code entirely.
+
+<VENN DIAGRAM> 4) One of the most useful communication skills is to find the intersection between the set of things that someone else wants and the set of things that you want. That takes some empathy, and it's the essence of negotiation.
+
+<NEGOTIATION> 5) Negotiation is where you explore how you and someone else can build a thing that meets both your needs -- whether that thing is a job description, a salary, a deadline, or the specs of a new product.
+
+Never be afraid to negotiate.
+
+<ASK FOR HELP> 6)And while we're talking about talking to people, here's your daily reminder that it's ok to ask for help. Your time is valuable. don't throw it away fighting problems that a quick question or web search could easily solve.
+
+<TWEETS> 7) It's ok to ask people you trust for their advice on non-technical matters, too. I even like advice from people I don't want to emulate, because it helps me understand how they got where they are.
+
+<BE YOUR OWN ADVOCATE> 8) But out of all the friends and mentors and bosses who can help you sometimes, you're the only person whose #1 priority is to look out for you.
+
+Wearing yourself down by tolerating a toxic environment, or overworking yourself into exhaustion and burnout, won't help you accomplish any of your goals.
+
+<TWEETS> 9) Be your own advocate, because your boss's job is to make sure your team delivers its product. Your company's top priority is to accomplish its mission, which probably involves making some money in the process.
+
+<TWEETS> 10) And none of these things are easy. The real world plays by the rules of physics and sociology and economics, and those rules don't let everybody succeed all the time.
+
+<MAKE FRIENDS WITH FAILURE> 11) While schoolwork is often about learning to get the same answers as everyone else, most work in the industry is about building something new or applying something to a particular challenge that it wasn't being used on before.
+
+In other words, it's about searching through all possible solutions to a problem to figure out which ones will work.
+
+<OK TO FAIL TWEET> 12) That means you'll find a lot of solutions that look like they should work, but don't.
+
+That's ok.
+
+The smarter and faster you search through possible solutions, the sooner you'll find something that works. It's essential to find the tools that save you from boring busywork and let you work on the interesting parts of whatever problem you're tackling.
+
+<GET GOOD TOOLS> 13)Find an editor that works for you, and customize it how you need. Learn to reflexively keep your code in version control. if in doubt go learn Git. Get comfortable learning new programming languages, and try to use the best one for each project you undertake.
+
+<TOOL LOGOS> 14) Oh, and try to kick the habit of insulting the tools that others choose.
+
+Instead, ask what made a tool preferable to its competitors, and use what you learn to improve the thing you wish they'd used instead.
+
+<DELEGATE> 15) Since you don't want to do the same year of work 20 times in a row, you've got to quit doing things once they get too easy for you. But they've still gotta get done. Delegate them to a person, or write a bot to do them for you.
+
+<THINK INTERDISCIPLINARY> 16) When you're working at the very edge of your abilities or just past it, you'll sometimes get stuck. Learn strategies to get unstuck, and use them -- one of my favorites is to try approaches from a totally different field to see what new questions they uncover.
+
+<WWGD BOOK> 17) In DevOps, they call interdisciplinary problem-solving breaking down silos, but you can take that principle further: Attack your problem with a technique from an art or a sport or a game, and see whether it helps or where it gets you. Isn't that smart?
+
+<GROWTH MINDSET> 18) Oh, and if you have a habit of pinning your self-worth to being smart or writing good code, make sure to get acquainted with the difference between a growth mindset and a fixed mindset. Carol Dweck's TED talks explain it great.
+
+<TEACH> 19) And finally, I'm sure all of you are or will be solving problems that nobody has ever seen before. Please blog or write or speak about the things you learn. If you put in the extra bit of effort to help teach others, we'll all be rewarded with a better industry to work in.
+
+<THANKS> 20) Thanks to everybody who shared their advice when I asked what people wished they'd known earlier in their careers, and special thanks to the mentors who've helped shape my career.
