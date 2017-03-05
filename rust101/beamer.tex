@@ -21,23 +21,24 @@
   linkcolor = black,
   urlcolor = black,
   pdfauthor = {\name},
-  pdftitle = {Rust 101, Linux.Conf.Au 2017},
-  pdfsubject = {Rust 101, Linux.Conf.Au 2017},
+  pdftitle = {Rust 101, SCaLE 2017},
+  pdfsubject = {Starting Rust from a Scripting Background},
   pdfpagemode = UseNone
 }
-
+\def\slidesurl{\url{http://talks.edunham.net/scale15x}}
+\def\talkdate{March 5, 2017}
 % ???
 \usetheme[hideothersubsections]{Hannover}
 \usecolortheme{sidebartab}
 \useinnertheme{rounded}
 %\useoutertheme{infolines}
-\setbeamertemplate{headline}{\hfill \url{http://talks.edunham.net/lca2017/rust101.pdf}}
+\setbeamertemplate{headline}{\hfill \slidesurl}
 
 % Presentation metadata.
 \title[Rust 101]{Rust 101}
 \subtitle{Deploy, Write, and Improve Rust}
 \author{\name}
-\date{2017-01-19\\ \url{http://talks.edunham.net/lca2017/rust101.pdf}}
+\date{\talkdate\\ \slidesurl}
 
 \AtBeginSection[]
 {
@@ -61,8 +62,7 @@
 \begin{frame}
     Welcome!
      \begin{itemize}
-        \item 100 minutes
-        \item ``101" is an intro class
+        \item This is an intro class
         \begin{itemize}
             \item Learn what Rust is \& isn't
             \item Run Rust code
@@ -73,16 +73,16 @@
         \begin{itemize}
             \item Hack time for you
             \item Unsafe or advanced Rust
-            \item Exhaustive Q\&A \footnote{Come to the BoF at lunch!}
+            \item Exhaustive Q\&A \footnote{Join your local meetup!}
         \end{itemize}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
 
-\epigraph{You'll learn the key concepts necessary for successful Rust
-programming, as well as how to continue exploring the language after
-LCA.}{\textit{The Abstract}}
+\epigraph{This talk will teach you the basics of Rust, and help you ask the
+right questions as you continue to explore Rust after the
+conference.}{\textit{The Abstract}}
 
 \end{frame}
 
@@ -149,7 +149,7 @@ LCA.}{\textit{The Abstract}}
 \end{frame}
 
 \begin{frame}
-    Aside: Safety \& GC
+    Safety \& GC
     \begin{itemize}
         \item Memory must be reused
         \item C: ``Just follow these rules perfectly, you're smart"
@@ -459,13 +459,13 @@ LCA.}{\textit{The Abstract}}
 Matching on a variable:
 \begin{verbatim}
 fn main() {
-    let day = 19;
-    println!("January {} 2017 is:", day);
+    let day = 5;
+    println!("March {} 2017 is:", day);
     match day {
-        15 => println!("Travel to Hobart"),
-        16 | 17 => println!("Miniconf Time"),
-        18...20 => println!("The Conference"),
-        _ => println!("not LCA at all"),
+        2 => println!("Open Infra Day"),
+        1 | 6 => println!("Travel Time"),
+        3...5 => println!("The Conference"),
+        _ => println!("not SCaLE at all"),
     }
 }
 \end{verbatim}
@@ -744,6 +744,7 @@ fn main() {
     Find or join a meetup
     \begin{itemize}
         \item Search for your area + Rust meetup
+        \item LA area? \url{https://www.meetup.com/Rust-Los-Angeles/}
         \item Community Team Calendar, \url{goo.gl/EJ2iRb}
         \item \#rust-community on Mozilla IRC
     \end{itemize}
@@ -760,14 +761,6 @@ fn main() {
 
 \begin{frame}
     \hfill Questions about getting involved?
-\end{frame}
-
-\begin{frame}
-    Attend the LCA Rustlang BoF!
-    \begin{itemize}
-        \item Right here, lunch today
-        \item Start Hacking
-    \end{itemize}
 \end{frame}
 
 \begin{frame}
