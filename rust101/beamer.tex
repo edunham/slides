@@ -517,8 +517,6 @@ fn main() {
     \hfill Questions about types \& traits?
 \end{frame}
 
-
-
 \subsection{Safety}
 
 \begin{frame}
@@ -541,11 +539,24 @@ fn main() {
 \end{frame}
 
 \begin{frame}[fragile]
+    Aside: Copy types
+    \begin{itemize}
+        \item Primitives have \textbf{Copy} trait
+        \item Contents duplicated on assignment to new var
+        \item Custom and other types are not \textbf{Copy}
+        \item We'll use \textit{Box}
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile]
     Changing the owner:
 \begin{verbatim}
 
     fn main() {
-        let first = 42;
+        let first = Box::new(42);
+        // Box forces heap allocation,
+        // regular int would just copy
         println!("{}", first);
 
         let second = first;
