@@ -11,6 +11,12 @@ You can find all the talks that I've given at events, with links to recordings
 and archived copies of the slides as they stood then, at
 http://edunham.net/pages/talks.html
 
+Ideas
+-----
+
+* How to be usefully ignorant
+* In defense of small infrastructure
+
 
 Useful tools if you want to make slides too:
 --------------------------------------------
