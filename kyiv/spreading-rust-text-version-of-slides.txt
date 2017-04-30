@@ -1,0 +1,160 @@
+1) Title slide, "Spreading Rust". Contact info: E. Dunham, @qedunham,
+talks.edunham.net/rustfest2017. Picture of Ferris crab waving his claw in
+greeting.
+
+2. Picture of the Rust logo cupcakes served at RustCamp in 2015.
+
+3. Scenic cityscape of Kiev skyline with a historic church and flowering trees
+in the foreground.
+
+4. Photo of an IBM 7090 computer room. Tape drives take up 2 walls and 4 men
+in suits watch a lady pointing at a panel of switches at a desk in the center.
+
+5. The words "Make bigger, faster computers."
+
+6. Photo of a circuit board densely populated with surface mount transistor
+packages.
+
+7. Photos of 4 laptops: A very old-looking Osborne 1, an Apple Powerbook 100,
+a Thinkpad X61, and a Microsoft SurfaceBook.
+
+8. Photo of a landfill scattered with garbage. Trees and blue sky in the
+background.
+
+9. Animated GIF of a generic loading icon
+
+10. Text. First line is struck out: "Make bigger, faster computers". Second
+line reads "Make computers do more."
+
+11. Rust logo
+
+12. Bar graph of Rust's unique contributors by email address, at the start of
+each labeled time.  19 in 2011, 51 in 2012, 151 in 2013,404 in 2014, 860 in
+2015, 1459 in 2016, 1927 in 2017, 2072 yesterday.
+
+13. Bar graph of total commits to Rust at the start of each labeled time. 1170
+in 2011, 6982 in 2012, 14408 in 2013, 24994 in 2014, 36803 in 2015, 49107 in
+2016, 60152 in 2017, 63606 yesterday.
+
+14. Page is filled with logos of all companies listed on
+https://www.rust-lang.org/en-US/friends.html
+
+15. Ferris the crab with a big speech bubble. In the big speech bubble is
+another Ferris, with a small speech bubble. In the small speech bubble is the
+Rust logo.
+
+16. Picture of the "microphone is muted" icon.
+
+17. Text. Title: "Choosing Rust". Bulletd list:
+
+* LLVM support?
+* Rewrite, FFI, Bindgen, Corrode?
+    * https://doc.rust-lang.org/book/ffi.html
+    * https://crates.io/crates/bindgen
+    * https://github.com/jameysharp/corrode
+* Time?
+* Interest?
+
+18. Picture of several firefighters putting out a house fire. The 3 on the
+left hold hoses and spray water into a burning garage. The two on the right
+wear air tanks and are preparing to enter the front door.
+
+19. Screenshot of Google's definition of the word "Safety". Noun, "The
+condition of being protected from or unlikely to cause danger, risk, or
+injury"
+
+20. Painting of explorers in old-fashioned (1600's?) clothes riding camels along a
+stormy coast.
+
+21. Rendered image of the Mars Rover Curiosity on the Martian surface
+
+22. Photo of smiling guys in hoodies working at computers at a hackerspace.
+
+23. The words "Fail fast!"
+
+24. A screenshot of the blue error message when Windows crashes: ":( Your PC
+ran into a problem and needs to restart. We're just collecting some error
+info, and then we'll restart for you."
+
+25. Photo of an owl giving the camera an annoyed look.
+
+26. Chart with no labels, just an arrow going up and to the right
+
+27. Left half of slide is a photo of a dog wearing headphones, glasses, and a
+fashionable hat. Right half of slide is a photo of a cat dressed in a
+shit-collar and necktie.
+
+28. Text: "Safe code means you can take better risks"
+
+29. Rust logo
+
+30. Photo. Sihouette of a lone cowboy riding a horse toward a sunset.
+
+31. Ferris the crab with a speech bubble saying "Thank you" in many languages
+
+32. Title: "Need volunteers?". Text: List of links...
+
+http://yourfirstpr.github.io/
+http://openhatch.org/
+http://24pullrequests.com/
+https://www.codemontage.com/
+http://issuehub.io/
+http://up-for-grabs.net
+
+33. RustFest logo
+
+34. Rust logo on an orange background.
+
+35. Photo of a field with one large tree and many smaller trees.
+
+36. Old fashioned woodcut of a hand holding a funnel.
+
+37. Collage of several screenshots. Top half of slide shows links to Rust code
+of conduct on Reddit, Discourse, and IRC. Bottom half shows the beginning of
+the Rust Code of Conduct.
+
+38. Icon of a spaceship, crossed out in red. Small text: The Not Rocket
+Science Rule of Software Engineering:
+Seehttp://graydon.livejournal.com/186550.html
+
+39. Text. "Automatically maintain a repository of code that always passes all
+the tests."
+
+40. crates.io logo. It shows several boxes with the Rust logo on them, stacked
+on a pallet.
+
+41. Screenshot of crates.io main page, showing "popular keywords" and "popular
+categories" crate lists.
+
+42. Screenshot of doc.crates.io/manifest.html. "Package Metadata" section
+showing that cargo.toml supports fields for license and license-file.
+
+43. Screenshot of the map from community.rs/meetup-map. It shows that there
+are 89 meetups around the world -- most in North America and Europe, but some
+in South America, India, Asia, and Australia and New Zealand.
+
+44. Screenshot of the pull requests list on the rust-lang/rfcs GitHub repo.
+
+45. Screenshots of https://www.rust-lang.org/team.html put together to show
+that there are 9 teams with over 50 GitHub avatars.
+
+46. Screenshot of the front page of community.rs
+
+47. Pie chart showing Rust Contributors by Email Address. 39 use addresses
+@mozilla.com and 2033 use addresses not @mozilla.com.
+
+48. Pie chart showing Rust commits by contributor email address. 9328 commits
+come from @mozilla.com addresses, and 54278 come from other addresses.
+
+49. Rust logo.
+
+50. Text: "Make your computer do all it can."
+
+51. Text: "Share what you learn."
+
+52. Text: "Build the CODE and COMMUNITY that you want to see in the world."
+
+talks.edunham.net/rustfest2017
+@qedunham
+
+
