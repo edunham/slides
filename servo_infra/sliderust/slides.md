@@ -1,22 +1,23 @@
 % Servo Infrastructure
 
-Open Infrastructure Day
-2017-03-02
+PDX Python
+2017-05-25
 
 
 # Contact
 
-* talks.edunham.net/openinfra2017
+* talks.edunham.net/pdxpython2017
 * @QEDunham
-* openinfraday@edunham.net
+* pdxpython@edunham.net
 
 
-# 15 minutes
+# Tonight
 
 * What's Rust, what's Servo?
 * Life cycle of a Servo change
-* The Code
+* The Python Code
 * How you can help
+* Q&A Throughout
 
 # What's Rust?
 
@@ -74,7 +75,7 @@ attack squad to go after anyone they deem to be an enemy!"
 * Consistent PR review process
 * Distributed team & public discussions
 
-# What's Servo?
+# What's the Servo project?
 
 <div style="text-align: center; margin-top: 10px">
 <img src="https://avatars1.githubusercontent.com/u/4368172?v=3&s=400">
@@ -92,7 +93,7 @@ attack squad to go after anyone they deem to be an enemy!"
 * Value volunteers
 * Leverage free stuff
 
-# www.servo.org
+# What's Servo?
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="servodotorg.png">
@@ -112,6 +113,11 @@ https://github.com/servo/servo/wiki/Videos-and-presentations
 
 https://github.com/servo/servo/wiki/Design
 
+# Any questions?
+
+* What's Rust?
+* What's Servo?
+
 # Infrastructure Philosophy
 
 <div class="elide" style="text-align: center; margin-top: 10px">
@@ -125,11 +131,19 @@ https://github.com/servo/servo/wiki/Design
 * Mach
 * Buildbot
 
-# Greetings, human
+# Highfive greets the contributor
 
 <div style="text-align: center; margin-top: 10px">
 <img src="highfive-in-action.png">
 </div>
+
+# Alternatives to Highfive
+
+* GitHub PR templates
+* Configure new PR notifications
+* Script your bot of choice
+* https://github.com/facebook/mention-bot
+* http://danger.systems/
 
 # Travis kicks off tests
 
@@ -137,43 +151,56 @@ https://github.com/servo/servo/wiki/Design
 <img src="travis.png">
 </div>
 
-# Human reviews code
+# Alternatives to Travis
+
+* Your own Jenkins/Buildbot/in-house CI
+* Paid options like CircleCI
+* Appveyor for Windows
+* GitLab pipelines
+
+# Team member reviews the change
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="rplus.png">
 </div>
 
-# Homu
+# Homu tests the change
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="borsservo.png">
 </div>
 
-# The Queue
+# Alternatives to Homu
+
+* OpenStack's Zuul (more complex, fancier features)
+* Roll your own
+
+# Change waits in Homu's queue
 
 <div style="text-align: center; margin-top: 10px">
 <img src="homu-queue.png">
 </div>
 
-# Buildbot
+
+# Buildbot delegates the tests
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="http://buildbot.net/img/nut.png">
 </div>
 
-# The Waterfall
+# Buildbot's waterfalls shows test status
 
 <div style="text-align: center; margin-top: 10px">
 <img src="servo-build-waterfall.png">
 </div>
 
-# Homu
+# Homu lands the change
 
 <div style="text-align: center; margin-top: 10px">
 <img src="homu-on-github.png">
 </div>
 
-# Buildbot
+# Buildbot later makes+publishes nightlies
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="linux-nightly.png">
@@ -184,6 +211,14 @@ https://github.com/servo/servo/wiki/Design
 <div style="text-align: center; margin-top: 10px">
 <img src="dl-dot-servo.png">
 </div>
+
+# Any questions?
+
+* Highfive greets the contributor
+* Travis tests all the things
+* Servo person reviews the change
+* Homu (@bors-servo) lands the change upon r+
+* Buildbot builds things
 
 # The Infrastructure
 
@@ -197,11 +232,26 @@ https://github.com/servo/servo/wiki/Design
 <img src="servo-highfive-python.png">
 </div>
 
+# Contribute to Highfive!
+
+* Rust Highfive != Servo Highfive :(
+* Small codebase, good practices
+* Python 2.7
+
 # Homu
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="servo-homu-python.png">
 </div>
+
+# Contribute to Homu!
+
+* Use the servo/homu fork
+* Testing story is... scary bad
+* Accidental home-grown state machine
+* Regex!
+* Sqlite!
+* All python3!
 
 # Buildbot
 
@@ -209,27 +259,41 @@ https://github.com/servo/servo/wiki/Design
 <img src="servo-buildbot-python.png">
 </div>
 
+# Contribute to our Buildbot!
+
+* https://github.com/servo/saltfs/tree/master/buildbot
+* Configs built with Python scripts
+* Requires grokking Buildbot
+
 # Upstream Buildbot
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="buildbot-dot-net.png">
 </div>
 
-# S3
+# Maybe don't hack on upstream Buildbot
+
+* http://trac.buildbot.net/wiki/Development
+* Original authors moved on to https://docs.taskcluster.net/
+
+# Python for nightly uploads
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="http://www.iperiusbackup.net/wp-content/uploads/2014/11/amazon-s3-logo-150x118.png">
 </div>
 
+* S3
+* Somebody Else's Problem
 
-* Artifact storage as Someone Else's Problem
-
-
-# Mach
+# Mach runs Servo's tests
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="servo-mach-python.png">
 </div>
+
+# Contribute to our Mach?
+
+* https://github.com/servo/servo/labels/A-mach
 
 # Upstream Mach
 
@@ -243,20 +307,50 @@ https://github.com/servo/servo/wiki/Design
 <img src="mach-vcs.png">
 </div>
 
+# Contribute to upstream Mach?
 
-# Salt Configs
+* https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/mach
+* Python 2.7, "Python 3 compliant"
+* I hope you like Mercurial
+
+# Mercurial...
+
+<div class="elide" style="text-align: center; margin-top: 10px">
+<img src="legodude.jpg">
+</div>
+
+# Tidy (Rust linting in Python)
+
+* https://github.com/servo/servo/tree/master/python/tidy
+* Checks licenses
+* These days, use Clippy or Rustfmt
+
+
+# Servo's Salt Configs
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="servo-saltfs-python.png">
 </div>
 
-# Upstream Salt
+# Contribute to our Salt configs!
+
+* https://github.com/servo/saltfs
+* Good tests
+* Infra practice
+* Aneesh knows best practices & has high standards
+
+# Upstream SaltStack
 
 <div class="elide" style="text-align: center; margin-top: 10px">
 <img src="salt-upstream.png">
 </div>
 
-# Questions?
+# Contribute to upstream Salt?
+
+* https://github.com/saltstack
+* They're nice!
+
+# Infra Questions?
 
 * Highfive
 * Homu
@@ -278,6 +372,6 @@ https://github.com/servo/servo/wiki/Design
 
 # Thank you!
 
-* talks.edunham.net/openinfra2017
+* talks.edunham.net/pdxpython2017
 * @QEDunham
-
+* pdxpython@edunham.net
