@@ -1,0 +1,12 @@
+docutils
+hieroglyph
+Jinja2
+MarkupSafe
+pdfrw
+Pillow
+Pygments
+reportlab
+rst2pdf
+sh
+six
+Sphinx
