@@ -212,7 +212,7 @@ https://github.com/servo/servo/wiki/Design
 <img src="dl-dot-servo.png">
 </div>
 
-# Any questions?
+# PR Lifecycle questions?
 
 * Highfive greets the contributor
 * Travis tests all the things
@@ -282,7 +282,9 @@ https://github.com/servo/servo/wiki/Design
 <img src="http://www.iperiusbackup.net/wp-content/uploads/2014/11/amazon-s3-logo-150x118.png">
 </div>
 
-* S3
+* download.servo.org
+* https://github.com/boto/boto3
+* Nightlies live in S3 bucket
 * Somebody Else's Problem
 
 # Mach runs Servo's tests

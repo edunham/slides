@@ -1,17 +1,19 @@
 body {
-    max-width: 1125px;
+    padding-left: 5%;
+    padding-right: 5%;
+
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 100px;
 }
 
 body, h5 {
-    font-size: 35px;
+    font-size: 80px;
 }
 
 pre {
-    font-size: 30px;
+    font-size: 80px;
 }
 
 section {
