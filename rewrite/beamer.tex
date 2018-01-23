@@ -1,6 +1,8 @@
 \documentclass{beamer}
 %\usepackage{hyperref}
 \usetheme{Goettingen}
+\beamerdefaultoverlayspecification{<+->}
+
 
 \title{Should you rewrite in Rust?}
 \subtitle{talks.edunham.net/lca2018/rust}
@@ -18,17 +20,17 @@
 
 \begin{frame}[fragile]
 \frametitle{Pop Quiz}
-\begin{itemize}
-\item Do you know what I'm here to tell you? \pause
-\item "Rewrite your code!" \pause
-\item "Don't rewrite your code!" \pause
+\begin{itemize}[<+(1)->]
+\item Do you know what I'm here to tell you?
+\item "Rewrite your code!"
+\item "Don't rewrite your code!"
 \end{itemize}
 \end{frame}
 
 
 \begin{frame}[fragile]
 \frametitle{About Me}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item DevOps at Mozilla Research
 \item Rust, Servo, VR
 \item Rust Community Team
@@ -44,8 +46,12 @@
 \section{Should you rewrite?}
 
 \begin{frame}[fragile]
+\tableofcontents[currentsection]
+\end{frame}
+
+\begin{frame}[fragile]
 \frametitle{Assumptions}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item You're working on some code.
 \item People help you with the project.
 \item People use the code.
@@ -59,7 +65,7 @@ People's \textbf{time} and \textbf{happiness} are valuable.
 
 \begin{frame}[fragile]
 \frametitle{Whose time and happiness?}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item You
 \item Colleagues
 \item Users
@@ -68,7 +74,7 @@ People's \textbf{time} and \textbf{happiness} are valuable.
 
 \begin{frame}[fragile]
 \frametitle{Prefer small changes.}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Lowest-cost solution for desired impact
 \item Minimize wasted effort
 \item Avoid consequences of needless complexity
@@ -80,19 +86,24 @@ People's \textbf{time} and \textbf{happiness} are valuable.
 \subsection{Categorizing Rewrites}
 
 \begin{frame}[fragile]
-\frametitle{Definition}
+\tableofcontents[currentsubsection]
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{What's a rewrite$?$}
 \textbf{Rewriting} is starting anew on a problem that you already have code to
 address.
 \end{frame}
 
 \begin{frame}[fragile]
-\frametitle{Size}
+\frametitle{Sort rewrites by size}
 Mini \hrulefill Massive
 \end{frame}
 
 \begin{frame}[fragile]
-\frametitle{Motive}
-\begin{itemize}
+\frametitle{Sort rewrites by motive}
+\begin{itemize}[<+(1)->]
 \item Learn a tool
 \item Understand a task
 \item Ship production code
@@ -102,7 +113,7 @@ Mini \hrulefill Massive
 \begin{frame}[fragile]
 \frametitle{Rewriting to Understand}
 Costs your time:
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Researching
 \item Writing
 \item Debugging
@@ -112,7 +123,7 @@ Costs your time:
 \begin{frame}[fragile]
 \frametitle{Rewriting to deploy}
 Costs your time:
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Researching
 \item Writing
 \item Debugging
@@ -120,7 +131,7 @@ Costs your time:
 \item Ensuring backwards compatibility
 \end{itemize}
 Costs others' time:
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Tooling and automation
 \item Fixing new bugs
 \item Learning new system
@@ -129,9 +140,15 @@ Costs others' time:
 
 
 \subsection{Before Changing Anything}
+
+\begin{frame}[fragile]
+\tableofcontents[currentsubsection]
+\end{frame}
+
+
 \begin{frame}[fragile]
 \frametitle{Identify the problem}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item What does the code do?
 \item What should it do?
 \item What if I don't change it?
@@ -141,7 +158,7 @@ Costs others' time:
 
 \begin{frame}[fragile]
 \frametitle{Where's the problem?}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Your definitions of what the system does and should do?
 \item Architecture and problem definition?
 \item Tooling, libraries, dependencies?
@@ -152,7 +169,7 @@ Costs others' time:
 
 \begin{frame}[fragile]
 \frametitle{Communicate with the team}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Problem definition
 \item Proposed solution
 \item History lessons
@@ -160,6 +177,11 @@ Costs others' time:
 \end{frame}
 
 \subsection{Understand the problem}
+
+\begin{frame}[fragile]
+\tableofcontents[currentsubsection]
+\end{frame}
+
 \begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
 Rewrite without shipping, to explore!
@@ -174,6 +196,10 @@ Rewrite without shipping, to explore!
 
 \url{github.com/carols10cents/rust-out-your-c-talk}
 
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
 
 ``I have some familiar problems and I'd like to practice Rust"
 
@@ -184,14 +210,19 @@ Rewrite without shipping, to explore!
 \section{What language should you deploy a rewrite with?}
 
 \begin{frame}[fragile]
-\tableofcontents [currentsection, currentsubsection, sectionstyle=shaded, subsectionstyle=shaded]
+\tableofcontents [currentsection]
 \end{frame}
 
 \subsection{Make the smallest change.}
 
 \begin{frame}[fragile]
+\tableofcontents[currentsubsection]
+\end{frame}
+
+
+\begin{frame}[fragile]
 \frametitle{Can your current language solve the problem?}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item You already know it
 \item Minimal new dependencies
 \item Rewrite to understand, then apply lessons
@@ -202,19 +233,19 @@ Rewrite without shipping, to explore!
 \begin{frame}[fragile]
 \frametitle{No excuses:}
 It's slow...
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Refactor hot code
 \item Find a faster implementation
 \end{itemize}
 It's confusing...
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Fix your docs
 \item Prune dead code
 \item Simplify and refactor
 \item Build and document FFI boundary
 \end{itemize}
 People are bored...
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Recognize contributions publicly
 \item Communicate costs of ill-concieved changes
 \item Gamify issue fixing
@@ -224,8 +255,13 @@ People are bored...
 \subsection{Can Rust solve your problem?}
 
 \begin{frame}[fragile]
+\tableofcontents[currentsubsection]
+\end{frame}
+
+
+\begin{frame}[fragile]
 \frametitle{Rust's goals}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Memory safety
 \item C-like performance
 \item Zero-cost abstractions
@@ -236,7 +272,7 @@ People are bored...
 
 \begin{frame}[fragile]
 \frametitle{Rusty choices}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Stable vs Nightly
 \item Safe vs Unsafe
 \item Binaries vs Libraries
@@ -246,18 +282,17 @@ People are bored...
 
 \begin{frame}[fragile]
 \frametitle{Rust tools}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item Rustup
 \item Cargo, crates.io
 \item Rustfmt
 \item Clippy
-\item Bindgen
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
 \frametitle{Learning Rust?}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item \url{doc.rust-lang.org}
 \item \url{http://community.rs/resources}
 \item 1:40pm Thursday, Rust Programming Techniques, Nick Cameron
@@ -268,7 +303,7 @@ People are bored...
 
 \begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item \url{github.com/ceejbot/npm-first-rust-service}
 \item \url{https://www.youtube.com/watch?v=GCsxYAxw3JQ}
 \item Wrote proxy, replaced microservice with Rust version
@@ -279,7 +314,7 @@ People are bored...
 
 \begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item \url{http://bholley.net/blog/2017/stylo.html}
 \item \url{https://blog.rust-lang.org/2017/11/14/Fearless-Concurrency-In-Firefox-Quantum.html}
 \item \url{hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/}
@@ -287,44 +322,163 @@ People are bored...
 \end{itemize}
 \end{frame}
 
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+\begin{itemize}[<+(1)->]
+\item Start tiny
+\item Rewrite to reduce risk
+\item Small, expert team
+\item Incremental rewrite
+\end{itemize}
+\end{frame}
+
+
 \section{Essential techniques}
+
+\begin{frame}[fragile]
+\tableofcontents [currentsection]
+\end{frame}
+\subsection{FFI from Your Language}
+
+\begin{frame}[fragile]
+\tableofcontents[currentsubsection]
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+\begin{itemize}[<+(1)->]
+\item \url{github.com/alexcrichton/rust-ffi-examples}
+\item \url{https://doc.rust-lang.org/book/first-edition/ffi.html}
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}[fragile]
+\frametitle{cargo.toml}
+\begin{verbatim}
+[package]
+name = "perl-to-rust"
+version = "0.1.0"
+#modified based on python version
+authors = ["Hao Wu <echowuhao@gmail.com>"]
+
+[lib]
+name = "double_input"
+crate-type = ["dylib"]
+\end{verbatim}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{main.rs}
+\begin{verbatim}
+#[no_mangle]
+pub extern fn double_input(input: i32) -> i32 {
+    input * 2
+}
+\end{verbatim}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{main.pl}
+\begin{verbatim}
+use v5.10;
+use FFI::Raw;
+
+my $double_input = FFI::Raw->new(
+    "target/debug/libdouble_input.so",
+    'double_input',
+    FFI::Raw::int,    # return value
+    FFI::Raw::int     # arg #1
+);
+
+my $input  = 4;
+my $output = $double_input->call($input);
+say $input . " * 2 = " . $output;
+\end{verbatim}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Makefile}
+\begin{verbatim}
+ifeq ($(shell uname),Darwin)
+    EXT := dylib
+else
+    EXT := so
+endif
+
+all: target/debug/libdouble_input.$(EXT)
+    perl src/main.pl
+
+target/debug/libdouble_input.$(EXT): src/lib.rs Cargo.toml
+    cargo build
+
+clean:
+rm -rf target
+\end{verbatim}
+\end{frame}
+
 
 \subsection{Static Linking Rust}
 
 \begin{frame}[fragile]
+\tableofcontents[currentsubsection]
+\end{frame}
+
+
+\begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
 
-\begin{itemize}
+\begin{itemize}[<+(1)->]
 \item \url{doc.rust-lang.org/reference/linkage.html}
 \item \url{https://doc.rust-lang.org/1.12.1/book/advanced-linking.html#static-linking}
 \item \verb|staticlib| crate type
-\item Musl instead of libc
+\item \verb|$ rustc --target=x86_64-unknown-linux-musl foo.rs|
 \item Recompile dependencies with musl
 \end{itemize}
 
 \end{frame}
 
 
-\subsection{FFI from Your Language}
+
+\subsection{Optional Tools}
+
+\begin{frame}[fragile]
+\tableofcontents[currentsubsection]
+\end{frame}
+
 
 \begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
-\begin{itemize}
-\item \url{github.com/alexcrichton/rust-ffi-examples}
-\item \url{https://doc.rust-lang.org/book/first-edition/ffi.html}
+
+\begin{itemize}[<+(1)->]
+\item \url{usehelix.com}, Ruby
+\item \url{github.com/neon-bindings/neon}, Node.js
+\item \url{github.com/rust-lang-nursery/rust-bindgen}, C
 \end{itemize}
+
 \end{frame}
+
 \section{Q \& A}
 
 \begin{frame}[fragile]
-Questions:
-\begin{itemize}
+\tableofcontents [currentsection]
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Questions}
+\begin{itemize}[<+(1)->]
 \item irc.mozilla.org: \#rust, \#rust-beginners, \#rust-community
 \item \url{www.rust-lang.org/team.html}
 \item lca$@$edunham.net
-\end{itemize} \pause
-Stories!
+\end{itemize}
+\end{frame}
 
+\begin{frame}[fragile]
+\frametitle{Stories}
 \end{frame}
 
 \end{document}
