@@ -170,17 +170,22 @@ Rewrite without shipping, to explore!
 \begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
 
-"I know Rust and I wonder if it could make Zopfli compression faster"
+``I know Rust and I wonder if it could make Zopfli compression faster"
 
-\url{https://github.com/carols10cents/rust-out-your-c-talk}
+\url{github.com/carols10cents/rust-out-your-c-talk}
 
-"I have some familiar problems and I'd like to practice Rust"
 
-\url{https://github.com/BartMassey/advent-of-code-2016}
+``I have some familiar problems and I'd like to practice Rust"
+
+\url{github.com/BartMassey/advent-of-code-2016}
 
 \end{frame}
 
 \section{What language should you deploy a rewrite with?}
+
+\begin{frame}[fragile]
+\tableofcontents [currentsection, currentsubsection, sectionstyle=shaded, subsectionstyle=shaded]
+\end{frame}
 
 \subsection{Make the smallest change.}
 
@@ -264,7 +269,7 @@ People are bored...
 \begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
 \begin{itemize}
-\item \url{https://github.com/ceejbot/npm-first-rust-service}
+\item \url{github.com/ceejbot/npm-first-rust-service}
 \item \url{https://www.youtube.com/watch?v=GCsxYAxw3JQ}
 \item Wrote proxy, replaced microservice with Rust version
 \end{itemize}
@@ -277,24 +282,12 @@ People are bored...
 \begin{itemize}
 \item \url{http://bholley.net/blog/2017/stylo.html}
 \item \url{https://blog.rust-lang.org/2017/11/14/Fearless-Concurrency-In-Firefox-Quantum.html}
-\item \url{https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/}
-\item "Rebuilding a jet engine in flight``
+\item \url{hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/}
+\item ``Rebuilding a jet engine in flight"
 \end{itemize}
 \end{frame}
 
 \section{Essential techniques}
-
-\subsection{FFI from Your Language}
-
-\begin{frame}[fragile]
-\frametitle{\insertsubsectionhead}
-\begin{itemize}
-\item \url{https://github.com/alexcrichton/rust-ffi-examples}
-\item \url{https://doc.rust-lang.org/book/first-edition/ffi.html}
-\end{itemize}
-\end{frame}
-
-
 
 \subsection{Static Linking Rust}
 
@@ -302,12 +295,35 @@ People are bored...
 \frametitle{\insertsubsectionhead}
 
 \begin{itemize}
-\item \url{https://doc.rust-lang.org/reference/linkage.html}
+\item \url{doc.rust-lang.org/reference/linkage.html}
 \item \url{https://doc.rust-lang.org/1.12.1/book/advanced-linking.html#static-linking}
-\item "staticlib`` crate type
+\item \verb|staticlib| crate type
 \item Musl instead of libc
 \item Recompile dependencies with musl
 \end{itemize}
+
+\end{frame}
+
+
+\subsection{FFI from Your Language}
+
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+\begin{itemize}
+\item \url{github.com/alexcrichton/rust-ffi-examples}
+\item \url{https://doc.rust-lang.org/book/first-edition/ffi.html}
+\end{itemize}
+\end{frame}
+\section{Q \& A}
+
+\begin{frame}[fragile]
+Questions:
+\begin{itemize}
+\item irc.mozilla.org: \#rust, \#rust-beginners, \#rust-community
+\item \url{www.rust-lang.org/team.html}
+\item lca$@$edunham.net
+\end{itemize} \pause
+Stories!
 
 \end{frame}
 
