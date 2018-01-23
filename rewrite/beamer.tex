@@ -1,0 +1,325 @@
+\documentclass{beamer}
+%\usepackage{hyperref}
+\usetheme{Boadilla}
+
+\title{Should you rewrite in Rust?}
+\subtitle{talks.edunham.net/lca2018/rust}
+\author{E. Dunham}
+\institute{LinuxConf Australia}
+\date{\today}
+\begin{document}
+
+\begin{frame}[fragile]
+\titlepage
+\end{frame}
+
+
+\section{Intro}
+\subsection{Pop Quiz}
+
+\begin{frame}[fragile]
+\frametitle{Quiz}
+Do you know what I'm here to tell you?
+\end{frame}
+
+\begin{frame}[fragile]
+"Rewrite your code!"
+\end{frame}
+
+
+\begin{frame}[fragile]
+"Don't rewrite your code!"
+\end{frame}
+
+\subsection{About Me}
+
+\begin{frame}[fragile]
+\begin{itemize}
+\item DevOps at Mozilla Research
+\item Rust, Servo, VR
+\item Rust Community Team
+\end{itemize}
+\end{frame}
+
+\subsection{This Talk}
+
+\begin{frame}[fragile]
+\frametitle{Outline}
+\tableofcontents
+\end{frame}
+
+\section{Should you rewrite?}
+\subsection{Assumptions}
+
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+\begin{itemize}
+\item You're working on some code.
+\item People help you with the project.
+\item People use the code.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+"Should" is a value judgement.
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+People's \textbf{time} and \textbf{happiness} are valuable.
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Whose time and happiness?}
+\begin{itemize}
+\item You
+\item Colleagues
+\item Users
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Prefer small changes.}
+\begin{itemize}
+\item Lowest-cost solution for desired impact
+\item Minimize wasted effort
+\item Avoid consequences of needless complexity
+\end{itemize}
+\end{frame}
+
+
+\subsection{Categorizing Rewrites}
+
+\begin{frame}[fragile]
+\frametitle{Definition}
+\textbf{Rewriting} is starting anew on a problem that you already have code to
+address.
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Size}
+Mini \hrulefill{5pt} Massive
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Motive}
+\begin{itemize}
+\item Learn a tool
+\item Understand a task
+\item Ship production code
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Rewriting to Understand}
+Costs your time:
+\begin{itemize}
+\item Researching
+\item Writing
+\item Debugging
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Rewriting to deploy}
+Costs your time:
+\begin{itemize}
+\item Researching
+\item Writing
+\item Debugging
+\item Explaining
+\item Ensuring backwards compatibility
+\end{itemize}
+Costs others' time:
+\begin{itemize}
+\item Tooling and automation
+\item Fixing new bugs
+\item Learning new system
+\end{itemize}
+\end{frame}
+
+
+\subsection{Before Changing Anything}
+\begin{frame}[fragile]
+\frametitle{Identify the problem}
+\begin{itemize}
+\item What does the code do?
+\item What should it do?
+\item What if I don't change it?
+\item How would I know if the problem was solved?
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Where's the problem?}
+\begin{itemize}
+\item Your definitions of what the system does and should do?
+\item Architecture and problem definition?
+\item Tooling, libraries, dependencies?
+\item Code's logic?
+\item Code's unintended side effects?
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Communicate with the team}
+\begin{itemize}
+\item Problem definition
+\item Proposed solution
+\item History lessons
+\end{itemize}
+\end{frame}
+
+\subsection{Understand the problem}
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+Rewrite without shipping, to explore!
+\end{frame}
+
+\subsection{Case studies: Rewriting to understand}
+
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+
+"I know Rust and I wonder if it could make Zopfli compression faster"
+
+\url{https://github.com/carols10cents/rust-out-your-c-talk}
+
+"I have some familiar problems and I'd like to practice Rust"
+
+\url{https://github.com/BartMassey/advent-of-code-2016}
+
+\end{frame}
+
+\section{What language should you deploy a rewrite with?}
+
+\subsection{Make the smallest change.}
+
+\begin{frame}[fragile]
+\frametitle{Can your current language solve the problem?}
+\begin{itemize}
+\item You already know it
+\item Minimal new dependencies
+\item Rewrite to understand, then apply lessons
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{No excuses:}
+It's slow...
+\begin{itemize}
+\item Refactor hot code
+\item Find a faster implementation
+\end{itemize}
+It's confusing...
+\begin{itemize}
+\item Fix your docs
+\item Prune dead code
+\item Simplify and refactor
+\item Build and document FFI boundary
+\end{itemize}
+People are bored...
+\begin{itemize}
+\item Recognize contributions publicly
+\item Communicate costs of ill-concieved changes
+\item Gamify issue fixing
+\end{itemize}
+\end{frame}
+
+\subsection{Can Rust solve your problem?}
+
+\begin{frame}[fragile]
+\frametitle{Rust's goals}
+\begin{itemize}
+\item Memory safety
+\item C-like performance
+\item Zero-cost abstractions
+\item Minimal runtime
+\item FFI from almost anywhere
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Rusty choices}
+\begin{itemize}
+\item Stable vs Nightly
+\item Safe vs Unsafe
+\item Binaries vs Libraries
+\item Dynamic vs static linking
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Rust tools}
+\begin{itemize}
+\item Rustup
+\item Cargo, crates.io
+\item Rustfmt
+\item Clippy
+\item Bindgen
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Learning Rust?}
+\begin{itemize}
+\item \url{doc.rust-lang.org}
+\item \url{http://community.rs/resources}
+\item 1:40pm Thursday, Rust Programming Techniques, Nick Cameron
+\end{itemize}
+\end{frame}
+
+\subsection{Case study: Rewriting Microservices}
+
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+\begin{itemize}
+\item \url{https://github.com/ceejbot/npm-first-rust-service}
+\item \url{https://www.youtube.com/watch?v=GCsxYAxw3JQ}
+\item Wrote proxy, replaced microservice with Rust version
+\end{itemize}
+\end{frame}
+
+\subsection{Case study: Rewriting Some Of Firefox}
+
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+\begin{itemize}
+\item \url{http://bholley.net/blog/2017/stylo.html}
+\item \url{https://blog.rust-lang.org/2017/11/14/Fearless-Concurrency-In-Firefox-Quantum.html}
+\item \url{https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/}
+\item "Rebuilding a jet engine in flight``
+\end{itemize}
+\end{frame}
+
+\section{Essential techniques}
+
+\subsection{FFI from Your Language}
+
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+\begin{itemize}
+\item \url{https://github.com/alexcrichton/rust-ffi-examples}
+\item \url{https://doc.rust-lang.org/book/first-edition/ffi.html}
+\end{itemize}
+\end{frame}
+
+
+
+\subsection{Static Linking Rust}
+
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+
+\begin{itemize}
+\item \url{https://doc.rust-lang.org/reference/linkage.html}
+\item \url{https://doc.rust-lang.org/1.12.1/book/advanced-linking.html#static-linking}
+\item "staticlib`` crate type
+\item Musl instead of libc
+\item Recompile dependencies with musl
+\end{itemize}
+
+\end{frame}
+
+\end{document}
