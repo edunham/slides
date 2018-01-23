@@ -1,10 +1,10 @@
 \documentclass{beamer}
 %\usepackage{hyperref}
-\usetheme{Boadilla}
+\usetheme{Goettingen}
 
 \title{Should you rewrite in Rust?}
 \subtitle{talks.edunham.net/lca2018/rust}
-\author{E. Dunham}
+\author{$@$qedunham}
 \institute{LinuxConf Australia}
 \date{\today}
 \begin{document}
@@ -15,44 +15,36 @@
 
 
 \section{Intro}
-\subsection{Pop Quiz}
 
 \begin{frame}[fragile]
-\frametitle{Quiz}
-Do you know what I'm here to tell you?
+\frametitle{Pop Quiz}
+\begin{itemize}
+\item Do you know what I'm here to tell you? \pause
+\item "Rewrite your code!" \pause
+\item "Don't rewrite your code!" \pause
+\end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]
-"Rewrite your code!"
-\end{frame}
-
 
 \begin{frame}[fragile]
-"Don't rewrite your code!"
-\end{frame}
-
-\subsection{About Me}
-
-\begin{frame}[fragile]
+\frametitle{About Me}
 \begin{itemize}
 \item DevOps at Mozilla Research
 \item Rust, Servo, VR
 \item Rust Community Team
+\item Opinions mine, formed through research
 \end{itemize}
 \end{frame}
 
-\subsection{This Talk}
-
 \begin{frame}[fragile]
 \frametitle{Outline}
-\tableofcontents
+\tableofcontents[pausesections]
 \end{frame}
 
 \section{Should you rewrite?}
-\subsection{Assumptions}
 
 \begin{frame}[fragile]
-\frametitle{\insertsubsectionhead}
+\frametitle{Assumptions}
 \begin{itemize}
 \item You're working on some code.
 \item People help you with the project.
@@ -61,11 +53,7 @@ Do you know what I'm here to tell you?
 \end{frame}
 
 \begin{frame}[fragile]
-"Should" is a value judgement.
-\end{frame}
-
-\begin{frame}[fragile]
-\frametitle{\insertsubsectionhead}
+\frametitle{"Should" is a value judgement.}
 People's \textbf{time} and \textbf{happiness} are valuable.
 \end{frame}
 
@@ -84,6 +72,7 @@ People's \textbf{time} and \textbf{happiness} are valuable.
 \item Lowest-cost solution for desired impact
 \item Minimize wasted effort
 \item Avoid consequences of needless complexity
+\item Risks compound.
 \end{itemize}
 \end{frame}
 
@@ -98,7 +87,7 @@ address.
 
 \begin{frame}[fragile]
 \frametitle{Size}
-Mini \hrulefill{5pt} Massive
+Mini \hrulefill Massive
 \end{frame}
 
 \begin{frame}[fragile]
