@@ -1,7 +1,13 @@
 \documentclass{beamer}
 %\usepackage{hyperref}
 \usetheme{Goettingen}
-\beamerdefaultoverlayspecification{<+->}
+%\beamerdefaultoverlayspecification{<+->}
+
+%gets rid of bottom navigation bars
+\setbeamertemplate{footline}[text line]{\url{http://talks.edunham.net/lca2018/should-you-rewrite-in-rust/}}
+
+%gets rid of navigation symbols
+\setbeamertemplate{navigation symbols}{}
 
 
 \title{Should you rewrite in Rust?}
@@ -50,38 +56,23 @@
 \end{frame}
 
 \begin{frame}[fragile]
-\frametitle{Assumptions}
+\frametitle{I assume}
 \begin{itemize}[<+(1)->]
 \item You're working on some code.
-\item People help you with the project.
+\item People help you with the code.
+\item People help the project in non-code ways.
 \item People use the code.
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
-\frametitle{"Should" is a value judgement.}
-People's \textbf{time} and \textbf{happiness} are valuable.
-\end{frame}
-
-\begin{frame}[fragile]
-\frametitle{Whose time and happiness?}
+\frametitle{Peoples' \textbf{time} and \textbf{happiness} are valuable.}
 \begin{itemize}[<+(1)->]
 \item You
 \item Colleagues
 \item Users
 \end{itemize}
 \end{frame}
-
-\begin{frame}[fragile]
-\frametitle{Prefer small changes.}
-\begin{itemize}[<+(1)->]
-\item Lowest-cost solution for desired impact
-\item Minimize wasted effort
-\item Avoid consequences of needless complexity
-\item Risks compound.
-\end{itemize}
-\end{frame}
-
 
 \subsection{Categorizing Rewrites}
 
@@ -94,11 +85,20 @@ People's \textbf{time} and \textbf{happiness} are valuable.
 \frametitle{What's a rewrite$?$}
 \textbf{Rewriting} is starting anew on a problem that you already have code to
 address.
+
+\textbf{Refactoring} is modifying code which tries to solve a problem.
 \end{frame}
 
 \begin{frame}[fragile]
 \frametitle{Sort rewrites by size}
-Mini \hrulefill Massive
+Smaller \hrulefill Larger
+
+Constrained \hfill Green-field
+
+Few new bugs \hfill YOLO
+
+Quick \hfill Slow
+
 \end{frame}
 
 \begin{frame}[fragile]
@@ -122,16 +122,13 @@ Costs your time:
 
 \begin{frame}[fragile]
 \frametitle{Rewriting to deploy}
-Costs your time:
+Costs everyone's time:
 \begin{itemize}[<+(1)->]
 \item Researching
 \item Writing
 \item Debugging
 \item Explaining
 \item Ensuring backwards compatibility
-\end{itemize}
-Costs others' time:
-\begin{itemize}[<+(1)->]
 \item Tooling and automation
 \item Fixing new bugs
 \item Learning new system
@@ -146,12 +143,12 @@ Costs others' time:
 \item Increase contributor base
 \end{itemize}
 \end{frame}
+
 \subsection{Communicating about Code Changes}
 
 \begin{frame}[fragile]
 \tableofcontents[currentsubsection]
 \end{frame}
-
 
 \begin{frame}[fragile]
 \frametitle{Identify the problem}
@@ -195,6 +192,16 @@ Costs others' time:
 \end{itemize}
 \end{frame}
 
+\begin{frame}[fragile]
+\frametitle{Experts prefer small changes.}
+\begin{itemize}[<+(1)->]
+\item Break big changes into small ones
+\item Lowest-cost solution for desired impact
+\item Minimize wasted effort
+\item Avoid consequences of needless complexity
+\item Risks compound.
+\end{itemize}
+\end{frame}
 
 \begin{frame}[fragile]
 \frametitle{``You should go rewrite your code!"}
@@ -203,6 +210,7 @@ What are you saying$?$
 \item ``You should throw out your hard work!"
 \item ``Your work would be easy to replace!"
 \item ``You don't understand your own engineering tradeoffs!"
+\item ``I don't understand the problem you're trying to solve!"
 \end{itemize}
 \end{frame}
 
@@ -210,13 +218,13 @@ What are you saying$?$
 \begin{frame}[fragile]
 \frametitle{How not to troll}
 \begin{itemize}[<+(1)->]
-\item ``Where do you find your issues are coming from$?$"
+\item ``I notice you're getting a lot of issue reports about... "
 \item ``Your code has been tested by a lot of users!"
-\item ``Would you like me to try to change this$?$"
+\item ``Would you like a patch which....$?$"
+\item ``Where can I learn about other times you've tried to solve this$?$"
+\item Why write code a project doesn't want$?$
 \end{itemize}
 \end{frame}
-
-
 
 
 \subsection{Rewriting to understand}
@@ -226,6 +234,16 @@ What are you saying$?$
 \end{frame}
 
 \subsection{Case studies: Rewriting to understand}
+
+\begin{frame}[fragile]
+\frametitle{\insertsubsectionhead}
+\begin{itemize}[<+(1)->]
+\item Use a familiar task or tool
+\item Document what you learn
+\item Take lessons home
+\end{itemize}
+\end{frame}
+
 
 \begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
@@ -245,18 +263,18 @@ What are you saying$?$
 
 \end{frame}
 
-\section{What language should you deploy a rewrite with?}
+
+\section{Rewriting to deploy}
 
 \begin{frame}[fragile]
 \tableofcontents [currentsection]
 \end{frame}
 
-\subsection{Make the smallest change.}
+\subsection{What's the smallest change that would solve your problem$?$}
 
 \begin{frame}[fragile]
 \tableofcontents[currentsubsection]
 \end{frame}
-
 
 \begin{frame}[fragile]
 \frametitle{Can your current language solve the problem?}
@@ -264,12 +282,12 @@ What are you saying$?$
 \item You already know it
 \item Minimal new dependencies
 \item Rewrite to understand, then apply lessons
+\item Extant code describes the problem
 \end{itemize}
 \end{frame}
 
-
 \begin{frame}[fragile]
-\frametitle{No excuses:}
+\frametitle{Would a refactor suffice?}
 It's slow...
 \begin{itemize}[<+(1)->]
 \item Refactor hot code
@@ -280,7 +298,7 @@ It's confusing...
 \item Fix your docs
 \item Prune dead code
 \item Simplify and refactor
-\item Build and document FFI boundary
+\item Build and document boundary where you would add code
 \end{itemize}
 People are bored...
 \begin{itemize}[<+(1)->]
@@ -302,9 +320,8 @@ People are bored...
 \begin{itemize}[<+(1)->]
 \item Memory safety
 \item C-like performance
-\item Zero-cost abstractions
 \item Minimal runtime
-\item FFI from almost anywhere
+\item Integration with other languages
 \end{itemize}
 \end{frame}
 
@@ -313,7 +330,7 @@ People are bored...
 \begin{itemize}[<+(1)->]
 \item Stable vs Nightly
 \item Safe vs Unsafe
-\item Binaries vs Libraries
+\item Libraries vs Binaries
 \item Dynamic vs static linking
 \end{itemize}
 \end{frame}
@@ -337,7 +354,19 @@ People are bored...
 \end{itemize}
 \end{frame}
 
-\subsection{Case study: Rewriting Microservices}
+\begin{frame}[fragile]
+\frametitle{Industry lessons}
+\begin{itemize}[<+(1)->]
+\item Isolate a problem
+\item Rewrite to reduce risk
+\item Establish deployment workflow
+\item Small, expert team
+\item Incremental rewrite
+\item Educate larger teams later
+\end{itemize}
+\end{frame}
+
+\subsection{Case study: NPM}
 
 \begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
@@ -348,7 +377,7 @@ People are bored...
 \end{itemize}
 \end{frame}
 
-\subsection{Case study: Rewriting Some Of Firefox}
+\subsection{Case study: Project Quantum}
 
 \begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
@@ -360,22 +389,20 @@ People are bored...
 \end{itemize}
 \end{frame}
 
+\subsection{Rewriting vs green field}
+
 \begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
 \begin{itemize}[<+(1)->]
-\item Start tiny
-\item Rewrite to reduce risk
-\item Small, expert team
-\item Incremental rewrite
+\item \url{https://www.rust-lang.org/en-US/friends.html}
+\item Dropbox, Habitat, Coursera, etc
+\item Rewriting requires backwards compatibility.
 \end{itemize}
 \end{frame}
 
 
-\section{Essential techniques}
+\section{Rewriting techniques}
 
-\begin{frame}[fragile]
-\tableofcontents [currentsection]
-\end{frame}
 \subsection{FFI from Your Language}
 
 \begin{frame}[fragile]
@@ -386,11 +413,13 @@ People are bored...
 \begin{frame}[fragile]
 \frametitle{\insertsubsectionhead}
 \begin{itemize}[<+(1)->]
+\item Foreign Function Interface
+\item Call guest language from host language
 \item \url{github.com/alexcrichton/rust-ffi-examples}
 \item \url{https://doc.rust-lang.org/book/first-edition/ffi.html}
+\item cargo.toml, main.rs, main.pl, Makefile
 \end{itemize}
 \end{frame}
-
 
 
 \begin{frame}[fragile]
@@ -480,8 +509,6 @@ rm -rf target
 
 \end{frame}
 
-
-
 \subsection{Optional Tools}
 
 \begin{frame}[fragile]
@@ -509,7 +536,10 @@ rm -rf target
 \begin{frame}[fragile]
 \frametitle{Questions}
 \begin{itemize}[<+(1)->]
+\item Your project and mentors
+\item Host language docs
 \item irc.mozilla.org: \#rust, \#rust-beginners, \#rust-community
+\item \url{users.rust-lang.org}
 \item \url{www.rust-lang.org/team.html}
 \item lca$@$edunham.net
 \end{itemize}
@@ -517,6 +547,13 @@ rm -rf target
 
 \begin{frame}[fragile]
 \frametitle{Stories}
+
+\begin{itemize}
+\item Rewriting code
+\item Impact of others' rewrites
+\item Fun with Rust
+\end{itemize}
+
 \end{frame}
 
 \end{document}
