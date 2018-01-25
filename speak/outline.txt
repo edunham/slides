@@ -1,0 +1,274 @@
+Hi!
+
+    How do you feel about this right now?
+        Excited?
+        Want to see me succeed?
+        Want to see me fail?
+
+    I give talks a bunch.
+        This is to fill a slot someone canceled from
+        Papers committee wants YOU not-yet-speakers to submit
+        I will try to tell you everything I know about talks.
+
+Why?
+
+    Benefits you
+        Meet fantastic humans
+        Show expertise
+        Change the community
+
+    Benefits conference
+        There's no conf without talks
+        Need many options to build the best schedule
+
+    Benefits community
+        Recordings are documentation
+        New ideas and approaches
+        Scalable mentoring -- setting example
+
+    Why not?
+        Fear
+        Insecurity
+        Time
+        Money
+        Better things to do
+
+Getting Into A Conference
+
+    Find a topic.
+        Keep a list of neat ideas
+        Ask friends what they want to hear
+        What do people ask you about?
+        What do you want people to *know*?
+        What do you want people to *do*?
+        What do you know, which people wish to know? (buzzwords)
+        Which people? (identify your audience)
+        Your "expertise"
+
+    Find conferences.
+        Keep a list of conference dates
+        Ask friends where they speak
+        https://opensource.com/resources/conferences-and-events-monthly
+        Missed it? Calendar for next year
+        Search confs for your language/tools
+        Search general confs for your area (education? FOSS? sysadmin?)
+
+    Pick a conference.
+        Who's their target audience?
+        Speaker compensation?
+        Conduct & enforcement?
+        Location and dates?
+
+    Write an abstract.
+        helpmeabstract.com
+        Ask a question you'll answer, or start a story you'll tell
+        Show fluency & attention to detail
+        Abstract or bio: Why you should present this
+
+    Apply!
+        Submit to conferences!
+        Before their deadlines!
+
+    Get rejected a lot.
+        Happens to everyone.
+        Nothing personal.
+        Keep trying.
+
+
+Writing your talk
+
+    Gather content
+        I <3 notecards
+        Lists, digital or physical
+        Organization doesn't matter
+        Brainstorm!
+
+    Research
+        Google
+        Interviews (including Twitter/IRC)
+        Hands-on trial-and-error
+        Add results to your content
+
+    Organize ideas
+        Tell a story
+        Beginning, middle, end
+        Conflict & resolution
+        Look up writing/storytelling resources
+        How are your favorite talks structured?
+        Toss what doesn't fit
+
+    What did your title & abstract promise?
+        Answer a question?
+        Tell a story?
+        People will be in your room because they want that.
+
+    Transitions & Flow
+        You will have to talk from one point to another
+        Telling a story: Have implicitreason for switching topics
+        Outlines often help
+
+    Repeat key points
+        Pick your top 3 takeaways
+        Make sure each shows up at least 3x through the talk
+
+
+Making Slides
+
+    Text vs images
+        Text: Stand-alone slides, can get boring
+        Images: Needs a blog post
+        Cite yo' sources!!
+        Expect crummy projector
+        How do your favorite talks do this? Why do you <3 them?
+
+    Popular tools
+        Keynote
+        reveal.js
+        Beamer
+        LibreOffice Impress
+
+    Version Control!
+        Commit early & often
+        Iterate fast
+        I prefer slides rendered from text
+
+    Caution...
+        Distracting gifs
+        Don't count on audio
+        Check for speeling erors
+        Code-Of-Conduct...
+
+    Taunting the Demo-Gods
+        Pre-record
+        Optionally, make it look real
+        Static show-and-tell is fine
+
+    Accessibility!
+        Contrast?
+        Font size?
+        Seizures?
+        PDF export?
+        Use your spoken words (dyslexia, blind, ESL)
+        Use your written words (Deaf, ESL)
+
+    Put them online!
+        License? (I'm bad at this)
+        archive.org
+        Put the URL in your slides, or tweet/blog it!
+
+Rehearsing your talk
+
+    Plan your timing
+        How long is your talk?
+        How much time does each section need?
+        Will you take questions? During or after?
+
+    Record yourself
+        Bad slide/topic transitions will feel terrible
+        And then listen
+        Take notes on verbal distractions
+        Take notes on content flow
+
+    Make Changes
+        Speaker notes: Key points, transitions
+        Optimize topic order for storytelling and smooth flow
+        Practice speaking clearly & articulately
+        Community theater, Toastmasters can help soft skills
+
+    Get Feedback
+        Rehearse for a friend
+        Rehearse for a friendly internet stranger
+        "Does this make sense?"
+        Make sure "proof-watcher" knows your audience & abstract
+
+    Feature freeze
+        2 rehersals before talk
+        Route around bad slides > get lost/confused
+
+    Realistic rehersals
+        Wear what you'll wear
+        Use a projector
+        Eye contact with "audience"
+        Whatever stimulants/depressants you'll be speaking on
+
+Conferencing
+
+    Work with your work
+        Training budget?
+        Marketing/evangelism budget?
+        Emphasize benefits (brand awareness, contributors, etc)
+        Ask before & after acceptance to a conf
+
+    Alternate funding
+        Scholarships
+        Speaker compensation
+        Bundle conference with family vacation
+        Ask the internet for ideas
+
+    Register and book housing
+        Most confs give free rego to speakers
+        Some subsidize travel/hotel
+        Budget: Airbnb, locals' spare rooms, hostels, transit
+
+    Your Badge
+        Name, pronouns, talk slots
+        Only info you want people & computers to act on
+
+    Use speaker perks
+        Speaker lounge
+        Speaker dinner?
+
+    Before your talk
+        Double-check time slot
+        Make laptop talk to projector (dongles?)
+
+    What to wear
+        Comfy shoes
+        Expect clip-on mic
+        You'll be on a stage
+        Lots of photos
+
+
+Presenting your talk
+
+    Before
+        Human maintenance (snack, water, bathroom)
+        Laptop vs projector
+        Plug laptop into power
+        Remove lanyard
+        Get mic'd
+
+    Intro
+        Who you are and why you're there
+        When to ask questions
+        How to tweet at you
+        Where to get your slides
+
+    The Talk
+        That thing you rehearsed
+            Resist temptation to speed up
+        Handling technical difficulties
+            Use humor, keep calm
+            <introduce breakage> How do you as the audience feel?
+
+    Q&A
+        Not mandatory
+            Doesn't have to be live
+            "Email me..."
+            "Ask this IRC channel"
+            "Ask that mailing list"
+            "Taking only questions about..."
+        "I Don't Know"
+            Watch the technologists you look up to -- they say this a lot
+            "But here's how I'd find out"
+            "I can connect you with Jane who's an expert"
+
+After The Conference
+    Publish your slides, notes, etc
+    Follow up w/ emails
+    Brag on site, resume, LinkedIn, etc!
+
+More Resources
+
+https://littlekendra.com/2015/12/22/how-to-write-a-presentation-abstract-for-a-tech-conference/
+https://medium.com/@sophie.koonin/things-i-wish-id-known-tips-for-first-time-conference-speakers-ffa4ca438ea
