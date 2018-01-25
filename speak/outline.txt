@@ -65,8 +65,10 @@ Getting Into A Conference
         Tutorial for a tool that someone else will offer a deep dive in
         Lessons for techies from your hobby or underrepresented field
         Something you built
+        Intricacies of something you use every day
         Lessons from deploying $BUZZWORD
         Lessons from your favorite mentor
+        Deep dive into tech related to current events
     Find a co-presenter?
         Communication overhead
         Confidence boost
