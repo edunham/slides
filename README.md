@@ -11,13 +11,6 @@ You can find all the talks that I've given at events, with links to recordings
 and archived copies of the slides as they stood then, at
 http://edunham.net/pages/talks.html
 
-Ideas
------
-
-* How to be usefully ignorant
-* In defense of small infrastructure
-
-
 Useful tools if you want to make slides too:
 --------------------------------------------
 
@@ -55,12 +48,19 @@ CFP Resources
 Speaking Resources
 ------------------
 
-* https://wiki.mozilla.org/TechSpeakers/Curriculum
-* http://technicalcommunicationuk.com/index.php/archives/3707
-* https://edunham.net/2015/04/15/the_life_cycle_of_a_conference_talk.html
-* http://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/
-* http://alicebartlett.co.uk/blog/how-to-do-ok-at-slides
-* http://larahogan.me/blog/my-presentation-workflow-and-challenges/
+* alicebartlett.co.uk/blog/how-to-do-ok-at-slides
+* anonymoushash.vmbrasseur.com/2017/06/06/public-speaking-resources/
+* edunham.net/2015/04/15/the_life_cycle_of_a_conference_talk.html
+* github.com/JanVanRyswyck/awesome-talks
+* github.com/matteofigus/awesome-speaking
+* larahogan.me/blog/my-presentation-workflow-and-challenges/
+* linkedin.com/pulse/getting-started-public-speaking-kristine-howard/
+* littlekendra.com/2015/12/22/how-to-write-a-presentation-abstract-for-a-tech-conference/
+* lucybain.com/blog/2016/conference-proposal-ideas/
+* medium.com/@sophie.koonin/things-i-wish-id-known-tips-for-first-time-conference-speakers-ffa4ca438ea
+* technicalcommunicationuk.com/index.php/archives/3707
+* wiki.mozilla.org/TechSpeakers/Curriculum
+* wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/
 
 For Organizers
 --------------
