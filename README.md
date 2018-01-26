@@ -50,6 +50,7 @@ CFP Resources
 Speaking Resources
 ------------------
 
+* speaking.io
 * alicebartlett.co.uk/blog/how-to-do-ok-at-slides
 * anonymoushash.vmbrasseur.com/2017/06/06/public-speaking-resources/
 * edunham.net/2015/04/15/the_life_cycle_of_a_conference_talk.html
