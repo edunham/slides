@@ -1,7 +1,7 @@
 Slides
 ======
 
-Things I can talk about, for half an hour to an hour, whenever requested.
+Things I can talk about, for 5mins to 2 hours.
 
 The parts I wrote are Creative Commons Attribution-ShareAlike. See LICENSE for
 legalese. Pictures are (C) their respective owners, attributed in the slides
@@ -19,6 +19,7 @@ Things with which I make slides:
 * http://github.com/nyergler/hieroglyph
 * https://github.com/hakimel/reveal.js/
 * https://www.libreoffice.org/discover/impress/ (for ignite talks)
+* LaTeX Beamer
 
 Things with which other cool people make slides:
 
@@ -44,6 +45,7 @@ CFP Resources
 
 * https://dave.cheney.net/2017/02/12/how-to-write-a-successful-conference-proposal
 * http://helpmeabstract.com/
+* I keep my list of CFP sites at edunham.net/pages/cfp_aggregators.html
 
 Speaking Resources
 ------------------
