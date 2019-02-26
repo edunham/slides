@@ -21,11 +21,11 @@
   linkcolor = black,
   urlcolor = black,
   pdfauthor = {\name},
-  pdftitle = {Rust 101, SCaLE 2017},
-  pdfsubject = {Starting Rust from a Scripting Background},
+  pdftitle = {Rust 101, OSU LUG},
+  pdfsubject = {Starting Rust},
   pdfpagemode = UseNone
 }
-\def\slidesurl{\url{http://talks.edunham.net/scale15x}}
+\def\slidesurl{\url{http://talks.edunham.net/osulug2019}}
 \def\talkdate{March 5, 2017}
 % ???
 \usetheme[hideothersubsections]{Hannover}
@@ -62,7 +62,6 @@
 \begin{frame}
     Welcome!
      \begin{itemize}
-        \item This is an intro class
         \begin{itemize}
             \item Learn what Rust is \& isn't
             \item Run Rust code
@@ -73,7 +72,6 @@
         \begin{itemize}
             \item Hack time for you
             \item Unsafe or advanced Rust
-            \item Exhaustive Q\&A \footnote{Join your local meetup!}
         \end{itemize}
     \end{itemize}
 \end{frame}
@@ -81,8 +79,7 @@
 \begin{frame}
 
 \epigraph{This talk will teach you the basics of Rust, and help you ask the
-right questions as you continue to explore Rust after the
-conference.}{\textit{The Abstract}}
+right questions as you continue to explore Rust in the future.}{}
 
 \end{frame}
 
@@ -91,42 +88,13 @@ conference.}{\textit{The Abstract}}
 \begin{frame}
     About Me:
     \begin{itemize}
-        \item DevOps for Mozilla Research \footnote{Infra is mostly Python}
-        \item Rust Community Team member
+        \item CloudOps at Mozilla 
+	\item Former DevOps for Mozilla Research \footnote{Infra is mostly Python}
+        \item Former Rust Community Team member
         \item FOSS \& robotics background
         \item NOT a compiler wizard
     \end{itemize}
 \end{frame}
-
-\subsection{About You}
-
-\begin{frame}
-    Have you...
-    \begin{itemize}
-        \item Heard of Rust?
-        \item Used Rust?
-        \item Contributed to Rust?
-    \end{itemize}
-\end{frame}
-
-\begin{frame}
-    Have you...
-    \begin{itemize}
-        \item Written C, C++, Assembly, etc?
-        \item Written Java, Python, Ruby, JS, etc?
-        \item Written Haskell, Erlang, Ocaml, etc?
-    \end{itemize}
-\end{frame}
-
-\begin{frame}
-    Have you...
-    \begin{itemize}
-        \item Used version control?
-        \item Used GitHub?
-        \item Contributed to a FOSS project?
-    \end{itemize}
-\end{frame}
-
 \subsection{About Rust}
 
 \begin{frame}
@@ -134,7 +102,7 @@ conference.}{\textit{The Abstract}}
     \begin{itemize}
         \item Systems language \footnote{Contrast to Go, a language for sysadmins}
         \item Safety + Performance
-        \item Community... (Thriving but controversial)
+        \item Community (prefers inclusion over intolerance)
     \end{itemize}
 \end{frame}
 
@@ -144,7 +112,6 @@ conference.}{\textit{The Abstract}}
         \item Safety, Speed, Concurrency
         \item Memory safety without garbage collection
         \item Zero-cost abstractions
-        \item Hack Without Fear
     \end{itemize}
 \end{frame}
 
@@ -202,6 +169,17 @@ conference.}{\textit{The Abstract}}
 
 \section{Run Rust}
 
+\subsection{Editions}
+
+\begin{frame}
+    \begin{itemize}
+        \item Opportunities to break backwards compatibility 
+        \item opt-in
+        \item "use" replaces "extern crate" in 2018 edition
+    \end{itemize}
+
+\end{frame}
+
 \subsection{Channels}
 
 \begin{frame}
@@ -209,15 +187,15 @@ conference.}{\textit{The Abstract}}
     \begin{itemize}
         \item Nightly: Trying neat ideas
         \item Beta: Release candidates
-        \item Stable: Always backwards-compatible \footnote{\url{https://blog.rust-lang.org/2015/05/15/Rust-1.0.html}}
+        \item Stable: Always backwards-compatible within edition \footnote{\url{https://blog.rust-lang.org/2015/05/15/Rust-1.0.html}}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
     Which channel to use?
     \begin{itemize}
-        \item Stable code should run anywhere
-        \item Switch to nightly for dependencies
+        \item Stable \rightarrow nightly beats nightly \rightarrow stable
+        \item Dependencies may require nightly
         \item New project? Pick stable \footnote{Unless you need an
               unstable feature}
     \end{itemize}
@@ -228,14 +206,9 @@ conference.}{\textit{The Abstract}}
     \begin{itemize}
         \item Compile all published libraries
         \item Diff results from stable and candidate
-        \item \url{https://github.com/brson/taskcluster-crater}
+        \item \url{https://github.com/rust-lang-nursery/crater}
     \end{itemize}
 \end{frame}
-
-\begin{frame}
-    \hfill Questions about channels \& installation?
-\end{frame}
-
 
 \subsection{Installation Options}
 
@@ -262,6 +235,7 @@ conference.}{\textit{The Abstract}}
 \begin{frame}
     Rustup:
     \begin{itemize}
+        \item \url{https://www.rust-lang.org/tools/install}
         \item Docs at \url{https://github.com/rust-lang-nursery/rustup.rs}
         \item \textasciitilde /.cargo/bin
         \item \textit{rustup install nightly}
@@ -296,9 +270,8 @@ conference.}{\textit{The Abstract}}
 \end{frame}
 
 
-
 \begin{frame}
-    \hfill Questions about installation?
+    \hfill Questions about channels \& installation?
 \end{frame}
 
 
@@ -313,11 +286,12 @@ conference.}{\textit{The Abstract}}
 \end{frame}
 
 \begin{frame}
-    REPL equivalents:
+    Read-Evaluate-Print Loop
     \begin{itemize}
+        \item RFC: \url{https://github.com/rust-lang/rfcs/issues/655}
         \item Use the playpen
-        \item playbot on IRC
-        \item \url{https://github.com/murarth/rusti} worked briefly on nightly
+	\item \url{https://repl.it/languages/rust}
+	\item \url{https://crates.io/crates/evcxr_repl}
     \end{itemize}
 \end{frame}
 
@@ -417,7 +391,7 @@ conference.}{\textit{The Abstract}}
 \end{frame}
 
 \begin{frame}[fragile]
-    Abusing Whitespace:
+    Spaces only matter when separating tokens:
 
 \begin{verbatim}
     fn halve
@@ -711,7 +685,6 @@ fn main() {
     Port something
     \begin{itemize}
         \item \url{https://github.com/jameysharp/corrode}
-        \item \url{linux.conf.au/schedule/presentation/51/} Friday 1:20pm
         \item \url{https://blog.rust-lang.org/2015/04/24/Rust-Once-Run-Everywhere.html}
     \end{itemize}
 \end{frame}
@@ -726,7 +699,7 @@ fn main() {
     File or Fix issues
     \begin{itemize}
         \item \url{github.com/rust-lang/rust}
-        \item We triage regularly
+        \item Triaged regularly
         \item If in doubt, ask on IRC first
     \end{itemize}
 \end{frame}
@@ -744,7 +717,7 @@ fn main() {
     Find or join a meetup
     \begin{itemize}
         \item Search for your area + Rust meetup
-        \item LA area? \url{https://www.meetup.com/Rust-Los-Angeles/}
+	\item Portland might be nearest
         \item Community Team Calendar, \url{goo.gl/EJ2iRb}
         \item \#rust-community on Mozilla IRC
     \end{itemize}
@@ -755,7 +728,7 @@ fn main() {
     \begin{itemize}
         \item \url{rustconf.com} Oregon, September
         \item \url{www.rust-belt-rust.com}, Pennsylvania, October
-        \item \url{www.rustfest.eu}, Europe, September
+        \item \url{www.rustfest.eu}, Europe, month varies
     \end{itemize}
 \end{frame}
 
