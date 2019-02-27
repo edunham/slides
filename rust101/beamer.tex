@@ -25,8 +25,8 @@
   pdfsubject = {Starting Rust},
   pdfpagemode = UseNone
 }
-\def\slidesurl{\url{http://talks.edunham.net/osulug2019}}
-\def\talkdate{March 5, 2017}
+\def\slidesurl{\url{http://talks.edunham.net/osulug}}
+\def\talkdate{Feb 26, 2019}
 % ???
 \usetheme[hideothersubsections]{Hannover}
 \usecolortheme{sidebartab}
@@ -35,7 +35,7 @@
 \setbeamertemplate{headline}{\hfill \slidesurl}
 
 % Presentation metadata.
-\title[Rust 101]{Starting Rust from a Scripting Background}
+\title[Rust 101]{Rust 101}
 \subtitle{Deploy, Write, and Improve Rust}
 \author{\name}
 \date{\talkdate\\ \slidesurl}
@@ -61,19 +61,17 @@
 
 \begin{frame}
     Welcome!
-     \begin{itemize}
         \begin{itemize}
             \item Learn what Rust is \& isn't
             \item Run Rust code
             \item Meet Rust's special features
             \item Improve Rust
         \end{itemize}
-        \item Not:
+	Not: 
         \begin{itemize}
             \item Hack time for you
             \item Unsafe or advanced Rust
         \end{itemize}
-    \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -102,7 +100,7 @@ right questions as you continue to explore Rust in the future.}{}
     \begin{itemize}
         \item Systems language \footnote{Contrast to Go, a language for sysadmins}
         \item Safety + Performance
-        \item Community (prefers inclusion over intolerance)
+        \item Community (intolerant of intolerance)
     \end{itemize}
 \end{frame}
 
@@ -130,7 +128,7 @@ right questions as you continue to explore Rust in the future.}{}
     \begin{itemize}
         \item Since \textasciitilde 2010
         \item 1.0 Stable in May 2015
-        \item Currently \footnote{until January 26th} version 1.14.0
+        \item Currently version 1.32.0
         \item Mozilla sponsorship \& support
     \end{itemize}
 \end{frame}
@@ -175,7 +173,7 @@ right questions as you continue to explore Rust in the future.}{}
     \begin{itemize}
         \item Opportunities to break backwards compatibility 
         \item opt-in
-        \item "use" replaces "extern crate" in 2018 edition
+        \item ``use" replaces ``extern crate" in 2018 edition
     \end{itemize}
 
 \end{frame}
@@ -194,15 +192,14 @@ right questions as you continue to explore Rust in the future.}{}
 \begin{frame}
     Which channel to use?
     \begin{itemize}
-        \item Stable \rightarrow nightly beats nightly \rightarrow stable
+        \item Stable $\rightarrow$ nightly beats nightly $\rightarrow$ stable
         \item Dependencies may require nightly
-        \item New project? Pick stable \footnote{Unless you need an
-              unstable feature}
+        \item New project? Pick stable \footnote{Unless you need an unstable feature}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
-    Aside: Crater
+    Testing Stable with Crater
     \begin{itemize}
         \item Compile all published libraries
         \item Diff results from stable and candidate
@@ -264,7 +261,7 @@ right questions as you continue to explore Rust in the future.}{}
         \begin{itemize}
             \item Downloads any dependencies
             \item Compiles deps \& code
-            \item Executes src/main.rs
+	    \item Executes \textit{src/main.rs}
         \end{itemize}
     \end{itemize}
 \end{frame}
@@ -384,14 +381,13 @@ right questions as you continue to explore Rust in the future.}{}
     Punctuation Matters:
     \begin{itemize}
         \item Expressions end with a semicolon
-        \item Exception: bare expression on last line of function returns result
+        \item Bare expression, last thing in function body, returns its result
         \item Spaces separate tokens: \textit{i32} is not \texttt{i  32}
         \item Whitespace is mostly irrelevant
     \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
-    Spaces only matter when separating tokens:
 
 \begin{verbatim}
     fn halve
@@ -434,7 +430,7 @@ Matching on a variable:
 \begin{verbatim}
 fn main() {
     let day = 5;
-    println!("March {} 2017 is:", day);
+    println!("March {} 2017 was:", day);
     match day {
         2 => println!("Open Infra Day"),
         1 | 6 => println!("Travel Time"),
