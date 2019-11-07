@@ -1,0 +1,79 @@
+FABRICation, or "spatial ed", or "the sewing talk"
+
+This'll cover the principles of how to make custom stuff, and maybe make you
+realize that few things are worth making yourself if your time has value.
+
+Sewing is like 3D printing except cheaper and more useful.
+
+Patterns are code, and sewing is an unusually laborious compilation step.
+
+Many historical traditions call it very bad luck to make something perfectly.
+
+1) Materials.
+
+* Wovens
+* Knits
+* Felts
+* Leathers (incl. fur)
+* Natural vs synthetic -- fray? melt? burn?
+* Finding the right/good side
+* How they break: Fray? Rip? Wear? Run?
+
+
+1.5) How Clothing Kills People
+
+* Burning
+* Melting
+* Drowning
+* Strangulation
+* Impeding medical help
+* Allergies
+
+2) Attaching things to things
+
+* Hand sewing
+    * Running stitch
+    * Backstitch
+    * Blanket stitch
+* Machine sewing
+* Sewing with awl and needles
+* Gluing
+* Crocheting
+* Melting
+* French seams
+* Want the seam visible, or hidden?
+
+3) Making a pattern
+
+* Decide what to make (mental 3D model)
+* Biggest & smallest size of item?
+* Planes already? Copy them
+* Tape + paper, cut till flat
+* move darts and seams
+* Think about patterns
+* Think about drape
+* Think about stretch
+* Note points that'll need to line up later
+* Spoonflower
+* Sometimes linings
+
+4) Assembly
+
+* Transfer pattern to fabric
+    * Alignment, pattern & stretch
+    * Seam allowance
+    * Chalk etc
+    * Printer? Draft? Cutting machine? Trace?
+
+* ID your pieces, alignment points, etc
+
+* Plan where the last seam will be, do it last
+
+* Seams in or out? Good sides usually together
+
+5) Clothing Hax
+
+* Darts
+* Gussets
+* Patches
+* Hems
